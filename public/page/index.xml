@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Jiafeng</title>
+    <link>https://mutsuki.github.io/page/</link>
+    <description>Recent content in Pages on Jiafeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 06 Jan 2024 11:12:28 +0800</lastBuildDate>
+    <atom:link href="https://mutsuki.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book</title>
+      <link>https://mutsuki.github.io/page/book/</link>
+      <pubDate>Sat, 06 Jan 2024 11:12:28 +0800</pubDate>
+      <guid>https://mutsuki.github.io/page/book/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>once-the-page-design</title>
+      <link>https://mutsuki.github.io/page/once-the-page-design/</link>
+      <pubDate>Wed, 12 Jul 2023 08:55:29 +0000</pubDate>
+      <guid>https://mutsuki.github.io/page/once-the-page-design/</guid>
+      <description>上面这些事我暂时能找到的曾经并使用过的页面设计，但由于有了年代，所以能找到也是不容易，如果有人需要，我可以将文件分享给各位。</description>
+    </item>
+  </channel>
+</rss>

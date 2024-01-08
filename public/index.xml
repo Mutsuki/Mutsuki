@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiafeng</title>
+    <link>https://mutsuki.github.io/</link>
+    <description>Recent content on Jiafeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 06 Jan 2024 11:12:28 +0800</lastBuildDate>
+    <atom:link href="https://mutsuki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>网站建设中</title>
+      <link>https://mutsuki.github.io/post/design/</link>
+      <pubDate>Sat, 09 Oct 2021 07:16:19 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/design/</guid>
+      <description>How to tweak a few settings in Ghost to transform your site from a generic template to a custom brand with style and personality.</description>
+    </item>
+    <item>
+      <title>About this site</title>
+      <link>https://mutsuki.github.io/about-site/</link>
+      <pubDate>Sat, 22 Oct 2022 19:55:12 +0000</pubDate>
+      <guid>https://mutsuki.github.io/about-site/</guid>
+      <description>这个网站是用Ghost来进行制作的，主题自行编辑，但代码还是有些问题，包括设计的样式，后期会逐渐完善。&#xA;2021年 使用了购买了线上的Ghost&#xA;2022年 使用了虚拟主机Digital Ocean，并用开源Ghost脚本服务，Name上购买域名并用Cloudflare进行域名管理和使用&#xA;往年的一些网站设计页面图在此。{预览链接}&#xA;一些往年用过的域名：&#xA;http://spaces.msn.com/members/Brando/PersonalSpace.aspx 2002 http://xiaohunhun.yculblog.com/ 2003 http://missyou.sh.cn 2004.12 b2 - Wordpress - Movable Type (MT) http://brandoishere.net 2008 Wordpress - Textpattern http://www.koojiafeng.name 2010 HabariProject - Typecho&#xA;Access all areas&#xA;如果你喜欢这个网站的内容，也欢迎您进行订阅。</description>
+    </item>
+    <item>
+      <title>Book</title>
+      <link>https://mutsuki.github.io/page/book/</link>
+      <pubDate>Sat, 06 Jan 2024 11:12:28 +0800</pubDate>
+      <guid>https://mutsuki.github.io/page/book/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Book</title>
+      <link>https://mutsuki.github.io/book/</link>
+      <pubDate>Sat, 06 Jan 2024 11:11:43 +0800</pubDate>
+      <guid>https://mutsuki.github.io/book/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1481627834876-b7833e8f5570?crop=entropy&amp;amp;cs=tinysrgb&amp;amp;fit=max&amp;amp;fm=jpg&amp;amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDZ8fGJvb2t8ZW58MHx8fHwxNjY2NjE3MjYw&amp;amp;ixlib=rb-4.0.3&amp;amp;q=80&amp;amp;w=2000&#34; alt=&#34;Photo by 🇸🇮 Janko Ferlič( / Unsplash.&#34; title=&#34;This is a sample image.&#34;&gt;&#xA;&lt;em&gt;Photo by &lt;a href=&#34;https://unsplash.com/@itfeelslikefilm?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&#34;&gt;🇸🇮 Janko Ferlič&lt;/a&gt; / &lt;a href=&#34;https://unsplash.com/?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&#34;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;这里会经常出现一些推荐的书籍。&lt;/p&gt;&#xA;&lt;p&gt;《以温柔拥戴你的独一无二》&lt;/p&gt;&#xA;&lt;p&gt;《人间况味》&lt;/p&gt;&#xA;&lt;p&gt;《高盛帝国》&lt;/p&gt;&#xA;&lt;p&gt;《汉密尔顿传》&lt;/p&gt;&#xA;&lt;p&gt;《三体》科幻小说，全世界都非常关注及深受欢迎的科幻类小说。&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/26220767/&#34;&gt;《过于喧嚣的孤独》&lt;/a&gt; 捷克作家写的，看完给人的感觉是悲剧，又不像悲剧。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/34970873/?ref=koojiafeng.com&#34;&gt;《漫长的告别》&lt;/a&gt; 暂未看完&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/35586814/?ref=koojiafeng.com&#34;&gt;《精英的傲慢》&lt;/a&gt; &lt;strong&gt;迈克尔·桑德尔&lt;/strong&gt;作品，这本书讲解的是美国资本精英的一场“内幕游戏”&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/27608239/?ref=koojiafeng.com&#34;&gt;《原则》&lt;/a&gt; 桥水基金创始人 **瑞·达利欧（Ray Dalio）**的作品集&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/35141940/?ref=koojiafeng.com&#34;&gt;《晚熟》&lt;/a&gt; &lt;strong&gt;莫言&lt;/strong&gt; 老师获得诺贝尔文学奖后首部作品&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/35392918/?ref=koojiafeng.com&#34;&gt;《老子通释》&lt;/a&gt; 因为 &lt;strong&gt;余秋雨&lt;/strong&gt; 老师的作品比较关注，而且近期对老子也很感兴趣，和玄乎，又是个伟大的哲学家&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://koojiafeng.notion.site/0f22652723074a36aa624cba37bdff3e?v=942c82bc16a1493ebb820368a76ba5d7&amp;amp;ref=koojiafeng.com&#34;&gt;我阅读的一些书籍&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Subscribe</title>
+      <link>https://mutsuki.github.io/subscribe/</link>
+      <pubDate>Fri, 10 Nov 2023 21:10:08 +0000</pubDate>
+      <guid>https://mutsuki.github.io/subscribe/</guid>
+      <description>Receive my updates&#xA;I send occasional email updates with new ideas, essays, and projects. You can sign up below to receive them:&#xA;我偶尔会更新新的想法、文章和项目，你可以在下方注册邮件地址进行订阅。&#xA;（目前邮件系统在寻找中）</description>
+    </item>
+    <item>
+      <title>Weekly Update 06</title>
+      <link>https://mutsuki.github.io/post/weekly-update-06/</link>
+      <pubDate>Thu, 13 Jul 2023 20:30:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/weekly-update-06/</guid>
+      <description>最近趁着有一点时间，把自己10几年前设计的东西拿了出来看看，并重新打包成html脚本。{预览链接}&#xA;几本书推荐阅读：&#xA;嫁纨绔（电视剧：长风渡） 羊毛战记 （科幻小说） 追忆似水年华 当我读完嫁纨绔的时候，只能感叹自己肚子的内容少之又少，对于作者的文笔也是感到钦佩。世面上有很多好的书，能引起读者的共鸣却是他们一生所创。&#xA;说一些前期话题多的内容，忧郁症，对于这个症状，痛苦的人只有自己知道，药物也只能缓解，并起不到恢复的作用，能对抗这类病的人除了自己还是自己，说白了对自己好一些，道理谁都明白，但有些东西却不是用明白来治愈的。当下自己还有些爱好的情况下，尽量的保持下去。</description>
+    </item>
+    <item>
+      <title>once-the-page-design</title>
+      <link>https://mutsuki.github.io/page/once-the-page-design/</link>
+      <pubDate>Wed, 12 Jul 2023 08:55:29 +0000</pubDate>
+      <guid>https://mutsuki.github.io/page/once-the-page-design/</guid>
+      <description>上面这些事我暂时能找到的曾经并使用过的页面设计，但由于有了年代，所以能找到也是不容易，如果有人需要，我可以将文件分享给各位。</description>
+    </item>
+    <item>
+      <title>Weekly Update 05</title>
+      <link>https://mutsuki.github.io/post/weekly-update-05/</link>
+      <pubDate>Wed, 14 Dec 2022 00:46:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/weekly-update-05/</guid>
+      <description>很不幸，上周得了新冠，和所有人一样，隔离生活夺走了我的自由。&#xA;但在安静/与世隔绝的环境中，我发现了意想不到的礼物。&#xA;在自我诊断之前，今年年末是我接受非正式抑郁症的一个月，随后下个月进行正式诊断。这是一个有缺陷的过程，需要更新，而我是已经是个快步入中年的人了，不是25岁了。&#xA;说回新冠这个问题，自从我感染之后第一天并没有什么症状，但到了第二天中午，临床症状开始显现：&#xA;肌肉酸痛（不知是否和锻炼打球有关系，暂且归为一类） 咳嗽 （有痰） 发烧 头胀 痛胃口不佳 浑身乏力 畏冷 喉咙疼痛 对于这一切症状来说并没有什么可怕，但它的传染性是最为可怕的问题，因为谁也不知道会是下一个，对于家庭成员来说无疑是最棘手的，尤其是老弱病残，或者小孩子。&#xA;由于我经常锻炼，加上症状之后测试了味觉和嗅觉，至少这两个功能还能使用，所以，我改善了下饮食，除了多喝温水，还吃了鸡蛋，橙子，冰可乐（糖尿病慎重），至少让自己身体不断摄入一些维生素和一些糖分。到了晚上发烧到40摄氏度，开始用毛巾包裹冰袋进行物理降温，保守起见，也吃了连花清瘟胶囊，所以到了第二天中午正常退烧，再次进行抗原后，明显第二条线已经很淡了，继续保持第一天的饮食和休息，第三天基本正常，第四天抗原正常。（如果不幸发了烧，第一时间确保退烧，如果免疫力差的朋友可以适当吃药，因为身体的免疫系统这时候是极为虚弱的，因为它正在同你一样对抗病毒）&#xA;所以，对中了招的朋友们来说，其实并没有什么可怕，但人性对于未知事物的影响，避免不了一些认知上的恐惧，所以克服心理上的因素也是很关键的问题，正常的学习一些关于新冠上知识及如何对症下药，而不是轻易信网络上的江湖言文，至少科学并不会害你。&#xA;对于没有中招的朋友来说，如何保护自己不被传染是首当其冲的事项了，毕竟这不是开玩笑的，网络上虽然有很多段子，至少有点智商的人都知道，这是个愚蠢的玩笑。</description>
+    </item>
+    <item>
+      <title>Weekly Update 04</title>
+      <link>https://mutsuki.github.io/post/weekly-update-04/</link>
+      <pubDate>Tue, 22 Nov 2022 17:44:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/weekly-update-04/</guid>
+      <description>生产效率&#xA;说说生产效率和任务管理这个问题，工作中，经常依赖这些事务。何况不是很喜欢即时的工具，所以日常工作主要以邮件为主，即使是微信，也尽可能的保持10分钟后再确定是否列为待办或者执行，说实在的，并不是很喜欢用微信工作，因为容错率很高高，虽然传达的时效非常高，但牺牲了很多环节及细节的内容，厌不其烦的它本身就是个私人空间，但却衍变成公私混合的工具了，尤其是当你需要回顾一些工作的内容，但进行搜索的时候发现很多问题，无法对其做标签或者分类，导致难以整理而影响效率。 尽可能的每天早上8点开始进行为时4小时候的工作，4个小时你可以做很多的工作内容，在你完全不被打扰的情况下，可以很专心的处理你想要做的事。&#xA;我经常使用Nothin作为基本的完成任务列表，发现iOS应用程序很好也很简单，然而最近我也开始规划一些提醒的程序来完善或者补充我的任务，由于之前的工作经常需要用到不同系统，而现在似乎很多概念程序都是基于互联网所以，对操作系统而言已不再是那么重要了。&#xA;（我并非是工业制造和科研等这些公司，所以我可以不用担心一些所谓的限制，所以这个基于互联网的概念对我来说很重要。）&#xA;Twin Gable House — Ryan Leidner ArchitectureRyan Leidner ArchitectureTwin Gable HouseBeoplay EX wireless earbuds - Work. Sport. Play. | B&amp;amp;OSnug fit. Sleek design. Superior sound. Meet Bang &amp;amp; Olufsen’s most versatile waterproof earphones yet.Skip to main content</description>
+    </item>
+    <item>
+      <title>weekly-update-03</title>
+      <link>https://mutsuki.github.io/post/weekly-update-03/</link>
+      <pubDate>Sat, 12 Nov 2022 00:43:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/weekly-update-03/</guid>
+      <description>休刊&#xA;暂时休刊，需要安排很多事要处理。 </description>
+    </item>
+    <item>
+      <title>Weekly Update 02</title>
+      <link>https://mutsuki.github.io/post/weekly-update-02/</link>
+      <pubDate>Fri, 28 Oct 2022 12:21:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/weekly-update-02/</guid>
+      <description>本周本人的身体状况出现了些问题，所以更新文章也延期了，目前已无大碍，还预约了牙医检查牙齿状况，另外准备下月中旬去澳门了，需要完成一些任务，由于需要办理手续及疫情的问题，并不能像当年那样可以直飞，所以这次便学习了一些烹饪，比如“日式泡饭”，“日式牛肉炖土豆”，“裙带豆腐汤”，“简易关东煮”，既然是学习，就避免不了一些插曲存在，比如对日式调理的认知不足，包括如何更好的入味及火候控制。&#xA;个人经历分享 很多人可能并不清楚职场有个叫“万金油”的词，顾名思义，如同字面的意思，哪都能用上。&#xA;作为职场上的员工，并不建议大家去这样做，因为每个企业的工作岗位，本身就有对应的专员去处理，没有一定技能或者经验是很难胜任或者发挥这个岗位的优势，如果只是说抱着感兴趣的态度，或者学习一下就会的态度，那么建议还是多思考在岗位的生存能力，如何体现在企业的价值和责任感，因为到了最后，会发现层次上只能在一定高度就不会再进步了，所以，对自己如何体现岗位的价值，是需要深刻的反思的。&#xA;但也有个别的情况，职员的能力很强，负有责任感，知道如何应对各种风险及所谓对企业的正确处理的方式，包括表达能力和理解能力，那么可以需要这么一个“万金油”的出现，但这样的“万金油”是一个懂得中庸生存法则的人，他宁可平庸，也不出头，更不会高调。&#xA;很多的企业其实都有这样的“万金油”，只是这个“人”善于隐藏自己，只有在公司需要的时候才会站出来。&#xA;写在最后，如何体现自身在企业的价值，那么无疑就是“精”，对目标的专一，努力的成为某个领域的领头羊才是正确的打开方式。&#xA;分享与发现 这个主播的视频，许多说出了一些男人不为人知的事，不同的是，她用一种娓娓动听的方式进行传播，并以此励志他人。&#xA;链接(https://www.douyin.com/user/MS4wLjABAAAAsYWT_49CPF2pWt-QmB0gbNbbf2Z2eos3Jb6dq-v-6yI/).&#xA;发现一个很好的屋内设计网站，是个北欧设计风格的，很喜欢那种原木及红砖的自然生态，只是比较适合海边的那种环境。&#xA;链接(https://leibal.com/interiors/naramata-summer-house/).&#xA;这是来自另外一个建筑设计的一个网站。&#xA;链接(https://vitaarchitecture.com/projects/).</description>
+    </item>
+    <item>
+      <title>Weekly Update 01</title>
+      <link>https://mutsuki.github.io/post/weekly-update-01/</link>
+      <pubDate>Mon, 30 May 2022 12:47:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/weekly-update-01/</guid>
+      <description>个人更新 最近一直忙着在给自己家做一些修缮，所以一直没能更新文章，连网站设计发布都来不及做。由于不是全装修，也不是半装修，所以很多只能自己动手操作，比如：&#xA;厨房及卫生间吊顶 70多平方地板（其余地方地砖不再修缮） 两个衣柜安装 老地板修复（二手地板再铺一层，做个过渡） 卫生间 其他如修复水管出水小的问题等等 一些地板等都是干妈家给我的，毕竟家里漏过水，这次自己搞完装修后，不会再自己操作了，真的很累人，人工费高也是这道理。最后告诉大家装修的时候，基建的工程（水管，强电弱电处，网络进线箱等，还请自己网上搜索大量信息）花再大的价钱也要做，否则后期是无法更改的。&#xA;父母明年都搬去新的电梯房了，打包了很多东西，后期我也需要休息，然后时间上安排也会有一些改变，当然自己的一些兴趣会继续保持下去，但也不否认某些会退出。&#xA;个人经历分享 下面给大家分享一些实际性的内容，在我曾经公司的工作整个过程中，我一直在谈论四个关键主题（并在桌子上放了一张便条）：&#xA;效率 可见度 质量 连通性 你想要做出自己理想中最棒的事情，请记住以下几点：&#xA;效率 __ - 继续思考如何高效地完成工作，并在未来节省时间和精力。 可见性 - 保持可见性，将您为同事提供的见解放在首位。 质量 - 在拼搏和严格之间保持平衡。继续学习，寻求帮助，不要害怕失败。 联系 - 最重要的是，不断和身边的人彼此在工作中学习，保持相互联系，将这些见解之间的点连接起来，形成一个有凝聚力的故事。 这四个主题已经成为我在工作时所遵循的原则，可能对我的后期新人有用，甚至对其他领导者研究都有用！&#xA;如何开始进行一份好的工作真的很重要，但是结束好的一份工作充分说明了你是一个领导者。我很高兴花了时间和精力让团队走向成功，希望他们不会真的注意到我走了!&#xA;推荐订阅 DEX 周刊 前沿的产品，设计，包括一些有趣的内容的，由@dingyi创作，如果对设计，包括（协同）工具等感兴趣的朋友们可以关注并订阅</description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>https://mutsuki.github.io/privacy/</link>
+      <pubDate>Tue, 08 Jun 2021 17:02:27 +0000</pubDate>
+      <guid>https://mutsuki.github.io/privacy/</guid>
+      <description>Wondering how Ghost fares when it comes to privacy and GDPR rules? Good news: Ghost does not use any tracking cookies of any kind.&#xA;You can integrate any products, services, ads or integrations with Ghost yourself if you want to, but it&amp;rsquo;s always a good idea to disclose how subscriber data will be used by putting together a privacy page.&#xA;本网站尊重美国的法律，也尊重中国的法律，因服务器在美国，但同时为了照顾中国区的朋友服务，所以会避免一些相关的信息出现。由于GDPR的适用范围并不在全球，但今后是否会普及及推动是给未知数。&#xA;本网站采用的是Ghost的服务代码，所以也会遵守他们的规则，并且已经明确了网站不会收集您的隐私信息。</description>
+    </item>
+    <item>
+      <title>联系我</title>
+      <link>https://mutsuki.github.io/contact/</link>
+      <pubDate>Tue, 08 Jun 2021 17:02:26 +0000</pubDate>
+      <guid>https://mutsuki.github.io/contact/</guid>
+      <description> 本人不怎么使用社交服务； 本站没有留言功能，如果希望联系，在下方的一些框框可以联系我； 其他技术或个人成长相关问题，建议发邮件。但「有没兴趣一起做点东西」这样的内容请不要发； 无论通过何种方式咨询，请一次性把问题描述清楚。 当然如果你觉得还是想联系我，可以尝试在一些服务找到我。&#xA;on Instagram 在下方给我发邮件，我会即时收到手机提醒；但本人既无法保证回复时间，也不能做到有问必答，请理解！&#xA;Contact Me&#xA;If you’d like to send me an e-mail, you can reach me at me at koojiafeng dot com.&#xA;Email: * Your Message * Send </description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://mutsuki.github.io/about/</link>
+      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/about/</guid>
+      <description>互联网经常让我发现一些有趣的东西，总会被一些新的兴趣爱好所吸引，鉴于我经常运动和绘画，所以我会经常羽毛球运动及油画，包括练习次中音萨克斯。最初我也只是作为一个器材喜欢上各种工具，包括烹饪的工具才迷上烹饪，我经常阅读，所以有一定的习惯。 我并不经常发表文章，只有当我想深入研究一个我感兴趣的话题时，可能一年一次或更少，但当我写一篇文章或制作一张照片时，我会花一些时间去研究东西，更多的时候我经常独立去思考一些问题或者通过阅读书籍来丰富自己的知识。&#xA;N=1：我为改变我的生活所做的事&#xA;日记 基础运动锻炼 建立这个网站 提高我的写作水平 提高英语读写听水平 阅读书刊 设计 我喜欢思考的&#xA;学习 人类进化史 自动化/迭代改进 系统思维 下一步计划&#xA;如果我有更多的时间，我可能会考虑做一些事情。&#xA;由于Mailgun不再像免费用户提供服务，故关闭邮件订阅，但可以使用RSS进行订阅。&#xA;如果你希望能联系我，请到此页面。 关于站点信息&#xA;还有些介绍的内容我会继续 &amp;hellip;</description>
+    </item>
+    <item>
+      <title>一个人保持安静的任务</title>
+      <link>https://mutsuki.github.io/post/one-mans-quest-to-preserve-quiet/</link>
+      <pubDate>Fri, 28 May 2021 18:09:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/one-mans-quest-to-preserve-quiet/</guid>
+      <description>最近事情发生的很多，所以我关闭了几乎能关闭的社交圈，除了必要联系的人之外。我需要留下自己的空间去思考一些事情，所以正在岁月中修养自己。&#xA;做一个守静的人&#xA;宠辱不惊，闲看庭前花开花落；去留无意，漫随天外云卷云舒。静，是一颗平常心，是一种气度，是一种境界。守静，就是守志向、守本心、守清贫，守节气。&#xA;守静，就是要做一个身置闲处，心安静中的人。&#xA;有这么一句话：人生最好的境界是丰富的安静。安静是因为摆脱了外界虚名浮利的诱惑。丰富，是因为拥有了内在精神世界的宝藏。&#xA;一颗冷静的心，可跳出世俗的羡慕；一颗安静的心，可消磨贪念与执迷；一颗沉静的心，可拥有闲散的志趣；一颗守静的心，正所谓一蓑烟雨任平生。&#xA;除了守静，也要做一个真我的人，自律的人，和做一个挑战自己的人。最后也要做一个自省的人，所谓吾日三省吾身。&#xA;一切的一切，从自己做起，从现在做起，门前，自由桃花绚丽开放；生命，因此充满生机和乐趣。&#xA;Have a good day!</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mutsuki.github.io/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/archives/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>09年推荐动漫&amp;电影</title>
+      <link>https://mutsuki.github.io/post/09nian-tui-jian-dong-man-dian-ying/</link>
+      <pubDate>Sat, 19 Dec 2009 21:39:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/09nian-tui-jian-dong-man-dian-ying/</guid>
+      <description>越狱兔 很SM，很搞笑，很暴力，充分体现日本性文化！ 戦闘妖精雪風 华丽的3D动画视觉，震撼的音效，剧情也非常令人匪夷所思~ 夏娃的时间 人类给机器人定的三个规律&amp;hellip;几乎是所有ROBOT的代名词了&amp;hellip;动画本身制作得那是相当的十分精良，音乐和桥段的搭配也恰到好处。在现在这种关于科幻未来已经泛滥成灾的动画中十分难得。&amp;ndash;(via:反思我们自己吧) 夏日大作战 这是个激励篇，但也同时表达了日本民族的文化精神，尤其是奶奶的一面。很人性化的一个家庭，也挺戏剧性。&#xA;D 豚鼠特攻队&amp;lt; 剧情一般吧，但看后也挺开心，放松，所以达到了影客的目的了。 机器人9号 某人说：是典型的个人英雄主义，其实，美式动画都这样，他需要主角。 机器人总动员 可爱的Wall-E总是给我们带来不错的惊喜~~但此片也同时警告我们人类的生活状态，应该有所改变，就像哥本哈大会所谈的一些内容，需要各国引起注意，而不是“依赖”一些能源。 化物语 是一位朋友的介绍，剧情挺有意思的，整个剧情基本是围绕富有的创意背景和谈话来进行的。但我被最后一集某人所说话给感触了。&#xA;夏目友人帐 治愈系的动画连续剧。一段段关于妖怪的感人故事。“若不能为神仙，那就变成妖怪吧。仗着一般人看不到的便利可以肆无忌惮地为非作歹，跟着心爱的美少年一步之遥的距离看着他去上学，心情不好就偶尔把自己奇形怪状的尊容露出来吓唬吓唬路人甲以求得心理平衡——总之只要和大部分妖怪和睦相处，切记看到夏目玲子立马绕道而行的话，做妖怪的日子还是很快乐的 ”。 xxxHOLiC 也是和鬼神有关的连续剧，但发现上下引文，你可以发现和Clamp动画片全都有所关联！甚至可以发现内有百变小樱，X战记等人物出现。还有点重要的是被动画的简单和古典所吸引。&#xA;这些动画连续剧和电影都是我个人整理所推荐的，其实优秀的动漫还是有很多的，但最重要的一点，切记：它只是给你带来快乐和放松，不要过度沉溺在这些虚幻里面，也不要认为他只是单纯的动漫，他也是作者所创造的艺术，至少它能告诉我们一些道理及信息也是非常需要重要的，因为它的信息也能帮助你在生活中渡过难关。</description>
+    </item>
+    <item>
+      <title>旅＋游（完）</title>
+      <link>https://mutsuki.github.io/post/travel-finish/</link>
+      <pubDate>Sun, 02 Nov 2008 03:23:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/travel-finish/</guid>
+      <description>不仅人怕出名，风景也怕出名。一旦出名，就未必再属于自己。&#xA;当风景出名之后，慕名者就络绎不绝的来此访问，使得原本的生息开始离开这片土地，使它失去了宁静的心境。 游人云集，也使它失去了宁静的环境，由此沦入凡尘，使它失去了宁静的环境。我之前喜爱的九寨沟，如今也今非昔比了，相同的还有很多，如当地的民族文化也开始商业化，而不再是一种民族艺术等等之类的。&#xA;也许，我们今后的旅游不再是赏识与游玩，而步入了商业化的虎口而已。</description>
+    </item>
+    <item>
+      <title>旅＋游（3）</title>
+      <link>https://mutsuki.github.io/post/travel-3/</link>
+      <pubDate>Thu, 09 Oct 2008 01:27:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/travel-3/</guid>
+      <description>当我们旅游归来，知识型的人增添了地理学，历史学，生态学等等的知识，社会性的人收集了风俗民情的资料，艺术型的人获得了灵感，宗教型的人加深了彻悟，交际型的人结识了新朋友，享受型的人痛快地大玩了一场。&#xA;当然，在旅游中，也是“仁者见仁，智者见智”了。同样一个“游”，就看我们如何运作了，我们可以像学者一样“游学”，官僚一样“游宦”，如同诗人的“优游”等。</description>
+    </item>
+    <item>
+      <title>旅＋游（2）</title>
+      <link>https://mutsuki.github.io/post/travel-2/</link>
+      <pubDate>Sun, 05 Oct 2008 05:58:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/travel-2/</guid>
+      <description>旅游已经成了现代商业的文明产物。平时我们匆忙赚钱，积存了足够的钱，旅游去！可是，乃今普天下的旅游场所，哪里不充斥着招揽顾客的吆喝声、假冒险的娱乐设施、凑热闹的人群？可怜在一片嘈杂中花光了钱，拖着疲惫的身子回家，又重新投入匆忙的赚钱活动。&#xA;有句话说的好，一切意义都寓于过程。然而，现代文明是急功近利的文明社会，只求结果，藐视过程。人们手捧旅游图，肩挎相机，按图索骥，专找图上标明的去处，在某某峰，某某河“咔嚓”几下，留下“到此一游”的证据，便心满意足的离去了。&#xA;国庆期间，我看到好多举着小旗、成群结对、掐着终点的团体旅游，便生愚不可及之感。现代人已经没有足够的灵性独自面对自然。在人与人的挤压中，自然消隐不知不觉的消失了。&#xA;也许，我们有了旅游业。可是，恬静的陶醉在哪里？真正的精神愉悦在哪里？与自然的交融又在何处？</description>
+    </item>
+    <item>
+      <title>旅＋游（1）</title>
+      <link>https://mutsuki.github.io/post/travel-1/</link>
+      <pubDate>Fri, 03 Oct 2008 04:51:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/travel-1/</guid>
+      <description>古时候游子般的生活可谓“山晓旅人去，天高秋气悲”，凝聚着离家的悲愁。“浮云蔽白日，游子不顾反”，孑然一身，隐入苍茫自然，真有些说不出的凄凉，而却有给人一种逍遥自在的感觉。&#xA;当我们远离了家，亲人公务和日常所习惯的一切，置身于陌生的事物之中，感到若有所失。这“所失”使我们怅然，但同时我们获得一种解脱之感，因为我们发现，原来拿失去的一切非我们所必须，过去我们固守着他们，反倒失去了更可贵的东西，在与大自然的交融中，拿狭隘的乡恋被净化了。寄旅和漫游深化了我们对人身的体悟：我们无家可归，但我们有永恒的归宿。&#xA;不知何时，“旅”“游”二字合到了一起。于是，现代人不再悲愁，不在逍遥，也不在乎所谓的自然，而只是安心又仓促地完成着他们繁忙事务中的一项“旅游”。</description>
+    </item>
+    <item>
+      <title>中国电视剧</title>
+      <link>https://mutsuki.github.io/post/chinese-tv-play/</link>
+      <pubDate>Mon, 25 Aug 2008 20:20:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/chinese-tv-play/</guid>
+      <description>看过国内很多电视剧的人都知道，战争片的比例是第一高，拍的无非就是抗日战争，和国民党之间的战争，无非就是种宣传手段，虽说是一部电视剧，但看电视剧的教育程度不比看书的差，可以说即使扭曲历史的，他也这样做了，也依然让观众看了，观众哪知道这是真假，不过这是个电视剧，是媒体，扭曲历史是正常的，但有多少老观众“中毒”了呢。 也许很多人不知道一部电视剧要经过某部门才得以播放，可想而知，大陆每年有多少部电视剧被埋没了，与其不如说电视剧的竞争力也是相当激烈，但背后的真相又有谁知道呢，与其播放这样的烂片不如看解放时代的电影。 何况国内的创新度也不怎么样，翻拍，盗拍已经不是什么新鲜事了，豆瓣上随便搜索下就知道某部电视剧是翻拍哪部的。当然播放这些内容还是由当地电视台选择播放的？ 国内也不是没什么好电视剧，比如《亮剑》在央视一套黄金时段播出的版本是24集,八套播出的相对宽松,28集。而在市面上可以买到的完整版光碟是30集。这是为什么，审查制度很严格，相比之下，我这上海频道还算是不错的，已经算是很开放了。加上各个当地电视台部门都有各自的特色。 如果要和一些世界各个国家相比的话，那我们国家的电视剧还是很落后的，没什么可比性，比如日本电视剧，都透露人生的真理，而且演技也堪佳；美国自然不用说，电视剧的历史无论哪个国家都比不上，好莱坞化已经风靡全世界，相信不少美剧迷已经感受到了。 其实，电视剧也是反应了一种社会生活的状态。&#xA;中央电视台是如何审查电视剧的 [ 原始链接 ] 美国记者：我不再看中国电视剧 [ 原始链接 ]</description>
+    </item>
+    <item>
+      <title>向他们致敬</title>
+      <link>https://mutsuki.github.io/post/we-pay-tribute-to-them/</link>
+      <pubDate>Sat, 16 Aug 2008 08:41:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/we-pay-tribute-to-them/</guid>
+      <description>有时候，我们光顾着奥运战场上的胜利者们，却忘却了还有一批令人伤感的运动员们，他们不是失败者，而他们正是体育界中最不幸的，那些政治，宗教，战争，成了他们每天都要经历的一刻，却还得继续像运动最高之地奥林匹克前进，来此之地，他们的目标只有一个，完成使命，即使要失败，也要有骨气的完成使命，他们就是这样的一群国家英雄。 下面就看看来自那些国家英雄的新闻：&#xA;伊拉克选手穿旧T恤、二手鞋参战北京奥运会 [ 原始链接 ] 一个阿富汗女孩的两次奥运会 [ 原始链接 ] 阿富汗饱经战乱仍有奥运梦，渴望奖牌激励民众 [ 原始链接 ] 索马里选手砍柴时练跑步，阿富汗姑娘训练时躲炸弹 [ 原始链接 ] 伊拉克和阿富汗伊斯兰共和国，认识下这两个国家吧，他们都是战争中的国家，要知道这样的生活是没保障的，别说能吃上一顿饭，要是连上个厕所都不能心安理得，哪怕睡觉，头上也会飞来祸。 北京奥运让世界认识了中国，也让中国认识了世界，奥运让我们认识了那些英雄，他们不为惧怕，为了追求自己的梦想和完成国家使命，他们是全世界的真正英雄，值得我们的国家运动员和全民像他们学习，这也正是奥林匹克运动精神的所在。 顺便提下：央视已经播放过关于此新闻了，所有的视频只在中国大陆播放。</description>
+    </item>
+    <item>
+      <title>纪念周恩来诞辰110周年</title>
+      <link>https://mutsuki.github.io/post/the-110th-anniversary-of-en-lai-zhou-birth/</link>
+      <pubDate>Sun, 06 Jul 2008 20:36:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/the-110th-anniversary-of-en-lai-zhou-birth/</guid>
+      <description>7月7日那天，我邀请了2位弟兄M君和Z君一起参观了“周恩来在上海”——纪念周恩来诞辰110周年图片史料展。 由于是共产党组织的，所以大部分的游客还是以免费的形式去参观，但条件限制还是挺严格的，之所以没法上传照片也是因为内部不能拍照，当然小人还是一直有的（偷拍）。 主题的展览是以“周恩来在上海”，所以资料也是十分有限，结合中共一大会址，里面还有个很惊人的蜡像，是毛泽东主席在讨论方针的话题，这只是亮相之一，既然资料有限，所参观的内容也就少了很多很多，从我的感受角度来说，是远远不够的，毕竟周恩来是我们至爱的总理，我们当然想了解他更多一些资料啊。 之后也参加了“古典与唯美”——欧洲19世纪绘画精品展，外行人自然也看不明白什么，只知道这些画是想表达些什么而已，他们画的时候是什么样的心情，为什么要画，为什么要从这个地方画等，看过之后又让人觉得惊讶，一幅画的人物神态，背景，还有画的配色，构造等，让我觉得很不可思议，无论是油画还是炭笔画的，能画出如此精堪的画是多么美妙的事情，当然我比较喜欢的是拉斐尔后期风格，比较精致，细腻。此次画展是一位国外收藏家举办的，参展的时候是不允许拍照的，当然一些人还是拍摄了下来，只不过和现场看的区别太大了。 via: 活动照片 - 古典与唯美 BTW: 要珍惜学生时代，因为很多展会都有学生（证）优惠半价，甚至免费，所以要多参观一些艺术，历史等方面的展览。</description>
+    </item>
+    <item>
+      <title>今非昔比</title>
+      <link>https://mutsuki.github.io/post/have-seen-better-days/</link>
+      <pubDate>Mon, 05 May 2008 21:33:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/have-seen-better-days/</guid>
+      <description>小时候，我们都背诵过这么一首诗：&#xA;李绅的《悯农》：锄禾日当午，汗滴禾下土。谁知盘中餐，粒粒皆辛苦。&#xA;可到了现今的时代，这早已成为了历史，谁还会为了那一粒米饭在去拾起往嘴巴里送呢？挑食也无处不见！也只有那些我们的祖宗们和穷人家们还会这样做。我见到过很多事实，其中的一件是，一台圆桌上，有只鸡汤，台子上的客人们都走了，我再看到这碗鸡汤时候，整一只鸡就只有这么一个大腿没了，其余的完好无损，剩下的就这么浪费了，这样的场面也随处可见；现在的生活不知道是有钱了奢侈，还是为了什么？很多食物说不要就不要，说不吃就不吃，而我们的祖宗的教训也早已被埋没到坟墓里，谁还会去回往那些肮脏的历史，现在的学生们又有谁能了解一些近代史的“文化革命”呢？ 困难时期是结束了，改革开发，生活的确奔小康了，社会发展也正在飞速着，现在的我们就像好了伤疤忘了疼一样，完完全全的沉浸在自己的“欢乐”日子中。祖宗的教训是不可以忘记的。 - -~近日大米又涨价了&amp;hellip;&#xA;周恩来少年时期曾经说了一句：为中华之崛起而读书。&#xA;现在的学生们已经没有目标去学习了，教育界搞得像一个四不像，拿学生们当实验教材，实验成功了就放到社会上，而失败了就像当成垃圾一样被抛弃了。不过这也是事实，靠自己能力去生存。 我们喜欢用抵制的方式来代表爱国；喜欢指责国家那样不好，这样不好；我们也喜欢内讧，喜欢互相对骂，都是中国人，现在已经完全不知道中华人民共和国的民族精神去哪儿了。 所谓的爱国是为了祖国而奉献自己？那么自焚也是吗？我们为何不做好自己分内的事情，而要跟在后面起哄？难道我们就天天对自己人漫骂纷飞，等着外人再次来侵略吗？这是不现实的，也不希望发生，有这么多时间去无聊为何不在你的床上多睡会？&#xA;毛泽东曾经说过：没有调查，就没有发言权。&#xA;嘴巴是用来说话的，不是用来骂人的，是用来表达的，在众人面前，得为自己的发言负责任，专家的发言未必正确，情愿相信自己眼见，而不是耳闻的事实。</description>
+    </item>
+    <item>
+      <title>Textpattern</title>
+      <link>https://mutsuki.github.io/post/i-am-gonna-use-textpattern-program/</link>
+      <pubDate>Fri, 13 Apr 2007 09:40:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/i-am-gonna-use-textpattern-program/</guid>
+      <description>正如我现在在做的就是熟悉textpattern程序了，从目前来说wordpress程序已经在国内普及了，不如说是泛滥了。&#xA;对于这款CMS到现在说已经相当成熟了，甚至Wordpress程序的几位主力开发人员都离开了原有团队，而开发了另种程序 Habari 程序，不过它对服务器的要求有点过分。不过为什么会想到使用textpattern程序呢，其实原因有很多，Wordpress已经很优秀了，至于是否会使用，还得再观察下，因为对Textpattern程序，我还很陌生。&#xA;我大概看了一篇Laogui的文章，是“ 给Textpattern换了个皮肤”的文章，可我只了解了模板标签的灵活度要比Wordpress高些，至于它说的速度，可能还有点偏见，当然我没法证明些什么，不过Wordpress的主要速度还是取决于它的插件多少和它的pingback及trackback；而Laogui在文章提到Di的文章里，似乎对我来说专业了些，不过我还是把他给看完了，还有其后的回复，似乎Textpattern对我来说还是其复杂了些，我甚至搜索了国内的几个 textpattern的Blogger，对于它的评鉴实在则少，根本不能了解些什么，但我不知道为何还有要使用它的冲动？！不过，这个球还是在我自己的手中，是否会选择它我也不是很清除，因为还没给自己找到一个适合的理由去换掉Wordpress。&#xA;说回来，blog的本质还是取决作者发布的内容。</description>
+    </item>
+    <item>
+      <title>美丽的失恋</title>
+      <link>https://mutsuki.github.io/post/mei-li-de-shi-lian/</link>
+      <pubDate>Fri, 22 Dec 2006 07:35:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/mei-li-de-shi-lian/</guid>
+      <description>真正的痛苦，没有人能与你分担， 你只有把它从一个肩，换到自己另一个肩。&#xA;昨日，小丫头短信对我说，她的朋友失恋了，可想而知，多数女孩的失恋一般也都是那样过来的，没什么的。我对丫头说，把你那朋友当一个感冒的病人来治愈就可以了，多呆在她身边，多陪她，至少知道，她的身边还有朋友在，过几天也就过去了。 我知道失恋的滋味很不好受，可恋爱过去了，也就经历过了，今后那块地方也就不在是个空白了，再去接触那儿，就应该学会自我保护了。&#xA;总觉得，那样的失恋是美丽的，至少，恋爱在心里已经是天长地久了，世上唯一随着时光流逝而越变越美好的东西就是回忆了。</description>
+    </item>
+    <item>
+      <title>深夜中坐车</title>
+      <link>https://mutsuki.github.io/post/late-at-night-goes-by-car/</link>
+      <pubDate>Thu, 21 Dec 2006 15:02:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/late-at-night-goes-by-car/</guid>
+      <description>我在深夜里坐着车回家， 车厢里空荡荡的， 除了司机先生之外， 就留下了一对正在Kiss中的恋人了， 和我这个独自暗暗发着光的害羞灯泡。&#xA;我向窗外望去， 街上没有一只灯， 天上不见一个星， 偶尔会见到路的对面来辆车， 哎，这道儿可真——真静！ 左一个颠簸，右一个颠簸&amp;hellip; 视线也渐渐转入黑遥遥的旷野中——&#xA;{其实，我想说的那个静，是静到什么程度，除了车厢震荡声和司机换挡声，就连Kiss中的声音都能让人听出，可想而知，多么得轰轰烈烈，多么得罗曼蒂克的&amp;hellip;多么得无语。}</description>
+    </item>
+    <item>
+      <title>面对</title>
+      <link>https://mutsuki.github.io/post/to-face/</link>
+      <pubDate>Sun, 12 Nov 2006 08:13:00 +0000</pubDate>
+      <guid>https://mutsuki.github.io/post/to-face/</guid>
+      <description>我的好朋友都来看我了，网络上的朋友也都很关心我，亲戚也来探访我了，在众多留言中，让吉感到欣慰。 还是什么都不知道，只想着回避一切，不想和任何人谈话。丫头说：&#xA;真的是个笨蛋.他的好兄弟这么多.人缘有好.何必用逃避来解决问题呢?&#xA;的确，逃避不是一个好方法，但却是唯一的办法对吉来说。 让众多人伤心了，很痛心，自己也是个很受伤的人，明白这样的痛。 不是不想让朋友们帮助，我愧疚之极，只是不想靠他人帮助，朋友们都知道吉的性格很“臭”，我向来是个闷包子，有痛苦从来不会和他人承担，折磨自己也折磨了他人，讨厌身边那种快乐的笑声。也不想因自己的痛苦换来身边朋友们的伤心和痛苦。 请原谅我的自私，千言万语之中，没有一人理解我的心思痛苦，就连1%都未猜测到。</description>
+    </item>
+  </channel>
+</rss>

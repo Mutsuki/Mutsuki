@@ -1,0 +1,21 @@
++++
+date = 2022-11-22T17:44:00Z
+description = ""
+draft = false
+slug = "weekly-update-04"
+title = "Weekly Update 04"
+
++++
+
+
+生产效率
+
+说说生产效率和任务管理这个问题，工作中，经常依赖这些事务。何况不是很喜欢即时的工具，所以日常工作主要以邮件为主，即使是微信，也尽可能的保持10分钟后再确定是否列为待办或者执行，说实在的，并不是很喜欢用微信工作，因为容错率很高高，虽然传达的时效非常高，但牺牲了很多环节及细节的内容，厌不其烦的它本身就是个私人空间，但却衍变成公私混合的工具了，尤其是当你需要回顾一些工作的内容，但进行搜索的时候发现很多问题，无法对其做标签或者分类，导致难以整理而影响效率。
+尽可能的每天早上8点开始进行为时4小时候的工作，4个小时你可以做很多的工作内容，在你完全不被打扰的情况下，可以很专心的处理你想要做的事。
+
+
+我经常使用Nothin作为基本的完成任务列表，发现iOS应用程序很好也很简单，然而最近我也开始规划一些提醒的程序来完善或者补充我的任务，由于之前的工作经常需要用到不同系统，而现在似乎很多概念程序都是基于互联网所以，对操作系统而言已不再是那么重要了。
+
+（我并非是工业制造和科研等这些公司，所以我可以不用担心一些所谓的限制，所以这个基于互联网的概念对我来说很重要。）
+
+Twin Gable House — Ryan Leidner ArchitectureRyan Leidner ArchitectureTwin Gable HouseBeoplay EX wireless earbuds - Work. Sport. Play. | B&OSnug fit. Sleek design. Superior sound. Meet Bang & Olufsen’s most versatile waterproof earphones yet.Skip to main content

@@ -17,11 +17,11 @@
       <description>How to tweak a few settings in Ghost to transform your site from a generic template to a custom brand with style and personality.</description>
     </item>
     <item>
-      <title>About this site</title>
-      <link>https://mutsuki.github.io/about-site/</link>
+      <title>About this wesite</title>
+      <link>https://mutsuki.github.io/about-this-website/</link>
       <pubDate>Sat, 22 Oct 2022 19:55:12 +0000</pubDate>
-      <guid>https://mutsuki.github.io/about-site/</guid>
-      <description>这个网站是用Ghost来进行制作的，主题自行编辑，但代码还是有些问题，包括设计的样式，后期会逐渐完善。&#xA;2021年 使用了购买了线上的Ghost&#xA;2022年 使用了虚拟主机Digital Ocean，并用开源Ghost脚本服务，Name上购买域名并用Cloudflare进行域名管理和使用&#xA;往年的一些网站设计页面图在此。{预览链接}&#xA;一些往年用过的域名：&#xA;http://spaces.msn.com/members/Brando/PersonalSpace.aspx 2002 http://xiaohunhun.yculblog.com/ 2003 http://missyou.sh.cn 2004.12 b2 - Wordpress - Movable Type (MT) http://brandoishere.net 2008 Wordpress - Textpattern http://www.koojiafeng.name 2010 HabariProject - Typecho&#xA;Access all areas&#xA;如果你喜欢这个网站的内容，也欢迎您进行订阅。</description>
+      <guid>https://mutsuki.github.io/about-this-website/</guid>
+      <description>这个网站是用Ghost来进行制作的，主题自行编辑，但代码还是有些问题，包括设计的样式，后期会逐渐完善。&#xA;2021年 使用了购买了线上的Ghost&#xA;2022年 使用了虚拟主机Digital Ocean，并用开源Ghost脚本服务，Name上购买域名并用Cloudflare进行域名管理和使用&#xA;2024年 使用Hugo，并用Github进行托管&#xA;往年的一些网站设计页面图在此。{预览链接}&#xA;一些往年用过的域名：&#xA;http://spaces.msn.com/members/Brando/PersonalSpace.aspx 2002 http://xiaohunhun.yculblog.com/ 2003 http://missyou.sh.cn 2004.12 b2 - Wordpress - Movable Type (MT) http://brandoishere.net 2008 Wordpress - Textpattern http://www.koojiafeng.name 2010 HabariProject - Typecho http://www.koojiafeng.com 2023 Ghost Access all areas&#xA;如果你喜欢这个网站的内容，也欢迎您进行订阅。</description>
     </item>
     <item>
       <title>Book</title>
@@ -56,7 +56,7 @@
       <link>https://mutsuki.github.io/page/once-the-page-design/</link>
       <pubDate>Wed, 12 Jul 2023 08:55:29 +0000</pubDate>
       <guid>https://mutsuki.github.io/page/once-the-page-design/</guid>
-      <description>上面这些事我暂时能找到的曾经并使用过的页面设计，但由于有了年代，所以能找到也是不容易，如果有人需要，我可以将文件分享给各位。</description>
+      <description>下面这些事我暂时能找到的曾经并使用过的页面设计，但由于有了年代，所以能找到也是不容易，如果有人需要，我可以将文件分享给各位。</description>
     </item>
     <item>
       <title>Weekly Update 05</title>
@@ -70,7 +70,7 @@
       <link>https://mutsuki.github.io/post/weekly-update-04/</link>
       <pubDate>Tue, 22 Nov 2022 17:44:00 +0000</pubDate>
       <guid>https://mutsuki.github.io/post/weekly-update-04/</guid>
-      <description>生产效率&#xA;说说生产效率和任务管理这个问题，工作中，经常依赖这些事务。何况不是很喜欢即时的工具，所以日常工作主要以邮件为主，即使是微信，也尽可能的保持10分钟后再确定是否列为待办或者执行，说实在的，并不是很喜欢用微信工作，因为容错率很高高，虽然传达的时效非常高，但牺牲了很多环节及细节的内容，厌不其烦的它本身就是个私人空间，但却衍变成公私混合的工具了，尤其是当你需要回顾一些工作的内容，但进行搜索的时候发现很多问题，无法对其做标签或者分类，导致难以整理而影响效率。 尽可能的每天早上8点开始进行为时4小时候的工作，4个小时你可以做很多的工作内容，在你完全不被打扰的情况下，可以很专心的处理你想要做的事。&#xA;我经常使用Nothin作为基本的完成任务列表，发现iOS应用程序很好也很简单，然而最近我也开始规划一些提醒的程序来完善或者补充我的任务，由于之前的工作经常需要用到不同系统，而现在似乎很多概念程序都是基于互联网所以，对操作系统而言已不再是那么重要了。&#xA;（我并非是工业制造和科研等这些公司，所以我可以不用担心一些所谓的限制，所以这个基于互联网的概念对我来说很重要。）&#xA;Twin Gable House — Ryan Leidner ArchitectureRyan Leidner ArchitectureTwin Gable HouseBeoplay EX wireless earbuds - Work. Sport. Play. | B&amp;amp;OSnug fit. Sleek design. Superior sound. Meet Bang &amp;amp; Olufsen’s most versatile waterproof earphones yet.Skip to main content</description>
+      <description>生产效率&#xA;说说生产效率和任务管理这个问题，工作中，经常依赖这些事务。何况不是很喜欢即时的工具，所以日常工作主要以邮件为主，即使是微信，也尽可能的保持10分钟后再确定是否列为待办或者执行，说实在的，并不是很喜欢用微信工作，因为容错率很高高，虽然传达的时效非常高，但牺牲了很多环节及细节的内容，厌不其烦的它本身就是个私人空间，但却衍变成公私混合的工具了，尤其是当你需要回顾一些工作的内容，但进行搜索的时候发现很多问题，无法对其做标签或者分类，导致难以整理而影响效率。 尽可能的每天早上8点开始进行为时4小时候的工作，4个小时你可以做很多的工作内容，在你完全不被打扰的情况下，可以很专心的处理你想要做的事。&#xA;我经常使用Nothin作为基本的完成任务列表，发现iOS应用程序很好也很简单，然而最近我也开始规划一些提醒的程序来完善或者补充我的任务，由于之前的工作经常需要用到不同系统，而现在似乎很多概念程序都是基于互联网所以，对操作系统而言已不再是那么重要了。&#xA;（我并非是工业制造和科研等这些公司，所以我可以不用担心一些所谓的限制，所以这个基于互联网的概念对我来说很重要。）&#xA;很好看的房屋设计.&#xA;降噪耳机，北欧风格设计，自己也是戴的这款.</description>
     </item>
     <item>
       <title>weekly-update-03</title>
@@ -112,7 +112,7 @@
       <link>https://mutsuki.github.io/about/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://mutsuki.github.io/about/</guid>
-      <description>互联网经常让我发现一些有趣的东西，总会被一些新的兴趣爱好所吸引，鉴于我经常运动和绘画，所以我会经常羽毛球运动及油画，包括练习次中音萨克斯。最初我也只是作为一个器材喜欢上各种工具，包括烹饪的工具才迷上烹饪，我经常阅读，所以有一定的习惯。 我并不经常发表文章，只有当我想深入研究一个我感兴趣的话题时，可能一年一次或更少，但当我写一篇文章或制作一张照片时，我会花一些时间去研究东西，更多的时候我经常独立去思考一些问题或者通过阅读书籍来丰富自己的知识。&#xA;N=1：我为改变我的生活所做的事&#xA;日记 基础运动锻炼 建立这个网站 提高我的写作水平 提高英语读写听水平 阅读书刊 设计 我喜欢思考的&#xA;学习 人类进化史 自动化/迭代改进 系统思维 下一步计划&#xA;如果我有更多的时间，我可能会考虑做一些事情。&#xA;由于Mailgun不再像免费用户提供服务，故关闭邮件订阅，但可以使用RSS进行订阅。&#xA;如果你希望能联系我，请到此页面。 关于站点信息&#xA;还有些介绍的内容我会继续 &amp;hellip;</description>
+      <description>互联网经常让我发现一些有趣的东西，总会被一些新的兴趣爱好所吸引，鉴于我经常运动和绘画，所以我会经常羽毛球运动及油画，包括练习次中音萨克斯。最初我也只是作为一个器材喜欢上各种工具，包括烹饪的工具才迷上烹饪，我经常阅读，所以有一定的习惯。 我并不经常发表文章，只有当我想深入研究一个我感兴趣的话题时，可能一年一次或更少，但当我写一篇文章或制作一张照片时，我会花一些时间去研究东西，更多的时候我经常独立去思考一些问题或者通过阅读书籍来丰富自己的知识。&#xA;N=1：我为改变我的生活所做的事&#xA;日记 基础运动锻炼 建立这个网站 提高我的写作水平 提高英语读写听水平 阅读书刊 设计 我喜欢思考的&#xA;学习 人类进化史 自动化/迭代改进 系统思维 下一步计划&#xA;如果我有更多的时间，我可能会考虑做一些事情。&#xA;由于Mailgun不再像免费用户提供服务，故关闭邮件订阅，但可以使用RSS进行订阅。&#xA;如果你希望能联系我，请到此页面。 关于 站点信息.&#xA;还有些介绍的内容我会继续 &amp;hellip;</description>
     </item>
     <item>
       <title>一个人保持安静的任务</title>

@@ -1,7 +1,7 @@
-baseURL = "https://mutuski.github.io/"
+baseURL = "https://www.koojiafeng.com/"
 # title = "Hugo Themes"
-author = "Steve Francia"
-copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
+author = "Koo"
+copyright = "Copyright © 2024, KooJiafeng; all rights reserved."
 paginate = 13
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -13,17 +13,17 @@ ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
 theme = "hugo-paper"
-title = "koojiafeng"
+title = "Jiafeng"
 
 [params]
   color = 'linen'
 
-  twitter = 'nanxiaobei'
-  github = 'nanxiaobei'
-  instagram = 'nan.xiaobei'
+  twitter = 'koojiafeng'
+  github = 'koojiafeng'
+  instagram = 'koojiafeng'
 
-  avatar = 'nanxiaobei@gmail.com'
-  name = 'Lee'
+  avatar = 'koojiafeng@gmail.com'
+  name = 'Koo'
   bio = 'Discover fresh context'
 # ------------------------------
 

@@ -1,0 +1,415 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #fff"
+  lang="zh-CN"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+  />
+
+  
+  <title>Jiafeng</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  
+  
+  
+  <meta name="description" content="" />
+  <meta name="author" content="一个人在路上" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://192.168.10.69:1313/main.min.css" />
+  
+  <script src="http://192.168.10.69:1313/js/jiafeng.js"></script>
+  <script src="http://192.168.10.69:1313/css/plyr.css"></script>
+
+  <script src="http://192.168.10.69:1313/js/plyr.js"></script>
+  <script src="http://192.168.10.69:1313/js/plyr.polyfilled.js"></script>
+   
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/theme.png" />
+
+
+
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/twitter.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/github.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/instagram.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/rss.svg" />
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="http://192.168.10.69:1313/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://192.168.10.69:1313/apple-touch-icon.png" />
+
+
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://feeds.feedburner.com/brando"
+      title="Jiafeng">	  
+	  
+
+  
+  <meta name="generator" content="Hugo 0.123.8">
+
+  
+  
+  
+
+<style>
+@font-face {
+    font-family: AlimamaFangYuanTiVF;
+    src:url(/font/AlimamaFangYuanTiVF-Thin.ttf) format('TrueType'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff) format('woff'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff2) format('woff2');
+}
+@font-face  {
+    font-family: Miriam Libre;
+    src:url(/font/MiriamLibre-Regular.ttf) format('TrueType'),
+        url(/font/MiriamLibre-Bold.ttf) format('TrueType');
+}
+</style>
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    
+<header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="http://192.168.10.69:1313/"
+      >Jiafeng</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#fff'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/archives/"
+        >Archives</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/stuff-i-use/"
+        >Gear</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/bookshelf/"
+        >Bookshelf</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/contact/"
+        >Contact</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="https://feeds.feedburner.com/brando"
+        target="_blank"
+        rel="alternate"
+      >
+        rss
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/the-cat-fish-falls-in-love/">猫鱼相爱</a></h2>
+  <time class="text-sm antialiased opacity-60">Dec 6, 2006</time> 1 min read
+	<p>天下荒唐事，
+若找不出道理，
+至少能说一个缘故吧。
+——除了爱情
+钱海燕 作
+这也不是不可能的事，就如一个40多岁的男士爱上一个20多岁的年轻女孩，这样的举例，应该都明白吧，社会上这样的例子也很多。  </p>
+	
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/ignores-a-proper-occupation-continues-the-eight-diagrams/">不务正业，继续八卦</a></h2>
+  <time class="text-sm antialiased opacity-60">Dec 5, 2006</time> 1 min read
+	<p>MBTI职业性格测试
+Psytopic分析：您的性格类型是“ISTP”(内向+实感+思维+知觉) 容忍，有弹性；是冷静的观察者，但当有问题出现，便迅速行动，找出可行的解决方法。能够分析哪些东西可以使事情进行顺利，又能够从大量资料中，找出实际问题的重心。很重视事件的前因后果，能够以理性的原则把事实组织起来，重视效率。 ISTP型的人坦率、诚实、讲求实效，他们喜欢行动而非漫谈。他们很谦逊，对于完成工作的方法有很好的理解力。 ISTP型的人擅长分析，所以他们对客观含蓄的原则很有兴趣。他们对于技巧性的事物有天生的理解力，通常精于使用工具和进行手工劳动。他们往往做出有条理而保密的决定。他们仅仅是按照自己所看到的、有条理而直接地陈述事实。 ISTP型的人好奇心强，而且善于观察，只有理性、可靠的事实才能使他们信服。他们重视事实，简直就是有关他们知之甚深的知识的宝库。他们是现实主义者，所以能够很好地利用可获得的资源，同时他们擅于把握时机，这使他们变得很讲求实效。ISTP型的人平和而寡言，往往显得冷酷而清高，而且容易害羞，除了是与好朋友在一起时。他们平等、公正。他们往往受冲动的驱使，对于即刻的挑战和问题具有相当的适应性和反应能力。因为他们喜欢行动和兴奋的事情，所以他们乐于户外活动和运动。
+您适合的领域有：技术领域 证券、金融业、贸易、商业领域 户外、运动、艺术等
+您适合的职业有：
+· 信息服务业经理
+· 计算机程序员
+· 警官
+· 软件开发员
+· 律师助理
+· 消防员
+· 私人侦探
+· 药剂师
+· 证券分析员
+· 银行职员
+· 管理顾问
+· 财务顾问
+· 电子专业人士
+· 技术培训人员
+· 信息服务开发人员
+· 软件开发商
+· 海洋生物学者
+· 后勤与供应经理
+· 经济学者
+· 贸易商
+· 商品经销商
+· 产品代理商（有形产品）
+· 警察
+· 侦探
+· 体育工作者
+· 赛车手
+· 飞行员
+· 雕塑家
+· 手工制作
+· 画家 </p>
+	
+      <a href="http://192.168.10.69:1313/article/ignores-a-proper-occupation-continues-the-eight-diagrams/">Read more...</a>
+    
+</section>
+
+
+
+
+<nav class="mt-16 flex nb">
+  
+  <a class="btn" href="/page/98/">← Prev Page</a>
+  
+  
+  <a class="btn ml-auto" href="/page/100/"
+    >Next Page →</a
+  >
+  
+</nav>
+
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-100"
+>
+  <div class="mr-auto">
+    &copy; 2012-2025
+    <a class="link" href="http://192.168.10.69:1313/">Jiafeng</a>
+  </div>
+  <a class="link mx-6" href="#">Cookies</a>
+  <a class="link mx-6" href="/privacy">Privacy</a>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️ </a>
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >Paper</a
+  >
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,375 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #fff"
+  lang="zh-CN"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+  />
+
+  
+  <title>Jiafeng</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  
+  
+  
+  <meta name="description" content="" />
+  <meta name="author" content="一个人在路上" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://192.168.10.69:1313/main.min.css" />
+  
+  <script src="http://192.168.10.69:1313/js/jiafeng.js"></script>
+  <script src="http://192.168.10.69:1313/css/plyr.css"></script>
+
+  <script src="http://192.168.10.69:1313/js/plyr.js"></script>
+  <script src="http://192.168.10.69:1313/js/plyr.polyfilled.js"></script>
+   
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/theme.png" />
+
+
+
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/twitter.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/github.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/instagram.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/rss.svg" />
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="http://192.168.10.69:1313/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://192.168.10.69:1313/apple-touch-icon.png" />
+
+
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://feeds.feedburner.com/brando"
+      title="Jiafeng">	  
+	  
+
+  
+  <meta name="generator" content="Hugo 0.123.8">
+
+  
+  
+  
+
+<style>
+@font-face {
+    font-family: AlimamaFangYuanTiVF;
+    src:url(/font/AlimamaFangYuanTiVF-Thin.ttf) format('TrueType'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff) format('woff'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff2) format('woff2');
+}
+@font-face  {
+    font-family: Miriam Libre;
+    src:url(/font/MiriamLibre-Regular.ttf) format('TrueType'),
+        url(/font/MiriamLibre-Bold.ttf) format('TrueType');
+}
+</style>
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    
+<header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="http://192.168.10.69:1313/"
+      >Jiafeng</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#fff'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/archives/"
+        >Archives</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/stuff-i-use/"
+        >Gear</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/bookshelf/"
+        >Bookshelf</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/contact/"
+        >Contact</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="https://feeds.feedburner.com/brando"
+        target="_blank"
+        rel="alternate"
+      >
+        rss
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/system-rebuild-windows/">重装系统</a></h2>
+  <time class="text-sm antialiased opacity-60">Aug 23, 2007</time> 1 min read
+	<p>使用了3年的linux，最终还是回到了windows的怀抱下，并不是不适合linux的环境，而是我的笔记本多项驱动都未能达到要求，比如我的摄像头驱动，红外线驱动，和读卡器驱动，这也是为什么windows系统垄断的原因。ubuntu下的环境是我比较喜欢的，因为我的技术程度也只是皮毛而已，还是跟着别人后面边走边学习的程度，记得最早使用的linux系统是rh6，整一个代码系统，安装头疼，英文不过关，完全是靠lucky过去的，一直玩到了12后才最终放弃red hat版本，当时是使用台式机，驱动方面没多大问题，只是中文化做的不太好，这也是多数人的瓶颈。后来我又开始玩起了debian，gentoo以及unix的Solaris和freebsd等，反正能玩的都玩了，对各个版本也有所了解，当初Novell强劲的时候也有自己的系统，这个我也玩了，可惜后来被win95给击败了，被Novell收购的Suse我也玩过，视觉上的新鲜感要比前者都好多了，可惜中文化技术支持是在太少。最近ubuntu在桌面系统崛起了，不少小白都开始了菜鸟之旅，而我也是，包括申请光盘等之类的，那时候中文社区的高手没有几个诞生，而我又喜欢潜水，不知道提问和回答，干脆一不做，二不休，至今ubuntu已经成为绝大多数的IT玩家们的系统了，而且现在的匿名高手也出现很多，我经常能够在一些Irc频道见到，随着3D化的出现，UI上的一个飞跃的进度，桌面系统的炫耀又多了一个让IT玩家们喜欢的一个理由了。说了那么多理由，照常理来说应该不会回到windows下，其实不以为然，因为安装这些系统是根据自己的需求来安装的，如我的本本，联想牌的，技术支持也是windows，硬件上的驱动要比unix下的完善的多。不多说了，不喜欢Ghost的恢复，还是正版XP光盘安装吧，如果能用亲爱的小白Apple就更好了。 </p>
+	
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/street-freestyle/">街头运动的艺术</a></h2>
+  <time class="text-sm antialiased opacity-60">Aug 22, 2007</time> 1 min read
+	<p>一种大胆的想象运动，而这些运动竟然可以发挥成如此境界。 下面的连接将你带到2street的freestyle去，看看他们是如何将这些运动艺术化的。 {via}:2street freestyle </p>
+	
+</section>
+
+
+
+
+<nav class="mt-16 flex nb">
+  
+  <a class="btn" href="/page/77/">← Prev Page</a>
+  
+  
+  <a class="btn ml-auto" href="/page/79/"
+    >Next Page →</a
+  >
+  
+</nav>
+
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-100"
+>
+  <div class="mr-auto">
+    &copy; 2012-2025
+    <a class="link" href="http://192.168.10.69:1313/">Jiafeng</a>
+  </div>
+  <a class="link mx-6" href="#">Cookies</a>
+  <a class="link mx-6" href="/privacy">Privacy</a>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️ </a>
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >Paper</a
+  >
+</footer>
+
+  </body>
+</html>

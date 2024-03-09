@@ -1,0 +1,378 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #fff"
+  lang="zh-CN"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+  />
+
+  
+  <title>DY - Jiafeng</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  
+  
+  
+  <meta name="description" content="" />
+  <meta name="author" content="一个人在路上" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://192.168.10.69:1313/main.min.css" />
+  
+  <script src="http://192.168.10.69:1313/js/jiafeng.js"></script>
+  <script src="http://192.168.10.69:1313/css/plyr.css"></script>
+
+  <script src="http://192.168.10.69:1313/js/plyr.js"></script>
+  <script src="http://192.168.10.69:1313/js/plyr.polyfilled.js"></script>
+   
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/theme.png" />
+
+
+
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/twitter.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/github.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/instagram.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/rss.svg" />
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="http://192.168.10.69:1313/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://192.168.10.69:1313/apple-touch-icon.png" />
+
+
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://feeds.feedburner.com/brando"
+      title="Jiafeng">	  
+	  
+
+  
+  <meta name="generator" content="Hugo 0.123.8">
+
+  
+  
+  
+
+<style>
+@font-face {
+    font-family: AlimamaFangYuanTiVF;
+    src:url(/font/AlimamaFangYuanTiVF-Thin.ttf) format('TrueType'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff) format('woff'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff2) format('woff2');
+}
+@font-face  {
+    font-family: Miriam Libre;
+    src:url(/font/MiriamLibre-Regular.ttf) format('TrueType'),
+        url(/font/MiriamLibre-Bold.ttf) format('TrueType');
+}
+</style>
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    
+<header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="http://192.168.10.69:1313/"
+      >Jiafeng</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#fff'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/archives/"
+        >Archives</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/stuff-i-use/"
+        >Gear</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/bookshelf/"
+        >Bookshelf</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/contact/"
+        >Contact</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="https://feeds.feedburner.com/brando"
+        target="_blank"
+        rel="alternate"
+      >
+        rss
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+
+
+<h1 class="mb-16">#DY</h1>
+
+
+
+
+
+
+
+ 
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/post.872311/">给老师的一封信</a></h2>
+  <time class="text-sm antialiased opacity-60">Sep 15, 2005</time> 1 min read
+	<p>X老师：
+有人说，三年是短暂的，因为它一闪而过；有人说，三年是漫长的，因为它承载着友谊与师生的沉淀。在这三年里，在您的精心呵护下，我们已由幼小的雏鹰变为即将展翅的雄鹰。鸟儿的翅膀硬了，总是要飞的。我们坚信，您放飞的一定是一只只与生命抗争、搏击生活的雄鹰。
+春蚕到死丝方尽，蜡炬成灰泪始干。在这三年里，您恪敬职守、认真负责的工作态度，象一位辛勤工作的园丁；在这三年里，您和蔼可亲、无微不至的教学形象，象一位贴近我们的妈妈；在这三年里，您无时无刻不从我们的利益出发、不为我们的前途考虑，您更是一位学生心中的往年之交。
+今天是你的生日，我们亲爱的老师，作为学生，感激太多，唯有一声祝福。 </p>
+	
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/post.846333/">天下无不散之宴席</a></h2>
+  <time class="text-sm antialiased opacity-60">Aug 30, 2005</time> 1 min read
+	<p>天下无不散之宴席，为什么快乐的时间就这么短暂。 我们这群人，是一个快乐的小团体。如果从我的角度来观察，最先，只是我和吉祥，不用多说，都知道我们一起经历了套儿所—幼儿园—小学—中学，直到中考，我们各奔东西了。 在初中里，因为一次换位置，也可能是缘分的关系，我被调到了WMM旁边，又是因为一句：“你喜欢龙珠吗？”我们成为了无言不谈的好兄弟。WMM教会了我许多东西，比如说：转笔，和画漫画等 我和ZYX（注名：Z-[佐罗的意思]YX就是他的名字-杨啸）我们有许多共同的爱好，可以说是怪僻吧，我们一起去补课，一起卸别人的自行车，一起去玩单车，还有恶魔城，MGS等等，可是为什么阿啸就是不喜欢打篮球呢？ 还有一条鱼，也就是传说中的胖头鱼，叫鱼头也可以，也是一起上学一起放学回家的好兄弟，他（它）虽然有许多心理话不肯告诉我们，但他的性格十分合群，出了初中，我们虽然很少碰面，但是鱼和人的心灵感应是很弓虽的！ 当时我进了中专，感觉世界变了很多，身边的事也变的陌生了，首先是WMM搬家了，搬的很远，WMM要考大学，所以见面的机会就更少了，接着，吉祥接到动迁的消息，现在借房子虽然也只有一站路，再过几个月，我要和一起经历16年的好兄弟分道扬镳，人长大了，想事情也要想想开，以后更要珍惜碰面的机会！ 在人群里，不能忽视张超，他虽然很单纯，但关键时刻，还是能发挥他的小强能力，帮我们排忧解难，唯一可惜的就是认识的太晚了，张超是WMM高中的同学，那也就是和我有间接关系的同学，有时候兄弟多是一件十分幸福的事 以后的时间还很长，我们都向往着长大后有了经济实力，都决定要同居，我也很希望有那一天，希望不是在做梦，至少我相信！ DY&hellip;. </p>
+	
+</section>
+
+
+
+
+<nav class="mt-16 flex nb">
+  
+  <a class="btn" href="/tags/dy/page/4/">← Prev Page</a>
+  
+  
+  <a class="btn ml-auto" href="/tags/dy/page/6/"
+    >Next Page →</a
+  >
+  
+</nav>
+
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-100"
+>
+  <div class="mr-auto">
+    &copy; 2012-2025
+    <a class="link" href="http://192.168.10.69:1313/">Jiafeng</a>
+  </div>
+  <a class="link mx-6" href="#">Cookies</a>
+  <a class="link mx-6" href="/privacy">Privacy</a>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️ </a>
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >Paper</a
+  >
+</footer>
+
+  </body>
+</html>

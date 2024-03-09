@@ -1,0 +1,379 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #fff"
+  lang="zh-CN"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+  />
+
+  
+  <title>Jiafeng</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  
+  
+  
+  <meta name="description" content="" />
+  <meta name="author" content="一个人在路上" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://192.168.10.69:1313/main.min.css" />
+  
+  <script src="http://192.168.10.69:1313/js/jiafeng.js"></script>
+  <script src="http://192.168.10.69:1313/css/plyr.css"></script>
+
+  <script src="http://192.168.10.69:1313/js/plyr.js"></script>
+  <script src="http://192.168.10.69:1313/js/plyr.polyfilled.js"></script>
+   
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/theme.png" />
+
+
+
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/twitter.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/github.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/instagram.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/rss.svg" />
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="http://192.168.10.69:1313/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://192.168.10.69:1313/apple-touch-icon.png" />
+
+
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://feeds.feedburner.com/brando"
+      title="Jiafeng">	  
+	  
+
+  
+  <meta name="generator" content="Hugo 0.123.8">
+
+  
+  
+  
+
+<style>
+@font-face {
+    font-family: AlimamaFangYuanTiVF;
+    src:url(/font/AlimamaFangYuanTiVF-Thin.ttf) format('TrueType'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff) format('woff'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff2) format('woff2');
+}
+@font-face  {
+    font-family: Miriam Libre;
+    src:url(/font/MiriamLibre-Regular.ttf) format('TrueType'),
+        url(/font/MiriamLibre-Bold.ttf) format('TrueType');
+}
+</style>
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    
+<header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="http://192.168.10.69:1313/"
+      >Jiafeng</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#fff'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/archives/"
+        >Archives</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/stuff-i-use/"
+        >Gear</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/bookshelf/"
+        >Bookshelf</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/contact/"
+        >Contact</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="https://feeds.feedburner.com/brando"
+        target="_blank"
+        rel="alternate"
+      >
+        rss
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/piracy-market-when-will-you-advocate-crazy/">盜版市場，你究竟要倡狂到什麼時候</a></h2>
+  <time class="text-sm antialiased opacity-60">Oct 14, 2012</time> 1 min read
+	<p>今天研究了一个生活中的案列，我们生活中的电子产品，有多少人是拥有自己的正版，有多少人是在使用免费的产品，又有多少人是使用的盗版产品。 用户的消费习惯已经和以往有所很大的改变，如今，区区一包烟价格的正版都已无人问津。 没有人去买正版，是不是不支持正版，还是不瞭解正版和盗版，而我们又如此喜欢使用盗版，这到底是什么问题呢？ 是的，人人都喜欢免费的产品，我也是，但长期以往，作为一个开发着，或者是一个团队，他如果没有一定的经济来源讲无法继续开发出更完善的一个产品，那么这款产品也会即将终结，谁又会愿意用这样的产品呢！所以大多数的产品大家只是用了一，两次就消失在市场前了。 究竟是什么原因，我们不会去买一款价值如一包烟的正版产品呢？我做了一下几个总结。
+不良的习惯，经常使用破解产品 破解是为了更好体验正版的用途，而不是用来正式使用。 市场链的监督 目前我所做的使用盗版windows最多的是学校，甚至有双语学校，然后是一些私人企业，乃至做IT的公司，里面的windows系统无一款是正版的，包括里面的多数程式，我相信很多做对大陆企业的DESKHELP SUPPORT ENGINEER，或者是专门装机的技术员来说也再熟悉不过了“深度XP”之类的。 为了降低成本，很多企业，教育，政府机构都是用的是盗版，市场监督这一环节是空白，很多的企业也只是被调查时，临时采取一些措施勉强混过去。也有人问我，不是有一些法律么，是的，对于这些，我也只是略知一二，如《推进企业使用正版软件工作实施方案》，这只能说是政府的工作力度还不够大，而且，很多也是没约束效率的。 作为个人，用户的消费习惯更是一个很有意思的问题了。人人都喜欢用免费的产品，如果这免费的产品打上了人民币1.99元，他就不愿意使用了，这个我相信更多iphone用户多少是这样吧。可以说，免费产品产生也会越来越多，不仅破坏了一些企业市场的产业链，更是把国内企互联网的未来产业链给败坏了。最好的例子就是360杀毒程式，360的免费体制战略是挑战国内企业互联网的底线，最后弄得大家都免费了，不再有激情的心去做一款产品了，当然我也不是说他们的产品不好。 很多人也会问我，采购的时候不都是有OEM之类的版本么？ 其实大多数的采购都不附带OEM版本的WINDOWS，政府网采购也没强制必须使用正版windows程式，他只是买了机器壳子，重要的是成本控制的很低，才会有人去采购。
+我去過一些為數不多的小型外企，在那我發現那邊的明文規定，就是企業產品必須是正版，當然法律上我還沒看到，只是在合同上有這麼一個規定，尤其是U.S.A國家，產權的保護意識是很重要的。 文章未全部更新完，后续将会继续  </p>
+	
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/inform-in-october/">10月份告知</a></h2>
+  <time class="text-sm antialiased opacity-60">Sep 24, 2012</time> 1 min read
+	<p>因服务器在9月底迁移，会造成部分时间段影响访问，故请大家谅解。
+另除了本页面将继续维持更新，并将源码放入github，另2个项目将停止更新，分别是：
+*Fav *wordpress skins </p>
+	
+</section>
+
+
+
+
+<nav class="mt-16 flex nb">
+  
+  <a class="btn" href="/page/14/">← Prev Page</a>
+  
+  
+  <a class="btn ml-auto" href="/page/16/"
+    >Next Page →</a
+  >
+  
+</nav>
+
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-100"
+>
+  <div class="mr-auto">
+    &copy; 2012-2025
+    <a class="link" href="http://192.168.10.69:1313/">Jiafeng</a>
+  </div>
+  <a class="link mx-6" href="#">Cookies</a>
+  <a class="link mx-6" href="/privacy">Privacy</a>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️ </a>
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >Paper</a
+  >
+</footer>
+
+  </body>
+</html>

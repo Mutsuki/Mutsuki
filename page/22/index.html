@@ -1,0 +1,383 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #fff"
+  lang="zh-CN"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+  />
+
+  
+  <title>Jiafeng</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  
+  
+  
+  <meta name="description" content="" />
+  <meta name="author" content="一个人在路上" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://192.168.10.69:1313/main.min.css" />
+  
+  <script src="http://192.168.10.69:1313/js/jiafeng.js"></script>
+  <script src="http://192.168.10.69:1313/css/plyr.css"></script>
+
+  <script src="http://192.168.10.69:1313/js/plyr.js"></script>
+  <script src="http://192.168.10.69:1313/js/plyr.polyfilled.js"></script>
+   
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/theme.png" />
+
+
+
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/twitter.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/github.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/instagram.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/rss.svg" />
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="http://192.168.10.69:1313/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://192.168.10.69:1313/apple-touch-icon.png" />
+
+
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://feeds.feedburner.com/brando"
+      title="Jiafeng">	  
+	  
+
+  
+  <meta name="generator" content="Hugo 0.123.8">
+
+  
+  
+  
+
+<style>
+@font-face {
+    font-family: AlimamaFangYuanTiVF;
+    src:url(/font/AlimamaFangYuanTiVF-Thin.ttf) format('TrueType'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff) format('woff'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff2) format('woff2');
+}
+@font-face  {
+    font-family: Miriam Libre;
+    src:url(/font/MiriamLibre-Regular.ttf) format('TrueType'),
+        url(/font/MiriamLibre-Bold.ttf) format('TrueType');
+}
+</style>
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    
+<header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="http://192.168.10.69:1313/"
+      >Jiafeng</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#fff'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/archives/"
+        >Archives</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/stuff-i-use/"
+        >Gear</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/bookshelf/"
+        >Bookshelf</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/contact/"
+        >Contact</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="https://feeds.feedburner.com/brando"
+        target="_blank"
+        rel="alternate"
+      >
+        rss
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/talk-about-xiaomi-mobile/">谈谈小米手机</a></h2>
+  <time class="text-sm antialiased opacity-60">Dec 15, 2011</time> 1 min read
+	<p>由于天气原因，所以入机晚到了一星期。
+Updates Dec 2011
+第一代小米手机，于2011年10月发布,售价1999元。 小米1的CPU采用的是高通MSM8260双核处理器，屏幕为4英寸的夏普屏，分辨率854x480，800万像素后置摄像头，1G运存+4G机身内存。 但一些地方值得去说的就是：
+待机电源键的设计，放在手机的顶端右边部分，这个设计细节完全让人捉摸不透。每次要激活待机的状态，总得找这个地方去按一下，极为别扭。 屏幕下方的小房子是有点亮的（亮点靠右边部分），很不舒服。 电池，这个并不是小米手机的问题，是手机用户的问题。玩游戏，屏幕开高亮，wlan开着，程序后台运行个7，8个，电话10个接听，基本上8小时没问题的，但不是绝对。 音乐系统，相机系统什么的毕竟是手机，在这方面没有太多追求，所以够用就好。 这样的价钱对于这个硬件配置来说挺彪悍了。 小米手机总体来说，作为国内的新机来说，还是能够接受的，1999元，综合性价比是挺高的。 </p>
+	
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/about-hearing-aids-of-people/">带助听器的诉说</a></h2>
+  <time class="text-sm antialiased opacity-60">Dec 5, 2011</time> 1 min read
+	<p>我是一个耳朵有中度程度损伤的人，有医学报告检测，之后开始佩戴助听器。 为何会有这样的情况？ 其实我天生并没有这样的情况，只是小时候一次误诊，或者是打针的原因，导致耳神经被破坏，如果在知晓的情况，并且还是在小时候是完全可以治好的，这是上海华山医院五官科医生亲自与本人说的。小时候语言和表达能力有限，所以导致今天这样的情况。
+那么，像我们这样的人在社会上是很吃亏的，因为别人搞不懂我们，到底是真听不清还是什么情况。这一次，我会解释给网络的朋友们听。
+像我这样的人，是在面对面说话的时候，声音在正常情况下，什么是正常情况，就是你接受别人采访的时候那种声音来回答别人，我们是听得很清楚，当然口齿也是清楚的情况下。那么当到了一定距离，什么距离？就是在1.5米之后，我这样的听力会大幅度下降，只能听见声音，却听不清对方在说什么，只能听见碎碎念的那种感觉，很是无奈。我自己心里也是很抓狂，我不得不像对方要求，讲话大声，或者多重复几遍，如银行柜台里的小姐（带玻璃隔离的），公司和企业的前台小姐，和一些办公室人员讲话的时候他们很轻声细语，跟老板级别的人更是如此，当然山东大叔老板的个别例外，让我这样的人真的已经不知道该咋办？！情况好些的，我还能懂些唇语，多少还能理解一些。听不清，只能啊，啊，啊的，像个傻子般。至少小时候我就是这么过过来的，人特别高，还坐第一排，被当成差生对待，学习的成绩除了美术，历史，政治，体育优秀，其他均为差，好点的已经是懂了自己的情况，令走门道。
+那么为何我这样的人又能听清身边熟悉的人？ 那是因为和他们呆在一起有一定时间了，他们的形音在我这样的人脑子里留了一定印象，所以即使听不清，也可以根据平时他们说的形音去辩解并做出回答，当然大多数的时候还是会碰到听不清，但他们理解，所以一般和我这样的人说音较为大些。
+我们听力问题者在社会上同样是混得很累，正常又非正常的人，几乎每次面试，我都开始就直接倒在这样一个环节，HR也不知道怎么理解我这样的一个状况，老板更为直接表达对我耳朵表示担忧。
+当然我们带助听器其实也是有限的，多数助听器的能力也是根据他的价钱来决定他的好坏，他的价格不菲，好点的没上限，差点的，那是缩短自己耳朵寿命，如果只是带一个助听器，那还得捏着，很累。 </p>
+	
+</section>
+
+
+
+
+<nav class="mt-16 flex nb">
+  
+  <a class="btn" href="/page/21/">← Prev Page</a>
+  
+  
+  <a class="btn ml-auto" href="/page/23/"
+    >Next Page →</a
+  >
+  
+</nav>
+
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-100"
+>
+  <div class="mr-auto">
+    &copy; 2012-2025
+    <a class="link" href="http://192.168.10.69:1313/">Jiafeng</a>
+  </div>
+  <a class="link mx-6" href="#">Cookies</a>
+  <a class="link mx-6" href="/privacy">Privacy</a>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️ </a>
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >Paper</a
+  >
+</footer>
+
+  </body>
+</html>

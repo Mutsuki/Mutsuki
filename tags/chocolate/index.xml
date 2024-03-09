@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chocolate on Jiafeng</title>
+    <link>http://192.168.10.69:1313/tags/chocolate/</link>
+    <description>Recent content in Chocolate on Jiafeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 22 Dec 2023 14:36:14 +0000</lastBuildDate>
+    <atom:link href="http://192.168.10.69:1313/tags/chocolate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>http://192.168.10.69:1313/article/post.33333/</link>
+      <pubDate>Fri, 22 Dec 2023 14:36:14 +0000</pubDate>
+      <guid>http://192.168.10.69:1313/article/post.33333/</guid>
+      <description>Caramels tootsie roll I love macaroon jujubes. I love icing bonbon. Topping ice cream muffin marzipan lemon drops sugar plum biscuit. Chocolate cupcake powder macaroon bear claw I love cupcake icing. Jelly bear claw caramels jelly beans jelly-o soufflé. Powder cheesecake pastry lemon drops oat cake bonbon gummi bears. Jelly-o I love cake cupcake. I love halvah gummi bears caramels. Gummies I love gummies fruitcake cake marzipan. Oat cake donut cake brownie.</description>
+    </item>
+  </channel>
+</rss>

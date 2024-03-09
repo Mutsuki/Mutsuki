@@ -1,0 +1,394 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #fff"
+  lang="zh-CN"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+  />
+
+  
+  <title>Jiafeng</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  
+  
+  
+  <meta name="description" content="" />
+  <meta name="author" content="一个人在路上" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://192.168.10.69:1313/main.min.css" />
+  
+  <script src="http://192.168.10.69:1313/js/jiafeng.js"></script>
+  <script src="http://192.168.10.69:1313/css/plyr.css"></script>
+
+  <script src="http://192.168.10.69:1313/js/plyr.js"></script>
+  <script src="http://192.168.10.69:1313/js/plyr.polyfilled.js"></script>
+   
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/theme.png" />
+
+
+
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/twitter.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/github.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/instagram.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/rss.svg" />
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="http://192.168.10.69:1313/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://192.168.10.69:1313/apple-touch-icon.png" />
+
+
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://feeds.feedburner.com/brando"
+      title="Jiafeng">	  
+	  
+
+  
+  <meta name="generator" content="Hugo 0.123.8">
+
+  
+  
+  
+
+<style>
+@font-face {
+    font-family: AlimamaFangYuanTiVF;
+    src:url(/font/AlimamaFangYuanTiVF-Thin.ttf) format('TrueType'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff) format('woff'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff2) format('woff2');
+}
+@font-face  {
+    font-family: Miriam Libre;
+    src:url(/font/MiriamLibre-Regular.ttf) format('TrueType'),
+        url(/font/MiriamLibre-Bold.ttf) format('TrueType');
+}
+</style>
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    
+<header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="http://192.168.10.69:1313/"
+      >Jiafeng</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#fff'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/archives/"
+        >Archives</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/stuff-i-use/"
+        >Gear</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/bookshelf/"
+        >Bookshelf</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/contact/"
+        >Contact</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="https://feeds.feedburner.com/brando"
+        target="_blank"
+        rel="alternate"
+      >
+        rss
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/wireless-network-management-tips-of-subnet-mask/">無線網絡管理小技巧-子網掩碼</a></h2>
+  <time class="text-sm antialiased opacity-60">Feb 25, 2012</time> 1 min read
+	<p>很多人都會碰到一些蹭網族，下面我就分享給大家一些小技巧，不僅能防止一些蹭網族，還能優化路由器。 首先，大家第一步都會想到SSID信號加密，沒錯，這只是加強安全方式的一種，包括隱藏SSID信號名稱。 但還有個方式，就是劃分子網掩碼。劃分子網掩碼是企業網絡經常用到的策略之一，還包括一些VLAN等配置，這裡只講簡單的子網劃分。如果感興趣，或者又想深入，可以去看一些子网划分掩碼的概念。
+記住，以下所有的設置只能在路由器上完成，在本機上設置是起不到效果的。
+一般我們都會在機器下得到以下這樣的情況
+IPv4 Address......192.168.1.2 #機器獲得的IP地址# Subnet Mask......255.255.255.0 #子網掩碼# Default Gateway......192.168.1.1 #默認網關# 如果路由器的子網掩碼（Subnet Mask）改成255.255.255.252，那麼會得到一種什麼情況？不錯，那只有兩個IP地址能工作。這種地址一般只有在排除網絡故障的時候使用。
+那麼，再來看下面的設置圖，你又會發現，現在又有五台機器可以上網了，切記路由器也是設備之一，總共是六個可工作的IP地址。
+像圖片所示，你會發現我設置的地址是192.168.1.1，也就是路由器的地址是192.168.1.1，根據子網掩碼的分配，那麼IP的地址分配只能到192.168.1.6，為何不是192.168.1.7呢？因為通常最後一位地址是廣播地址，所以你看不到有255結尾的IP地址。（這裡是1個網絡，根據需求，我們也可以分2個以上，但這裡只講基本。）
+如果你又想，我的設備又增多了，比如手機，平板電腦的出現，發現IP分配不夠了，怎麼辦，不要緊，接下來給的一個圖片連接，可以供各位參考，你就可以發現，不同的子網掩碼，可以控制不同的IP分配。
+#查看圖片# (圖片失效請告知我)
+怎樣？學到一手了嗎？也許你後面會發現一個DHCP自動分配IP的問題。其實取消自動DHCP分配也會更好一些，比如取消DHCP之後，我把路由器的默認IP改掉192.168.1.1，改成192.168.1.56，普通人一般都知道192.168.1.1是默認的網關地址，他必定會自己添加一個IP，如果這個默認IP改了，他就無從下手了，但這種方法只能防君子不防小人。那有什麼方法可以防止嗎？當然，有個補救的方法，在路由器上綁定網卡的MAC地址。
+說了那麼多了，就總結下：（順序是從簡單到有難度）
+取消發佈SSID 更改路由默認IP 取消DHCP自動分配 加密WPA或者WPA2-PSK，根據需求進行選擇，注：WEP已經可以破解 設備訪問列表控制（就是綁定MAC地址設備，你也可以把他看作一個白名單訪問列表） 子網掩碼劃分 根據第5種選擇是最簡單的，即使你是發佈SSID，但在這列表裏沒有綁定的MAC地址設備，是無法進行連接的。但需要路由器支持。 第6種只適合有網絡基礎能力的人，這樣做的方式是更好的控制網絡並且優化網絡結構。
+強制性安全，就是1~6全部組合用上，那麼你的網絡基本是比較安全的了。當然了，互聯網上是沒有絕對安全界的。
+&mdash;2012 02.26 更新&mdash; 收到一份郵件，問我是如何管理家庭wifi的。其實本人只劃分了子網掩碼和wifi白名單訪問列表，SSID都是開放的，便於尋找；另外開了免費的SSID2，取名Guest Wifi，開放性的，便於周邊鄰居免費訪問，訪問的速度是1M。 </p>
+	
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="http://192.168.10.69:1313/article/how-to-get-rid-of-loneliness-in-workplace/">教你如何摆脱职场孤独</a></h2>
+  <time class="text-sm antialiased opacity-60">Jan 21, 2012</time> 1 min read
+	<p>我们作为一个职场人物，免不了天天对着一台电脑，里面竟是各种IM，尽管周围都是同事，但难免不了一种孤独的感觉。这是种正常，也是常见的情绪。而我们人更是有一种生理周期。
+如何改变这些难受的感觉呢？！
+A. 专注自己的工作 专注自己的工作，不仅能提高你的工作效率，高效的工作效率可以给人一定的快感，这种快感也足以让你体内的啡肽分泌增多，职场孤独可以适当的进行环节；另方面，也能获取一定的成绩，道理其实和读书的原理一样，你的付出会得到回报的。
+B. 别想太多了 我们的想象力是第一财富，但想多了，财富就会一点点流失了，就想水一样，只有这点容积，一旦过了，就会流失。很多的时候就是我们想得太多，我们的大脑放不了那么多想法，导致情绪上的变化开始复杂起来，其实，无论是职场上的人际关系，还是同事之间的看法等等，这一些对您的行为和细节，或者片言都会让让你转移工作精力，而做出情绪上的抵触，做出一些错误的判断，往往这样的表象会让你身边接触的同事不知所措。
+C. 学会求助他人 工作遇到的问题，总是习惯自己去解决所有问题的人，一般都会在职场上感到孤独，因为他感觉没有人会去帮他，如果问题得不到解决，或者不顺利，会对周围的同事产生一些抱怨感。很简单，即使你能解决这些问题，何不尝试用另种角度去解决，看看别人是如何解决的，这样的求助，既不会损伤别人的根本利益，而且也会得到不少人愿意伸手帮忙的援助之手。要知道，助人为乐还是做人的基本原则。让帮助者做一些他们擅长的事，会帮增加职场交友的一些机会。
+D.别做一个害羞的人，开放点吧 主动切入话题，有可能你们都喜欢篮球，或者某位粉丝达人，也有可能你们是同所学校毕业，更是有类似的经历，总之，遇到共同语言或者共同话题，不管三七二十一，能碰到志趣相同的人也是个缘分，上去说，Yo~~，哈咯之类吧，哈哈哈哈~~~
+雷区点，切记：
+不要经常求助，那也会得到别人的反感。 同事之间不要打听薪水之类话题，在中国这是一个隐私话题，只有老板那里才是公开的话题。如果你从不主动打听，但还是有一个员工，会跑来和你讨论这样的薪水，发奖金等，马上找个机会转移话题吧。 满腹的牢骚留给自己的纸里，然后撕毁他，就当他没发送，一旦这样的牢骚在团队里流传，这就会带来类似瘟疫一样的效果，就比如，一个同事对于工作有厌倦或对老板有抱怨的负面情绪，会很快传染给大家。，对于负面情绪，理应保持警惕，避免大范围的讨论和抱怨。以免自己也深受其害，无法以积极心态工作。 如果你有什么想法或者建议，可以tweet @koojiafeng和我聊聊。 </p>
+	
+</section>
+
+
+
+
+<nav class="mt-16 flex nb">
+  
+  <a class="btn" href="/page/20/">← Prev Page</a>
+  
+  
+  <a class="btn ml-auto" href="/page/22/"
+    >Next Page →</a
+  >
+  
+</nav>
+
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-100"
+>
+  <div class="mr-auto">
+    &copy; 2012-2025
+    <a class="link" href="http://192.168.10.69:1313/">Jiafeng</a>
+  </div>
+  <a class="link mx-6" href="#">Cookies</a>
+  <a class="link mx-6" href="/privacy">Privacy</a>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️ </a>
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >Paper</a
+  >
+</footer>
+
+  </body>
+</html>

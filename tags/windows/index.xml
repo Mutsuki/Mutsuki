@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Jiafeng</title>
+    <link>http://192.168.10.69:1313/tags/windows/</link>
+    <description>Recent content in Windows on Jiafeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 04 Mar 2012 22:21:59 +0800</lastBuildDate>
+    <atom:link href="http://192.168.10.69:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows 8 CP</title>
+      <link>http://192.168.10.69:1313/article/windows8-consumer-preview/</link>
+      <pubDate>Sun, 04 Mar 2012 22:21:59 +0800</pubDate>
+      <guid>http://192.168.10.69:1313/article/windows8-consumer-preview/</guid>
+      <description>Windows8 CP從我適用下來的感覺，是靠平板方向發展的，他已經不是單獨的體驗系統。當然還需大力發展64位構架系統。 基本上所有的程序都能兼容，部分加密程序和系統修改類程序會出現錯誤，可以理解。本人裝的Norton殺軟還是能運行。系統策略，域管理都能正常運行，唯一不解的是ReFS格式只能在Win8 Server版本上適用，即使在普通版我們只能在硬盤管理認出，但不能讀取和寫入。App也並不是很完善，天氣這樣的程序無法正常在内陸使用。當然他的MAIL APP相當給力，很喜歡這樣大氣的界面。&#xA;不過說回來，Win8是靠平板電腦方向發展的，所以從一些習慣上也已經開始脫離群衆，比如我們的關機按鈕消失到了登陸界面，這點和gnome3一樣。再來説一個Win8 不好的地方，系統修改部分藏得太深，不如OS X的簡單大方，這點令人十分不舒服，找一個控制面板得從sidebar裏尋找；開始按鈕也消失了，代替的是win鍵來直接控制，或者鼠標點擊屏幕右下方。&#xA;64位系統還是保留了很多32位程序，WMP音樂播放器默認打開的是32位。IE10有2种，眾所都知的桌面IE和Metro IE。&#xA;Q：系統裝32位好還是裝64位好？&#xA;A：如果内存在4G（包括4G）可以上64位系統，運行的速度是64位優於32位體系。&#xA;BUG的地方是複製音樂文件夾，如果帶有cover.jpg這樣的文件，提示之後，（99%）複製進制面板一直會浮著。&#xA;Merto</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,173 @@
+baseURL = "https://www.koojiafeng.com/"
+title = "Jiafeng"
+author = "KooJiafeng"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+paginate = 2
+languageCode = "zh-CN"
+DefaultContentLanguage = "en"
+#enableInlineShortcodes = false
+ignoreErrors = ["error-remote-getjson"]
+
+#contentDirs = ["content"]
+#publishDir = "public"
+#  postDir = "/post/2024"
+
+# 启用.html后缀地址，默认URL为/filename/，启用为/filename.html
+uglyurls = false
+
+# 指定.Summary 的长度
+summaryLength = 70
+
+# 启用生成robots.txt文件
+enableRobotsTXT = false
+
+toc = true                # 是否开启目录
+autoCollapseToc = true   # Auto expand and collapse toc
+
+# ------------------------------
+
+[params]
+  color = 'light'
+  twitter = 'koojiafeng'
+  github = 'koojiafeng'
+  instagram = 'koojiafeng'
+#  mastodon ="https://fairy.id/@sebastian"
+# keywords: [Blog, Portfolio, PaperMod]
+  name = '一个人在路上'
+  bio = '美好生活'
+  rss = false
+#  clearReading = true
+  author =  'koojiafeng'
+  
+# misc
+  disableHLJS = false                        # disable highlight.js
+  disablePostNavigation = false
+#  monoDarkIcon = true 
+# math = true
+  
+#[build]
+#  [build.buildStats]
+#     enable = true
+#[[build.cachebusters]]
+#    source = 'assets/.*\.(.*)$'
+#    target = '$1'
+
+#[[redirects]]
+#  force = true
+#  from = '/myspa/**'
+#  status = 200
+#  to = '/myspa/'
+      
+[frontmatter]
+  date = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
+  expiryDate = ['expirydate', 'unpublishdate']
+  lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
+  publishDate = ['publishdate', 'pubdate', 'published', 'date']
+# ------------------------------
+
+[minify]
+  disableCSS = true
+#  disableHTML = flase
+  disableXML = true
+  disableJS = false
+#  minifyOutput: true
+  disableSVG = false
+
+#thumbnailImage = true
+#autoThumbnailImage = true
+#thumbnailImagePosition = "bottom"
+
+#[caches]
+#  [caches.assets]
+#    dir = ':resourceDir/_gen'
+#    maxAge = -1
+#  [caches.getcsv]
+#    dir = ':cacheDir/:project'
+#    maxAge = -1
+#  [caches.getjson]
+#    dir = ':cacheDir/:project'
+#    maxAge = -1
+#  [caches.getresource]
+#    dir = ':cacheDir/:project'
+#    maxAge = -1
+#  [caches.images]
+#    dir = ':resourceDir/_gen'
+#    maxAge = -1
+#  [caches.modules]
+#    dir = ':cacheDir/modules'
+#    maxAge = -1
+
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    lineNos = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "gear"
+    name = "Gear"
+    url = "/stuff-i-use/"
+    weight = 30  
+  [[menu.main]]
+    identifier = "bookshelf"
+    name = "Bookshelf"
+    url = "/bookshelf/"
+    weight = 40
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 50
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 20    
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+  [services.twitter]
+    disableInlineCSS = true
+
+[permalinks]
+  # post: "/:year/:month/:day/:title/"
+  [permalinks.page]
+    post = '/article/:slug/'
+    tutorials = '/training/:slug/'
+  [permalinks.section]
+    post = '/article/'
+    tutorials = '/training/'
+

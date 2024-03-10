@@ -1,0 +1,110 @@
+{{ define "main" }}
+
+<article>
+
+  <header class="mb-16">
+<div id="stuff-back-header">
+<a class="back" href="/stuff-i-use/"><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M52.01 39.02H32.02v8.01l-.01 0c-.01 1.1-.9 2-2.01 2 -.47-.01-.93-.17-1.29-.47L10.68 33.54l-.01-.01c-.85-.71-.97-1.97-.26-2.82 .07-.1.16-.18.25-.26l18.02-15.02 -.01 0c.84-.71 2.11-.6 2.82.25 .29.35.46.81.46 1.28v8.01h19.98l-.01 0c1.1-.01 2 .89 2 1.99v10l0 0c0 1.1-.9 2-2 2 -.01 0-.01-.01-.01-.01Z"></path></svg><span>Stuff I use</span></a>
+</div>
+<h1 class="!my-0 pb-2.5">{{ .Title }}</h1>
+
+    {{ if ne .Type "page" }}
+
+    <div class="text-sm antialiased opacity-60">
+
+      {{ if .Params.categories }}
+        {{ range .Params.categories }} {{ $href := print (absURL "categories/") (urlize .) }}
+            Published in: <a  href="{{ $href }}">{{ . }}</a>
+      {{ end }}
+      <span class="middot-divider"></span>
+      {{ printf " %d min read" .ReadingTime }} 
+    </div>
+    {{ end }}
+
+<h3 class="subtitle">{{ .Description }}</h3>
+
+  {{ end }}
+    {{ if ( .Site.Params.toc | default true ) }}
+          {{ partial "toc.html" . }}
+  {{ end }}
+  </header>
+  
+  <section>{{ .Content }}</section>
+
+  <!-- Post Tags -->
+  {{ if .Params.tags }}
+  <footer class="mt-12 flex flex-wrap">
+    {{ range .Params.tags }} {{ $href := print (absURL "tags/") (urlize .) }}
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="{{ $href }}"
+      >{{ . }}</a
+    >
+    {{ end }}
+  </footer>
+  {{ end }}
+  
+
+  
+
+  <!-- Post Nav -->
+  {{ if not site.Params.disablePostNavigation }}<!---->
+  {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}<!---->
+  {{ if and (gt (len $pages) 1) (in $pages . ) }}
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    {{ with $pages.Next . }}
+    <a
+      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="{{ .Permalink }}"
+      ><span class="mr-1.5">←</span><span>{{ .Name }}</span></a
+    >
+    {{ end }}<!---->
+    {{ with $pages.Prev . }}
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="{{ .Permalink }}"
+      ><span>{{ .Name }}</span><span class="ml-1.5">→</span></a
+    >
+    {{ end }}
+  </nav>
+  {{ end }}<!---->
+  {{ end }}
+
+
+
+
+
+
+
+
+
+{{/*  Load plyr.io  */}}
+
+{{ if or ( .HasShortcode "audio" ) ( .HasShortcode "video" )  ( .HasShortcode "archive-audio" ) }}
+
+    <link rel="stylesheet" href="/css/plyr.css">
+
+    <script src="/js/plyr.polyfilled.js" crossorigin="anonymous"></script>
+    <script>
+      (function() {
+        const players = Array.from(document.querySelectorAll('.player')).map(
+            p => new Plyr(p, {
+                controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'download', 'fullscreen'],
+                {{/*  autoplay: true,  */}}
+                {{/*  settings: ['speed']  */}}
+            })
+        );
+        {{/*  Stop other players when starting  */}}
+        players.forEach(function(p){
+            p.on('play', event => {
+                const instance = event.detail.plyr;
+                console.log('Stop others players');
+                players.forEach(function(p){ if(p != instance) p.stop()});
+            })
+        });
+    })();
+    </script>
+
+{{ end }}
+
+{{ end }}

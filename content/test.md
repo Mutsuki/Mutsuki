@@ -2,7 +2,7 @@
 title: "test"
 date: 2022-10-22T19:55:12Z
 lastmod: 2024-10-22T19:55:12Z
-draft: false
+draft: true
 description: ''
 categories:
   - Uncategories
@@ -21,7 +21,7 @@ thumbnailImage: {head-1.jpg}
         <a href="https://turbo.paulstamatiou.com/uploads/2019/09/copyright-paulstamatiou_com-security-keys-DSC04276-2000.jpg"><img data-ratio="1.4477" src="/images/1311.webp" data-webp="true" style="height: 691px; width: 1000.36px;" data-loaded="true"></a>
     </figure>
   </div>
-  <div class="caption">A USB-C YubiKey 5C security key plugged into my ThinkPad X1 Carbon</div>
+  <div class="caption">A USB-C f YubiKey 5C security key plugged into my ThinkPad X1 Carbon</div>
 </section>
 
 ![screen reader text](/snip/1122.png "caption")

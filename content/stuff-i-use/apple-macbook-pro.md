@@ -1,6 +1,6 @@
 +++
-publishDate = 2023-07-12T08:55:29Z
-lastmod = 2024-02-11T08:00:12Z
+#publishDate = 2023-07-12T08:55:29Z
+#lastmod = 2024-02-11T08:00:12Z
 description = "Macbook Pro"
 draft = false
 slug = "apple-macbook-pro"

@@ -1,7 +1,7 @@
 +++
 title = "我常用的程序"
-date = 2024-02-06T14:36:14Z
-lastmod = 2024-02-06T14:36:14Z
+#date = 2024-02-06T14:36:14Z
+#lastmod = 2024-02-06T14:36:14Z
 description = "我常用的一些程序"
 draft = false
 slug = "software-i-use"

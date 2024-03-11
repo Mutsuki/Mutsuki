@@ -5,6 +5,12 @@
 <h1 class="mb-16">#{{ .Title }}</h1>
 {{ end }}
 
+{{ $pages := .Pages }}
+{{ if .IsHome }}
+{{ $pages = .Site.RegularPages }}
+{{ end }}
+{{ $paginator := .Paginate $pages }}
+
 <!-- $pages -->
 {{ $pages := union .RegularPages .Sections }}<!---->
 {{ if .IsHome }}<!---->
@@ -70,3 +76,4 @@
 {{ end }}<!---->
 
 {{ end }}
+

@@ -1,7 +1,7 @@
 baseURL = "https://www.koojiafeng.com/"
 title = "Jiafeng"
 author = "KooJiafeng"
-copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+#copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 paginate = 2
 languageCode = "zh-CN"
 DefaultContentLanguage = "en"
@@ -19,7 +19,7 @@ uglyurls = false
 summaryLength = 70
 
 # 启用生成robots.txt文件
-enableRobotsTXT = false
+# enableRobotsTXT = false
 
 toc = true                # 是否开启目录
 autoCollapseToc = true   # Auto expand and collapse toc
@@ -40,8 +40,8 @@ autoCollapseToc = true   # Auto expand and collapse toc
   author =  'koojiafeng'
   
 # misc
-  disableHLJS = false                        # disable highlight.js
-  disablePostNavigation = false
+#  disableHLJS = false                        # disable highlight.js
+#  disablePostNavigation = false
 #  monoDarkIcon = true 
 # math = true
   
@@ -51,19 +51,13 @@ autoCollapseToc = true   # Auto expand and collapse toc
 #[[build.cachebusters]]
 #    source = 'assets/.*\.(.*)$'
 #    target = '$1'
-
-#[[redirects]]
-#  force = true
-#  from = '/myspa/**'
-#  status = 200
-#  to = '/myspa/'
-      
+    
 [frontmatter]
   date = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
   expiryDate = ['expirydate', 'unpublishdate']
   lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
   publishDate = ['publishdate', 'pubdate', 'published', 'date']
-# ------------------------------
+
 
 [minify]
   disableCSS = true
@@ -138,29 +132,28 @@ tag = "tags"
 series = "series"
 
 [privacy]
+#  [privacy.vimeo]
+#    disabled = false
+#    simple = true
 
-  [privacy.vimeo]
-    disabled = false
-    simple = true
+#  [privacy.twitter]
+#    disabled = false
+#    enableDNT = true
+#    simple = true
 
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
+#  [privacy.instagram]
+#    disabled = false
+#    simple = true
 
-  [privacy.instagram]
-    disabled = false
-    simple = true
+#  [privacy.youtube]
+#    disabled = false
+#    privacyEnhanced = true
 
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-  [services.instagram]
-    disableInlineCSS = true
-  [services.twitter]
-    disableInlineCSS = true
+#[services]
+#  [services.instagram]
+#    disableInlineCSS = true
+#  [services.twitter]
+#    disableInlineCSS = true
 
 [permalinks]
   # post: "/:year/:month/:day/:title/"

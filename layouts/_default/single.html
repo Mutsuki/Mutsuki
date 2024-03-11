@@ -114,9 +114,6 @@ Update: <abbr class="published"><time>{{ .Lastmod | time.Format ":date_long" }}<
 
 </article>
 
-
-
-
 {{/*  Load plyr.io  */}}
 
 {{ if or ( .HasShortcode "audio" ) ( .HasShortcode "video" )  ( .HasShortcode "archive-audio" ) }}

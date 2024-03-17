@@ -14,7 +14,7 @@ layout: 'stuff'
 
 中学的时候我已经开始玩转各种系统，那台Lenovo电脑装的是当时最新的系统Windows XP，直到后来无法运行Windows Vista的时候我才开始淘汰了它。期间我也装了Windows 95，Windows 98,，Windows Me，Windows Server 2000，和Windows XP。直到后来上了中专我开始做私服魔兽世界和奇迹世界，那台Lenovo台式机的硬件已经是负荷运行了，无奈对网页技术和网络技术不熟悉，经常被黑。
 
-工作后在有限的经济实力购买一台像模像样的配置，购买华硕的ROG系列设备，机箱我则是爱上了全塔式水冷“追风者”，以及用上了当年最强大的CPU处理器i9900K处理器，后最终，资金不足的情况，选择购买AMD 5700XT。
+工作后在有限的经济实力购买一台像模像样的配置，购买华硕的ROG系列设备，机箱我则是爱上了全塔式水冷“追风者”，以及用上了当年最强大的CPU处理器i9900K处理器，最终，资金不足的情况，选择购买AMD 5700XT。
 
 <article id="postex" >
 <ul class="build-list no-price" id="full_parts_list">

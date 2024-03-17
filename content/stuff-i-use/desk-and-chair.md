@@ -7,6 +7,5 @@ slug = "desk-and-chair"
 title = "desk & chair"
 layout = 'stuff'
 subtitle = "test"
-
 +++
 This page to be updated...

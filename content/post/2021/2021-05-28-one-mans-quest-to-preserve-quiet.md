@@ -2,7 +2,7 @@
 title: "一个人保持安静的任务"
 date: 2021-05-28T18:09:00Z
 draft: false
-description: ''
+description: '人到中年，光阴老去，压不住的岁月苍凉，荼靡暮雪时光。小巷深处，不再静候花开，陌上风采，已是过往云烟。'
 categories:
   - journal
 tags:

@@ -7,8 +7,6 @@ draft = false
 slug = "software-i-use"
 layout = 'stuff'
 +++
-之前我组装了一台PC，我大部分的工作都靠这台设备来完成，它是一台性能很强的设备，可以目前满足我所有的需求，以及娱乐。
-
 ### Windows常用的应用
 <ul class="compact">
 <li><p><strong>Gaming:</strong>  Ubisoft, Xbox</p></li>
@@ -45,6 +43,7 @@ layout = 'stuff'
 <ul class="compact">
 <li><p>uBlock Origin</p></li>
 </ul>
+
 ### 支付的服务
 <ul class="compact">
 <li><p>Email Services: Protonmail</p></li>
@@ -53,3 +52,4 @@ layout = 'stuff'
 <li><p>Domain name registrars: </p></li>
 <li><p>ISPs:</p></li>
 </ul>
+

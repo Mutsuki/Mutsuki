@@ -1,7 +1,7 @@
 +++
 publishdate = 2021-08-11T18:30:38.000Z
 lastmod = 2024-03-10T15:28:54.000Z
-description = ""
+description = "工具，得益我们如何正确的使用，才是应该做的事"
 draft = false
 slug = "things-to-know-about-smartphones"
 title = "智能手机这些事"

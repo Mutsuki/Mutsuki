@@ -69,8 +69,6 @@ a:active, a:focus {
     color: #acb1bf;
 }
 
-
-
 :is(:where(.dark) a:visited ) {
     text-decoration-color: rgb(144, 140, 170);
     color: rgb(224, 222, 244);
@@ -1267,23 +1265,11 @@ section figure img, section .center img {
     -ms-interpolation-mode: bicubic;
 }
 
-.build-list {
-    margin-top: 2em;
-}
+
 section ul {
     margin-bottom: 1.75rem;
 }
-ul.build-list {
-    margin: 3.5em 0;
-    padding: 1.5em;
-    border: 3px solid #e5e4e3;
-    border-radius: 12px;
-}
-ul.build-list h6:first-child {
-    margin-top: 0em;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-}
+
 section h6 {
     margin-top: 2em;
 }
@@ -1308,11 +1294,11 @@ h6 {
     line-height: 1.1;
     letter-spacing: -0.01em;
 }
-.build-list li {
+section .build-list li {
     margin-left: 0;
 }
 
-ul.build-list li {
+section ul.build-list li {
     list-style-type: none;
     margin-left: 0;
     border-bottom: 1px solid #c5cdd2;
@@ -1320,6 +1306,11 @@ ul.build-list li {
     padding-bottom: .85em;
 }
 
+section ul li {
+    margin: 0 0 1rem 1.1rem;
+    margin-left: 1.1rem;
+    list-style-type: disc;
+}
 
 ul.build-list.no-price .product {
     width: 100%;
@@ -1357,14 +1348,7 @@ ul.build-list li .product .type {
 ul.build-list li .product a:hover {
     background: #dfedf8;
 }
-ul.build-list li:after  {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden;
-    font-size: 0;
-}
+
 
 .post-toc {
     position: fixed;
@@ -1501,8 +1485,45 @@ ul li {
     margin-bottom: var(1.5rem, 0.5em);
     position: relative;
 }
-:is(:where(.dark) ul:not(.list-none) li:before ) {
-    background: white;
+
+section #postex .build-list {
+    margin-top: 2em;
+}
+section #postex ul.build-list {
+    margin: 3.5em 0;
+    padding: 1.5em;
+    border: 3px solid #c5cdd2;
+    border-radius: 12px;
+}
+:is(:where(.dark) section ul.build-list  ) {
+    border: 3px solid #232831d2;
+}
+section ul.build-list h6:first-child {
+    margin-top: 0em;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+section .build-list li:last-child {
+  margin-bottom:0;
+  padding-bottom:0
+}
+
+section #postex ul.build-list li {
+  list-style-type: none;
+  margin-left: 0;
+  border-bottom: 1px solid #c5cdd2
+  margin-bottom: .85em;
+  padding-bottom: .85em;
+  position: ;
+}
+
+:is(:where(.dark) #postex .build-list li ){
+  border-color: #232831d2;
+}
+
+:is(:where(.dark) #postex h6 ) {
+  color: white;
 }
 
 section ul:not(.list-none) li:before {
@@ -1512,13 +1533,96 @@ section ul:not(.list-none) li:before {
     left: -0.9em;
     top: 0.7em;
 }
-ul:not(.list-none) li:before {
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    content: "";
-    background: #0d6dc1;
-    border-radius: 50%;
-    top: 0.65em;
-    left: -1.5em;
+section ul:not(.list-none) li:before {
+//*  position:absolute; *//
+  width: 7px;
+  height: 7px;
+  content: "";
+  border-radius: 50%;
+  top: 0.65em;
+  left: -1.5em;
+}
+
+section .noneli ul:not(.list-none) li:before {
+  position: none;
+}
+
+section ul:not(.list-none) li>ul li:before {
+  background:#96a1ad
+}
+
+.clearfix::after, #experience .experience-header::after, .hover-to-play::after, #postex ul.build-list li::after, #postex .post_embed::after, .photoset .photoset-row::after, #postex .photoset .photoset-row::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+ul.build-list.no-price .product {
+    width: 100%;
+}
+ul.build-list li .product {
+    float: left;
+    width: 87%;
+}
+.build-list li .product a {
+    font-size: 1em;
+}
+ul.build-list li .product a {
+    font-size: 1.15em;
+    color: #dd1144;
+    font-weight: 600;
+    padding: 6px 8px;
+    margin-left: -8px;
+    border-radius: 3px;
+}
+.build-list li .product .type {
+    font-size: 0.85rem;
+}
+ul.build-list li .product .type {
+    margin-bottom: 0px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #818e93;
+}
+ul.build-list li .product a:hover {
+    background: #dfedf8;
+}
+
+#postex ul.build-list li .product a {
+  font-size:1.15em;
+  color:#2489d7;
+  font-weight:600;
+  padding:6px 8px;
+  margin-left:-8px;
+  border-radius:3px
+}
+#postex ul.build-list li .product a:hover {
+  background:#dfedf8
+}
+#postex ul.build-list li .product strong {
+  display:block;
+  font-size:0.9rem;
+  color:#62707a
+}
+#postex ul.build-list li .product .product-desc {
+  line-height:1.6;
+  font-size:1rem;
+  margin-bottom:1em
+}
+#postex ul.build-list li .product .product-desc a {
+  font-weight:500;
+  font-size:inherit
+}
+@media only screen and (max-width: 40em) {
+  #postex ul.build-list li .product {
+    float:none;
+    display:block;
+    width:100%
+  }
+  #postex ul.build-list li .product .product-desc {
+    margin-bottom:0
+  }
 }

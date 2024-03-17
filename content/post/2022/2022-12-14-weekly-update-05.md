@@ -2,7 +2,7 @@
 categories = ["Life"]
 date = 2022-12-14T00:46:00Z
 lastmod = 2024-03-10T15:29:14.000Z
-description = ""
+description = "人生，总有意想不到的事会发生"
 draft = false
 slug = "weekly-update-05"
 tags = ["Life"]

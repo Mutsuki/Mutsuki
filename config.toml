@@ -164,3 +164,5 @@ series = "series"
     post = '/article/'
     tutorials = '/training/'
 
+[outputs]
+  home = ["HTML", "RSS"]

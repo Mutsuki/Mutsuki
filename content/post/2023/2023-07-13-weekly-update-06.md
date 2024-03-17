@@ -1,12 +1,12 @@
 +++
 categories = ["Life"]
 date = 2023-07-13T20:30:00Z
-description = ""
+description = "风雨兼程，半生已过。是非功过，不再评说。余生，只想安静的顺着自己的生活方式，不再为难自己。"
 draft = false
 slug = "weekly-update-06"
 tags = ["Life"]
 title = "Weekly Update 06"
-summary = "最近趁着有一点时间，把自己10几年前设计的东西拿了出来看看，并重新打包成html脚本"
+summary = "风雨兼程，半生已过。是非功过，不再评说。余生，只想安静的顺着自己的生活方式，不再为难自己。"
 author = "koojiafeng"
 featured_image = "/images/2024/photo-1708793699503-7834e296d745.avif"
 retina_image =  "/images/2024/photo-1708793699503-7834e296d745.avif"

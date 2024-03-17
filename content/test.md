@@ -18,7 +18,7 @@ thumbnailImage: {head-1.jpg}
 <section class="photoset">
   <div class="photoset-row">
     <figure class="photoset-item single feature-" data-pswp-uid="1">
-        <a href="https://turbo.paulstamatiou.com/uploads/2019/09/copyright-paulstamatiou_com-security-keys-DSC04276-2000.jpg"><img data-ratio="1.4477" src="/images/1311.webp" data-webp="true" style="height: 691px; width: 1000.36px;" data-loaded="true"></a>
+        <a href=""><img data-ratio="1.4477" src="/images/1311.webp" data-webp="true" style="height: 691px; width: 1000.36px;" data-loaded="true"></a>
     </figure>
   </div>
   <div class="caption">A USB-C f YubiKey 5C security key plugged into my ThinkPad X1 Carbon</div>
@@ -108,5 +108,5 @@ Fruitcake caramels macaroon. Jelly beans wafer caramels. Jelly beans chocolate b
 <h6 class="toc toc-hidden" id="fn">Footnotes</h6>
 <p id="footnote-1"><a href="#r1">1</a> 当然这是验证</p>
 
-<p id="footnote-2"><a href="#r2">2</a> And yes you can <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=200549320" title="Lend or Borrow Kindle Books">lend Kindle books to friends</a>. Amazon Prime members can also <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=200757120" title="Borrow Books from the Kindle Owners' Lending Library">borrow Kindle books directly from Amazon</a> (up to one per month) without needing to purchase them.</p>
+<p id="footnote-2"><a href="#r2">2</a> And yes you can <a href="https://about:blank" title="Lend or Borrow Kindle Books">lend Kindle books to friends</a>. Amazon Prime members can also <a href="#" title="Borrow Books from the Kindle Owners' Lending Library">borrow Kindle books directly from Amazon</a> (up to one per month) without needing to purchase them.</p>
 </section>

@@ -48,7 +48,6 @@ layout = 'stuff'
 <ul class="compact">
 <li><p>Email Services: Protonmail</p></li>
 <li><p>Entertainment: Notion, Bilibili, Ulysses</p></li>
-<li><p><del></del></p></li>
 <li><p>Domain name registrars: </p></li>
 <li><p>ISPs:</p></li>
 </ul>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Jiafeng</title>
+    <link>http://192.168.10.69:1313/tags/test/</link>
+    <description>Recent content in Test on Jiafeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 22 Oct 2022 19:55:12 +0000</lastBuildDate><atom:link href="http://192.168.10.69:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>http://192.168.10.69:1313/test/</link>
+      <pubDate>Sat, 22 Oct 2022 19:55:12 +0000</pubDate>
+      
+      <guid>http://192.168.10.69:1313/test/</guid>
+      <description>
+        
+        A USB-C f YubiKey 5C security key plugged into my ThinkPad X1 Carbon {% callout type=&amp;ldquo;check&amp;rdquo; %} Markdoc is open-source—check out its source to see how it works. {% /callout %}
+1 2 3 # Example of code highlighting input_string_var = input(&amp;#34;Enter some data: &amp;#34;) print(&amp;#34;You entered: {}&amp;#34;.format(input_string_var)) 1 2 3 4 5 6 7 8 9 &amp;lt;pre&amp;gt;&amp;lt;code class=&amp;#34;language-html&amp;#34;&amp;gt; &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css&amp;#34;&amp;gt; &amp;lt;script src=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;!-- and it&amp;#39;s easy to individually load additional languages --&amp;gt; &amp;lt;script src=&amp;#34;https://cdnjs.
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smartphone on Jiafeng</title>
+    <link>http://192.168.10.69:1313/tags/smartphone/</link>
+    <description>Recent content in Smartphone on Jiafeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 14 Aug 2015 19:55:12 +0000</lastBuildDate><atom:link href="http://192.168.10.69:1313/tags/smartphone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIUI7 这些事</title>
+      <link>http://192.168.10.69:1313/article/miui7/</link>
+      <pubDate>Fri, 14 Aug 2015 19:55:12 +0000</pubDate>
+      
+      <guid>http://192.168.10.69:1313/article/miui7/</guid>
+      <description>
+        
+        MIUI7发布时第一时间就安装了，虽然和传闻中的Android版本不一样，但想必MIUI自家开发的Android版本有相应的优化处理和开发能力。我的红米2手机安装好MIUI7后，还是很明显的感觉&amp;hellip;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

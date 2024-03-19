@@ -7,6 +7,7 @@ slug = "baddminton-equipment-i-use"
 title = "羽毛球设备"
 layout = 'stuff'
 +++
+<article id="postex" >
 <ul class="build-list no-price" id="full_parts_list">
         <h6>羽毛拍</h6>
         <li>
@@ -46,6 +47,10 @@ layout = 'stuff'
         </div>
         </li>
 </ul>
+</article>
+
+
+<article id="postex" >
 <ul class="build-list no-price" id="full_parts_list">
 <h6>鞋子</h6>
 <li>
@@ -55,3 +60,4 @@ layout = 'stuff'
 </div>
 </li>
 </ul>
+</article>

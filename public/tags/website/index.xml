@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website on Jiafeng</title>
+    <link>http://192.168.10.69:1313/tags/website/</link>
+    <description>Recent content in Website on Jiafeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 09 Oct 2021 07:16:19 +0000</lastBuildDate><atom:link href="http://192.168.10.69:1313/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>网站建设中</title>
+      <link>http://192.168.10.69:1313/article/building/</link>
+      <pubDate>Sat, 09 Oct 2021 07:16:19 +0000</pubDate>
+      
+      <guid>http://192.168.10.69:1313/article/building/</guid>
+      <description>
+        
+        &lt;p&gt;网站建设中&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>您好，世界 2010</title>
+      <link>http://192.168.10.69:1313/article/hello-world-2010/</link>
+      <pubDate>Sun, 14 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.10.69:1313/article/hello-world-2010/</guid>
+      <description>
+        
+        很高兴这个站点完成了，当然还是有很多细节未完成，感谢几位朋友的帮忙，当然我也会以特别的页面来介绍下的。
+之后还有英文版的页面。 00年接触电脑到现在有10年了，03年初有自己的PC和宽带，写博应该有些年数了，也应该定位了，所以就以实名的域名定了下来。
+一批程序和联系方式也会慢慢转过来。打算写一些生活，工作中的一些Tips（技巧），应该不太会再写技术类的文章，编程技术的解决方式对我来说是有瓶颈的，我已不在是技术份子了，而且也退出了某基金会组织，不过我会保持这一份热情的爱好将它延续下去的。留言评论的问题我想说明下，因为评论需要审核的，非常麻烦，没这精力去一条条审批，未知的垃圾留言也非常多，何况没有思想的留言现象也挺严重，当然这里没有何任歧视各位的意思。
+      </description>
+    </item>
+    
+    <item>
+      <title>textpattern</title>
+      <link>http://192.168.10.69:1313/article/use-textpattern/</link>
+      <pubDate>Fri, 13 Apr 2007 09:40:00 +0000</pubDate>
+      
+      <guid>http://192.168.10.69:1313/article/use-textpattern/</guid>
+      <description>
+        
+        正如我现在在做的就是熟悉textpattern程序了，从目前来说wordpress程序已经在国内普及了，不如说是泛滥了。
+对于这款CMS到现在说已经相当成熟了，甚至Wordpress程序的几位主力开发人员都离开了原有团队，而开发了另种程序 Habari 程序，不过它对服务器的要求有点过分。不过为什么会想到使用textpattern程序呢，其实原因有很多，Wordpress已经很优秀了，至于是否会使用，还得再观察下，因为对Textpattern程序，我还很陌生。
+我大概看了一篇Laogui的文章，是“ 给Textpattern换了个皮肤”的文章，可我只了解了模板标签的灵活度要比Wordpress高些，至于它说的速度，可能还有点偏见，当然我没法证明些什么，不过Wordpress的主要速度还是取决于它的插件多少和它的pingback及trackback；而Laogui在文章提到Di的文章里，似乎对我来说专业了些，不过我还是把他给看完了，还有其后的回复，似乎Textpattern对我来说还是其复杂了些，我甚至搜索了国内的几个 textpattern的Blogger，对于它的评鉴实在则少，根本不能了解些什么，但我不知道为何还有要使用它的冲动？！不过，这个球还是在我自己的手中，是否会选择它我也不是很清除，因为还没给自己找到一个适合的理由去换掉Wordpress。
+说回来，blog的本质还是取决作者发布的内容。
+      </description>
+    </item>
+    
+  </channel>
+</rss>

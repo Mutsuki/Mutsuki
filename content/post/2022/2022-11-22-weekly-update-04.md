@@ -3,7 +3,7 @@ title: "Weekly update 04"
 slug: weekly-update-04
 date: 2022-11-22T17:44:00Z
 draft: false
-description: '日志'
+description: '人必须过他可以接受的生活，这恰恰是他改变一切的动力。人有了心胸，就可以用他来改变自己的生活。'
 categories:
   - Life
 tags:

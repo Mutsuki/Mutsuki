@@ -1485,7 +1485,9 @@ ul li {
     margin-bottom: var(1.5rem, 0.5em);
     position: relative;
 }
-
+#postex ul.build-list li:before {
+  display:none;
+}
 section #postex .build-list {
     margin-top: 2em;
 }
@@ -1495,8 +1497,8 @@ section #postex ul.build-list {
     border: 3px solid #c5cdd2;
     border-radius: 12px;
 }
-:is(:where(.dark) section ul.build-list  ) {
-    border: 3px solid #232831d2;
+:is(:where(.dark) ul.build-list  ) {
+    border: 3px solid #232831d2 !important;
 }
 section ul.build-list h6:first-child {
     margin-top: 0em;
@@ -1509,17 +1511,18 @@ section .build-list li:last-child {
   padding-bottom:0
 }
 
-section #postex ul.build-list li {
+#postex ul.build-list li {
   list-style-type: none;
   margin-left: 0;
-  border-bottom: 1px solid #c5cdd2
+  border-bottom: 1px solid #c5cdd2;
   margin-bottom: .85em;
   padding-bottom: .85em;
   position: ;
 }
 
+
 :is(:where(.dark) #postex .build-list li ){
-  border-color: #232831d2;
+  border-color: #232831d2 !important;
 }
 
 :is(:where(.dark) #postex h6 ) {
@@ -1534,10 +1537,10 @@ section ul:not(.list-none) li:before {
     top: 0.7em;
 }
 section ul:not(.list-none) li:before {
-//*  position:absolute; *//
+/*  position:absolute; */
   width: 7px;
   height: 7px;
-  content: "";
+/*  content: ""; */
   border-radius: 50%;
   top: 0.65em;
   left: -1.5em;
@@ -1625,4 +1628,8 @@ ul.build-list li .product a:hover {
   #postex ul.build-list li .product .product-desc {
     margin-bottom:0
   }
+}
+
+:is(:where(.dark) section h5 ) {
+    color: #fff !important;
 }

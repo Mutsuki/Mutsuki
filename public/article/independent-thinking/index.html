@@ -1,0 +1,450 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #fff"
+  lang="zh-CN"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+  />
+
+  
+  <title>独立思考 - Jiafeng</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+
+  <meta name="author" content="一个人在路上" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://192.168.10.69:1313/main.min.css" />
+  
+  <script src="http://192.168.10.69:1313/js/jiafeng.js"></script>
+  <script src="http://192.168.10.69:1313/css/plyr.css"></script>
+
+  <script src="http://192.168.10.69:1313/js/plyr.js"></script>
+  <script src="http://192.168.10.69:1313/js/plyr.polyfilled.js"></script>
+   
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/theme.png" />
+
+
+
+  
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/twitter.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/github.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/instagram.svg" />
+  
+  <link rel="preload" as="image" href="http://192.168.10.69:1313/rss.svg" />
+  
+  
+
+  
+  
+  <script
+    defer
+    src="http://192.168.10.69:1313/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="http://192.168.10.69:1313/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://192.168.10.69:1313/apple-touch-icon.png" />
+
+
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://feeds.feedburner.com/brando"
+      title="Jiafeng">	  
+	  
+
+  <meta name="generator" content="Hugo 0.123.8">
+
+
+
+<style>
+@font-face {
+    font-family: AlimamaFangYuanTiVF;
+    src:url(/font/AlimamaFangYuanTiVF-Thin.ttf) format('TrueType'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff) format('woff'),
+        url(/font/AlimamaFangYuanTiVF-Thin.woff2) format('woff2');
+}
+@font-face  {
+    font-family: Miriam Libre;
+    src:url(/font/MiriamLibre-Regular.ttf) format('TrueType'),
+        url(/font/MiriamLibre-Bold.ttf) format('TrueType');
+}
+</style>
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    
+<header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="http://192.168.10.69:1313/"
+      >Jiafeng</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#fff'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/archives/"
+        >Archives</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/stuff-i-use/"
+        >Gear</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/bookshelf/"
+        >Bookshelf</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/contact/"
+        >Contact</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/koojiafeng"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="https://feeds.feedburner.com/brando"
+        target="_blank"
+        rel="alternate"
+      >
+        rss
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+<script src="/js/jquery-4.0.0-beta.min.js"
+			  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+			  crossorigin="anonymous"></script>
+<progress id="content_progress" value="0" ></progress>
+<article>
+  <header class="mb-16">
+    
+    <h1 class="!my-0 pb-2.5">独立思考</h1>
+
+
+	<div class="text-sm antialiased opacity-60">
+	  
+
+
+
+          <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title"></h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+<script type="text/javascript">
+  window.onload = function () {
+    var fix = $('.post-toc');
+    var end = $('.post-comment');
+    var fixTop = fix.offset().top, fixHeight = fix.height();
+    var endTop, miss;
+    var offsetTop = fix[0].offsetTop;
+    $(window).scroll(function () {
+      var docTop = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+      if (end.length > 0) {
+        endTop = end.offset().top;
+        miss = endTop - docTop - fixHeight;
+      }
+      if (fixTop < docTop) {
+        fix.css({ 'position': 'fixed' });
+        if ((end.length > 0) && (endTop < (docTop + fixHeight))) {
+          fix.css({ top: miss });
+        } else {
+          fix.css({ top: 0 });
+        }
+      } else {
+        fix.css({ 'position': 'absolute' });
+        fix.css({ top: offsetTop });
+      }
+    })
+  }
+</script> 
+	
+ </header>
+ 
+  <section><p>我曾经在几年前看到过这样的一篇文章，说真的，我很佩服写出这样文章的人。下面就是内容：</p>
+<p>要说中国年轻人独立思考的能力和国外的差距。说实在话，要做到独立思考是很困难而且很痛苦的事情。说他困难，是你就没有一个可靠的信息来源。</p>
+<p>看过一段录像，一个中国人在国外介绍中国历史，“中国有——”，他顿了一下，“四千年历史”。我猜他是想说五千年，但他有偏偏知道其实只有四千年。可大多数中国人是不知道的，连教科书都是错误的。</p>
+<p>除了政府的信息封锁之外，还有个问题在于“专业人士”的不专业。比如招商银行的人竟然能够让客户把CVV码刮掉，但他是错的，刮掉了就成了一张废卡，就像打磨过的CPU一样。既然可以刮掉，还更安全，那为什么要印上去呢？这个银行的人一定不是信用卡部门的，可是站在行外的人看来，他就是专业人士，谁都会信他而不会信我。他如果信誓旦旦的跟我重复，我想连我都会动摇。</p>
+<p>在专业领域越来越细分的今天，<strong>一个专业人士，在谈论哪怕是相邻领域的时候，应该选择闭嘴或者只是闲聊。我们说话，就要说自己精通的，或者确信的，有依据的东西。</strong>可是事实上，我们浅尝则止的东西，就敢摆出一副资深的样子来跟别人说，把那些感性的东西当成公理来说，哪怕误人子弟也无所谓。我认识个司机，到了客户那里竟然在技术会议时插嘴（他也许认为，“岁数这么大了，多少什么都懂一点”），万一对方信以为真，怎么办？更不要说那些在论坛上成天打嘴炮的人们。</p>
+<p>中国人还有一个不好的习惯，大家都习惯于否定身边的人，因为太熟了，他就一定很普通，而专家我们不认识，就一定很牛。很多人是愿意先相信不认识的专家，用专家的意见来攻击熟人的。电子市场的小工，培训两天上岗；心理医生，培训两月上岗；牙医，培训两月上岗……类似的可以列出很多很多。故此，很多东西身边的朋友只要略有研究，就完全可以比某些“专家”更正确，即便不能，他也不会骗你。</p>
+<p>很多信息不可靠，有用的信息我们又不在乎，要独立思考谈何容易？</p>
+<p>说他痛苦，是因为独立思考必然要去冲撞别人。</p>
+<p>独立思考的目的是追求真理，找寻道路，可我们这个民族从来就不需要真理。这个国家的思辨方式是著名的“二元论”，就是色即是空，空即是色，大家都没错这种无赖法子，而不是根据不同的设定来做不同的解答。我们辩论只是为了过嘴瘾，或享受抨击别人的快感。独立思考者说“男人强还是女人强，搞个标准，做个统计，不就知道了么，还辩论什么”，你就是在冲撞所有辩论的人，所有看热闹的人。</p>
+<p>不同的文化背景下成长的人，通常是不能接受文化上的冲撞的。比如中国的地域之间的人们相互攻击，已是常事。拿饮食来说，东北人一提到南方菜，首先说的就是盘子小，一碗饭只有一口，然后就是说菜都很甜，还有说南方人闻到饺子味就不舒服的，说什么的都有，可事实上这都是完全错误的，这一点我将后续撰文详述。在这种情况下，你能站出来否定他们么。德国人非说西藏独立的时候，你也不能给他两巴掌，因为他爹就是这么告诉他的，老外也没有独立思考。</p>
+<p>独立思考通常被笼统的成为“胡思乱想”。小时候所有人都告诉你要“听话”，那养条狗不是更好；小孩子是大人的玩具，大人是大大人的玩具，如果这个玩具不按设定路线走，那就是“胡思乱想”了。在中国这样尊卑有序，森严统治的社会，如果到处是“胡思乱想”的人，产生的社会大冲撞将是不可想象的。</p>
+<p>和力学一样，冲撞别人是有反作用力的，被冲撞多次之后，你不会再有独立思考出来的观点，而是学会了站在多数人的那一方，站在强势的那一方，拿出一个让多数人不嫌弃的观点来，从中捞取好处。</p>
+<p>我曾认为世界的未来在日本，不仅仅因为日本人的专业工作方式，还在于日本人可以有任何观点，虽然也是尊卑有序的社会，但哪怕“关西独立论”，或者其他变态的异端的学说，都可以摆在书店里卖。换了在中国即便能出版，公众只有两个字扔过来，“偏激”。不要说顽固的上一代人，连我们这一代人里面，多数人都是没有包容心的。</p>
+<p>我们改变不了别人，但愿我们老了，能包容后一代，但愿下一代人，能有一个能独立思考的环境。这希望怕也是渺茫的。</p>
+</section>
+  
+  
+
+<br>
+
+
+<section class="meta-author">
+<h2 class="visuallyhidden">作者及发布日期</h2>
+<dl>
+<dt>由:</dt>
+<dd class="l-cluster">
+<ul class="clean-list" role="presentation">
+<li>
+<span class="with-icon--before with-icon--larger">
+<span class="avatar avatar--small icon">
+<img alt="" src="/av.jpg" loading="lazy">
+</span>koojiafeng
+</span>
+</li>
+</ul>
+</dd>
+	
+	<dt>发布:</dt>
+		<dd><abbr class="published"><time>October 21, 2011</time></dd>
+	<dt>更新:</dt> 
+		<dd><abbr class="published"><time>October 21, 2011</time></abbr></dd>
+	
+</dl>
+</section>
+
+
+  
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    <a
+      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="http://192.168.10.69:1313/article/about-hearing-aids-of-people/"
+      ><span class="mr-1.5">←</span><span>带助听器的诉说</span></a
+    >
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="http://192.168.10.69:1313/article/save-your-important-data/"
+      ><span>如何保存你的重要数据</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+</article>
+
+
+
+
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-100"
+>
+  <div class="mr-auto">
+    &copy; 2012-2025
+    <a class="link" href="http://192.168.10.69:1313/">Jiafeng</a>
+  </div>
+
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️ </a>
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >Paper</a
+  >
+</footer>
+
+  </body>
+</html>

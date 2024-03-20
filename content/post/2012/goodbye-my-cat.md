@@ -2,7 +2,7 @@
 publishDate = 1354568017
 lastmod = 1355502457
 description = ""
-draft = false
+draft = true
 slug = "goodbye-my-cat"
 title = "再见了，我的喵喵"
 +++

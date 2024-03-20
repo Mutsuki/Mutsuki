@@ -2,7 +2,7 @@
 date = 2022-10-28T12:21:00Z
 lastmod = 2024-03-10T15:29:14.000Z
 description = "人生，总是要得最多的时候，最烦恼，要得最少的时候，最快乐。"
-draft = false
+draft = true
 slug = "weekly-update-02"
 title = "Weekly Update 02"
 tags = ["Life"]

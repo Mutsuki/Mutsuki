@@ -1,7 +1,7 @@
 +++
 date = 2008-05-05T21:33:00Z
 description = ""
-draft = false
+draft = true
 slug = "have-seen-better-days"
 title = "今非昔比"
 tags = ["Life"]

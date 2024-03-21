@@ -2,7 +2,7 @@
 publishDate = 1352040864
 lastmod = 1352041004
 description = ""
-draft = false
+draft = true
 slug = "smartphone-these-things"
 title = "手機這些事"
 +++

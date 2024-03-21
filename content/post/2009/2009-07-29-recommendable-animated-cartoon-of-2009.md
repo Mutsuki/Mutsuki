@@ -5,7 +5,7 @@ description = ""
 draft = false
 slug = "recommendable-animated-cartoon-of-2009"
 tags = ["Animate"]
-title = "09年推荐动漫&电影"
+title = "2009年推荐动漫&电影"
 +++
 <b>越狱兔</b>
 很SM，很搞笑，很暴力，充分体现日本性文化！<br />

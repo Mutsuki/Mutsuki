@@ -2,7 +2,7 @@
 publishDate = 1342444486
 lastmod = 1349792521
 description = ""
-draft = false
+draft = true
 slug = "vanity"
 title = "虚荣"
 +++

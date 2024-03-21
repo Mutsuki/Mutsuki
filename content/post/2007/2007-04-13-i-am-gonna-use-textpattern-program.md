@@ -1,7 +1,7 @@
 +++
 date = 2007-04-13T09:40:00Z
 description = ""
-draft = false
+draft = true
 slug = "use-textpattern"
 title = "textpattern"
 tags = ["Website","textpattern"]

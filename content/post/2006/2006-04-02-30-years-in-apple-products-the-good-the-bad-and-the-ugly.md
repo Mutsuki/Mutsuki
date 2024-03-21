@@ -1,7 +1,7 @@
 +++
 date = 2006-04-02T04:17:00Z
 description = ""
-draft = false
+draft = true
 slug = "30-years-in-apple-products-the-good-the-bad-and-the-ugly"
 title = "Apple 30岁了"
 author = "koojiafeng"

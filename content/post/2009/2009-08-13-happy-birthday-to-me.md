@@ -2,7 +2,7 @@
 publishDate = 1250165053
 lastmod = 1349792210
 description = ""
-draft = false
+draft = true
 slug = "happy-birthday-to-me"
 title = "祝我生日快乐"
 +++

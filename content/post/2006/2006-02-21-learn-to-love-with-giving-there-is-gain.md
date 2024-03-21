@@ -1,9 +1,9 @@
 +++
 date = 2006-02-21T11:32:09Z
 description = ""
-draft = false
+draft = true
 slug = "learn-to-love-with-giving-there-is-gain"
-title = "学会爱——有舍就有得"
+title = "学会爱，有舍就有得"
 +++
 第一次的初恋到分手后，经过一段的时间慢慢思考，让我懂得了什么是爱情。  
 

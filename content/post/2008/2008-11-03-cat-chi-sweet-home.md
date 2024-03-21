@@ -2,7 +2,7 @@
 publishDate = 1225682667
 lastmod = 1349794417
 description = ""
-draft = false
+draft = true
 slug = "cat-chi-sweet-home"
 title = "贱猫小叽"
 +++

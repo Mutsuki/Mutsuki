@@ -11,6 +11,9 @@ tags:
 slug: "test"
 keywords:
   - 
+type: "page" # 或者直接设置为 "_index"
+params:
+  noindex: true
 ---
 
 <section class="photoset">

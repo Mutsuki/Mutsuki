@@ -2,14 +2,14 @@ baseURL = "https://www.koojiafeng.com/"
 title = "Jiafeng"
 author = "KooJiafeng"
 #copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
-paginate = 2
+paginate = 12
 languageCode = "zh-CN"
 DefaultContentLanguage = "en"
 #enableInlineShortcodes = false
 ignoreErrors = ["error-remote-getjson"]
 
-#contentDirs = ["content"]
-#publishDir = "public"
+contentDirs = ["content"]
+publishDir = "public"
 #  postDir = "/post/2024"
 
 # 启用.html后缀地址，默认URL为/filename/，启用为/filename.html

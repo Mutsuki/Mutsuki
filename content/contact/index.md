@@ -4,7 +4,10 @@ description = ""
 draft = false
 slug = "contact"
 title = "联系我"
-
+[build]
+  list = 'never'
+  publishResources = true
+  render = 'always'
 +++
 
 本人不怎么使用社交服务；

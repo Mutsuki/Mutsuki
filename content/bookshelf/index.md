@@ -1,16 +1,14 @@
----
-title: "Bookshelf"
-#date: 2022-01-01
-categories:
-- category
-tags:
-- book
-keywords:
-- book
-author: "koojiafeng"
-type: "_index" # 或者直接设置为 "_index"
-hidden: true
----
++++
+date = 2022-01-01
+description = ""
+draft = false
+slug = "bookshelf"
+title = "Bookshelf"
+[build]
+  list = 'never'
+  publishResources = true
+  render = 'always'
++++
 随着2023年的结束，我重读了我近二十年的帖子。我刚开始工作不久就写了这篇文章。后来在我开始了一切的工作， 那时候我已经成为了一个工作狂。我不停地强调了无限的待办事项清单漂浮在我的脑海里。如果我不工作，我总是感到内疚。但后来我认为这是对自己劳动力的一种剥削，我吃亏是在文化上，当然自身的听力缺陷也是某种因素，但不能拿他来作为借口。2023年的6月，我结束了前东家的使命，我觉得需要改变一些事情，以更好的照顾自己，放松自己。（未完）
 
 <blockquote class="huge bound">

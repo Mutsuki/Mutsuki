@@ -1,10 +1,13 @@
 +++
-#date = 2021-06-08T17:02:27Z
+date = 2021-06-08T17:02:27Z
 description = ""
 draft = false
 slug = "privacy"
 title = "Privacy"
-
+[build]
+  list = 'never'
+  publishResources = true
+  render = 'always'
 +++
 本网站尊重[当地的运营商托管服务法律及相关规定](https://docs.github.com/zh/site-policy/privacy-policies/github-general-privacy-statement)，同时也尊重本国的中国的法律，所以尽量会避免一些相关的信息出现。由于[GDPR《通用数据保护条例》](https://gdpr-info.eu/)的适用范围并不在全球，但本站也会进行相关的一些知识并学习。
 

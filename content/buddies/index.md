@@ -2,9 +2,13 @@
 #publishDate = 1268059000
 #lastmod = 1304865529
 description = ""
-draft = true
+draft = false
 slug = "buddies"
 title = "Buddies"
+[build]
+  list = 'never'
+  publishResources = true
+  render = 'always'
 +++
 <a href="http://bemike.org" />Micheal Liu</a>
 喜欢电脑，旅游，阅读，电影，运动，音乐；喜欢热闹，也喜欢独处；喜欢自由，不喜欢被约束；喜欢独立思考...

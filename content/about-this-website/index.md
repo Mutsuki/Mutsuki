@@ -1,10 +1,13 @@
 +++
-#date = 2022-10-22T19:55:12Z
+date = 2022-10-22T19:55:12Z
 description = ""
 draft = false
 slug = "about-this-website"
 title = "About this wesite"
-type = "index"
+[build]
+  list = 'never'
+  publishResources = true
+  render = 'always'
 +++
 我从2002年开始写日志，到了2014年有位本地大哥提供了免费的Windows & Linux主机给我，我开始使用b2系统，期间也一直在换不同的CMS，但最终在2024年迁移到Hugo的静态网站生成器。
 

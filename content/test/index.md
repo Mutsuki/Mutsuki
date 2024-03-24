@@ -2,7 +2,7 @@
 title: "test"
 date: 2022-10-22T19:55:12Z
 lastmod: 2024-10-22T19:55:12Z
-draft: true
+draft: false
 description: ''
 categories:
   - Uncategories
@@ -11,11 +11,11 @@ tags:
 slug: "test"
 keywords:
   - 
-type: "page" # 或者直接设置为 "_index"
-params:
-  noindex: true
+build:
+  list: never
+  publishResources: true
+  render: always
 ---
-
 <section class="photoset">
   <div class="photoset-row">
     <figure class="photoset-item single feature-" data-pswp-uid="1">

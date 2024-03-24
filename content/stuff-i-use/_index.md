@@ -6,7 +6,13 @@ lastmod: 2024-02-11T08:00:12Z
 draft: false
 layout: 'stuff-i-use'
 author: "koojiafeng"
-
+build:
+  render: always
+cascade:
+- build:
+    list: local
+    publishResources: false
+    render: never
 ---
 我常使用的电脑和家庭设备，经常拿来做与众不同的东西
 

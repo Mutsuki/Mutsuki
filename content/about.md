@@ -4,7 +4,12 @@ title = "About Me"
 #lastmod = 2024-01-25T00:45:12Z
 description = ""
 slug = "about"
-daft = true
+
+[_build]
+  list = 'never'
+  render = 'never'
+[cascade._build]
+  list = 'never'
 +++
 
 ![f](/head-1.jpg "This is a sample image.")

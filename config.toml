@@ -8,7 +8,7 @@ DefaultContentLanguage = "en"
 #enableInlineShortcodes = false
 ignoreErrors = ["error-remote-getjson"]
 
-contentDirs = ["content"]
+#contentDir = "content/post"
 publishDir = "public"
 #  postDir = "/post/2024"
 

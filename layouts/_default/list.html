@@ -18,8 +18,8 @@
 {{ end }}
 
 <!-- Articles -->
-{{ $paginator := .Paginate $pages }} {{ range $index, $page := $paginator.Pages
-}}<!---->
+                    {{  $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+                    {{ range $index,$data := $paginator.Pages }}<!---->
 
 <!-- avatar -->
 {{ if and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) }}<!---->

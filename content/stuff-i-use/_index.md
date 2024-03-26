@@ -11,8 +11,8 @@ build:
 cascade:
 - build:
     list: local
-    publishResources: false
-    render: never
+    publishResources: true
+    render: always
 ---
 我常使用的电脑和家庭设备，经常拿来做与众不同的东西
 

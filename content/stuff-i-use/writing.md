@@ -4,7 +4,7 @@
 description = "创作"
 draft = false
 slug = "writing"
-title = "智能充电设备"
+title = "写作"
 layout = 'stuff'
 +++
 This page to be updated...

@@ -25,7 +25,7 @@ layout: 'stuff'
             </div>
         </div>
         <div class="gear-item clearfix">
-            <div class="img-wrap"><img src="https://support.bang-olufsen.com/hc/article_attachments/360049215411/H9_details16.jpg" alt="苹果 AirPods Pro" _mstalt="275184" _msthash="34"></div>
+            <div class="img-wrap"><img src="https://support.bang-olufsen.com/hc/article_attachments/360049215411/H9_details16.jpg" alt="BEOPLAY EX"></div>
             <div class="desc">
                 <p >Bang&Olufsen BEOPLAY EX</p>
                 <p class="specs">便携式无线降噪入耳式耳机。</p>

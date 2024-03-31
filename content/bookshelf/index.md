@@ -20,7 +20,7 @@ title = "Bookshelf"
 
 #### Books I’m planning to read next  
 我接下来打算读的书
-<h2>2024 {Preview}</h2>
+### 2024 {Preview}
 
 And here are some books I'm considering reading next. 
 
@@ -42,9 +42,25 @@ And here are some books I'm considering reading next.
 
 《It doesn't have to be crazy at work》
 
+### 2024 正在读的书：
+
+《湘行散记》
+
+《十八岁出门远行》
+
+《那些岁月》
+
+《我们三》
+
+《冬牧场》
+
+《我的阿泰勒》
+
+《曾国藩的家书》
+
 ---
 
-<h2>2023</h2>
+### 2023 读完的
 
 《以温柔拥戴你的独一无二》  
 
@@ -58,7 +74,7 @@ And here are some books I'm considering reading next.
 
 ---
 
-<h2>2022</h2>
+### 2022 读完的
 
 [《过于喧嚣的孤独》](https://book.douban.com/subject/26220767/) 捷克作家写的，看完给人的感觉是悲剧，又不像悲剧。
 
@@ -72,5 +88,5 @@ And here are some books I'm considering reading next.
 
 [《老子通释》](https://book.douban.com/subject/35392918/?ref=koojiafeng.com) 因为 **余秋雨** 老师的作品比较关注，而且近期对老子也很感兴趣，和玄乎，又是个伟大的哲学家
 
-[我阅读的一些书籍](https://koojiafeng.notion.site/0f22652723074a36aa624cba37bdff3e?v=942c82bc16a1493ebb820368a76ba5d7&ref=koojiafeng.com)
+### [我阅读的一些书籍](https://koojiafeng.notion.site/0f22652723074a36aa624cba37bdff3e?v=942c82bc16a1493ebb820368a76ba5d7&ref=koojiafeng.com)
 <!--more-->

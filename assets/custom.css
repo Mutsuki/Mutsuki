@@ -1353,9 +1353,9 @@ ul.build-list li .product a:hover {
 
 .post-toc {
     position: fixed;
-    width: 200px;
+    width: 300px;
     margin-left: 780px;
-    padding: 10px;
+    padding: 0;
     word-wrap: break-word;
     box-sizing: border-box;
     top: 100px;

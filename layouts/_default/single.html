@@ -11,12 +11,14 @@
                         srcset="{{ replace .Params.featured_image "jpg" "avif" }}, {{ replace .Params.retina_image "jpg" "avif" }} 2x"
                         width="800"
                         height="150"
+			loading="lazy"
                         alt="{{ .Title }}">
             {{ end }}
             <img src="{{ .Params.featured_image }}" 
                  srcset="{{ .Params.featured_image }} 1x, {{ .Params.retina_image }} 2x"
                  width="800"
                  height="150"
+		 loading="lazy"
                  alt="{{ .Title }}">
           </picture>
     </div>

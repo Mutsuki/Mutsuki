@@ -38,10 +38,11 @@
   <link rel="preload stylesheet" as="style" href="{{ $css.Permalink }}" />
   
   <script src="{{.Site.BaseURL}}js/jiafeng.js"></script>
-  <script src="{{.Site.BaseURL}}css/plyr.css"></script>
-
-  <script src="{{.Site.BaseURL}}js/plyr.js"></script>
-  <script src="{{.Site.BaseURL}}js/plyr.polyfilled.js"></script>
+  <!--<script src="{{.Site.BaseURL}}css/plyr.css"></script>-->
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+  <!--<script src="{{.Site.BaseURL}}js/plyr.js"></script>-->
+  <!--<script src="{{.Site.BaseURL}}js/plyr.polyfilled.js"></script>-->
+  <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
    
   <!-- Dark Icon -->
   {{ $dark_icon := "theme.png" }}
@@ -49,8 +50,6 @@
   {{ if site.Params.monoDarkIcon }}{{ $dark_icon = "theme.svg" }}{{ end }}
   <!---->
   <link rel="preload" as="image" href="{{ $dark_icon | absURL }}" />
-
-
 
   <!-- Social List -->
   {{ range $.Scratch.Get "social_list" }}
@@ -84,7 +83,6 @@
       href="{{.Site.BaseURL }}/index.xml"
       title="{{ .Site.Title }}">
 
-  
 <link rel="alternate"
       type="application/rss+xml"
       href="https://feeds.feedburner.com/brando"

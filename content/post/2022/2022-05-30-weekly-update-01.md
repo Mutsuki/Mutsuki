@@ -50,7 +50,7 @@ author: "koojiafeng"
 
 ## 推荐订阅
 
-### **[DEX 周刊](https://dex.zhubai.love/)**
+**[DEX 周刊](https://dex.zhubai.love/)**
 
 前沿的产品，设计，包括一些有趣的内容的，由@dingyi创作，如果对设计，包括（协同）工具等感兴趣的朋友们可以关注并订阅
 

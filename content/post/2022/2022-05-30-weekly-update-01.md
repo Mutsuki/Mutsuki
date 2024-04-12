@@ -5,7 +5,7 @@ date: 2022-05-30T12:47:00Z
 draft: false
 description: '一直很忙，但却不知道自己再忙些什么'
 categories:
-  - 
+  - Life
 tags:
   - weekly
 keywords:

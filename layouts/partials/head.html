@@ -62,7 +62,7 @@
   {{ if and .IsPage (not site.Params.disableHLJS) }}
   <script
     defer
-    src="{{.Site.BaseURL}}\js\{{ `highlight.min.js` | absURL }}"
+    src="{{.Site.BaseURL}}\js\highlight.min.js"
     onload="hljs.initHighlightingOnLoad();"
   ></script>
   {{ end }}

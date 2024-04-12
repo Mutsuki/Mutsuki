@@ -14,10 +14,8 @@
     var offsetTop = fix[0].offsetTop;
     $(window).scroll(function () {
       var docTop = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
-      if (end.length > 0) {
-        endTop = end.offset().top;
-        miss = endTop - docTop - fixHeight;
-      }
+      endTop = end.length > 0 ? end.offset().top : null;
+      miss = endTop ? endTop - docTop - fixHeight : null;
       if (fixTop < docTop) {
         fix.css({ 'position': 'fixed' });
         if ((end.length > 0) && (endTop < (docTop + fixHeight))) {
@@ -31,4 +29,4 @@
       }
     })
   }
-</script> 
+</script>

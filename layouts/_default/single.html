@@ -16,6 +16,7 @@
             {{ end }}
             <img src="{{ .Params.featured_image }}" 
                  srcset="{{ .Params.featured_image }} 1x, {{ .Params.retina_image }} 2x"
+		 data-src="{{ .Params.featured_image }}" 
                  width="800"
                  height="150"
 		 loading="lazy"

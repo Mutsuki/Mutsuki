@@ -29,7 +29,7 @@ html {
 }
 body {
       font-family: "source-han-sans-cn-variable", "AlimamaFangYuanTiVF", "Roboto", sans-serif;
-      font-weight: 400;
+      font-weight: 500;
       font-size: 1.1em;
       line-height: 1.7em;
       color: #414141;
@@ -41,7 +41,7 @@ body {
       -moz-font-feature-settings: "liga" on;
       letter-spacing: 0;
       text-shadow: 0px 0px 0.3px #acacac;
-      font-variation-settings: "wght" 250;
+      font-variation-settings: "wght" 500;
   }
 
 a:visited {

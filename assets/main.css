@@ -713,6 +713,7 @@ background-color: hsl(249deg 22% 12%);
   margin-top: 0;
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
+  font-family: SF Pro SC,SF Pro Text,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .prose :where(h1 strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
@@ -1585,6 +1586,7 @@ background-color: hsl(249deg 22% 12%);
 
 .\!leading-none {
   line-height: 1 !important;
+  font-family: SF Pro SC,SF Pro Text,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .leading-\[5rem\] {

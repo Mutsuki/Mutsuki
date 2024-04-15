@@ -41,7 +41,7 @@ body {
       -moz-font-feature-settings: "liga" on;
       letter-spacing: 0;
       text-shadow: 0px 0px 0.3px #acacac;
-      font-variation-settings: "wght" 500;
+      font-variation-settings: "wght" 300;
   }
 
 a:visited {

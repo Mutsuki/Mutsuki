@@ -7,4 +7,4 @@ slug = "home-theater"
 title = "家庭影院"
 layout = 'stuff'
 +++
-This page to be updated...
+HomePod (1st generation) 家里书房放置了两个，但目前养灰了。

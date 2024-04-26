@@ -35,7 +35,7 @@ autoCollapseToc = true   # Auto expand and collapse toc
 # keywords: [Blog, Portfolio, PaperMod]
   name = '一个人在路上'
   bio = '美好生活'
-  rss = false
+  rss = true
 #  clearReading = true
   author =  'koojiafeng'
   

@@ -166,3 +166,8 @@ series = "series"
 
 [outputs]
   home = ["HTML", "RSS"]
+  
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss+xml"
+baseName = "feed"

@@ -11,6 +11,10 @@ summary = ""
 author = "koojiafeng"
 featured_image = "/images/2024/0.jpg"
 retina_image =  "/images/2024/0.jpg"
+[output]
+    [output.rss]
+        filename = "feed.xml"
+        templ = "single_rss.xml"
 +++
 <p class="has-dropcap">
 <span aria-labelledby="word--first" role="text">

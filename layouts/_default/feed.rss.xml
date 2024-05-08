@@ -20,6 +20,7 @@
     <style type="text/css">
     @import url("/css/style.css");
     </style>
+    <link rel="alternate" type="text/css" href="{{ .Site.BaseURL }}css/style.css" />
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
     <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
     <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}

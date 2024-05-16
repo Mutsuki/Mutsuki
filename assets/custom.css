@@ -795,7 +795,7 @@ content-nav  {box-sizing: content-box;}
 }
 
 img {
-    border-style: none;
+    border-radius: 12px;
 }
 
 .middot-divider {
@@ -1634,4 +1634,27 @@ ul.build-list li .product a:hover {
 
 :is(:where(.dark) section h5 ) {
     color: #fff !important;
+}
+/* 设置图片容器的样式 */
+.image-container {
+    display: inline-block;
+    overflow: hidden; /* 防止图片放大后超出容器 */
+}
+
+/* 设置图片的基本样式 */
+.hover-zoom {
+    display: block;
+    width: 100%;
+    transition: transform 0.3s ease; /* 设置过渡效果 */
+}
+
+/* 当鼠标悬停在图片上时，放大图片 */
+.hover-zoom:hover {
+    transform: scale(1.1); /* 将图片放大至1.1倍 */
+}
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }

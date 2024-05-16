@@ -21,3 +21,8 @@ retina_image =  "/images/2024/niels-van-altena-zOwVWmOQBK8-unsplash.jpg"
 第三件事，最近看了《大江大河3》电视剧，编剧编的其实不怎么样，但实力派演员的功夫真的到位，提升了电视剧很多分数，尤其是高度还原了书中人物细节的那些部分。
 
 第四件事，推荐有时间看书的人看梁晓声教授写的书籍，《那些岁月》让我回忆起了小时候的很多事，有时间我也写篇关于小时候的回忆录。
+<div class="c-cmjOaN c-cmjOaN-cGSuyl-animateIn-true c-cmjOaN-ikRsAQh-css"><span class="c-cSYTWC c-cSYTWC-hEuRwX-shape-large"><span aria-hidden="true" style="width: 100%; height: 100%; opacity: 0;"></span><span style="opacity: 1;">
+    <div class="image-container">
+        <img src="/images/2024/Adoley_2_2_dfd3a0ca3f.jpg" alt="Sample Image" class="hover-zoom" >
+    </div>
+</span>

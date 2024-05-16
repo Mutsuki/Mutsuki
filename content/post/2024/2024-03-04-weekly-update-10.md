@@ -10,7 +10,7 @@ title = "Weekly update 10"
 summary = ""
 author = "koojiafeng"
 featured_image = "/images/2024/0.jpg"
-retina_image =  "/images/2024/0.jpg"
+retina_image =  "/images/2024/0_image@2x.png"
 [output]
     [output.rss]
         filename = "feed.xml"

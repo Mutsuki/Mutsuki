@@ -52,6 +52,12 @@
   {{ if gt .Weight 0 }}
   <span class="mb-2 ml-px inline-block text-[0.8rem] font-medium uppercase tracking-wider text-[#ff3b2d] opacity-70">Featured</span>
   {{ end }}
+  <!-- 标题前加入图片-->
+    {{ with .Params.image }}
+      <div class="hero-image">
+        <img src="{{ . }}" >
+      </div>
+    {{ end }}
   <h2 class="!my-0 pb-1 font-bold !leading-none"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
   <time class="text-sm antialiased opacity-60">{{ .Date | time.Format ":date_medium" }}</time>{{ printf " %d min read" .ReadingTime }}
 	<p>{{ .Description }} </p>

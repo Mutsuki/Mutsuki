@@ -52,6 +52,7 @@ https://codepen.io/terrymun/pen/nexdRX
 <h4 id="svg" class="toc">SVG icons and animation</h4>
 <p class="sublarge">Working with SVGs in my photosets</p>
 https://www.svgrepo.com/
+  
 https://yqnn.github.io/svg-path-editor/
 
 <h4 id="theme" class="toc">Can I have your theme?</h4>

@@ -30,7 +30,7 @@
 	<div class="text-sm antialiased opacity-60">
 	  {{ if .Params.categories }}
 		{{ range .Params.categories }} {{ $href := print (absURL "categories/") (urlize .) }}
-			Published in: <a  href="{{ $href }}">{{ . }}</a>
+			Published in <a  href="{{ $href }}">{{ . }}</a>
 	  {{ end }}
 <span class="middot-divider"></span>
 {{ printf " %d min read" .ReadingTime }} 

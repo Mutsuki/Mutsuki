@@ -1,5 +1,5 @@
 baseURL = "https://www.koojiafeng.com/"
-title = "Jiafeng"
+title = "一个人在路上"
 author = "KooJiafeng"
 #copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 paginate = 6
@@ -31,7 +31,7 @@ autoCollapseToc = true   # Auto expand and collapse toc
   twitter = 'koojiafeng'
   github = 'koojiafeng'
   instagram = 'koojiafeng'
-#  mastodon ="https://fairy.id/@sebastian"
+  mastodon ="https://mastodon.social/@koojiafeng"
 # keywords: [Blog, Portfolio, PaperMod]
   name = '一个人在路上'
   bio = '美好生活'

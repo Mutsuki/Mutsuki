@@ -109,3 +109,23 @@ Fruitcake caramels macaroon. Jelly beans wafer caramels. Jelly beans chocolate b
 
 <p id="footnote-2"><a href="#r2">2</a> And yes you can <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=200549320" title="Lend or Borrow Kindle Books">lend Kindle books to friends</a>. Amazon Prime members can also <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=200757120" title="Borrow Books from the Kindle Owners' Lending Library">borrow Kindle books directly from Amazon</a> (up to one per month) without needing to purchase them.</p>
 </section>
+
+
+<code>
+  <ul>
+  {{ range (first 25 (where .Site.RegularPages "Type" "post")) }}
+    <li>
+      <a href="{{ .RelPermalink}}">{{ .Title }}</a> 
+      {{range (first 3 (.Params.tags))}}
+        {{ $tagColor := substr (md5 .) 0 6}}
+        <!-- hex code attach opacity to end of code, 1A is 10% opacity  -->
+        <!-- to add link here, you'd need to search Taxonomies for url, but it doesn't have chinese tag -->
+        <div class="tag" style="--tag-color: #{{$tagColor}}1A" >{{ . }}</div>
+      {{end }}
+      <div class="archive">- {{.Date.Format "2006-01-02"}}</div>
+    </li>
+  {{ end }}
+</ul>
+</code>
+
+https://blog.douchi.space/static-blog-one-year-in-hugo-decoration-3/#gsc.tab=0

@@ -86,7 +86,7 @@ And here are some books I'm considering reading next.
 
 [《晚熟》](https://book.douban.com/subject/35141940/?ref=koojiafeng.com) **莫言** 老师获得诺贝尔文学奖后首部作品
 
-[《老子通释》](https://book.douban.com/subject/35392918/?ref=koojiafeng.com) 因为 **余秋雨** 老师的作品比较关注，而且近期对老子也很感兴趣，和玄乎，又是个伟大的哲学家
+[《老子通释》](https://book.douban.com/subject/35392918/?ref=koojiafeng.com) 因为 **余秋雨** 老师的作品比较关注，而且近期对老子也很感兴趣，很玄乎，又是个伟大的哲学家
 
 ### [我阅读的一些书籍](https://koojiafeng.notion.site/0f22652723074a36aa624cba37bdff3e?v=942c82bc16a1493ebb820368a76ba5d7&ref=koojiafeng.com)
 <!--more-->

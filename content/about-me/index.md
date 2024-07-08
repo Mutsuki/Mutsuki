@@ -12,6 +12,14 @@ build:
 ---
 ![f](/head-1.jpg "This is a sample image.")
 
+
+
+
+<div class="content-module">
+    <div class="note"><h6 class="semibold">Disclaimer</h6></div>
+<p>All information and code on this site is for informational purposes only and provided as-is. This site does not provide any warranty, either express or implied. All thoughts and opinions are my own.</p>
+  </div>
+
 互联网经常让我发现一些有趣的东西，总会被一些新的兴趣爱好所吸引，鉴于我经常运动和绘画，所以我会经常羽毛球运动及油画，包括练习次中音萨克斯。最初我也只是作为一个器材喜欢上各种工具，包括烹饪的工具才迷上烹饪，我经常阅读，所以有一定的习惯。
 我并不经常发表文章，只有当我想深入研究一个我感兴趣的话题时，可能一年一次或更少，但当我写一篇文章或制作一张照片时，我会花一些时间去研究东西，更多的时候我经常独立去思考一些问题或者通过阅读书籍来丰富自己的知识。
 

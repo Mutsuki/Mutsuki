@@ -518,7 +518,7 @@ background-color: rgb(25,25,25);
 
 :is(:where(.dark) ul:not(.list-xl) li>a,p a ) {
     font-weight: 600;
-    text-decoration-color: rgba(29, 120, 189, 0.3);
+    text-decoration-color: rgb(255, 90, 255);
     text-decoration-skip-ink: auto !important;
     position: relative;
 }

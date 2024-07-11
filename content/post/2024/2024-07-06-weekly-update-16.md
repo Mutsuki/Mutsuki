@@ -2,7 +2,7 @@
 categories = ["journal"]
 date = 2024-07-06T20:16:52Z
 lastmod = 2024-07-06T22:13:52Z
-draft = true
+draft = false
 description = ""
 slug = "weekly-update-16"
 tags = ["journal"]

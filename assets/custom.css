@@ -1667,3 +1667,9 @@ ul.build-list li .product a:hover {
     padding: 1em 1.5em;
     position: relative;
 }
+
+.double {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: red;
+}

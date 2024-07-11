@@ -25,6 +25,9 @@ build:
   <div class="caption">A USB-C f YubiKey 5C security key plugged into my ThinkPad X1 Carbon</div>
 </section>
 
+<p class="double">This text has a wavy red line beneath it.</p>
+
+
 ![screen reader text](/snip/1122.png "caption")
 
 [![Bookmark Style Card](https://svg.bookmark.style/api?url=https://bookmark.style)](https://bookmark.style)

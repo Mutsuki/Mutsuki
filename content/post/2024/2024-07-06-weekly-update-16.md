@@ -12,6 +12,14 @@ author = "koojiafeng"
 featured_image = ""
 retina_image =  ""
 +++
+section class="photoset">
+  <div class="photoset-row">
+    <figure class="photoset-item single feature-" data-pswp-uid="1">
+        <a href="#"><img data-ratio="1.4477" src="/images/1311.webp" data-webp="true" style="height: 691px; width: 1000.36px;" data-loaded="true"></a>
+    </figure>
+  </div>
+  <div class="caption">A USB-C f YubiKey 5C security key plugged into my ThinkPad X1 Carbon</div>
+</section>
 很久没有见到上海的夏天天气在38°以上了，想想以前小时候，家里还没空调的时候，也不知道如何过来的，我记得在没空调的时候，晚上睡觉时很难入眠的，何况还有那难缠的知了声音，为了在晚上睡觉能舒服些，我们家是直接拆了床，铺张凉席，直接睡在地板上，而我小时候比较好动，所以，就一直叫热，不过那年代的地板是老式的实木复合地板，但我不懂事，结果，我就喜欢在地上洒些水，用吊扇开到最大，吹干之后直接睡，那时候童年真的是随心所欲，鱼水之欢，没有什么电子产品，除了玩那红白机，基本就是出去足球，篮球，游泳，中午的时候随随便便的一顿饭或者冷面就解决了，晚上睡觉的时候就直接睡到叔叔家，和我弟两人继续欢乐。直到后来，我大伯送我们家第一台空调，才开始回到自己家睡。
 
 小时候的暑假，我记得都是被送到外婆家的，也就是上海的乡下长兴岛（（岛内有个叫圆圆沙，如今的圆沙）），我妈小时候就是在那度过的，对那里的，我甚是觉得世外桃源，人烟稀少，因为在没开发之前，我记得路都不是很完整的，石子路，就连公交车头都是那种圆润的头，烧柴油的，我记得坐车的时候没位子，直接做到了车的发动机引擎盖上，不过天太热，加上发动机盖上可是能把人直接给烫伤，司机让我坐他后面，还有个小风扇可以吹吹。

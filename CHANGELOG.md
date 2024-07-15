@@ -11,3 +11,6 @@
 ### Fixed
 
 - 修复首页空白页面
+
+### Started
+hugo server --bind="0.0.0.0" --baseURL=http://192.168.10.50 -D --cleanDestinationDir --gc

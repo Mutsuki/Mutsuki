@@ -30,6 +30,8 @@
   {{ end }}
 
   <!-- CSS & JS -->
+  <link rel="stylesheet" href="/css/result.css">
+
   {{ $main := resources.Get "main.css" }}
   <!---->
   {{ $custom := resources.Get "custom.css" }}
@@ -96,17 +98,5 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
 
-<style>
-@font-face {
-    font-family: AlimamaFangYuanTiVF;
-    src:url({{.Site.BaseURL}}font/AlimamaFangYuanTiVF-Thin.ttf) format('TrueType'),
-        url({{.Site.BaseURL}}font/AlimamaFangYuanTiVF-Thin.woff) format('woff'),
-        url({{.Site.BaseURL}}font/AlimamaFangYuanTiVF-Thin.woff2) format('woff2');
-}
-@font-face  {
-    font-family: Miriam Libre;
-    src:url({{.Site.BaseURL}}font/MiriamLibre-Regular.ttf) format('TrueType'),
-        url({{.Site.BaseURL}}font/MiriamLibre-Bold.ttf) format('TrueType');
-}
-</style>
+
 </head>

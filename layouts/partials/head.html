@@ -31,7 +31,9 @@
 
   <!-- CSS & JS -->
   <link rel="stylesheet" href="/css/result.css">
-
+{{ with resources.Get "css/te.css" | postCSS }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }}
   {{ $main := resources.Get "main.css" }}
   <!---->
   {{ $custom := resources.Get "custom.css" }}

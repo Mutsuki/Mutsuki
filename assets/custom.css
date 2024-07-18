@@ -28,8 +28,8 @@ html {
   scrollbar-width: thin;
 }
 body {
-      font-family: "Fira Sans", "Alimama FangYuanTi VF", "Roboto", sans-serif;
-      font-weight: 700;
+      font-family: "Alimama FangYuanTi VF", "Fira Sans",  "Roboto", sans-serif;
+      font-weight: 200;
       font-size: 1.1em;
       line-height: 1.7em;
       color: #414141;
@@ -272,9 +272,21 @@ section h2 a{  text-decoration: none;}
     color: white;
 }
 
-:is:not(.compact)(:where(.dark) blockquote:before ) {
+/*:is:not(.compact)(:where(.dark) blockquote:before ) {
     background: #acb1bf9f;
-}
+}*/
+
+/*:is:not(.compact)(:where(.dark) blockquote)::before {
+    content: "";
+    display: block;
+    background: #acb1bf9f;
+  }
+*/
+:where(.dark) blockquote:not(.compact)::before {
+    content: "";
+    display: block;
+    background: #acb1bf9f;
+  }
 
 blockquote:not(.compact):before {
     position: absolute;
@@ -727,8 +739,6 @@ content-nav  {box-sizing: content-box;}
     overflow: hidden;
 }
 
-
-
 .l-cluster > * {
     display: flex;
     flex-direction: row;
@@ -861,7 +871,7 @@ img {
     background: #a00dc385;
 }
 
-:is(:where(.dark) ul:not(.list-xl) li>a,) {
+:is(:where(.dark) ul:not(.list-xl) li>a ) {
     text-decoration-color: rgba(255, 255, 255, 0.3);
     color: white;
 }
@@ -1052,7 +1062,7 @@ background: hsl(247deg 23% 15%);
     display: none;
 }
 
-}
+
 h3.subtitle {
     font-size: 1em;
     line-height: 1.4;
@@ -1519,7 +1529,6 @@ section .build-list li:last-child {
   border-bottom: 1px solid #c5cdd2;
   margin-bottom: .85em;
   padding-bottom: .85em;
-  position: ;
 }
 
 

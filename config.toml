@@ -27,6 +27,7 @@ autoCollapseToc = true   # Auto expand and collapse toc
 # ------------------------------
 
 [params]
+  blockSearchEngines = true
   color = 'light'
   twitter = 'koojiafeng'
   github = 'koojiafeng'

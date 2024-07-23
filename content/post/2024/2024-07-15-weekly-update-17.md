@@ -11,6 +11,7 @@ summary = ""
 author = "koojiafeng"
 featured_image = ""
 retina_image =  ""
+readingtime = 55
 +++
 时光划过流年，日子夏深情浅。有缘无缘，路遇伏天，掬一捧艳阳，爆炒夏天。
 

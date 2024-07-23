@@ -37,11 +37,14 @@ autoCollapseToc = true   # Auto expand and collapse toc
   name = '一个人在路上'
   bio = '美好生活'
   rss = true
-#  clearReading = true
+# clearReading = true
   author =  'koojiafeng'
-  
+  readingTime = true
+  wordsPerMinute = 200
+
+
 # misc
-#  disableHLJS = false                        # disable highlight.js
+  disableHLJS = false                        # disable highlight.js
 #  disablePostNavigation = false
 #  monoDarkIcon = true 
 # math = true
@@ -58,6 +61,7 @@ autoCollapseToc = true   # Auto expand and collapse toc
   expiryDate = ['expirydate', 'unpublishdate']
   lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
   publishDate = ['publishdate', 'pubdate', 'published', 'date']
+
 
 
 [minify]
@@ -172,3 +176,21 @@ series = "series"
 [outputFormats.RSS]
 mediatype = "application/rss+xml"
 baseName = "feed"
+
+[languages]
+  [languages.en]
+    disabled = false
+    languageCode = ''
+    languageDirection = ''
+    languageName = 'English'
+    title = 'Jiafeng'
+    weight = 1
+  [languages.zh-cn]
+    disabled = false
+    languageCode = ''
+    languageDirection = ''
+    languageName = '中文'
+    title = 'Jiafeng'
+    weight = 0
+    [languages.zh-cn.params]
+      reading_speed = 228

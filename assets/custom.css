@@ -806,6 +806,7 @@ content-nav  {box-sizing: content-box;}
 
 img {
     border-radius: 12px;
+
 }
 
 .middot-divider {
@@ -1681,4 +1682,12 @@ ul.build-list li .product a:hover {
   text-decoration-line: underline;
   text-decoration-style: double;
   text-decoration-color: red;
+}
+
+.spoiler:hover {
+    filter: blur(0);
+}
+.spoiler {
+    filter: blur(4px);
+    display: inline;
 }

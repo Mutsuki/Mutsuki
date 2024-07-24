@@ -22,7 +22,7 @@ retina_image =  ""
 <section class="photoset">
   <div class="photoset-row">
     <figure class="photoset-item single feature-" data-pswp-uid="1">
-        <a href="#"><img data-ratio="1.4477" src="/images/2024/07/juyuan.png" data-webp="true" style="height: 691px; width: 1000.36px;" data-loaded="true"></a>
+        <a href="#"><img loading="lazy" src="/images/2024/07/juyuan.png" data-webp="true" style="height: 691px; width: 1000.36px;" data-loaded="true"></a>
     </figure>
   </div>
   <div class="caption">长兴岛桔园</div>

@@ -55,3 +55,9 @@ document.addEventListener('DOMContentLoaded', function () {
     initProgressBar();
     initLazyLoading();
 });
+
+document.querySelectorAll('img[loading="lazy"]').forEach(img => {
+    img.addEventListener('load', () => {
+        console.log('Lazy-loaded image has loaded:', img);
+    });
+});

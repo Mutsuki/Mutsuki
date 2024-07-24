@@ -39,13 +39,11 @@ autoCollapseToc = true   # Auto expand and collapse toc
   rss = true
 # clearReading = true
   author =  'koojiafeng'
-  readingTime = true
-#  wordsPerMinute = 200
-[readtime]
-wordsPerMinute = 200
+
+
 
 # misc
-  disableHLJS = false                        # disable highlight.js
+  disableHLJS = true                        # disable highlight.js
 #  disablePostNavigation = false
 #  monoDarkIcon = true 
 # math = true

@@ -25,7 +25,8 @@
     name="description"
     content="{{ site.Params.description | default (print `A personal blog`) }}"
   />-->
-  <meta name="reading_time" content="{{ .ReadingTime }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="description" content="{{ .Site.Params.Description }}" />
   <meta name="author" content="{{ $site_author }}" />
   {{ end }}
@@ -69,7 +70,8 @@
     onload="hljs.initHighlightingOnLoad();"
   ></script>
   {{ end }}
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
   <!-- Math -->
   {{ if or .Params.math site.Params.math }}
   <!---->

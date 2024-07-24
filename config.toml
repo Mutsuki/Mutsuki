@@ -40,8 +40,9 @@ autoCollapseToc = true   # Auto expand and collapse toc
 # clearReading = true
   author =  'koojiafeng'
   readingTime = true
-  wordsPerMinute = 200
-
+#  wordsPerMinute = 200
+[readtime]
+wordsPerMinute = 200
 
 # misc
   disableHLJS = false                        # disable highlight.js

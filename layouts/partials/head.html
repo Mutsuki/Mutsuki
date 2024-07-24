@@ -25,7 +25,7 @@
     name="description"
     content="{{ site.Params.description | default (print `A personal blog`) }}"
   />-->
-  
+  <meta name="reading_time" content="{{ .ReadingTime }}">
   <meta name="description" content="{{ .Site.Params.Description }}" />
   <meta name="author" content="{{ $site_author }}" />
   {{ end }}
@@ -42,7 +42,7 @@
   
   <script src="{{.Site.BaseURL}}js/jiafeng.js"></script>
   <!--<script src="{{.Site.BaseURL}}css/plyr.css"></script>-->
-  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+  <link rel="preload stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
   <!--<script src="{{.Site.BaseURL}}js/plyr.js"></script>-->
   <!--<script src="{{.Site.BaseURL}}js/plyr.polyfilled.js"></script>-->
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>

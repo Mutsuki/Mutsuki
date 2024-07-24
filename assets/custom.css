@@ -1,3 +1,6 @@
+.element {
+  will-change: opacity, transform;
+}
 /* Place custom css here. */
 :root {
     --sub-text-color: #8f9599;

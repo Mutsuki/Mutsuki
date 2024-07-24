@@ -42,7 +42,8 @@
   
   <script src="{{.Site.BaseURL}}js/jiafeng.js"></script>
   <!--<script src="{{.Site.BaseURL}}css/plyr.css"></script>-->
-  <link rel="preload stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<link rel="preload" href="https://cdn.plyr.io/3.7.8/plyr.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css"></noscript>
   <!--<script src="{{.Site.BaseURL}}js/plyr.js"></script>-->
   <!--<script src="{{.Site.BaseURL}}js/plyr.polyfilled.js"></script>-->
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>

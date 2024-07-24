@@ -13,5 +13,5 @@
 - 修复首页空白页面
 
 ### Started
-hugo server --bind="0.0.0.0" --baseURL=http://192.168.10.50 -D --cleanDestinationDir --gc
+hugo server --bind="0.0.0.0" --baseURL=http://192.168.2.6 -D --cleanDestinationDir --gc
 hugo server --bind="0.0.0.0" --baseURL=http://10.0.128.53 -D --cleanDestinationDir --gc

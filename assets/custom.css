@@ -1,5 +1,9 @@
 .element {
-  will-change: opacity, transform;
+  will-change: opacity, transform, scroll-position;
+}
+/* 动画完成后移除 will-change */
+.element.animation-done {
+    will-change: auto;
 }
 /* Place custom css here. */
 :root {

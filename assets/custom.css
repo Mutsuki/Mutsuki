@@ -1540,13 +1540,14 @@ section .build-list li:last-child {
 }
 
 
-:is(:where(.dark) #postex .build-list li ){
+:is(:where(.dark) .build-list li ){
   border-color: #232831d2 !important;
 }
 
-:is(:where(.dark) #postex h6 ) {
-  color: white;
+.prose :where(h6):not(:where([class~="not-prose"], [class~="not-prose"] *)){
+color: var(--tw-prose-headings);
 }
+
 
 section ul:not(.list-none) li:before {
     width: 5px;

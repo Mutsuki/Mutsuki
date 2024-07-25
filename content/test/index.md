@@ -19,7 +19,7 @@ build:
 <section class="photoset">
   <div class="photoset-row">
     <figure class="photoset-item single feature-" data-pswp-uid="1">
-        <a href="#"><img data-ratio="1.4477" src="/images/1311.webp" data-webp="true" style="height: 691px; width: 1000.36px;" data-loaded="true"></a>
+        <a href="#"><img src="/images/1311.webp" data-webp="true" style="height: 691px; width: 1000.36px;"></a>
     </figure>
   </div>
   <div class="caption">A USB-C f YubiKey 5C security key plugged into my ThinkPad X1 Carbon</div>

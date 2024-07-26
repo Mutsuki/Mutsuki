@@ -170,6 +170,7 @@ series = "series"
 
 [outputs]
   home = ["HTML", "RSS"]
+  page = ["HTML", "RSS"]
   
 [outputFormats]
 [outputFormats.RSS]

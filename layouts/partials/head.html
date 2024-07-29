@@ -87,14 +87,17 @@
 
 <link rel="alternate"
       type="application/rss+xml"
-      href="{{.Site.BaseURL }}index.xml"
+      href="{{.Site.BaseURL }}feed.xml"
       title="{{ .Site.Title }}">
 
 <link rel="alternate"
       type="application/rss+xml"
       href="https://feeds.feedburner.com/brando"
       title="{{ .Site.Title }}">    
-
+{{ if eq .Type "post" }}
+    <!-- 仅在单个文章页面添加指向 XML 文件的链接 -->
+    <link rel="alternate" type="application/xml" title="XML" href="{{ .Permalink }}feed.xml">
+    {{ end }}
 
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

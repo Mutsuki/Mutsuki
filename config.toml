@@ -175,7 +175,7 @@ series = "series"
 [outputFormats]
 [outputFormats.RSS]
 mediatype = "application/rss+xml"
-baseName = "feed"
+baseName = "index"
 
 [languages]
   [languages.en]

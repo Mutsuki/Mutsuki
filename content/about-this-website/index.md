@@ -26,8 +26,11 @@ title = "About this wesite"
 <h4 id="Hugo" class="toc">Hugo</h4>
 <p class="sublarge">My static site generator</p>
 Hugo使用的事GO语言进行的构建，而且执行效率也非常高，不管在任何平台上，部署的方式也非常简单，何况他的脚本语意结构也非常简洁。
-之前使用过太多的CMS程序，包括Ghost，用的是Ruby，但依赖的包及管理实在太多，每次执行的时候非常不便，在新机器上设置新环境总是一件痛苦的事情，有些 gem 总是不愿意安装，导致在解决之前需要谷歌搜索大约许多不同的问题，况且需要数据库支持，就像我之前提到的备份真的是件棘手的事。另外最早使用的b2，也就是现在的wordpress，转到Habari，Movable Type，Textpattern，TypePad，Typecho等等，都是关系型，每一次迁移都需要付出大量的技术和时间成本，相互的兼容也着实的让人头疼，加上随着年龄的增长，考虑无效化的因素，决定一切从简。而且从虚拟主机开始也转变为静态生成器，无疑是节省了比资金，毕竟虚拟主机费用不便宜。在转型寻找期间，我测试了Zola的程序，是由Rust脚本语言编写的，还是持观望状态，毕竟不想再花时间去学信的脚本语言，现在也顶多是爱好去玩玩而已。
+之前使用过太多的CMS程序，包括Ghost，用的是Ruby，但依赖的包及管理实在太多，每次执行的时候非常不便，在新机器上设置新环境总是一件痛苦的事情，有些 gem 总是不愿意安装，导致在解决之前需要谷歌搜索大约许多不同的问题，况且需要数据库支持，就像我之前提到的备份真的是件棘手的事。另外最早使用的b2，也就是现在的wordpress，转到Habari，Movable Type，Textpattern，TypePad，Typecho等等，都是关系型，每一次迁移都需要付出大量的技术和时间成本，相互的兼容也着实的让人头疼，加上随着年龄的增长，考虑无效化的因素，决定一切从简。而且从虚拟主机开始也转变为静态生成器，无疑是节省了比资金，毕竟虚拟主机费用不便宜。在转型寻找期间，我测试了Zola的程序，是由Rust脚本语言编写的，还是持观望状态，毕竟不想再花时间去学信的脚本语言，现在也顶多是爱好去玩玩而已。  
+
 https://codepen.io/terrymun/pen/nexdRX
+
+托管的网站是：render.com
 
 <h4 id="tech" class="toc">How it's built</h4>
 <p class="sublarge">What I wrote, what I use and how it all comes together</p>

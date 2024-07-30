@@ -1706,7 +1706,7 @@ ul.build-list li .product a:hover {
     filter: blur(4px);
     display: inline;
 }
-<<<<<<< Updated upstream
+
 :is(:where(.dark) .content-module .note) {
     background: #252b3694;
 }

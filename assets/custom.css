@@ -33,9 +33,15 @@
 html {
   scrollbar-color: #6969dd #e0e0e0;
   scrollbar-width: thin;
+  --antd-wave-shadow-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  --antd-wave-shadow-color: #e63e3c;
+  --scroll-bar: 0;
 }
 body {
-      font-family: "Alimama FangYuanTi VF", "Fira Sans",  "Roboto", sans-serif;
+      font-family: HarmonyOSHans-Regular,HarmonyOSHans-fallback,  "Fira Sans",  "Roboto", sans-serif;
       font-weight: 200;
       font-size: 1.1em;
       line-height: 1.7em;
@@ -49,6 +55,7 @@ body {
       letter-spacing: 0;
       text-shadow: 0px 0px 0.3px #acacac;
       font-variation-settings: "wght" 300;
+      font-feature-settings:"tnum";
   }
 
 a:visited {
@@ -1699,3 +1706,10 @@ ul.build-list li .product a:hover {
     filter: blur(4px);
     display: inline;
 }
+:is(:where(.dark) .content-module .note) {
+    background: #252b3694;
+}
+
+:is(:where(.dark) .content-module ) {border: 3px solid #252b3694;}
+
+:is(:where(.dark) figure .plyr--audio .plyr__controls ) { background: #000000e8;color: var(--plyr-audio-control-color, #f3f3f3);}

@@ -1706,6 +1706,7 @@ ul.build-list li .product a:hover {
     filter: blur(4px);
     display: inline;
 }
+<<<<<<< Updated upstream
 :is(:where(.dark) .content-module .note) {
     background: #252b3694;
 }
@@ -1713,3 +1714,4 @@ ul.build-list li .product a:hover {
 :is(:where(.dark) .content-module ) {border: 3px solid #252b3694;}
 
 :is(:where(.dark) figure .plyr--audio .plyr__controls ) { background: #000000e8;color: var(--plyr-audio-control-color, #f3f3f3);}
+

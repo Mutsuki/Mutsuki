@@ -1,4 +1,7 @@
-
+    {{ if .IsPage }}
+    <script src="{{.Site.BaseURL}}js/progressbar.js"></script>
+    <progress id="content_progress"></progress>
+    {{ end }}
 <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
   <div class="relative z-50 mr-auto flex items-center">
     <a

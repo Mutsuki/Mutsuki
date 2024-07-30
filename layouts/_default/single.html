@@ -1,6 +1,5 @@
 {{ define "main" }}
 <script src="/js/jquery-4.0.0-beta.min.js"></script>
-<progress id="content_progress"></progress>
 <article>
   <header class="mb-16">
     {{ if .Params.featured_image }}
@@ -89,6 +88,9 @@ Update: <abbr class="published"><time>{{ .Lastmod | time.Format ":date_long" }}<
 </dl>
 </section>
 {{ end }}
+
+
+
 
   <!-- Post Nav -->
   {{ if not site.Params.disablePostNavigation }}<!---->

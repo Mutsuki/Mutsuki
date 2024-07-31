@@ -41,7 +41,7 @@ html {
   --scroll-bar: 0;
 }
 body {
-      font-family: HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', 'Microsoft Yahei', 'Fira Sans',  Roboto, sans-serif;
+      font-family: HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', 'Microsoft Yahei', 'Fira Sans', Roboto, sans-serif;
       font-weight: 200;
       font-size: 1.1em;
       line-height: 1.7em;
@@ -765,6 +765,7 @@ content-nav  {box-sizing: content-box;}
     margin: 0.625rem;
 }
 
+
 .clean-list li {
     display: block;
 }
@@ -802,9 +803,9 @@ content-nav  {box-sizing: content-box;}
 }
 
 .icon {
-    height: 1.7em;
+    height: 3em;
     vertical-align: baseline;
-    width: 1.7em;
+    width: 3em;
 }
 
 .avatar--small img {

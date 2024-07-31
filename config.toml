@@ -1,12 +1,13 @@
 baseURL = "https://www.koojiafeng.com/"
 title = "Jiafeng"
-author = "KooJiafeng"
+# author = "KooJiafeng"
 #copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 paginate = 6
 languageCode = "zh-CN"
 DefaultContentLanguage = "en"
 #enableInlineShortcodes = false
 ignoreErrors = ["error-remote-getjson"]
+
 
 #contentDir = "content/post"
 publishDir = "public"

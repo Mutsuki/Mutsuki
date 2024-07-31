@@ -63,22 +63,23 @@ Update: <abbr class="published"><time>{{ .Lastmod | time.Format ":date_long" }}<
 <br>
 
 {{ if ne .Type "page" }}
+{{ range .Params.authors }}
 <section class="meta-author">
 <h2 class="visuallyhidden">作者及发布日期</h2>
 <dl>
-<dt>由:</dt>
+<dt>由:{{ .name }}</dt>
 <dd class="l-cluster">
 <ul class="clean-list" role="presentation">
 <li>
 <span class="with-icon--before with-icon--larger">
-<span class="avatar avatar--small icon">
-<img alt="" src="/av.jpg" loading="lazy">
-</span>
-{{- partial "author.html" . -}}
+<span class="avatar avatar--small icon"><img src="{{ .avatar }}" alt="{{ .name }}" loading="lazy"></span>              
 </span>
 </li>
+
 </ul>
 </dd>
+<p>{{ .bio }}</p>
+{{ end }}
 	{{ if .Date }}
 	<dt>发布:</dt>
 		<dd><abbr class="published"><time>{{ .Date | time.Format ":date_long" }}</time></dd>
@@ -86,10 +87,12 @@ Update: <abbr class="published"><time>{{ .Lastmod | time.Format ":date_long" }}<
 		<dd><abbr class="published"><time>{{ .Lastmod | time.Format ":date_long" }}</time></abbr></dd>
 	{{ end }}
 </dl>
+
 </section>
+
 {{ end }}
 
-
+{{ printf "%#v" .Params.authors }}
 
 
   <!-- Post Nav -->

@@ -1,7 +1,7 @@
 +++
 publishDate = 2005-08-13T10:17:00Z
-author = "koojiafeng"
-authors =  "koojiafeng"
+# author = "koojiafeng"
+# authors =  "koojiafeng"
 image = "/static/images/authors/nraboy.png"
 thumbnail = "images/avatar.jpg"
 description = ""
@@ -10,6 +10,11 @@ slug = "post.815826"
 title = "秋的感觉"
 tags = ["journal","DY","Life"]
 categories = ["journal"]
+
+[[authors]]
+name = "格兰蒂亚"
+bio = "格兰蒂亚，设计大师"
+avatar = "/av.jpg"
 +++
 <font color="#669900">一个月后的今天秋分</font> <br><font color="#ff6600">我也为秋临提前庆祝</font>
 <br>

@@ -41,7 +41,7 @@ html {
   --scroll-bar: 0;
 }
 body {
-      font-family: HarmonyOSHans-Regular,HarmonyOSHans-fallback,  "Fira Sans",  "Roboto", sans-serif;
+      font-family: HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', 'Microsoft Yahei', 'Fira Sans',  Roboto, sans-serif;
       font-weight: 200;
       font-size: 1.1em;
       line-height: 1.7em;

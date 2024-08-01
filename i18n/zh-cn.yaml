@@ -4,3 +4,5 @@
 - id: next_page
   translation: '下一页'
 
+- id: about
+  translation: '关于'

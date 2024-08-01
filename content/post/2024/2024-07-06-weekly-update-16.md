@@ -8,9 +8,12 @@ slug = "weekly-update-16"
 tags = ["journal"]
 title = "Weekly update 16"
 summary = ""
-author = "koojiafeng"
 featured_image = ""
 retina_image =  ""
+[[authors]]
+name = "KooJiafeng"
+bio = "退役人员"
+avatar = "/av.jpg"
 +++
 七月，追风远行，带着流光夜萤，诉说盛夏的美好。所有的奔赴，都是为了追赶落日不沉，所有的努力，都是为了梦想闪耀。
   

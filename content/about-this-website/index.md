@@ -9,6 +9,10 @@ title = "About this wesite"
   publishResources = true
   render = 'always'
 +++
+{{< article-stats >}}
+
+
+
 我从2002年开始写日志，到了2014年有位本地大哥提供了免费的Windows & Linux主机给我，我开始使用b2系统，期间也一直在换不同的CMS，但最终在2024年迁移到Hugo的静态网站生成器。
 
 主页（2012 年 11 月）

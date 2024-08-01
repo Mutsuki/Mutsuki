@@ -1,5 +1,5 @@
 {{ define "main" }}
-<script src="/js/jquery-4.0.0-beta.min.js"></script>
+
 <article>
   <header class="mb-16">
     {{ if .Params.featured_image }}
@@ -67,12 +67,12 @@ Update: <abbr class="published"><time>{{ .Lastmod | time.Format ":date_long" }}<
 <section class="meta-author">
 <h2 class="visuallyhidden">作者及发布日期</h2>
 <dl>
-<dt>由:{{ .name }}</dt>
+<dt>由:</dt>
 <dd class="l-cluster">
 <ul class="clean-list" role="presentation">
 <li>
 <span class="with-icon--before with-icon--larger">
-<span class="avatar avatar--small icon"><img src="{{ .avatar }}" alt="{{ .name }}" loading="lazy"></span>              
+<span class="avatar avatar--small icon"><img src="{{ .avatar }}" alt="{{ .name }}" loading="lazy"></span> {{ .name }}        
 </span>
 </li>
 
@@ -81,8 +81,7 @@ Update: <abbr class="published"><time>{{ .Lastmod | time.Format ":date_long" }}<
 <p>{{ .bio }}</p>
 {{ end }}
 	{{ if .Date }}
-	<dt>发布:</dt>
-		<dd><abbr class="published"><time>{{ .Date | time.Format ":date_long" }}</time></dd>
+	<dt>发布:</dt><dd><abbr class="published"><time>{{ .Date | time.Format ":date_long" }}</time></dd>
 	<dt>更新:</dt> 
 		<dd><abbr class="published"><time>{{ .Lastmod | time.Format ":date_long" }}</time></abbr></dd>
 	{{ end }}
@@ -92,7 +91,7 @@ Update: <abbr class="published"><time>{{ .Lastmod | time.Format ":date_long" }}<
 
 {{ end }}
 
-{{ printf "%#v" .Params.authors }}
+
 
 
   <!-- Post Nav -->

@@ -48,17 +48,17 @@
   <!--<script src="{{.Site.BaseURL}}js/plyr.js"></script>-->
   <!--<script src="{{.Site.BaseURL}}js/plyr.polyfilled.js"></script>-->
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
-   
+  <script src="/js/jquery-4.0.0-beta.min.js"></script>
   <!-- Dark Icon -->
   {{ $dark_icon := "themes.svg" }}
   <!---->
   {{ if site.Params.monoDarkIcon }}{{ $dark_icon = "theme.svg" }}{{ end }}
   <!---->
-  <link rel="preload" as="image" href="{{ $dark_icon | absURL }}" />
+  <link rel="lazyload" as="image" href="{{ $dark_icon | absURL }}" />
 
   <!-- Social List -->
   {{ range $.Scratch.Get "social_list" }}
-  <link rel="preload" as="image" href="{{ printf `%s.svg` . | absURL }}" />
+  <link rel="lazyload" as="image" href="{{ printf `%s.svg` . | absURL }}" />
   {{ end }}
   <!---->
 

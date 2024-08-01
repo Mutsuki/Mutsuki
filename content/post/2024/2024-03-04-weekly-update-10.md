@@ -15,6 +15,10 @@ retina_image =  "/images/2024/0_image@2x.png"
     [output.rss]
         filename = "feed.xml"
         templ = "single_rss.xml"
+[[authors]]
+name = "KooJiafeng"
+
+avatar = "/av.jpg"
 +++
 <p class="has-dropcap">
 <span aria-labelledby="word--first" role="text">

@@ -3,8 +3,9 @@ title = "Jiafeng"
 # author = "KooJiafeng"
 #copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 paginate = 6
-languageCode = "zh-CN"
-DefaultContentLanguage = "en"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = false
 #enableInlineShortcodes = false
 ignoreErrors = ["error-remote-getjson"]
 
@@ -34,6 +35,7 @@ autoCollapseToc = true   # Auto expand and collapse toc
   github = 'koojiafeng'
   instagram = 'koojiafeng'
   mastodon ="https://mastodon.social/@koojiafeng"
+# translation = 'https://about:blank'
 # keywords: [Blog, Portfolio, PaperMod]
   name = '一个人在路上'
   bio = '美好生活'
@@ -76,25 +78,25 @@ autoCollapseToc = true   # Auto expand and collapse toc
 #autoThumbnailImage = true
 #thumbnailImagePosition = "bottom"
 
-#[caches]
-#  [caches.assets]
-#    dir = ':resourceDir/_gen'
-#    maxAge = -1
-#  [caches.getcsv]
-#    dir = ':cacheDir/:project'
-#    maxAge = -1
-#  [caches.getjson]
-#    dir = ':cacheDir/:project'
-#    maxAge = -1
-#  [caches.getresource]
-#    dir = ':cacheDir/:project'
-#    maxAge = -1
-#  [caches.images]
-#    dir = ':resourceDir/_gen'
-#    maxAge = -1
-#  [caches.modules]
-#    dir = ':cacheDir/modules'
-#    maxAge = -1
+[caches]
+  [caches.assets]
+    dir = ':resourceDir/_gen'
+    maxAge = -1
+  [caches.getcsv]
+    dir = ':cacheDir/:project'
+    maxAge = -1
+  [caches.getjson]
+    dir = ':cacheDir/:project'
+    maxAge = -1
+  [caches.getresource]
+    dir = ':cacheDir/:project'
+    maxAge = -1
+  [caches.images]
+    dir = ':resourceDir/_gen'
+    maxAge = -1
+  [caches.modules]
+    dir = ':cacheDir/modules'
+    maxAge = -1
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
 [markup]
@@ -129,7 +131,7 @@ autoCollapseToc = true   # Auto expand and collapse toc
     identifier = "archives"
     name = "Archives"
     url = "/archives/"
-    weight = 20    
+    weight = 20
 
 [taxonomies]
 category = "categories"
@@ -180,18 +182,18 @@ baseName = "index"
 
 [languages]
   [languages.en]
-    disabled = false
+    disabled = true
     languageCode = ''
-    languageDirection = ''
+    languageDirection = 'content/english'
     languageName = 'English'
     title = 'Jiafeng'
     weight = 1
   [languages.zh-cn]
     disabled = false
     languageCode = ''
-    languageDirection = ''
+    languageDirection = 'content/chinese'
     languageName = '中文'
     title = 'Jiafeng'
-    weight = 0
+    weight = 2
     [languages.zh-cn.params]
       reading_speed = 228

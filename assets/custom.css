@@ -5,6 +5,18 @@
 .element.animation-done {
     will-change: auto;
 }
+
+.sticky-element {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.sticky-element.fixed {
+  position: fixed;
+  top: 0;
+  transform: translateY(0);
+}
+
 /* Place custom css here. */
 :root {
     --sub-text-color: #8f9599;
@@ -765,7 +777,6 @@ content-nav  {box-sizing: content-box;}
     margin: 0.625rem;
 }
 
-
 .clean-list li {
     display: block;
 }
@@ -803,9 +814,9 @@ content-nav  {box-sizing: content-box;}
 }
 
 .icon {
-    height: 3em;
+    height: 1.7em;
     vertical-align: baseline;
-    width: 3em;
+    width: 1.7em;
 }
 
 .avatar--small img {

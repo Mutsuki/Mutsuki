@@ -8,9 +8,11 @@ slug = "weekly-update-12"
 tags = ["journal"]
 title = "Weekly update 12"
 summary = ""
-author = "koojiafeng"
 featured_image = ""
 retina_image =  ""
+[[authors]]
+name = "KooJiafeng"
+avatar = "/av.jpg"
 +++
 ## 关于视觉AI的简单想法
 

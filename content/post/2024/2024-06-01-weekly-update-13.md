@@ -8,9 +8,11 @@ slug = "weekly-update-13"
 tags = ["journal"]
 title = "Weekly update 13"
 summary = ""
-author = "koojiafeng"
 featured_image = ""
 retina_image =  ""
+[[authors]]
+name = "KooJiafeng"
+avatar = "/av.jpg"
 +++
 一忽睡到天明，觉得身体里纤屑蜷伏的疲倦，都给睡眠烫平了，想衣服上的走稳折痕经过洛铁一样。 -钱钟书
 

@@ -10,5 +10,8 @@ tags:
 slug: weekly-update-09
 keywords:
   - 
+authors:
+- name: "KooJiafeng"
+- avatar: "/av.jpg"
 ---
 网站的设计其实一直在更新，但也遇到了很多困难，

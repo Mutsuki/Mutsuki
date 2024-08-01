@@ -17,7 +17,6 @@ retina_image =  "/images/2024/0_image@2x.png"
         templ = "single_rss.xml"
 [[authors]]
 name = "KooJiafeng"
-
 avatar = "/av.jpg"
 +++
 <p class="has-dropcap">

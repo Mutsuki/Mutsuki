@@ -8,9 +8,11 @@ slug = "weekly-update-11"
 tags = ["journal"]
 title = "Weekly update 11"
 summary = ""
-author = "koojiafeng"
 featured_image = "/images/2024/niels-van-altena-zOwVWmOQBK8-unsplash.jpg"
 retina_image =  "/images/2024/niels-van-altena-zOwVWmOQBK8-unsplash.jpg"
+[[authors]]
+name = "KooJiafeng"
+avatar = "/av.jpg"
 +++
 这几个月为了缓解经济，我基本只和书打交道，有困难的时候，背后一直有些人在帮助我，所以我也打心底会记住，感恩在心，条件成熟，有机会的时候在回报他们，也一定会义无反顾的去帮助他们。当然我也体会到了失落的时候会有很多人离你而去，虽然提前预感到的，只是没想到我也会有这样的一天，算是体验了人生的插曲。
 

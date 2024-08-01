@@ -8,9 +8,11 @@ slug = "weekly-update-14"
 tags = ["journal"]
 title = "Weekly update 14"
 summary = ""
-author = "koojiafeng"
 featured_image = ""
 retina_image =  ""
+[[authors]]
+name = "KooJiafeng"
+avatar = "/av.jpg"
 +++
 记得苹果开完了WWDC 2024发布会后，看了些创新的内容，似乎觉得越来越平庸，某些功能性的产品离普通人士也越来越远。不过苹果依旧保持很多的，不管是硬件还是软件等，它的前瞻性，稳定性等还是走在各大产品的前列。
 

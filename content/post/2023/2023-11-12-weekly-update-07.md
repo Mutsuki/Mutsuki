@@ -10,7 +10,9 @@ tags:
 slug: weekly-update-07
 keywords:
   - 
-author: "koojiafeng"
+authors:
+- name: "KooJiafeng"
+- avatar: "/av.jpg"
 ---
 
 我如约的去做了网约车司机，只是生活所迫，否则生活无法继续。自从做了网约车之后，我慢慢的开始了解了网约车平台的猫腻对司机来说是很不公平的，所以，第二天做完后，我对自己问了个问题，你的劳动力值多少钱？其实我的车是某公司租赁的，平台也就是众所都知的一些app了，所以每天我睁开眼睛就开始欠钱了。  <!--more-->

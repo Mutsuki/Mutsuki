@@ -42,9 +42,21 @@
     --section-title-margin-bottom: 0em;
     --work-text-gray: rgba(137,148,163,0.75);
 }
+/* Chrome, Safari, Edge */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6969dd;
+}
 html {
   scrollbar-color: #6969dd #e0e0e0;
-  scrollbar-width: thin;
+  scrollbar-width: auto;
   --antd-wave-shadow-color: #fff;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;

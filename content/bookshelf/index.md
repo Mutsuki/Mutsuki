@@ -9,10 +9,10 @@ title = "Bookshelf"
   publishResources = true
   render = 'always'
 +++
-随着2023年的结束，我重读了我近二十年的帖子。我刚开始工作不久就写了这篇文章。后来在我开始了一切的工作， 那时候我已经成为了一个工作狂。我不停地强调了无限的待办事项清单漂浮在我的脑海里。如果我不工作，我总是感到内疚。但后来我认为这是对自己劳动力的一种剥削，我吃亏是在文化上，当然自身的听力缺陷也是某种因素，但不能拿他来作为借口。2023年的6月，我结束了前东家的使命，我觉得需要改变一些事情，以更好的照顾自己，放松自己。（未完）
+随着2023年接近尾声，我重读了我近二十年的文章。记得刚开始工作不久，就写了这篇文章。当我开始做所有事情时，那时候我已经成为了一个工作狂。我一直强调无限的待办事项清单，以及它漂浮在我的脑海里。如果我不工作，我总是感到内疚。但后来我认为这是对自己劳动的剥削，我在文化上遭受的痛苦，当然我自己的听力缺陷也是一个因素，但不能拿它来作为借口。在2023年的6月，我结束了前东家的使命，我觉得需要改变一些事情，以更好的照顾自己和放松。（未完）
 
 <blockquote class="huge bound">
-    <p>To acquire the habit of reading is to construct for yourself a refuge from almost all the miseries of life.</p>
+    <p>To acquire the habit of reading is to construct for yourself a refuge from almost all the miseries of life.<br >译文：养成阅读的习惯就是为自己建造一个远离几乎所有生活痛苦的避难所。</p>
     <span class="author">—W. Somerset Maugham</span>
 </blockquote>
 

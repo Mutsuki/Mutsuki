@@ -11,8 +11,7 @@ summary = ""
 author = "koojiafeng"
 featured_image = ""
 retina_image =  ""
-[[authors]]
-name = "KooJiafeng"
+
 
 avatar = "/av.jpg"
 +++

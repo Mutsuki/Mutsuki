@@ -4,12 +4,11 @@
     <title>{{ .Title | htmlEscape }}</title>
     <link href="{{ .Permalink | safeURL }}" rel="self"/>
     <link href="{{ .Site.BaseURL | safeURL }}"/>
-    <updated>{{ now.Format "2006-01-02T15:04:05Z" }}</updated>
+    <updated>{{ .Date.Format "2006-01-02T15:04:05Z" }}</updated>
     <id>{{ .Permalink | safeURL }}</id>
     <author>
         <name>{{ .Site.Title | htmlEscape }}</name>
     </author>
-    {{ range .Pages }}
     <entry>
         <title>{{ .Title | htmlEscape }}</title>
         <link href="{{ .Permalink | safeURL }}" />
@@ -18,5 +17,4 @@
         <summary type="html">{{ .Summary | plainify | htmlEscape }}</summary>
         <content type="html">{{ .Content | htmlEscape }}</content>
     </entry>
-    {{- end }}
 </feed>

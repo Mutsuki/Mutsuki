@@ -22,7 +22,7 @@
 
 
                     <header class="post-header">
-                        <h1 class="post-title underline">RSS Preview for Raymond Camden</h1>
+                        <h1 class="post-title underline">RSS Preview for Koo</h1>
                     </header><!-- .post-header -->
 
                     <div class="post-content">

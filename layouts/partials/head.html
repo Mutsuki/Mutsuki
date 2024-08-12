@@ -88,7 +88,7 @@
 
 <link rel="alternate"
       type="application/rss+xml"
-      href="{{.Site.BaseURL }}feed.xml"
+      href="{{.Site.BaseURL }}index.xml"
       title="{{ .Site.Title }}">
 
 <link rel="alternate"
@@ -97,7 +97,7 @@
       title="{{ .Site.Title }}">    
 {{ if eq .Type "post" }}
     <!-- 仅在单个文章页面添加指向 XML 文件的链接 -->
-    <link rel="alternate" type="application/xml" title="XML" href="{{ .Permalink }}feed.xml">
+    <link rel="alternate" type="application/xml" title="XML" href="{{ .Permalink }}index.xml">
     {{ end }}
 
 {{ with .OutputFormats.Get "rss" -}}

@@ -4,7 +4,7 @@
     <title>{{ .Title }}</title>
     <link>{{ .Permalink }}</link>
     <description>{{ .Summary }}</description>
-    <atom:link href="{{ .Permalink }}feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ .Permalink }}atom.xml" rel="self" type="application/rss+xml" />
     {{ range .Data.Pages }}
     <item>
       <title>{{ .Title }}</title>

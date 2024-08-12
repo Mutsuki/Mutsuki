@@ -28,7 +28,27 @@ autoCollapseToc = true   # Auto expand and collapse toc
 
 # ------------------------------
 
+[mediaTypes]
+[mediaTypes."application/atom+xml"]
+suffix = "xml"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[outputFormats]
+[outputFormats.ATOM]
+mediaType = "application/atom+xml"
+baseName = "atom"
+isPlainText = false
+suffix = "xml"
+notAlternative = true
+
+
+
 [params]
+  rssFileName = "feed.xml"
   blockSearchEngines = true
   color = 'light'
   twitter = 'koojiafeng'
@@ -49,7 +69,7 @@ autoCollapseToc = true   # Auto expand and collapse toc
   disableHLJS = true                        # disable highlight.js
 #  disablePostNavigation = false
 #  monoDarkIcon = true 
-# math = true
+ math = true
   
 #[build]
 #  [build.buildStats]
@@ -69,7 +89,7 @@ autoCollapseToc = true   # Auto expand and collapse toc
 [minify]
   disableCSS = true
 #  disableHTML = flase
-  disableXML = true
+#  disableXML = true
   disableJS = false
 #  minifyOutput: true
   disableSVG = false
@@ -170,30 +190,3 @@ series = "series"
   [permalinks.section]
     post = '/article/'
     tutorials = '/training/'
-
-[outputs]
-  home = ["HTML", "RSS"]
-  page = ["HTML", "RSS"]
-  
-[outputFormats]
-[outputFormats.RSS]
-mediatype = "application/rss+xml"
-baseName = "index"
-
-[languages]
-  [languages.en]
-    disabled = true
-    languageCode = ''
-    languageDirection = 'content/english'
-    languageName = 'English'
-    title = 'Jiafeng'
-    weight = 1
-  [languages.zh-cn]
-    disabled = false
-    languageCode = ''
-    languageDirection = 'content/chinese'
-    languageName = '中文'
-    title = 'Jiafeng'
-    weight = 2
-    [languages.zh-cn.params]
-      reading_speed = 228

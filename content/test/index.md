@@ -96,14 +96,12 @@ became enthralled about this when I was planning for my 2013 trip to Japan. I ca
 
 </div>
 
+
+
 <picture>
- <source
- srcset="https://www.koojiafeng.com/images/bg/bg.jpeg?x-oss-process=image/format,avif"
- type="image/avif"
- />
- <img
- src="https://www.koojiafeng.com/images/bg/bg.jpeg"
- />
+  <source srcset="https://www.koojiafeng.com/images/bg/bg.avif" type="image/avif">
+  <source srcset="https://www.koojiafeng.com/images/bg/bg.webp" type="image/webp">
+  <img src="ihttps://www.koojiafeng.com/images/bg/bg.jpeg" alt="Example image with AVIF, WebP, and JPEG fallback">
 </picture>
 
 

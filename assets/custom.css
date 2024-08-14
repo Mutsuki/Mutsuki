@@ -299,11 +299,11 @@ section h2 a{  text-decoration: none;}
 
 :is(:where(.dark) blockquote):not(.compact):hover:before  {
     width: 6px;
-    background: #acb1bf;
+    background: #FF6719;
 }
 
 :is(:where(.dark) section blockquote ):not(.compact):before {
-    background: #FF6719;
+    background: #B74D17;
 }
 
 :is(:where(.dark) section blockquote:hover ) {

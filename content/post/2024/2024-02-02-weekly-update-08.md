@@ -1,19 +1,18 @@
----
-title: Weekly Update 08
-description: "不念过往，不畏未来，再也回不去过往的岁月，只能抬头勇往直前。山一程，水一程，心向春天。穿过苍凉，去改变时光的容颜。"
-slug: weekly-update-08
-draft: true
-date: 2024-02-02T14:36:14Z
-categories:
-  - journal
-tags:
-  - journal
-keywords:
-  - journal
-authors:
-- name: "KooJiafeng"
-- avatar: "/av.jpg"
----
++++
+categories = ["journal"]
+date = 2024-02-02T14:36:14Z
+lastmod = 2024-02-02T14:36:14Z
+draft = true
+description = "不念过往，不畏未来，再也回不去过往的岁月，只能抬头勇往直前。山一程，水一程，心向春天。穿过苍凉，去改变时光的容颜。"
+slug = "weekly-update-08"
+tags = ["journal"]
+title = "Weekly Update 08"
+summary = ""
+featured_image = ""
+retina_image =  ""
+keywords = "journal"
+
++++
 ## 更换程序
 资金问题，不得不撤销原有的服务商，只能使用Hugo来替代原来的Ghost；
 页面设计也不再重新设计，在设计上稍加一些修改和调整；<!--more-->

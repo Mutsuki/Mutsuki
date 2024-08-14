@@ -96,6 +96,17 @@ became enthralled about this when I was planning for my 2013 trip to Japan. I ca
 
 </div>
 
+<picture>
+ <source
+ srcset="https://image-compress-demo.oss-cn-zhangjiakou.aliyuncs.com/demo.jpg?x-oss-process=image/format,avif"
+ type="image/avif"
+ />
+ <img
+ src="https://image-compress-demo.oss-cn-zhangjiakou.aliyuncs.com/demo.jpg"
+ />
+</picture>
+
+
 <p>The only print books I have are basically just travel and coffee table books that serve more as decoration. <strong>If I read 24+ books a year and have no intention of reading them again, do I really want those books taking up space?</strong> If you really loved a particular book, then by all means purchase a print copy to display on your bookshelf. But not for me. <sup><a rel="footnote" href="#footnote-2" id="r2">2</a></sup></p>
 
 <p>短消息发布<sup><a rel="footnote" href="#footnote-1" id="r1">1</a></sup></p>
@@ -114,6 +125,9 @@ Esse incididunt consequat amet quis qui proident enim cillum nostrud enim. Offic
 
 Excepteur anim aliqua duis ipsum et. Consequat eu qui reprehenderit reprehenderit dolor adipisicing excepteur qui cillum ipsum et veniam. Deserunt laborum ea veniam irure.
 
+
+<blockquote>How to check if your doctor is listening: Before your appointment make a list of all the things you want to address. At the end of the meeting go through each item on your list to ensure everything has been addressed and has a plan of action. If something hasn’t been addressed bring it up again but one at a time. That way the doctor has no choice but to address each one.</blockquote>
+
 <section name="footnotes" id="footnotes">
 <h6 class="toc toc-hidden" id="fn">Footnotes</h6>
 <p id="footnote-1"><a href="#r1">1</a> 当然这是验证</p>
@@ -122,21 +136,21 @@ Excepteur anim aliqua duis ipsum et. Consequat eu qui reprehenderit reprehenderi
 </section>
 
 
-<code>
-  <ul>
-  {{ range (first 25 (where .Site.RegularPages "Type" "post")) }}
-    <li>
-      <a href="{{ .RelPermalink}}">{{ .Title }}</a> 
-      {{range (first 3 (.Params.tags))}}
-        {{ $tagColor := substr (md5 .) 0 6}}
-        <!-- hex code attach opacity to end of code, 1A is 10% opacity  -->
-        <!-- to add link here, you'd need to search Taxonomies for url, but it doesn't have chinese tag -->
-        <div class="tag" style="--tag-color: #{{$tagColor}}1A" >{{ . }}</div>
-      {{end }}
-      <div class="archive">- {{.Date.Format "2006-01-02"}}</div>
-    </li>
-  {{ end }}
-</ul>
-</code>
+    <ul>
+          {{ range (first 25 (where .Site.RegularPages "Type" "post")) }}
+            <li>
+              <a href="{{ .RelPermalink}}">{{ .Title }}</a> 
+              {{range (first 3 (.Params.tags))}}
+                {{ $tagColor := substr (md5 .) 0 6}}
+                <!-- hex code attach opacity to end of code, 1A is 10% opacity  -->
+                <!-- to add link here, you'd need to search Taxonomies for url, but it doesn't have chinese tag -->
+                <div class="tag" style="--tag-color: #{{$tagColor}}1A" >{{ . }}</div>
+              {{end }}
+              <div class="archive">- {{.Date.Format "2006-01-02"}}</div>
+            </li>
+          {{ end }}
+    </ul>
+
+
 
 https://blog.douchi.space/static-blog-one-year-in-hugo-decoration-3/#gsc.tab=0

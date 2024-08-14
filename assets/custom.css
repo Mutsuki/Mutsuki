@@ -303,7 +303,7 @@ section h2 a{  text-decoration: none;}
 }
 
 :is(:where(.dark) section blockquote ):not(.compact):before {
-    background: #acb1bf9f;
+    background: #FF6719;
 }
 
 :is(:where(.dark) section blockquote:hover ) {
@@ -323,7 +323,7 @@ section h2 a{  text-decoration: none;}
 :where(.dark) blockquote:not(.compact)::before {
     content: "";
     display: block;
-    background: #acb1bf9f;
+    background: #6600CC;
   }
 
 blockquote:not(.compact):before {

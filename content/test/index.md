@@ -98,11 +98,11 @@ became enthralled about this when I was planning for my 2013 trip to Japan. I ca
 
 <picture>
  <source
- srcset="https://image-compress-demo.oss-cn-zhangjiakou.aliyuncs.com/demo.jpg?x-oss-process=image/format,avif"
+ srcset="https://www.koojiafeng.com/images/bg/bg.jpeg?x-oss-process=image/format,avif"
  type="image/avif"
  />
  <img
- src="https://image-compress-demo.oss-cn-zhangjiakou.aliyuncs.com/demo.jpg"
+ src="https://www.koojiafeng.com/images/bg/bg.jpeg"
  />
 </picture>
 

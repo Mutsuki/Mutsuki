@@ -62,7 +62,7 @@
   <time class="text-sm antialiased opacity-60">{{ .Date | time.Format ":date_medium" }}</time>
 	<p>{{ .Description }} </p>
 	{{ if .Truncated }}
-      <a href="{{ .Permalink }}">Read more...</a>
+  <p class="invite"><a href="{{ .Permalink }}">Read the full article</a></p>
     {{ end }}
 </section>
 {{ end }}

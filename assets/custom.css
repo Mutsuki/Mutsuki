@@ -41,6 +41,7 @@
     --section-title-margin-top: 10em;
     --section-title-margin-bottom: 0em;
     --work-text-gray: rgba(137,148,163,0.75);
+
 }
 /* Chrome, Safari, Edge */
 ::-webkit-scrollbar {
@@ -63,9 +64,10 @@ html {
   -ms-overflow-style: scrollbar;
   --antd-wave-shadow-color: #e63e3c;
   --scroll-bar: 0;
+  line-height:1.15
 }
 body {
-      font-family: HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', 'Microsoft Yahei', 'Fira Sans', Roboto, sans-serif;
+      font-family: HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', AlibabaPuHuiTi, 'Microsoft Yahei', 'Fira Sans', Roboto, sans-serif;
       font-weight: 200;
       font-size: 1.1em;
       line-height: 1.7em;
@@ -658,6 +660,11 @@ hr {
     margin: var(--hr-margin, 3rem) auto;
     background: #e8e8e8;
     width: 7rem;
+
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+    height:0;
+    overflow:visible
 }
 
 section p {
@@ -768,9 +775,12 @@ content-nav  {box-sizing: content-box;}
     padding-top: 0.5rem;
 }
 
-@media screen and (min-width: 48em)
-.post .meta-author dl dd:first-of-type {
-    padding-right: 9.375rem;
+
+
+@media screen and (min-width: 48em) {
+    .post .meta-author dl dd:first-of-type {
+        padding-right: 9.375rem;
+    }
 }
 
 .l-cluster {
@@ -1469,10 +1479,13 @@ section .photoset {
 
 }
 
-@media only screen and (min-width: 42em)
-.photoset, section .photoset {
-    max-width: 1000px;
+@media only screen and (min-width: 42em) {
+    .photoset,
+    section .photoset {
+        max-width: 1000px;
+    }
 }
+
 
 .photoset, section.photoset {
     *overflow: hidden;
@@ -1738,4 +1751,20 @@ ul.build-list li .product a:hover {
 :is(:where(.dark) .content-module ) {border: 3px solid #252b3694;}
 
 :is(:where(.dark) figure .plyr--audio .plyr__controls ) { background: #000000e8;color: var(--plyr-audio-control-color, #f3f3f3);}
+
+.invite {
+	color:#59600E;
+	font-size:100%;
+	}
+
+.invite a {
+	text-decoration:none;
+	text-transform:lowercase;
+	padding-left:16px;
+	background:transparent url(invite.gif) 0 60% no-repeat;
+	}
+
+.invite a:hover {
+	background:#F0F3B1 url(invite.gif) -288px 60% no-repeat !important;
+	}
 

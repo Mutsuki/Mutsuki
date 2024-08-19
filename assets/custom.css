@@ -927,7 +927,7 @@ img {
 
 :is(:where(.dark) ul:not(.list-xl) li>a:hover) {
     text-decoration-color: white;
-    color: #acb1bf;
+    color: #576899;
 }
 
 blockquote.huge.bound {
@@ -1753,7 +1753,7 @@ ul.build-list li .product a:hover {
 :is(:where(.dark) figure .plyr--audio .plyr__controls ) { background: #000000e8;color: var(--plyr-audio-control-color, #f3f3f3);}
 
 .invite {
-	color:#59600E;
+	color:#576899;
 	font-size:100%;
 	}
 
@@ -1765,6 +1765,6 @@ ul.build-list li .product a:hover {
 	}
 
 .invite a:hover {
-	background:#F0F3B1 url(invite.gif) -288px 60% no-repeat !important;
+	background:url(invite.gif) -288px 60% no-repeat !important;
 	}
 

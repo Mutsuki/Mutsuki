@@ -1,12 +1,12 @@
 +++
 categories = ["journal"]
-date = 2024-07-15T10:16:52Z
-lastmod = 2024-07-16T12:13:52Z
+date = 2024-08-15T10:16:52Z
+lastmod = 2024-08-16T12:13:52Z
 draft = true
 description = "水深不语，人稳不言"
 slug = "weekly-update-18"
 tags = ["journal"]
-title = "Weekly update 17"
+title = "Weekly update 18"
 summary = ""
 author = "koojiafeng"
 featured_image = ""

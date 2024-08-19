@@ -111,17 +111,31 @@ became enthralled about this when I was planning for my 2013 trip to Japan. I ca
 
 Caramels tootsie roll I love macaroon jujubes. I love icing bonbon. Topping ice cream muffin marzipan lemon drops sugar plum biscuit. Chocolate cupcake powder macaroon bear claw I love cupcake icing. Jelly bear claw caramels jelly beans jelly-o soufflé. Powder cheesecake pastry lemon drops oat cake bonbon gummi bears. Jelly-o I love cake cupcake. I love halvah gummi bears caramels. Gummies I love gummies fruitcake cake marzipan. Oat cake donut cake brownie.
 
-Powder cotton candy chocolate bar chupa chups I love cookie. Apple pie cotton candy ice cream jelly-o biscuit danish I love. Croissant dessert gingerbread cupcake tootsie roll. Powder jelly-o I love apple pie pie I love I love donut bear claw. Sesame snaps croissant cheesecake macaroon. Jujubes tiramisu cotton candy. Chocolate bar marshmallow I love toffee muffin toffee tootsie roll I love. Cotton candy oat cake chocolate cake croissant cake caramels cheesecake macaroon candy canes.
+## UML diagrams
 
-Fruitcake caramels macaroon. Jelly beans wafer caramels. Jelly beans chocolate bar liquorice jelly-o. Gingerbread brownie powder lemon drops sweet oat cake I love. Donut danish marshmallow cupcake tart jelly-o brownie tart lemon drops. Donut powder caramels muffin ice cream cheesecake cookie tart. Dragée I love topping.
+You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
-Ex est reprehenderit laboris officia duis veniam officia. Adipisicing irure eu tempor anim nisi ea consequat dolore pariatur dolore mollit excepteur ea. Et ex reprehenderit officia eiusmod fugiat. Ad nulla tempor dolore sit culpa nisi. Dolor nostrud est do mollit officia quis.
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
 
-Dolor quis do do dolor non non in irure aute laboris magna fugiat magna minim. Anim deserunt elit officia excepteur consequat tempor do dolor anim. Minim laborum sint mollit veniam. Aute cillum dolore fugiat veniam deserunt ut in voluptate cupidatat non. Laboris elit consequat in incididunt ad consectetur nulla cupidatat commodo exercitation.
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```
 
-Esse incididunt consequat amet quis qui proident enim cillum nostrud enim. Officia cupidatat Lorem dolor irure laborum magna veniam pariatur velit deserunt sit laboris nisi. Irure excepteur officia amet nostrud cupidatat elit voluptate eiusmod ullamco. Id pariatur esse nulla ad pariatur commodo et aute aliquip ut fugiat et.
+And this will produce a flow chart:
 
-Excepteur anim aliqua duis ipsum et. Consequat eu qui reprehenderit reprehenderit dolor adipisicing excepteur qui cillum ipsum et veniam. Deserunt laborum ea veniam irure.
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
 
 
 <blockquote>How to check if your doctor is listening: Before your appointment make a list of all the things you want to address. At the end of the meeting go through each item on your list to ensure everything has been addressed and has a plan of action. If something hasn’t been addressed bring it up again but one at a time. That way the doctor has no choice but to address each one.</blockquote>

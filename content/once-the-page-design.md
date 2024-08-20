@@ -9,6 +9,9 @@ categories = [ "desgin" ]
 +++
 下面这些事我暂时能找到的曾经并使用过的页面设计，但由于有了年代，所以能找到也是不容易，如果有人需要，我可以将文件分享给各位。
 
+
+
+
 <img src="/snip/-----------1.png" style="zoom:100%">
 <img src="/snip/-----------2.png" style="zoom:100%">
 <img src="/snip/-----------3.png" style="zoom:100%">

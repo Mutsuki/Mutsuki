@@ -27,6 +27,7 @@ build:
 
 <p class="double">This text has a wavy red line beneath it.</p>
 
+<h2 class="hdgSec02" data-spm-anchor-id="0.0.0.i2.a4af27e4hyBZs2">研究手法と成果</h2>
 
 ![screen reader text](/snip/1122.png "caption")
 

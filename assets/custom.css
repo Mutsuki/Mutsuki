@@ -436,7 +436,8 @@ blockquote.huge .author {
   }
 
 .archive-month-header {
-    margin: 25px 0;
+    margin: 18px 0;
+    /** margin: 25px 0;**/
     width: 200px;
   }
 
@@ -1768,3 +1769,11 @@ ul.build-list li .product a:hover {
 	background:url(invite.gif) -288px 60% no-repeat !important;
 	}
 
+    .hdgSec02 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 0 0 0 15px;
+        border-left: solid 5px #272a5e;
+        margin-top: 46px;
+    }

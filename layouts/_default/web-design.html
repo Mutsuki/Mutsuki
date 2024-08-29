@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<article>
+    <header class="mb-16">
+      <h1 class="!my-0 pb-2.5">{{ .Title }}</h1>
+      {{ if ne .Type "page" }}  
+      <div class="text-sm antialiased opacity-60">
+        {{ if .Params.categories }}
+          {{ range .Params.categories }} {{ $href := print (absURL "categories/") (urlize .) }}
+              Published in: <a  href="{{ $href }}">{{ . }}</a>
+        {{ end }}
+      <span class="middot-divider"></span>
+        {{ printf " %d min read" .ReadingTime }} 
+      </div>
+      {{ end }}
+
+    {{ end }}
+    </header>
+
+    <section>{{ .Content }}</section>
+</article>    
+    
+{{ end }}

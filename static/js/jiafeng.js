@@ -6,3 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    $("#expand-photosNewZealand").on('click', function(){
+    $("#overflowNewZealand").show();
+    $("#overflowNewZealand img").each(function(){
+    $(this).attr({src: $(this).attr('data-src')});
+    });
+    $("#hideNewZealand").hide();
+    });
+    }); 

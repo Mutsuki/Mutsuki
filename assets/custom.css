@@ -178,9 +178,6 @@ color: rgb(0, 0, 1);
   
 section h2 a{  text-decoration: none;}
 
-
-
-  
   article.post p.meta {
     margin: 1em 0.5em 0.3em 0.5em; }
 
@@ -192,8 +189,6 @@ section h2 a{  text-decoration: none;}
     color: #666666;
     font-style: italic;
     font-size: 0.7em; }
-
-
 
   .contact-form {
     width: 100%;

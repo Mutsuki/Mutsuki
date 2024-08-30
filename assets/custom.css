@@ -65,6 +65,9 @@ html {
   --antd-wave-shadow-color: #e63e3c;
   --scroll-bar: 0;
   line-height:1.15
+  background-color: #ffffff
+  color: #2b2b2b
+  overflow-x: hidden;
 }
 body {
       font-family: HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', AlibabaPuHuiTi, 'Microsoft Yahei', 'Fira Sans', Roboto, sans-serif;
@@ -94,6 +97,7 @@ a:hover {
 a:active, a:focus {
     outline: 0;
     border: none;
+    outline-style: none;
     -moz-outline-style: none;
 }
 :focus {

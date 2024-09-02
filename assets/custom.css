@@ -178,8 +178,6 @@ color: rgb(0, 0, 1);
   color: rgb(4, 4, 4);
 }
 
-
-  
 section h2 a{  text-decoration: none;}
 
   article.post p.meta {
@@ -292,8 +290,6 @@ section h2 a{  text-decoration: none;}
     padding: 2em;
     margin: 2em 0; }  
 
-
-  
 :is(:where(.dark) blockquote) {
     color: #acb1bf;
 }

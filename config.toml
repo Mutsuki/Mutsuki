@@ -9,7 +9,6 @@ defaultContentLanguageInSubdir = false
 #enableInlineShortcodes = false
 ignoreErrors = ["error-remote-getjson"]
 
-
 #contentDir = "content/post"
 publishDir = "public"
 #  postDir = "/post/2024"
@@ -27,28 +26,7 @@ toc = true                # 是否开启目录
 autoCollapseToc = true   # Auto expand and collapse toc
 
 # ------------------------------
-
-[mediaTypes]
-[mediaTypes."application/atom+xml"]
-suffix = "xml"
-
-[outputs]
-  home = ["HTML", "RSS"]
-  page = ["HTML", "RSS"]
-  section = ["HTML", "RSS"]
-
-[outputFormats]
-[outputFormats.ATOM]
-mediaType = "application/atom+xml"
-baseName = "atom"
-isPlainText = false
-suffix = "xml"
-notAlternative = true
-
-
-
 [params]
-  rssFileName = "feed.xml"
   blockSearchEngines = true
   color = 'light'
   twitter = 'koojiafeng'
@@ -63,7 +41,21 @@ notAlternative = true
 # clearReading = true
   author =  'koojiafeng'
 
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "RSS"]
 
+[outputFormats]
+[outputFormats.RSS]
+baseName = "atom"
+isPlainText = true
+suffix = "xml"
+notAlternative = true
+noUgly = true
+
+[mediaTypes]
+[mediaTypes."application/atom+xml"]
+suffix = "xml"
 
 # misc
   disableHLJS = true                        # disable highlight.js

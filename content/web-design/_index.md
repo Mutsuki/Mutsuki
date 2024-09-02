@@ -19,6 +19,11 @@ layout = "web-design"
 下面这些事我暂时能找到的曾经并使用过的页面设计，但由于有了年代，所以能找到也是不容易，如果有人需要，我可以将文件分享给各位。
 <div class="collection-wrap">
       <li class="collection-item-index">
+                <div class="collection-header-content clearfix">
+            <div class="count">COLLECTION</div>
+            <h2>Africa</h2>
+            <div class="travel-stats"><div class="travel-stats-module">7,179 <span>photos taken</span></div><div class="travel-stats-module">14 <span>days</span></div></div>
+          </div>
         <a href="#" title="Template">
           <img class="travel-img hero-delayed" height="667" src="/snip/html_template.avif" data-src="/snip/html_template.avif" data-srcset="/snip/html_template.avif 500w, /snip/html_template.avif 750w, /snip/html_template.avif 1280w, /snip/html_template.avif 1500w" srcset="/snip/html_template.avif 500w, /snip/html_template.avif 750w, /snip/html_template.avif 1280w, /snip/html_template.avif 1500w" data-loaded="true">      
         </a>

@@ -848,10 +848,7 @@ content-nav  {box-sizing: content-box;}
     width: 100%;
 }
 
-img {
-    border-radius: 12px;
 
-}
 
 .middot-divider {
     padding-right: .45em;
@@ -1822,7 +1819,10 @@ ul.build-list li .product a:hover {
         font-weight: 700;
         line-height: 1;
       }
-
+      .collection-wrap .collection-item-index .collection-header-content {
+        text-align: center;
+        padding: 3rem 0 2.75rem;
+      }
       .collection-wrap .collection-item-index .travel-stats {
         opacity: .8;
         padding: 1rem 0 0;
@@ -1918,14 +1918,7 @@ ul.build-list li .product a:hover {
         width: 5rem;
         margin: 1rem auto 3.5rem;
       }
-      .clearfix::after {
-        clear: both;
-        content: ".";
-        display: block;
-        height: 0;
-        visibility: hidden;
-        font-size: 0;
-      }
+
       li.collection-item {
         padding: 1.75rem 2rem !important;
         border-bottom: 1px solid rgba(0,0,0,.04);
@@ -1946,14 +1939,23 @@ ul.build-list li .product a:hover {
           background: rgba(0,0,0,.06);
         }
       }
-      li.collection-item {
-        padding: 1.75rem 2rem !important;
-        border-bottom: 1px solid rgba(0,0,0,.04);
+      li.collection-item .travel-img {
+        width: 370px;
+        margin-right: 1.5em;
+        float: left;
+        border-radius: 4px;
+        transition: transform ease-in-out .2s;
+        transform-origin: 100% 50%;
       }
       @media (min-width: 40em) {
         .collection-wrap:hover .collection-item-index .travel-img {
           transform: scale(1.016);
           box-shadow: 0 5px 10px rgba(0,0,0,.2);
+        }
+      }
+      @media (min-width: 44em) {
+        li.collection-item:not(.coming-soon):hover .travel-img {
+          transform: scale(1.04);
         }
       }
       .collection-wrap .collection-item-index .travel-img {

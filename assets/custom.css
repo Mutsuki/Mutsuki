@@ -1967,3 +1967,106 @@ ul.build-list li .product a:hover {
         border-radius: 8px;
         transition: transform .4s ease-out;
       }
+
+      .collection-wrap li {
+        display: block;
+        margin: 0;
+        border-radius: 16px;
+    }
+    .collection-wrap ul li{
+    list-style-type: none;
+    margin-left: 1.6em;
+    margin-bottom: var(--postex-ul-li-margin-bottom, 0.5em);
+    position: relative;
+}
+
+.story-content {
+    overflow: hidden;
+    width: 42em;
+    margin: 4em auto 4em;
+}
+
+.context-card {
+    margin: 3rem 0 3rem;
+    border: 2px solid rgba(28, 27, 27, 0.17);
+    padding: 1.5em 1em .25em 1em;
+    border-radius: 12px;
+    position: relative;
+}
+.context-card h6 {
+    text-align: left;
+    margin: 0 0 2em .25em;
+    background: #292f33;
+    padding: 0px .5em;
+    color: #fff;
+    position: absolute;
+    display: block;
+    opacity: 1;
+    top: -0.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+.context-card ul.travelers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.context-card ul.travelers li {
+    margin: 0 .5em;
+    margin-bottom: 1.5em;
+}
+.context-card ul.travelers li a {
+    position: relative;
+    display: block;
+}
+.context-card ul.travelers li span {
+    font-size: .9rem;
+    color: rgba(255, 255, 255, .4);
+    transition: all 300ms cubic-bezier(0.15, 0.77, 0.47, 0.97);
+    font-weight: 400;
+    text-align: center;
+    display: block;
+}
+.context-card ul.travelers li a img.av1 {
+  display: block;
+}
+.context-card ul.travelers li a img.av2 {
+    display: none;
+  }
+.context-card ul.travelers img {
+    width: 78px;
+    height: 78px;
+    background-color: none;
+    border-radius: 100px;
+    display: block;
+    margin-bottom: 1.3rem;
+    -webkit-transition: all 500ms cubic-bezier(0.15, 0.77, 0.47, 0.97);
+    -moz-transition: all 500ms cubic-bezier(0.15, 0.77, 0.47, 0.97);
+    -o-transition: all 500ms cubic-bezier(0.15, 0.77, 0.47, 0.97);
+    transition: all 500ms cubic-bezier(0.15, 0.77, 0.47, 0.97);
+    transform: scale(1);
+  }
+
+  section .context-card ul li {list-style-type: none;}
+
+  .prose pre {
+    background-color: hsla(16.4, 100%, 2.2%, 0.8);
+    border-radius: .75rem;
+    font-size: .95rem;
+    margin: 2.5rem auto;
+    max-width: 49rem;
+    overflow-x: scroll;
+    padding: 2.5rem;
+    text-wrap: wrap;
+  }
+
+  .prose pre code {
+    border: initial;
+    border-radius: .75rem;
+    line-height: 1.5;
+    padding: 0;
+  }
+  

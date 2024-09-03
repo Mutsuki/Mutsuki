@@ -98,6 +98,8 @@ Access all areas
 
 如果你喜欢这个网站的内容，也欢迎您进行[订阅](/subscribe/)。
 
+本站采用 [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) 协议进行许可。
+
 <section name="footnotes" id="footnotes">
 <h6 class="toc toc-hidden" id="fn">Footnotes</h6>
 <p id="footnote-1"><a href="#r1">1</a>2024年初，转到了Render.com上进行托管</p>

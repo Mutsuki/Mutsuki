@@ -2,9 +2,9 @@
 date = 2000-07-12T08:55:29Z
 description = ""
 draft = false
-slug = "once-the-page-design"
-title = "once-the-page-design"
-series = [ "Go Web Dev" ]
+slug = "web-design"
+title = "Web Design"
+series = [ "Html Css Web Dev" ]
 categories = [ "desgin" ]
 layout = "web-design"
 [build]
@@ -21,14 +21,14 @@ layout = "web-design"
       <li class="collection-item-index">
                 <div class="collection-header-content clearfix">
             <div class="count">COLLECTION</div>
-            <h2>Africa</h2>
-            <div class="travel-stats"><div class="travel-stats-module">7,179 <span>photos taken</span></div><div class="travel-stats-module">14 <span>days</span></div></div>
+            <h2>Html Design</h2>
+            <div class="travel-stats"><div class="travel-stats-module">13 <span>Design Templates</span></div><div class="travel-stats-module">14 <span>days</span></div></div>
           </div>
         <a href="#" title="Template">
           <img class="travel-img hero-delayed" height="667" src="/snip/html_template.avif" data-src="/snip/html_template.avif" data-srcset="/snip/html_template.avif 500w, /snip/html_template.avif 750w, /snip/html_template.avif 1280w, /snip/html_template.avif 1500w" srcset="/snip/html_template.avif 500w, /snip/html_template.avif 750w, /snip/html_template.avif 1280w, /snip/html_template.avif 1500w" data-loaded="true">      
         </a>
       </li>      
-      <h6 class="sc-heading">11 HTML TEMPLATE</h6>
+      <h6 class="sc-heading">13 HTML TEMPLATE</h6>
       <hr class="heading-divider">     
         <li class="collection-item clearfix">
           <a href="#" title="xxxholic">

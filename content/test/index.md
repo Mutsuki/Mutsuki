@@ -25,6 +25,24 @@ build:
   <div class="caption">A USB-C f YubiKey 5C security key plugged into my ThinkPad X1 Carbon</div>
 </section>
 
+<pre class="not-prose"><code># Run as root 
+apt install awscli
+# Provide your credentials for your Spaces bucket, api key and secret when prompted 
+aws configure 
+# Switch to the Mastodon user
+sudo su - mastodon 
+# Test to see that it works by listing what's in your Spaces bucket 
+# Note: you need to replace the region with your region if different 
+# Any time you interact with the AWS CLI, you need to use the --endpoint-url option to 
+# specify that we are using DigitalOcean Spaces, not Amazon S3
+aws --endpoint-url https://nyc3.digitaloceanspaces.com s3 ls
+
+cd /home/mastodon
+
+# Now we'll create the script to backup the database
+vim backup_database.sh
+</code></pre>
+
 <p class="double">This text has a wavy red line beneath it.</p>
 
 <h2 class="hdgSec02" data-spm-anchor-id="0.0.0.i2.a4af27e4hyBZs2">研究手法と成果</h2>
@@ -165,7 +183,21 @@ C --> D
             </li>
           {{ end }}
     </ul>
+<section class="story-content">
+<div class="context-card">
+<h6>TRAVELERS</h6>
+<ul class="travelers">
+<li><a href="#" target="_blank"><img src="/av.jpg" class="av1" alt="#"><img src="/av.jpg" class="av2" alt="#"></a><span>Koo</span></li>
+<li><a href="#" target="_blank"><img class="av1" src="/av.jpg" alt="#"><img class="av2" src="/av.jpg" alt="#"></a><span>Koo</span></li>
+<li><a href="#" target="_blank"><img class="av1" src="/av.jpg" alt="#"><img class="av2" src="/av.jpg" alt="#"></a><span>Koo</span></li>
+<li><a href="#" target="_blank"><img class="av1" src="/av.jpg" alt="#"><img class="av2" src="/av.jpg" alt="#"></a><span>Koo</span></li>
 
+</ul>
+</div>
 
-
+<div class="context-card">
+    <h6>BEHIND THE SCENES</h6>
+    <p>I'm trying something new with this photoset. I've made several compilations of various videos captured from my phone (as opposed to my <a href="#/" title="Camera Gear - #">large Sony camera</a>) like this one above. They are longer and don't autoplay, just click them to expand and play (and excuse any bugs..).</p>
+  </div>
+</section>
 https://blog.douchi.space/static-blog-one-year-in-hugo-decoration-3/#gsc.tab=0

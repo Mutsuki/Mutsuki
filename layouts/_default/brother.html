@@ -23,23 +23,20 @@
           </picture>
     </div>
 {{ end }}
-    <h1 class="!my-0 pb-2.5">{{ .Title }}</h1>
+
 
 {{ if ne .Type "page" }}
-	<div class="text-sm antialiased opacity-60">
-	  {{ if .Params.categories }}
-		{{ range .Params.categories }} {{ $href := print (absURL "categories/") (urlize .) }}
-			Published in <a  href="{{ $href }}">{{ . }}</a>
-	  {{ end }}
-<span class="middot-divider">
-{{ if .Lastmod }}
-  Updated:
-  <abbr class="updated"><time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006-01-02" }}</time></abbr>
-{{ else if .Date }}
-  Published:
-  <abbr class="published"><time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></abbr>
-{{ end }}
-</span>
+{{ range .Params.authors }}
+<div class="text-sm antialiased opacity-60">
+<div class="blog-header">
+<h1>{{ .Title }}</h1>
+<ul>
+<li>Update: <abbr class="updated"><time>{{ .Lastmod.Format "2006-01-02" }}</time></abbr></li>								
+<li><a href="#" rel="category tag">{{ .name }}</a></li>
+<li>
+<a href="#" title="Posts by Ton Roosendaal" rel="author">Ton Roosendaal</a>																			</li>
+</ul>
+</div>
 <!--{{ printf " %d min read" .ReadingTime }} -->
 </div>
 {{ end }}

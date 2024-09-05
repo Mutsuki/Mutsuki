@@ -1,13 +1,14 @@
----
-title: "about"
-slug: about
-draft: false
-layout: 'stuff-i-use'
-build:
-  list: never
-  publishResources: true
-  render: always
----
++++
+title = "about"
+slug = "about"
+draft = false
+layout = "about-me"
+lastmod = 2024-09-02T14:36:14Z
+[build]
+list = "never"
+publishResources = true
+render = "always"
++++
 ![f](/head-1.jpg "This is a sample image.")
 
 互联网经常让我发现一些有趣的东西，总会被一些新的兴趣爱好所吸引，鉴于我经常运动和绘画，所以我会经常羽毛球运动及油画，包括练习次中音萨克斯。最初我也只是作为一个器材喜欢上各种工具，包括烹饪的工具才迷上烹饪，我经常阅读，所以有一定的习惯。
@@ -35,20 +36,10 @@ N=1：我为改变我的生活所做的事🙈
   
   
 <h3>下一步计划</h3>
-<p class="sublarge">Things I may consider doing next if I had more time..</p>
-
-如果我有更多的时间，我可能会考虑做一些事情。
+<p class="sublarge">如果我有更多的时间，我可能会考虑做一些事情。</p>
 
 <hr />
 
 如果你希望能联系我，请到此[页面](/contact)。
 
 关于 [站点信息](/about-this-website/).
-<h4>Jun 2024</h4>
-还有些介绍的内容我会继续 ...
-
-<div class="content-module">
-    <div class="note"><h6 class="semibold">Disclaimer</h6></div>
-<p>All information and code on this site is for informational purposes only and provided as-is. This site does not provide any warranty, either express or implied. All thoughts and opinions are my own.</p>
-<p>本站上的所有信息和代码仅供参考，并按原文提供。本网站不提供任何明示或提示的保证。所有观点和意见均为个人所有。</p>
-</div>

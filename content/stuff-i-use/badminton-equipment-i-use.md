@@ -31,7 +31,13 @@ layout = 'stuff'
         <li>
         <div class="product">
             <a href="#" title="#">Victor JETSPEED S 10 4U </a>
-            <div class="type">这是我喜欢的选手吴蔚昇战拍</div>
+            <div class="type">平衡拍，轻便，快速</div>
+        </div>
+        </li>
+        <li>
+        <div class="product">
+            <del><a href="#" title="#">Victor AURASPEED 90S 4U </a></del>
+            <div class="type">平衡拍，轻便，快速 - 战损（30磅的拉多了就容易折寿）</div>
         </div>
         </li>
         <li>
@@ -48,7 +54,6 @@ layout = 'stuff'
         </li>
 </ul>
 </article>
-
 
 <article id="postex" >
 <ul class="build-list no-price" id="full_parts_list">

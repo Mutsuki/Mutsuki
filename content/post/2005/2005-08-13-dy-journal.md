@@ -10,7 +10,7 @@ slug = "post.815826"
 title = "秋的感觉"
 tags = ["journal","DY","Life"]
 categories = ["journal"]
-
+layout = 'brother'
 [[authors]]
 name = "格兰蒂亚"
 bio = "格兰蒂亚，设计大师"

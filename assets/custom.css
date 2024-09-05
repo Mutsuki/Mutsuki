@@ -64,9 +64,9 @@ html {
   -ms-overflow-style: scrollbar;
   --antd-wave-shadow-color: #e63e3c;
   --scroll-bar: 0;
-  line-height:1.15
-  background-color: #ffffff
-  color: #2b2b2b
+  line-height:1.15;
+  background-color: #ffffff;
+  color: #2b2b2b;
   overflow-x: hidden;
 }
 body {
@@ -707,6 +707,9 @@ acronym, abbr {
     margin-top: 1.875rem;
 }
 
+.threads + * {
+    margin-top: 1.875rem;
+}
 
 content-nav  {box-sizing: content-box;}
 
@@ -2070,3 +2073,53 @@ ul.build-list li .product a:hover {
     padding: 0;
   }
   
+  .prose :where(.context-card):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+    border: 2px solid rgba(238, 205, 205, 0.17);
+  }
+
+  .blog-header {
+    margin:4rem auto;
+    position:relative;
+    text-align:center
+  }
+  .blog-header>h1 {
+    font-size:var(--fs-h1);
+    font-variation-settings:"wght" var(--fw-light);
+    font-weight:400;
+    padding:2.4rem
+  }
+  .blog-header>ul {
+    display:inline-block;
+    font-size:var(--fs-sm);
+    list-style:none;
+    padding-left:0;
+    position:relative;
+    text-transform:uppercase;
+    width:100%;
+    z-index:1
+  }
+  .blog-header>ul:after {
+    background-color:var(--color-text-tertiary);
+    bottom:1.6rem;
+    content:"";
+    display:block;
+    height:.1rem;
+    left:0;
+    position:absolute;
+    right:0;
+    z-index:-1
+  }
+  .blog-header>ul>li {
+    background-color:var(--color-bg);
+    color:var(--color-text-secondary);
+    display:inline-block;
+    margin:0;
+    padding:0 1rem;
+    white-space:nowrap
+  }
+  .blog-header>ul>li:after {
+    display:none
+  }
+  .blog-header>ul>li a {
+    color:var(--color-text-secondary)
+  }

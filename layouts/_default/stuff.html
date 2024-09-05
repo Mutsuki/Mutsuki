@@ -1,28 +1,28 @@
 {{ define "main" }}
 <article>
   <header class="mb-16">
+
 <div id="stuff-back-header">
 <a class="back" href="/stuff-i-use/"><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M52.01 39.02H32.02v8.01l-.01 0c-.01 1.1-.9 2-2.01 2 -.47-.01-.93-.17-1.29-.47L10.68 33.54l-.01-.01c-.85-.71-.97-1.97-.26-2.82 .07-.1.16-.18.25-.26l18.02-15.02 -.01 0c.84-.71 2.11-.6 2.82.25 .29.35.46.81.46 1.28v8.01h19.98l-.01 0c1.1-.01 2 .89 2 1.99v10l0 0c0 1.1-.9 2-2 2 -.01 0-.01-.01-.01-.01Z"></path></svg><span>Stuff I use</span></a>
 </div>
+
 <h1 class="!my-0 pb-2.5">{{ .Title }}</h1>
-
-    {{ if ne .Type "page" }}
-
-    <div class="text-sm antialiased opacity-60">
-
-      {{ if .Params.categories }}
-        {{ range .Params.categories }} {{ $href := print (absURL "categories/") (urlize .) }}
-            Published in: <a  href="{{ $href }}">{{ . }}</a>
-      {{ end }}
-      <span class="middot-divider"></span>
-      {{ printf " %d min read" .ReadingTime }} 
-    </div>
-    {{ end }}
-
-<h3 class="subtitle">{{ .Description }}</h3>
-
+{{ if ne .Type "page" }}
+<span class="middot-divider">
+  {{ if .Lastmod }}Updated:  <abbr class="updated"><time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006-01-02" }}</time></abbr>
+  {{ else if .Date }}Published:  <abbr class="published"><time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></abbr>
   {{ end }}
-    {{ if ( .Site.Params.toc | default true ) }}
+</span>
+
+<div class="text-sm antialiased opacity-60">
+{{ if .Params.categories }}
+  {{ range .Params.categories }} {{ $href := print (absURL "categories/") (urlize .) }}
+  Published in: <a  href="{{ $href }}">{{ . }}</a>
+  {{ end }}
+{{ end }}
+{{ end }}
+
+  {{ if ( .Site.Params.toc | default true ) }}
           {{ partial "toc.html" . }}
   {{ end }}
   </header>

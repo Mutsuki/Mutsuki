@@ -2,7 +2,7 @@
 title: "台式机电脑"
 slug: desktop-pc
 #publishDate: 2024-01-12T08:55:29Z
-#lastmod: 2024-02-11T08:00:12Z
+lastmod: 2024-02-11T08:00:12Z
 draft: false
 description: '台式机电脑'
 tags:
@@ -10,12 +10,12 @@ tags:
 author: "koojiafeng"
 layout: 'stuff'
 ---
-记得最早接触的电脑是我兄弟家的，还是windows 98，有时候也会为了玩游戏装成了Windows Me，这就是我第一次接触电脑的世界。
+记得最早接触的电脑是在大兄弟家的，还是windows 98，有时候也会为了玩游戏装成了Windows Me，这就是我第一次接触电脑的世界，这大兄弟自然也成了我启蒙老师。
 
-中学的时候我已经开始玩转各种系统，那台Lenovo电脑装的是当时最新的系统Windows XP，直到后来无法运行Windows Vista的时候我才开始淘汰了它。
-期间我也装了Windows 95，Windows 98,，Windows Me，Windows Server 2000，和Windows XP。直到后来在学校，我开始做私服魔兽世界和奇迹世界，当时搭档那台Lenovo台式机硬件已经是负荷运行了，无奈对网页技术和网络技术不熟悉，就经常被黑。
+中学的时候我已经开始玩转各种系统，那台Lenovo电脑（这里很感谢我的母亲当时给我买的电脑）装的是当时最新的系统Windows XP，直到后来无法运行Windows Vista的时候我才开始淘汰了它。
+期间我也装了Windows 95，Windows 98,，Windows Me，Windows Server 2000，和Windows XP。直到后来在学校，我开始做私服魔兽世界和奇迹世界，当时搭档那台Lenovo台式机硬件已经是负荷运行了。
 
-工作后，有了点经济实力，就购买一台像样的配置，但显卡在资金不足的情况，还是选择购买了AMD 5700XT。
+工作后，搞了几台电脑，但最终在近两年还是搞了台像样的配置，但显卡在资金不足的情况，选择购买了AMD 5700XT。
 
 <article id="postex" >
 <ul class="build-list no-price" id="full_parts_list">

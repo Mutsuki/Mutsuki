@@ -25,24 +25,21 @@ hugo server --bind="0.0.0.0" --baseURL=http://10.0.128.53 -D --cleanDestinationD
 
 2. 克隆此仓库：
 
-```bash
-
-    git clone https://github.com/yourusername/your-repo-name.git
-
-```
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
 
 3. 进入项目目录：
 
-```bash
-cd your-repo-name
-
-```
+   ```bash
+   cd your-repo-name
+   ```
 
 4. 启动本地服务器：
 
-```bash
-hugo server --bind="0.0.0.0" --baseURL=http://ip_address -D --cleanDestinationDir --gc --logLevel info --ignoreCache
-```
+   ```bash
+   hugo server --bind="0.0.0.0" --baseURL=http://ip_address -D --cleanDestinationDir --gc --logLevel info --ignoreCache
+   ```
 
 5. 在浏览器中打开 `http://localhost:1313` 查看网站。
 

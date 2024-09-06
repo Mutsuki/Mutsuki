@@ -24,6 +24,7 @@ summaryLength = 70
 
 toc = true                # 是否开启目录
 autoCollapseToc = true   # Auto expand and collapse toc
+tag = "tags"
 
 # ------------------------------
 [params]

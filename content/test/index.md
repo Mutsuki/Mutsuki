@@ -25,7 +25,9 @@ build:
   <div class="caption">A USB-C f YubiKey 5C security key plugged into my ThinkPad X1 Carbon</div>
 </section>
 
-<pre class="not-prose"><code># Run as root 
+<pre class="not-prose">
+<code>
+# Run as root
 apt install awscli
 # Provide your credentials for your Spaces bucket, api key and secret when prompted 
 aws configure 

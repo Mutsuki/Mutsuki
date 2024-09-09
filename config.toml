@@ -117,6 +117,10 @@ suffix = "xml"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.parser]
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
   [markup.highlight]
     lineNos = true
 

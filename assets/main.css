@@ -1694,12 +1694,12 @@ background-color: hsl(249deg 22% 12%);
 }
 
 article {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   line-height: 1.75rem;
   line-height: 1.8;
   --tw-text-opacity: 1;
 /**  color: rgb(0 0 0 / var(--tw-text-opacity)); **/
-  font-variation-settings: "wght" 300;
+  font-variation-settings: "wght" 600;
 
 }
 

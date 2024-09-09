@@ -7,11 +7,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 document.addEventListener("DOMContentLoaded", function() {
-    $("#expand-photosNewZealand").on('click', function(){
-    $("#overflowNewZealand").show();
-    $("#overflowNewZealand img").each(function(){
+    $("#expand-htmldesign").on('click', function(){
+    $("#htmldesign").show();
+    $("#htmldesign img").each(function(){
     $(this).attr({src: $(this).attr('data-src')});
     });
-    $("#hideNewZealand").hide();
+    $("#hidehtmldesign").hide();
     });
     }); 
+    window.onload = function() {
+        // 页面完全加载后才执行的代码
+        document.querySelectorAll('img[loading="lazy"]').forEach(img => {
+            img.addEventListener('load', () => {
+                console.log('Lazy-loaded image has loaded:', img);
+            });
+        });
+    };

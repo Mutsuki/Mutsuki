@@ -71,6 +71,7 @@ html {
 }
 body {
       font-family: HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', AlibabaPuHuiTi, 'Microsoft Yahei', 'Fira Sans', Roboto, sans-serif;
+      font-smooth: auto;
       font-weight: 200;
       font-size: 1.1em;
       line-height: 1.7em;

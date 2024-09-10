@@ -22,7 +22,7 @@
                  alt="{{ .Title }}">
           </picture>
     </div>
-{{ end }}
+    {{ end }}
 
 
 {{ if ne .Type "page" }}
@@ -31,27 +31,21 @@
 <div class="blog-header">
 <h1>{{ .Title }}</h1>
 <ul>
-<li>Update: <abbr class="updated"><time>{{ .Lastmod.Format "2006-01-02" }}</time></abbr></li>								
-<li><a href="#" rel="category tag">{{ .name }}</a></li>
+<li>Update: <abbr class="updated"><time>{{ .Date.Format "2006-01-02" }}</time>{{ .Date.Format "2006-01-02" }}</abbr></li>
+<li><a href="#" rel="category tag">TAG</a></li>
 <li>
-<a href="#" title="Posts by Ton Roosendaal" rel="author">Ton Roosendaal</a>																			</li>
+<a href="#" title="" rel="author">{{ .name }}</a>
+</li>
 </ul>
 </div>
-<!--{{ printf " %d min read" .ReadingTime }} -->
 </div>
 {{ end }}
-{{ if ne .Type "post" }}
-  {{ if .Lastmod }}
-    Update: <abbr class="updated"><time>{{ .Lastmod.Format "2006-01-02" }}</time></abbr>
-  {{ else }}
-    Created: <abbr class="published"><time>{{ .Date.Format "2006-01-02" }}</time></abbr>
-  {{ end }}
 {{ end }}
 
-{{ end }}
+
 {{ if ( .Site.Params.toc | default true ) }}
           {{ partial "toc.html" . }}
-	{{ end }}
+{{ end }}
  </header>
  
   <section>{{ .Content }}</section>
@@ -83,17 +77,13 @@
 <span class="avatar avatar--small icon"><img src="{{ .avatar }}" alt="{{ .name }}" loading="lazy"></span> {{ .name }}        
 </span>
 </li>
-
 </ul>
 </dd>
 <p>{{ .bio }}</p>
-{{ end }}
-
 
 </dl>
-
 </section>
-
+{{ end }}
 {{ end }}
 
 

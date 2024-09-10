@@ -1,35 +1,55 @@
 +++
-publishDate = 1132888620
-lastmod = 1349795035
+date = 2005-11-25T11:17:00Z
+lastmod = 2012-10-09T23:03:55Z
 description = ""
 draft = true
 slug = "their-greatest-hits"
 title = "Their Greatest Hits"
+categories = ["Music"]
 +++
-1. If I Didn't Care
-2. My Prayer
-3. Memories Of You
-4. I'm Getting Sentimental Over You
-5. Bless You
-6. Maybe
-7. Whispering Grass
-8. I'll Never Smile Again
-9. I Don't Want To Set The World On Fire
-10. We Three
-11. Ring Telephone Ring
-12. Java Jive
-13. Someone's Rocking My Dreamboat
-14. Cow Cow Boogie
-15. A Lovely Way To Spend An Evening
-16. I'll Get By
-17. I'm Beginning To See The Light
-18. It's A Sin To Tell A Lie
-19. To Each His Own
-20. Every Night About This Time
-21. Street Of Dreams
-22. Where Flamingoes Fly
-23. Don't Get Around Much Anymore
-24. Prisoner Of Love
-25. Do I Worry````
+希望大家喜欢，这是我最喜欢的女歌手！卡彭特乐队里的！
+不过现在好老哦！！
+
+![图片](/images/2005/cpc_ball.jpg)
+
+Yesterday Once More 昨日重现
+
+Superstar 巨星
+
+Rainy Days And Mondays 下雨的星期一
+
+Top Of The World 世界之最
+
+Ticket To Ride 回程车票
+
+Goodbye To Love 再见我的爱
+
+This Masquerade 化装舞会
+
+Hurting Each Other 相互伤害
+
+Solitaire 寂寞
+
+We've Only Just Begun 我们刚开始
+
+Those Good Old Dreams 旧梦
+
+Please Mr Postman 求求您，邮差先生
+
+I Won't Last A Day Without You 不能没有你
+
+Touch Me When We're Dancing 相拥而舞
+
+Jambalaya （On The Bayou）什锦菜
+
+For All We Know 我们都知道
+
+All You Get From Love is A Love Song 你得到的爱是一首爱的歌
+
+(They Long To Be) Close To You 靠近你
+
+Only Yesterday 只有昨天
+
+Calling Occupants Of Interplanetary Craft
 
 Trackback: http://www.yculblog.com/trackback/0/974818 

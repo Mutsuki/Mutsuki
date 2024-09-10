@@ -5,6 +5,7 @@ description = ""
 draft = false
 slug = "survey-give-you-a-bowl-of-meng-grandma-soup- what-you-will-choose-to-forget"
 title = "[调查] 给你一碗孟婆汤，你会选择遗忘什么？"
+categories = ["Other"]
 +++
 <font size="3">
 <p><font color="#000000"><strong>2.忘记自己所爱的人 </strong></font></p>

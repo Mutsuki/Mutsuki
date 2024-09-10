@@ -5,6 +5,7 @@ draft = true
 slug = "use-textpattern"
 title = "textpattern"
 tags = ["Website","textpattern"]
+categories = ["journal"]
 +++
 正如我现在在做的就是熟悉textpattern程序了，从目前来说wordpress程序已经在国内普及了，不如说是泛滥了。
 

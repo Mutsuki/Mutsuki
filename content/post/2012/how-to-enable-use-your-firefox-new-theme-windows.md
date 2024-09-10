@@ -6,7 +6,8 @@ draft = true
 slug = "how-to-enable-use-your-firefox-new-theme-windows"
 title = "如何在Firefox游览器上使用新的主题"
 +++
-<img src="http://people.mozilla.com/~shorlander/ux-presentation/01-Firefox-Australis-(Windows).jpg" height="580px" width="860px">  
+<img src="/images/2011/01-Firefox-Australis-(Windows).jpg" height="580px" width="860px">  
+原图片地址：http://people.mozilla.com/~shorlander/ux-presentation/01-Firefox-Australis-(Windows).jpg
 Download New theme  
 <pre><code>https://addons.mozilla.org/en-US/firefox/addon/australis/versions/</code></pre>
 

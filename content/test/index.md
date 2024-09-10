@@ -159,7 +159,14 @@ A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
 ```
-
+<div class="c-cmjOaN c-cmjOaN-cGSuyl-animateIn-true c-cmjOaN-ikRsAQh-css">
+<span class="c-cSYTWC c-cSYTWC-hEuRwX-shape-large"><span aria-hidden="true" style="width: 100%; height: 100%; opacity: 0;"></span>
+<span style="opacity: 1;">
+    <div class="image-container">
+        <img src="/images/2024/Adoley_2_2_dfd3a0ca3f.jpg" alt="Sample Image" class="hover-zoom" >
+    </div>
+</span>
+</div>
 
 <blockquote>How to check if your doctor is listening: Before your appointment make a list of all the things you want to address. At the end of the meeting go through each item on your list to ensure everything has been addressed and has a plan of action. If something hasn’t been addressed bring it up again but one at a time. That way the doctor has no choice but to address each one.</blockquote>
 

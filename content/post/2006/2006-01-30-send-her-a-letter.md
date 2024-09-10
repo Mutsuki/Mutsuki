@@ -4,6 +4,7 @@ description = ""
 draft = true
 slug = "send-her-a-letter"
 title = "寄给她的一封信……"
+categories = ["journal"]
 +++
 我不知道，当我想起你的时候，
 会有多少想对你说的话，

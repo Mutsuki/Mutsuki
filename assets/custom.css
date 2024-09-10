@@ -1483,15 +1483,17 @@ section .photoset {
     }
 }
 
-
-.photoset, section.photoset {
-    *overflow: hidden;
+.photoset,
+section.photoset {
+    *overflow: hidden; /* 保留星号前缀 */
+    overflow: hidden; /* 标准语法 */
     width: 92%;
     margin: var(--blockquote-huge-margin, 2em) -20%;
     display: block;
 }
 
-.photoset .photoset-row, section .photoset .photoset-row {
+.photoset .photoset-row, 
+section .photoset .photoset-row {
     margin-bottom: 0.5rem;
     width: 150%;
 }
@@ -2065,6 +2067,7 @@ ul.build-list li .product a:hover {
     overflow-x: scroll;
     padding: 2.5rem;
     text-wrap: wrap;
+    color:hsl(189deg, 43%, 73%)
   }
 
   .prose pre code {
@@ -2124,3 +2127,82 @@ ul.build-list li .product a:hover {
   .blog-header>ul>li a {
     color:var(--color-text-secondary)
   }
+
+  /* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 全屏高度 */
+    background-image: url('path/to/your/image.jpg'); /* 替换为你的图像路径 */
+    background-size: cover; /* 覆盖整个容器 */
+    background-position: center; /* 图像居中 */
+    background-repeat: no-repeat; /* 不重复 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* 文本颜色 */
+}
+
+/* Hero Overlay (可选) */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* 半透明覆盖层 */
+    z-index: 1; /* 确保覆盖层在背景图像之上 */
+}
+
+/* Hero Content */
+.hero-content {
+    position: relative;
+    z-index: 2; /* 确保内容在覆盖层之上 */
+}
+
+.hero-title {
+    font-size: 3rem; /* 标题字体大小 */
+    margin-bottom: 1rem; /* 标题下方间距 */
+}
+
+.hero-subtitle {
+    font-size: 1.5rem; /* 副标题字体大小 */
+    margin-bottom: 2rem; /* 副标题下方间距 */
+}
+
+.hero-button {
+    padding: 1rem 2rem; /* 按钮内边距 */
+    font-size: 1rem; /* 按钮字体大小 */
+    background-color: #ff6347; /* 按钮背景颜色 */
+    color: white; /* 按钮文本颜色 */
+    border: none; /* 无边框 */
+    border-radius: 5px; /* 圆角 */
+    cursor: pointer; /* 鼠标指针 */
+    transition: background-color 0.3s; /* 过渡效果 */
+}
+
+.hero-button:hover {
+    background-color: #ff4500; /* 按钮悬停背景颜色 */
+}
+
+/* Hero Image Container */
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 全屏高度 */
+    overflow: hidden; /* 防止图像溢出 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero Image */
+.hero-image img {
+    width: 100%;
+    height: auto; /* 保持图像比例 */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* 保持图片比例并适应容器 */
+}

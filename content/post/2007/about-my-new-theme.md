@@ -5,6 +5,7 @@ draft = true
 slug = "about-my-new-theme"
 title = "About my new theme"
 author = "koojiafeng"
+categories = ["journal"]
 +++
 这次制作的稍微理想点，无论是从创意上，配色上，整个布局结构都是自己一个个去想，去做的。
 对于新主题的要求，我算是对自己严格了很多，从Doctype就使用了strict.dtd的模式，而且CSS自己是一个个想上去，其中，我也特意找了很多国外著名的Weblog网站，从他们那儿找了几个元素，觉得很有意思...白会在新主题上显示出的。

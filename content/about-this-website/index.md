@@ -91,7 +91,7 @@ http://xxxholic.cc # [Brando’s blog] 2006 Wordpress - Movable Type (MT)
 http://oopiz.cn  { 大 白 物 语 }  2008-2009 Wordpress
 http://brandoishere.net 2009 Wordpress - Textpattern
 http://brandoishere.net 2010 Jekyll 
-https://www.koojiafeng.name 2010 -2019 TypePad - HabariProject - Typecho - Official Ghost
+https://www.koojiafeng.name 2010 -2019 TypePad - HabariProject - Typecho - Custom Ghost - Official Ghost
 https://www.koojiafeng.com 2023 Ghost - Hugo
 ```
 Access all areas

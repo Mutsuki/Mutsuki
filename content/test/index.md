@@ -29,21 +29,8 @@ build:
 <code>
 # Run as root
 apt install awscli
-# Provide your credentials for your Spaces bucket, api key and secret when prompted 
-aws configure 
-# Switch to the Mastodon user
-sudo su - mastodon 
-# Test to see that it works by listing what's in your Spaces bucket 
-# Note: you need to replace the region with your region if different 
-# Any time you interact with the AWS CLI, you need to use the --endpoint-url option to 
-# specify that we are using DigitalOcean Spaces, not Amazon S3
-aws --endpoint-url https://nyc3.digitaloceanspaces.com s3 ls
-
-cd /home/mastodon
-
-# Now we'll create the script to backup the database
-vim backup_database.sh
-</code></pre>
+</code>
+</pre>
 
 <p class="double">This text has a wavy red line beneath it.</p>
 
@@ -53,27 +40,10 @@ vim backup_database.sh
 
 [![Bookmark Style Card](https://svg.bookmark.style/api?url=https://bookmark.style)](https://bookmark.style)
 
-{% callout type="check" %}
-Markdoc is open-source—check out its [source](http://github.com/markdoc/markdoc) to see how it works.
-{% /callout %}
-
-
 ```python
 # Example of code highlighting
 input_string_var = input("Enter some data: ")
 print("You entered: {}".format(input_string_var))
-```
-
-```html
-<pre><code class="language-html">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-
-<!-- and it's easy to individually load additional languages -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
-
-<script>hljs.highlightAll();</script>
-</code></pre>
 ```
 
 {{< audio "audio/bg.mp3" "A custom comment" >}}
@@ -83,8 +53,6 @@ print("You entered: {}".format(input_string_var))
 {{< box info >}}
   Incididunt labore eiusmod culpa eu nostrud tempor laborum consequat eiusmod excepteur.
 {{< /box >}}
-
-
 
 <p class="has-dropcap">
 <span aria-labelledby="word--first" role="text">
@@ -134,8 +102,6 @@ Caramels tootsie roll I love macaroon jujubes. I love icing bonbon. Topping ice 
 
 Test
 
-## UML diagrams
-
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
 ```mermaid
@@ -178,20 +144,6 @@ C --> D
 </section>
 
 
-    <ul>
-          {{ range (first 25 (where .Site.RegularPages "Type" "post")) }}
-            <li>
-              <a href="{{ .RelPermalink}}">{{ .Title }}</a> 
-              {{range (first 3 (.Params.tags))}}
-                {{ $tagColor := substr (md5 .) 0 6}}
-                <!-- hex code attach opacity to end of code, 1A is 10% opacity  -->
-                <!-- to add link here, you'd need to search Taxonomies for url, but it doesn't have chinese tag -->
-                <div class="tag" style="--tag-color: #{{$tagColor}}1A" >{{ . }}</div>
-              {{end }}
-              <div class="archive">- {{.Date.Format "2006-01-02"}}</div>
-            </li>
-          {{ end }}
-    </ul>
 <section class="story-content">
 <div class="context-card">
 <h6>TRAVELERS</h6>

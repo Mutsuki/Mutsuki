@@ -1,6 +1,5 @@
 +++
-date = 2005-11-25T11:17:00Z
-lastmod = 2012-10-09T23:03:55Z
+date = 2005-11-25T03:17:00Z
 description = ""
 draft = true
 slug = "their-greatest-hits"

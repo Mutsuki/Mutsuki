@@ -1,10 +1,11 @@
 +++
-date = 1157348880
-lastmod = 1238763181
+date = 2006-09-04T13:48:00Z
+#lastmod = 2009-04-03T20:53:01Z
 description = ""
 draft = true
 slug = "in-meng-potangs-that-drop-of-tear"
 title = "孟婆汤中的那滴眼泪－语音"
+categories = ["journal"]
 +++
 “孟婆汤”的故事原本我在“小混混的浪漫”中提起过，现在已经丢失所有数据，是我自己的人为删除，对个人的隐私我非常注重。
 

@@ -1486,7 +1486,6 @@ section .photoset {
 .photoset,
 section.photoset {
     *overflow: hidden; /* 保留星号前缀 */
-    overflow: hidden; /* 标准语法 */
     width: 92%;
     margin: var(--blockquote-huge-margin, 2em) -20%;
     display: block;

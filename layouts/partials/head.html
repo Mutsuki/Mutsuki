@@ -35,16 +35,18 @@
   <link rel="stylesheet" href="/css/result.css">
 
   {{ $main := resources.Get "main.css" }}
-  <!---->
+
   {{ $custom := resources.Get "custom.css" }}
-  <!---->
+
   {{ $css := slice $main $custom | resources.Concat "main.css" | minify }}
+
   <link rel="preload stylesheet" as="style" href="{{ $css.Permalink }}" />
   <script src="https://code.jquery.com/jquery-4.0.0-beta.2.min.js"></script>
   <script src="{{.Site.BaseURL}}js/jiafeng.js"></script>
+
   <!--<script src="{{.Site.BaseURL}}css/plyr.css"></script>-->
-<link rel="preload" href="https://cdn.plyr.io/3.7.8/plyr.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css"></noscript>
+  <link rel="preload" href="https://cdn.plyr.io/3.7.8/plyr.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css"></noscript>
   <!--<script src="{{.Site.BaseURL}}js/plyr.js"></script>-->
   <!--<script src="{{.Site.BaseURL}}js/plyr.polyfilled.js"></script>-->
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
@@ -70,9 +72,12 @@
     onload="hljs.initHighlightingOnLoad();"
   ></script>
   {{ end }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script async src="https://cdn.seline.so/seline.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
+  <script src="https://cdn.seline.so/seline.js" data-token="3ff50cc96ab55ab" async></script>
+
   <!-- Math -->
   {{ if or .Params.math site.Params.math }}
   <!---->

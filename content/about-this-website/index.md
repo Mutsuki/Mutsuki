@@ -10,6 +10,7 @@ title = "About this wesite"
   render = 'always'
 +++
 {{< article-stats >}}
+
 之前的网站由于学校的教程是Asp，但无奈IIS系统漏洞太多经常被黑，脚本自身问题也特别多，后来自学Php，那时候几乎无人问津，毕竟这语言刚开始出来，国内反响没那么大，所以后来转换成B2，也就是现在的Wordpress，期间也一直在换不同的CMS，但最终在2024年迁移到Hugo的静态网站生成器。
 当初的论坛也非常流行，比如在discuz之前的IPBOARD，我也经常做些翻译和发布小Mod。
 
@@ -51,7 +52,7 @@ https://codepen.io/terrymun/pen/nexdRX
 </ul>
 
 <h5>Hosting</h5>
-我在上述已经提到过，从早期的Bluehost，DreamHost，Linode，Amazon Cloud到最近用的Digital Ocean，每次的数据迁移总会造成一部分数据丢失，所以我开始剥离一些业务，将他们分开进行存储。目前我还在寻找可靠的。毕竟Git在跟踪存储库，哪些中大型在压缩文件时会变得非常缓慢，对我这种需要轻存储库的人来说不是很合理，所以我正在研究Domain sharding这种具有优势的性能策略优势，毕竟从不同源进行加载资源，可以绕过游览器对可发出的并发请求数量限制，这点已经在http/2上普及了，在最新的http/3 quic能快速的利用协议优势进行传输。不过重要的是，我还没有做好备份的存储。
+我在上述已经提到过，从早期的Bluehost，DreamHost，MediaTemple, Linode，Amazon Cloud到最近用的Digital Ocean，每次的数据迁移总会造成一部分数据丢失，所以我开始剥离一些业务，将他们分开进行存储。目前我还在寻找可靠的。毕竟Git在跟踪存储库，哪些中大型在压缩文件时会变得非常缓慢，对我这种需要轻存储库的人来说不是很合理，所以我正在研究Domain sharding这种具有优势的性能策略优势，毕竟从不同源进行加载资源，可以绕过游览器对可发出的并发请求数量限制，这点已经在http/2上普及了，在最新的http/3 quic能快速的利用协议优势进行传输。不过重要的是，我还没有做好备份的存储。
 
 <h4 id="svg" class="toc">SVG icons and animation</h4>
 <p class="sublarge">Working with SVGs in my photosets</p>

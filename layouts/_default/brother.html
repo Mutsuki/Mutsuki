@@ -25,22 +25,20 @@
     {{ end }}
 
 
-{{ if ne .Type "page" }}
-{{ range .Params.authors }}
+
 <div class="text-sm antialiased opacity-60">
 <div class="blog-header">
-<h1>{{ .Title }}</h1>
+<h1>sss</h1>
 <ul>
-<li>Update: <abbr class="updated"><time>{{ .Date.Format "2006-01-02" }}</time>{{ .Date.Format "2006-01-02" }}</abbr></li>
+<li>Update: <abbr class="updated"><time>fff</time>fff</abbr></li>
 <li><a href="#" rel="category tag">TAG</a></li>
 <li>
-<a href="#" title="" rel="author">{{ .name }}</a>
+<a href="#" title="" rel="author">fff</a>
 </li>
 </ul>
 </div>
 </div>
-{{ end }}
-{{ end }}
+
 
 
 {{ if ( .Site.Params.toc | default true ) }}

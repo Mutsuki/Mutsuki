@@ -1,6 +1,6 @@
 +++
-date = 1275516741
-lastmod = 1304855157
+date = 2010-06-03T06:12:21Z
+lastmod = 2011-05-08T19:45:57Z
 description = ""
 draft = true
 slug = "dont-make-choices-for-others"

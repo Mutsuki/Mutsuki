@@ -1,6 +1,6 @@
 +++
-publishDate = 1330099870
-lastmod = 1330099870
+publishDate = 2012-02-25T00:11:10Z
+lastmod = 2012-02-25T00:11:10Z
 description = ""
 draft = true
 slug = "wireless-network-management-tips-of-subnet-mask"

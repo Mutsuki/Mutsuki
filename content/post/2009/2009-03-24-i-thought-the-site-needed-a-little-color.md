@@ -1,6 +1,6 @@
 +++
-publishDate = 1237905498
-lastmod = 1349793606
+publishDate = 2009-03-24T22:38:18Z
+lastmod = 2012-10-09T22:40:06Z
 description = ""
 draft = true
 slug = "i-thought-the-site-needed-a-little-color"

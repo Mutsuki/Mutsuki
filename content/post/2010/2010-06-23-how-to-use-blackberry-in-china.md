@@ -1,6 +1,6 @@
 +++
-publishDate = 1277304755
-lastmod = 1304855415
+publishDate = 2010-06-23T22:52:35Z
+lastmod = 2011-05-08T19:50:15Z
 description = ""
 draft = true
 slug = "how-to-use-blackberry-in-china"

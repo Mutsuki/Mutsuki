@@ -1,6 +1,6 @@
 +++
-publishDate = 1334761514
-lastmod = 1334761514
+publishDate = 2012-04-18T23:05:14Z
+lastmod = 2012-04-18T23:05:14Z
 description = ""
 draft = true
 slug = "variable-length-subnet-mask-notes"

@@ -1,6 +1,6 @@
 +++
-publishDate = 1288552680
-lastmod = 1335505012
+publishDate = 2010-11-01T03:18:00Z
+lastmod = 2012-04-27T13:36:52Z
 description = ""
 draft = true
 slug = "i-am-sorry-for-your-loss"

@@ -11,4 +11,4 @@ title = "Moving from Wordpress to Textpattern"
 <del datetime="2007-06-21T03:08:55+00:00">新的Weblog地址Preview：<a href="http://lab.xxxholic.cc">http://labs.xxxholic.cc</a></del>
 如果测试之后，这些数据没有问题，我会放到首页上来，不过我也继续会做了新的皮肤给Txp。
 
-<strong>update:</strong>经过测试还是换回来，很多地方不了解...何况没那么多时间去研究，继续使用Wordpress吧~~
+**update:**经过测试还是换回来，很多地方不了解...何况没那么多时间去研究，继续使用Wordpress吧~~

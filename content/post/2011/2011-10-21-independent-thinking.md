@@ -1,6 +1,6 @@
 +++
-publishDate = 1319198683
-lastmod = 1319198684
+publishDate = 2011-10-21T20:04:43Z
+lastmod = 2011-10-21T20:04:44Z
 description = ""
 draft = true
 slug = "independent-thinking"

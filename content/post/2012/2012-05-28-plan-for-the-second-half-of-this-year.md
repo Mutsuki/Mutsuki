@@ -1,6 +1,5 @@
 +++
-publishDate = 1338216032
-lastmod = 1338216032
+publishDate = 2012-05-28T22:40:32Z
 description = ""
 draft = true
 slug = "plan-for-the-second-half-of-this-year"

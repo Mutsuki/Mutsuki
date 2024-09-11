@@ -1,6 +1,6 @@
 +++
-publishDate = 1348493251
-lastmod = 1349789284
+publishDate = 2012-09-24T21:27:31Z
+lastmod = 2012-10-09T21:28:04Z
 description = ""
 draft = true
 slug = "inform-in-october"

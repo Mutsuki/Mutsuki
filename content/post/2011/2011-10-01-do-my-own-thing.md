@@ -1,6 +1,5 @@
 +++
-publishDate = 1317437363
-lastmod = 1317437363
+publishDate = 2011-10-01 10:49:23
 description = ""
 draft = true
 slug = "do-my-own-thing"

@@ -1,6 +1,6 @@
 +++
-publishDate = 1323088664
-lastmod = 1330226038
+publishDate = 2011-12-05T20:37:44Z
+lastmod = 2012-02-26T11:13:58Z
 description = ""
 draft = true
 slug = "about-hearing-aids-of-people"

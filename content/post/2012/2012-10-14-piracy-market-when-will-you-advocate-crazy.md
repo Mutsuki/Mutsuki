@@ -1,6 +1,6 @@
 +++
-publishDate = 1350229126
-lastmod = 1350229126
+publishDate = 2012-10-14T23:38:46Z
+lastmod = 2012-10-14T23:38:46Z
 description = ""
 draft = true
 slug = "piracy-market-when-will-you-advocate-crazy"

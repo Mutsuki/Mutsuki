@@ -1,6 +1,5 @@
 +++
-publishDate = 1313855325
-lastmod = 1313855325
+publishDate = 2011-08-20T23:48:45Z
 description = ""
 draft = true
 slug = "the-introvert-advantage"

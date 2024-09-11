@@ -1,6 +1,6 @@
 +++
-publishDate = 1327161527
-lastmod = 1327161528
+publishDate = 2012-01-21T23:58:47Z
+lastmod = 2012-01-21T23:58:48Z
 description = ""
 draft = true
 slug = "how-to-get-rid-of-loneliness-in-workplace"

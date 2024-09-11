@@ -1,6 +1,6 @@
 +++
-publishDate = 1299935043
-lastmod = 1304857128
+publishDate = 2011-03-12T21:04:03Z
+lastmod = 2011-05-08T20:18:48Z
 description = ""
 draft = true
 slug = "earthquakes-in-japan"

@@ -1,7 +1,5 @@
-
 +++
-publishDate = 1343316195
-lastmod = 1343316195
+publishDate = 2012-07-26T23:23:15Z
 description = ""
 draft = true
 slug = "see-these-really-voice"

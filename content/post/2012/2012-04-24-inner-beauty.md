@@ -1,6 +1,6 @@
 +++
-publishDate = 1335281928
-lastmod = 1335281928
+publishDate = 2012-04-24T23:38:48Z
+lastmod = 2012-04-24T23:38:48Z
 description = ""
 draft = true
 slug = "inner-beauty"

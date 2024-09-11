@@ -1,6 +1,6 @@
 +++
-publishDate = 1302107055
-lastmod = 1304862254
+publishDate = 2011-04-07 00:24:15
+lastmod = 2011-05-08 21:44:14
 description = ""
 draft = true
 slug = "how-to-manage-my-gmail-labels"

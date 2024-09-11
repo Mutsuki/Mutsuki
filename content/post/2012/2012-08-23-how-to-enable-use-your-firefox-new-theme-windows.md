@@ -1,6 +1,6 @@
 +++
-publishDate = 1345733752
-lastmod = 1345735248
+publishDate = 2012-08-23T22:55:52Z
+lastmod = 2012-08-23T23:20:48Z
 description = ""
 draft = true
 slug = "how-to-enable-use-your-firefox-new-theme-windows"

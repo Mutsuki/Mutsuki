@@ -1,6 +1,6 @@
 +++
-publishDate = 1303766580
-lastmod = 1304862405
+publishDate = 2011-04-26T05:23:00Z
+lastmod = 2011-05-08T21:46:45Z
 description = ""
 draft = true
 slug = "you-should-know-using-a-blackberry"

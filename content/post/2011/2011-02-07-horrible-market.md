@@ -1,6 +1,6 @@
 +++
-publishDate = 1297011857
-lastmod = 1304857036
+publishDate = 2011-02-07T01:04:17Z
+lastmod = 2011-05-08T20:17:16Z
 description = ""
 draft = true
 slug = "horrible-market"

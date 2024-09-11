@@ -1,6 +1,6 @@
 +++
-publishDate = 1339945857
-lastmod = 1339946564
+publishDate = 2012-06-17T23:10:57Z
+lastmod = 2012-06-17T23:22:44Z
 description = ""
 draft = true
 slug = "manager-self-debt"

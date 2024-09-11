@@ -1,6 +1,6 @@
 +++
-publishDate = 1292882728
-lastmod = 1304856557
+publishDate = 2010-12-21T06:05:28Z
+lastmod = 2011-05-08T20:09:17Z
 description = ""
 draft = true
 slug = "living-an-inspired-life-2"

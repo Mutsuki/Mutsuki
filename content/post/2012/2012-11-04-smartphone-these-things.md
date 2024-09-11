@@ -1,6 +1,6 @@
 +++
-publishDate = 1352040864
-lastmod = 1352041004
+publishDate = 2012-11-04T22:54:24Z
+lastmod = 2012-11-04T22:56:44Z
 description = ""
 draft = true
 slug = "smartphone-these-things"

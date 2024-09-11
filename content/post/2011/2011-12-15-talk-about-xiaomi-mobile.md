@@ -1,6 +1,6 @@
 +++
-publishDate = 1323958911
-lastmod = 1323958912
+publishDate = 2011-12-15T22:21:51
+lastmod = 2011-12-15T22:21:52ZZ
 description = ""
 draft = true
 slug = "talk-about-xiaomi-mobile"

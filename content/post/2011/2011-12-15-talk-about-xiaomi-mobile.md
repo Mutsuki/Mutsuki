@@ -1,26 +1,19 @@
 +++
-publishDate = 2011-12-15T22:21:51
-lastmod = 2011-12-15T22:21:52ZZ
+publishDate = 2011-12-15T22:21:51Z
+lastmod = 2011-12-15T22:21:52Z
 description = ""
 draft = true
 slug = "talk-about-xiaomi-mobile"
 title = "谈谈小米手机"
 +++
-
-
 由于天气原因，所以入机晚到了一星期。
 
-<div class="content-module yellow">
- <h4 class="toc" id="updates">Updates</h4>
- <p class="metasub">Dec 2011</p>
+{{< box info >}}
 第一代小米手机，于2011年10月发布,售价1999元。
-<hr class="sm-divider">
-<ul>
-      <li>
+
 小米1的CPU采用的是高通MSM8260双核处理器，屏幕为4英寸的夏普屏，分辨率854x480，800万像素后置摄像头，1G运存+4G机身内存。
-      </li>
-    </ul>
-</div>
+
+{{< /box >}}
 
 但一些地方值得去说的就是：
 <ol><li>待机电源键的设计，放在手机的顶端右边部分，这个设计细节完全让人捉摸不透。每次要激活待机的状态，总得找这个地方去按一下，极为别扭。</li>

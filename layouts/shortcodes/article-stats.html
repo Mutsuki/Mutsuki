@@ -13,4 +13,10 @@
     {{$scratch.Add "total" .WordCount}}
 {{ end }}
 
-博文数量（不含单一页面）： {{ len (where .Site.RegularPages "Section" "post") }} 篇 | 累计字数： {{ printf "%d" ($scratch.Get "total") }} 字
+<p>博文数量（不含单一页面）： {{ len (where .Site.RegularPages "Section" "post") }} 篇 | 累计字数： {{ printf "%d" ($scratch.Get "total") }} 字</p>
+
+<p>总计文章 (包含未发表文章): {{ len .Site.Pages }}</p>
+
+<p>发布的文章数量: {{ len (where .Site.Pages "Draft" false) }}</p>
+
+<p>未发布的文章数量: {{ len (where .Site.Pages "Draft" true) }}</p>

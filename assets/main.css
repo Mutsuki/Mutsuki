@@ -1688,7 +1688,7 @@ background-color: hsl(249deg 22% 12%);
 }
 
 article {
-  font-size: 1.2rem;
+/**  font-size: 1.2rem;**/
   line-height: 1.75rem;
   line-height: 1.8;
   --tw-text-opacity: 1;

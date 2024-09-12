@@ -744,9 +744,6 @@ content-nav  {box-sizing: content-box;}
     margin-bottom: 0;
 }
 
-.visuallyhidden + * {
-    margin-top: 0 !important;
-}
 
 .meta-author dl {
     -webkit-margin-after: 1em;
@@ -755,14 +752,12 @@ content-nav  {box-sizing: content-box;}
     margin-block-start: 1em;
 }
 
-.meta-author dl dt:first-of-type, .meta-author dl dd:first-of-type {
-    padding-top: 0.5rem;
-}
+
 
 .meta-author dl dt {
     float: left;
     font-weight: normal;
-    margin-right: 1.6em;
+/**    margin-right: 1.6em;**/
 }
 
  .meta-author dl dd, .meta-author dl dt {
@@ -770,7 +765,7 @@ content-nav  {box-sizing: content-box;}
     padding-bottom: 0.5rem;
     padding-top: 0.3125rem;
 }
-
+.clean-list {padding-left: 15px;   }
 .meta-author dl dt:first-of-type, .meta-author dl dd:first-of-type {
     padding-top: 0.5rem;
 }

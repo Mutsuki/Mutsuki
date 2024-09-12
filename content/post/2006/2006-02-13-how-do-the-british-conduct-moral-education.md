@@ -5,6 +5,7 @@ description = ""
 draft = false
 slug = "how-do-the-british-conduct-moral-education"
 title = "英国人怎么进行品德教育"
+categories = ["journal"]
 +++
 <p class="has-dropcap">
 <span aria-labelledby="word--first" role="text">

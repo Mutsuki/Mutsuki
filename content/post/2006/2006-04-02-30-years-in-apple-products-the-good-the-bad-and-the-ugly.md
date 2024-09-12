@@ -5,6 +5,7 @@ draft = true
 slug = "30-years-in-apple-products-the-good-the-bad-and-the-ugly"
 title = "Apple 30岁了"
 author = "koojiafeng"
+categories = ["journal"]
 +++
 本人是apple的fans，貌似还没这经济去买，不想依赖父母的经济去生活。
 

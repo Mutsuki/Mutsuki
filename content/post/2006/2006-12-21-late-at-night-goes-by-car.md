@@ -5,6 +5,7 @@ description = ""
 draft = false
 slug = "late-at-night-goes-by-car"
 title = "深夜中坐车"
+categories = ["journal"]
 +++
 我在深夜里坐着车回家，  
 车厢里空荡荡的，  

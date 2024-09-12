@@ -5,6 +5,7 @@ description = ""
 draft = true
 slug = "my-technical-blog-site-preview-figure"
 title = "我的技术型blog网站预览图"
+categories = ["journal"]
 +++
 要看详细的请<a href="http://missyou.sh.cn/images/snap003.jpg">点击</a>  
 花了一个下午，完成了我的Studio，将在下半年启用，之前可能会是beta的页面发布！

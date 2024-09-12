@@ -4,6 +4,7 @@ description = ""
 draft = true
 slug = "lump-sugar"
 title = "각설탕 (Lump Sugar) - 方糖"
+categories = ["journal"]
 +++
 <p><img src="../twitchfilm.net/pics/sugar.html" alt="孤独" width="100" align="right" height="140">一部来自韩国的电影，对于它的评价，吉可以说，真的很不错，无论对于背景音乐还是影片的结构，都能想把电影的主题表达给观众。<br>
 电影的主角是《对不起，我爱你》的女主角“ LIM Soo Jung”，中文是“林秀晶”，如果你还不认识她，也许现现看这部电视剧还比较好，至少吉看过《对不起，我爱你》之后，再看这部影片时，一眼就认出这女主角了，表演功底还不错。<br>

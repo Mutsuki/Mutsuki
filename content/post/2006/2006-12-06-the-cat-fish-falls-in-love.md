@@ -4,6 +4,7 @@ description = ""
 draft = true
 slug = "the-cat-fish-falls-in-love"
 title = "猫鱼相爱"
+categories = ["journal"]
 +++
 <blockquote>天下荒唐事，<br>若找不出道理，<br>至少能说一个缘故吧。<br>——除了爱情<br><br>钱海燕 作</blockquote>
 

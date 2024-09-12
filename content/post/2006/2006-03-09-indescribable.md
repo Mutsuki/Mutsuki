@@ -4,6 +4,7 @@ description = ""
 draft = true
 slug = "indescribable"
 title = "难以言喻"
+categories = ["journal"]
 +++
 很久很久以前的事，
 如今又再次隐隐做痛，

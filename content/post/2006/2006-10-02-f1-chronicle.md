@@ -5,6 +5,7 @@ description = ""
 draft = true
 slug = "f1-chronicle"
 title = "F1纪事"
+categories = ["journal"]
 +++
 首先祝大家10月1号国庆快乐，今天是我们伟大祖国<del>56</del>57周年诞辰日。<br>
 然后，告诉大家的是，我看了全天的赛车现场，看台非常好，原本是一直抱怨，但是，我没有失望！<br>

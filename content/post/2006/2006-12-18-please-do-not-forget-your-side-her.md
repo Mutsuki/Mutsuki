@@ -4,6 +4,7 @@ description = ""
 draft = false
 slug = "please-do-not-forget-your-side-her"
 title = "请别忘记你身边的她"
+categories = ["journal"]
 +++
 一岁的时候，她努力的学习育婴知识养育你，你却以整夜呜咽回报她。   
 

@@ -4,6 +4,7 @@ description = ""
 draft = true
 slug = "ignores-a-proper-occupation-continues-the-eight-diagrams"
 title = "不务正业，继续八卦"
+categories = ["journal"]
 +++
 
 <blockquote><p>Psytopic分析：您的性格类型是“ISTP”(内向+实感+思维+知觉) </p></blockquote>

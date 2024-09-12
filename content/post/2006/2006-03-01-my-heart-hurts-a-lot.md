@@ -4,6 +4,7 @@ description = ""
 draft = true
 slug = "my-heart-hurts-a-lot"
 title = "我的心很痛"
+categories = ["journal"]
 +++
 我不知道心是用什么做成的，如果可以，真的很想拿出来看下（哪怕很恶心）。
 

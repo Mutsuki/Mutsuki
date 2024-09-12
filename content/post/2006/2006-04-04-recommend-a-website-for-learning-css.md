@@ -5,6 +5,7 @@ description = ""
 draft = false
 slug = "recommend-a-website-for-learning-css"
 title = "推荐一个学习CSS的站点"
+categories = ["journal"]
 +++
 曝光一下我曾经学习CSS的站点，我的网页设计完全是self-study，很多学习资源都是从他那学来的。  
 此次的教程的是关于CSS Background的教程，很棒。【如果有什么不懂，欢迎来交流。】  

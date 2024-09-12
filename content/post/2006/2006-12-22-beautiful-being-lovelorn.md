@@ -4,6 +4,7 @@ description = ""
 draft = true
 slug = "beautiful-being-lovelorn"
 title = "美丽的失恋"
+categories = ["journal"]
 +++
 <blockquote><br>真正的痛苦，没有人能与你分担，<br>你只有把它从一个肩，换到自己另一个肩。<br></blockquote>
 <br>

@@ -6,6 +6,7 @@ draft = true
 slug = "about-blogging"
 title = "关于Blogging"
 author = "koojiafeng"
+categories = ["journal"]
 +++
 我不懂什么是<a target="_blank" href="http://www.tech-faq.com/lang/zh-CN/blogging.shtml">Blogging</a>，我自己从搜索引擎那，搜索了些相关信息才了解Blogging。
 

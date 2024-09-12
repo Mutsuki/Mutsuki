@@ -85,10 +85,11 @@ https://makewithhugo.com/add-avif-feature-image/
 一些往年用过的域名：
 
 ```
+http://localhost 2002 开始用b2，并了解php脚本即apache的使用
 http://spaces.msn.com/members/Brando/PersonalSpace.aspx 2004.12 MSN Spaces
 http://xiaohunhun.yculblog.com/  # 小混混的浪漫 2005  歪酷
-http://missyou.sh.cn  # 关不住的思念 2002.07 - 2006.05 b2press - Wordpress / 沪ICP备 05059512号 
-http://xxxholic.cc # [Brando’s blog] 2006 Wordpress - Movable Type (MT)
+http://missyou.sh.cn  # 关不住的思念 2006.05  Textpattern - Wordpress / 沪ICP备 05059512号 
+http://xxxholic.cc # [Brando’s blog] 2006  Drupal - Wordpress - Movable Type (MT)
 http://oopiz.cn  { 大 白 物 语 }  2008-2009 Wordpress
 http://brandoishere.net 2009 Wordpress - Textpattern
 http://brandoishere.net 2010 Jekyll 

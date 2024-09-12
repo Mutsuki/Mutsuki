@@ -6,6 +6,7 @@ draft = true
 slug = "10-word-of-truth"
 title = "10句大實話"
 author = "koojiafeng"
+categories = ["journal"]
 +++
 来自我的朋友Grandia发布的：
 

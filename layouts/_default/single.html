@@ -32,13 +32,16 @@
 			Published in <a  href="{{ $href }}">{{ . }}</a>
 	  {{ end }}
 <span class="middot-divider">
-{{ if .Lastmod }}
+  {{ if and (ne .Lastmod .Date) (ne .Lastmod .Params.publishDate) }}
   Updated:
   <abbr class="updated"><time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006-01-02" }}</time></abbr>
-{{ else if .Date }}
+  {{ else if .Params.publishDate }}
+  Created:
+  <abbr class="published"><time datetime="{{ .Params.publishDate.Format "2006-01-02" }}">{{ .Params.publishDate.Format "2006-01-02" }}</time></abbr>
+  {{ else if .Date }}
   Created:
   <abbr class="published"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></abbr>
-{{ end }}
+  {{ end }}
 </span>
 <!--{{ printf " %d min read" .ReadingTime }} -->
 </div>

@@ -12,7 +12,6 @@ featured_image = ""
 retina_image =  ""
 keywords = "journal"
 +++
-
 ## 更换程序
 
 资金问题，不得不撤销原有的服务商，只能使用Hugo来替代原来的Ghost；

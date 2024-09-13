@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1fec29ff3e78c677",
+        "id": "1306a1ba48222e71",
         "type": "tabs",
         "children": [
           {
-            "id": "2087e7bbf6c7b398",
+            "id": "af8fea05a564f8ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/test/index.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/test/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/test/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/test/index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,17 +140,31 @@
   },
   "active": "f64eb89a781f786b",
   "lastOpenFiles": [
-    "public/categories/animate/page/1/index.html",
-    "public/categories/animate/page/1",
-    "public/categories/animate/page",
-    "public/categories/animate/index.xml",
-    "public/categories/animate/index.html",
-    "public/categories/animate",
-    "public/categories/life/page/1/index.html",
-    "public/categories/life/page/1",
-    "public/categories/life/index.xml",
-    "public/categories/life/page",
-    "public/categories/life/index.html",
+    "content/post/2014/2014-05-28-Monday.md",
+    "public/article/2014-05-28-monday/atom.xml",
+    "public/article/2014-05-28-monday/index.html",
+    "public/article/2014-05-28-monday",
+    "public/article/monday-may-28/atom.xml",
+    "public/article/monday-may-28/index.html",
+    "public/article/monday-may-28",
+    "content/post/2014/x.md",
+    "public/article/how-to-be-a-good-network-administrator-part-1/index.html",
+    "public/article/how-to-be-a-good-network-administrator-part-1/atom.xml",
+    "public/article/how-to-be-a-good-network-administrator-part-1",
+    "public/tags/job/page/1/index.html",
+    "content/post/2014/2014.md",
+    "content/stuff-i-use/headphones/_index.md",
+    "content/test/index.md",
+    "content/post/2023/2023-07-13-weekly-update-06.md",
+    "content/post/2024/2024-07-15-weekly-update-17.md",
+    "content/post/2024/2024-07-06-weekly-update-16.md",
+    "content/post/2024/2024-08-17-weekly-update-18.md",
+    "content/post/2024/2024-09-04-weekly-update-19.md",
+    "content/post/2024/2024-05-20-weekly-update-12.md",
+    "content/post/2024/2024-04-23-weekly-update-11.md",
+    "content/post/2024/2024-03-04-weekly-update-10.md",
+    "content/post/2024/2024-02-07-weekly-update-09.md",
+    "content/post/2024/2024-02-02-weekly-update-08.md",
     "CHANGELOG.md",
     "public/twitter.svg",
     "public/translation.svg",
@@ -169,8 +175,6 @@
     "public/svg-icons.png",
     "public/snip/4843541319_c1e6e02137_o.png",
     "public/snip/4789752736_c75c7f20bd_o.png",
-    "public/snip/4789752644_e48df074af_o.png",
-    "content/test/index.md",
-    "content/post/2024/2024-08-17-weekly-update-18.md"
+    "public/snip/4789752644_e48df074af_o.png"
   ]
 }

@@ -11,8 +11,6 @@ title = "About this wesite"
 +++
 {{< article-stats >}}
 
-
-
 02年开始写日志，2014年有位本地大哥提供了免费的Windows & Linux主机给我，才开始正式寻上虚拟空间，合租等等。
 
 之前网站是用Ghost来进行制作的，主题自行编辑，但代码还是有些问题，包括设计的样式，后来也成了无业游民，经费紧张而使用了Hugo，其实，这个程序我观察了很久，主要是我偏向NoSQL，而且不太喜欢依赖堆栈的动态网站，在有数据库的情况下备份也成了一种成本支出，何况数据库损坏也不是开玩笑。
@@ -91,8 +89,8 @@ http://missyou.sh.cn  # 关不住的思念 2006.05  Textpattern - Wordpress / �
 http://xxxholic.cc # [Brando’s blog] 2006  Drupal - Wordpress - Movable Type (MT)
 http://oopiz.cn  { 大 白 物 语 }  2008-2009 Wordpress
 http://brandoishere.net 2009 Wordpress - Textpattern
-http://brandoishere.net 2010 Jekyll 
-https://www.koojiafeng.name 2010 -2019 TypePad - HabariProject - Typecho - Custom Ghost - Official Ghost
+http://brandoishere.net 2010 - 2013 TypePad - Jekyll 
+https://www.koojiafeng.name 2010 -2019  HabariProject - Typecho - Custom Ghost - Official Ghost
 https://www.koojiafeng.com 2023 Ghost - Hugo
 ```
 Access all areas

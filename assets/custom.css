@@ -2226,3 +2226,5 @@
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 }
+a.text-2xl:visited   {color: #000; }
+a.text-2xl:hover {color: #6a4c96; }

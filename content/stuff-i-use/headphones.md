@@ -1,6 +1,6 @@
 ---
 title: "Headphones"
-slug: headphones
+slug: "headphones"
 #date: 2024-03-5T01:11:00Z
 draft: false
 description: '最常用的耳机设备'

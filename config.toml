@@ -1,7 +1,8 @@
 baseURL = "https://www.koojiafeng.com/"
 title = "Jiafeng"
 # author = "KooJiafeng"
-#copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+description = "helo world"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 paginate = 6
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"

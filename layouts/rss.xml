@@ -45,7 +45,7 @@
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ .Title }} on {{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne  .Title  .Site.Title }}in {{ .Title }} {{ end }}on {{ .Site.Title }}</description>
-    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
+    <generator>https://feeds.feedburner.com/brando</generator>{{ with .Site.LanguageCode }}
     <language>{{ . }}</language>{{ end }}
     {{- if $authorEmail }}
     <managingEditor>{{ $authorEmail }}{{ if $authorName }} ({{ $authorName }}){{ end }}</managingEditor>

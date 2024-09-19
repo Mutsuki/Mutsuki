@@ -132,7 +132,7 @@
   }
   
   :is(:where(.dark) nav a:visited ) {
-      text-decoration-color: rgb(25, 23, 36);
+      text-decoration-color: rgb(223, 223, 223);
       color: rgb(224, 222, 244);
   }
   
@@ -2228,3 +2228,4 @@
 }
 a.text-2xl:visited   {color: #000; }
 a.text-2xl:hover {color: #6a4c96; }
+:is(:where(.dark) a.text-2xl:visited )  {color: #ffffff; text-decoration-color: rgb(223, 223, 223); }

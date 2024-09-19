@@ -69,9 +69,13 @@
     scrollbar-width: auto;
     --antd-wave-shadow-color: #fff;
     -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar;
     --antd-wave-shadow-color: #e63e3c;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
     --scroll-bar: 0;
     line-height:1.15;
     background-color: #ffffff;
@@ -83,15 +87,9 @@
         font-family: HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', AlibabaPuHuiTi, 'Microsoft Yahei', 'Fira Sans', Roboto, sans-serif;
         font-smooth: auto;
         font-weight: 300;
-
         line-height: 1.7em;
         color: #414141;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-text-size-adjust: 100%;
-        -webkit-tap-highlight-color: transparent;
         overflow-x: hidden;
-        -moz-font-feature-settings: "liga" on;
         letter-spacing: 0;
         text-shadow: 0px 0px 0.3px #acacac;
         font-variation-settings: "wght" 300;

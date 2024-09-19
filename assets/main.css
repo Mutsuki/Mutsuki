@@ -1167,6 +1167,8 @@ background-color: hsl(249deg 22% 12%);
   position: relative;
 }
 
+.relative p {  font-size: 1.1rem;}
+
 .inset-0 {
   inset: 0px;
 }

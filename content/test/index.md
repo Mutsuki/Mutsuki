@@ -32,6 +32,8 @@ apt install awscli
 </code>
 </pre>
 
+<a href="https://docs.railway.app/reference/regions#region-options" target="_blank" rel="noreferrer" >service region</a>
+
 <p class="double">This text has a wavy red line beneath it.</p>
 
 <p><code class="contentfulRichText_code__RWBxk">cmd/ctrl</code></p>

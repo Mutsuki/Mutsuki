@@ -19,6 +19,7 @@
   
   /* Place custom css here. */
   :root {
+      --false: "";
       --sub-text-color: #8f9599;
       --footnote-text-color: #2a2f35;
       --light-divider-gray: #f5f5f5;
@@ -34,6 +35,7 @@
       --nested-photoset-margin: 3.25rem;
       --nested-photoset-margin-responsive: 2rem;
       --blockquote-huge-margin: 3em;
+      --pink-600: hsl(270, 70%, 65%);
       --hr-margin: 5rem;
       --ul-margin-bottom: 3.5rem;
       --postex-ul-li-margin-bottom: 1.5rem;
@@ -67,6 +69,7 @@
   html {
     scrollbar-color: #6969dd #e0e0e0;
     scrollbar-width: auto;
+    scroll-behavior: smooth;
     --antd-wave-shadow-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
@@ -81,16 +84,17 @@
     --scroll-bar: 0;
     line-height:1.15;
     background-color: #ffffff;
-    color: #2b2b2b;
+    color: #475671;
     overflow-x: hidden;
     text-rendering:optimizeLegibility;
+    
   }
   body {
-        font-family: HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', AlibabaPuHuiTi, 'Microsoft Yahei', 'Fira Sans', Roboto, sans-serif;
+        font-family: MiSans,HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', AlibabaPuHuiTi, 'Microsoft Yahei', 'Fira Sans', Roboto, sans-serif;
         font-smooth: auto;
-        font-weight: 300;
+        font-weight: 400;
         line-height: 1.7em;
-        color: #414141;
+        color: #rgb(71, 86, 113);
         overflow-x: hidden;
         letter-spacing: 0;
         text-shadow: 0px 0px 0.3px #acacac;
@@ -122,8 +126,8 @@
   }
   
   :is(:where(.dark) ul:not(.list-xl) li>a:hover, p a:hover ) {
-      text-decoration-color: white;
-      color: #acb1bf;
+      text-decoration-color: hsl(270, 70%, 65%);
+      color: hsl(270, 70%, 65%);
   }
   
   :is(:where(.dark) a:visited ) {
@@ -2229,3 +2233,5 @@
 a.text-2xl:visited   {color: #000; }
 a.text-2xl:hover {color: #6a4c96; }
 :is(:where(.dark) a.text-2xl:visited )  {color: #ffffff; text-decoration-color: rgb(223, 223, 223); }
+
+

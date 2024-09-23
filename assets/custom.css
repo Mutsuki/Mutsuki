@@ -644,8 +644,6 @@
       color: rgba(41,57,68,0.45);
   }
   
-  
-  
   :is(:where(.dark) .metasub) {
       color: rgba(255, 255, 255, 0.45);
   }

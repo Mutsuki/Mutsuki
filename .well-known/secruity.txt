@@ -1,0 +1,8 @@
+Contact: https://www.koojiafeng.com/contact/
+Contact: mailto:joinmastodon.gazing768@aleeas.com
+Expires: 2025-12-31T12:00:00Z
+Acknowledgements: https://www.koojiafeng.com/hall-of-fame
+Canonical: https://www.koojiafeng.com/.well-known/security.txt
+Hiring: https://www.koojiafeng.com/careers
+Policy: https://www.koojiafeng.com.com/security-policy
+Preferred-Languages: zh-cn

@@ -92,7 +92,7 @@
   body {
         font-family: MiSans,HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', AlibabaPuHuiTi, 'Microsoft Yahei', 'Fira Sans', Roboto, sans-serif;
         font-smooth: auto;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 1.7em;
         color: #rgb(71, 86, 113);
         overflow-x: hidden;
@@ -1313,7 +1313,7 @@
   }
   .gear-item .desc p.specs, section .gear-item .desc p.links {
       color: #96a1ad;
-      font-weight: 400;
+      font-weight: 300;
       margin-bottom: 0;
   }
   
@@ -2232,4 +2232,4 @@ a.text-2xl:visited   {color: #000; }
 a.text-2xl:hover {color: #6a4c96; }
 :is(:where(.dark) a.text-2xl:visited )  {color: #ffffff; text-decoration-color: rgb(223, 223, 223); }
 
-
+.caption {font-size: 0.95rem}

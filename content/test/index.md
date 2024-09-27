@@ -18,29 +18,21 @@ build:
 ---
 <section class="photoset">
   <div class="photoset-row">
-    <figure class="photoset-item single feature-" data-pswp-uid="1">
+    <figure class="photoset-item single caption" data-pswp-uid="1">
         <a href="#"><img src="/images/1311.webp" data-webp="true" style="height: 691px; width: 1000.36px;"></a>
+      A USB-C f YubiKey 5C security key plugged into my ThinkPad X1 Carbon
     </figure>
   </div>
-  <div class="caption">A USB-C f YubiKey 5C security key plugged into my ThinkPad X1 Carbon</div>
 </section>
 
-<pre class="not-prose">
-<code>
-# Run as root
-apt install awscli
-</code>
-</pre>
 
 <a href="https://docs.railway.app/reference/regions#region-options" target="_blank" rel="noreferrer" >service region</a>
 
 <p class="double">This text has a wavy red line beneath it.</p>
 
-<p><code class="contentfulRichText_code__RWBxk">cmd/ctrl</code></p>
-
 <h2 class="hdgSec02">研究手法と成果</h2>
 
-![screen reader text](/snip/1122.png "caption")
+<!--![screen reader text](/snip/1122.png "caption")-->
 
 [![Bookmark Style Card](https://svg.bookmark.style/api?url=https://bookmark.style)](https://bookmark.style)
 
@@ -102,33 +94,10 @@ became enthralled about this when I was planning for my 2013 trip to Japan. I ca
 
 <p>短消息发布<sup><a rel="footnote" href="#footnote-1" id="r1">1</a></sup></p>
 
-Caramels tootsie roll I love macaroon jujubes. I love icing bonbon. Topping ice cream muffin marzipan lemon drops sugar plum biscuit. Chocolate cupcake powder macaroon bear claw I love cupcake icing. Jelly bear claw caramels jelly beans jelly-o soufflé. Powder cheesecake pastry lemon drops oat cake bonbon gummi bears. Jelly-o I love cake cupcake. I love halvah gummi bears caramels. Gummies I love gummies fruitcake cake marzipan. Oat cake donut cake brownie.
 
-Test
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
 <div class="c-cmjOaN c-cmjOaN-cGSuyl-animateIn-true c-cmjOaN-ikRsAQh-css">
 <span class="c-cSYTWC c-cSYTWC-hEuRwX-shape-large"><span aria-hidden="true" style="width: 100%; height: 100%; opacity: 0;"></span>
 <span style="opacity: 1;">
@@ -165,4 +134,5 @@ C --> D
     <p>I'm trying something new with this photoset. I've made several compilations of various videos captured from my phone (as opposed to my <a href="#/" title="Camera Gear - #">large Sony camera</a>) like this one above. They are longer and don't autoplay, just click them to expand and play (and excuse any bugs..).</p>
   </div>
 </section>
+
 https://blog.douchi.space/static-blog-one-year-in-hugo-decoration-3/#gsc.tab=0

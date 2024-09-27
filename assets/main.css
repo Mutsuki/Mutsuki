@@ -578,7 +578,7 @@ background-color: hsl(249deg 22% 12%);
 }
 
 .prose :where(p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  margin-top: 1.25em;
+/*  margin-top: 1.25em; */
   margin-bottom: 1.25em;
 }
 

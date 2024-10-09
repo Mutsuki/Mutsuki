@@ -90,7 +90,7 @@
     
   }
   body {
-        font-family: MiSans,HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', AlibabaPuHuiTi, 'Microsoft Yahei', 'Fira Sans', Roboto, sans-serif;
+        font-family: HarmonyOSHans-Regular, HarmonyOSHans-fallback, 'Alimama FangYuanTi VF', AlibabaPuHuiTi, MiSans, 'Microsoft Yahei', 'Fira Sans', Roboto, sans-serif;
         font-smooth: auto;
         font-weight: 300;
         line-height: 1.7em;

@@ -38,13 +38,13 @@ And here are some books I'm considering reading next.
 
 《Rework》
 
-《Remote>
+《Remote》
 
 《It doesn't have to be crazy at work》
 
 ### 2024 正在读的书：
 
-《湘行散记》
+《湘行散记》读完
 
 《十八岁出门远行》
 

@@ -1,0 +1,10 @@
+<!-- layouts/partials/breadcrumb.html -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
+      {{ if .IsPage }}
+        <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}blog">Blog</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+      {{ end }}
+    </ol>
+  </nav>

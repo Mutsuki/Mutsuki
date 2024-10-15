@@ -184,6 +184,7 @@ a.cta:hover {
 
 
 .container-left .monster-block {
+  transform: scale(0.66); /* 现代浏览器 */
   -webkit-transform: scale(0.66);
   width: 113px;
   height: 172px;
@@ -197,12 +198,14 @@ a.cta:hover {
 
   @media (min-width: 763px) {
     .container-left .monster-block {
+      transform: scale(0.8); /* 现代浏览器 */
       -webkit-transform: scale(0.8);
     }
   }
 
   @media (min-width: 1000px) {
     .container-left .monster-block {
+      transform: scale(1); /* 现代浏览器 */
       -webkit-transform: scale(1);
       margin-top: auto;
       margin-right: 100px;
@@ -236,10 +239,7 @@ a.cta:hover {
   padding: 30px;
 }
 
-  @media (min-width: 763px) {
-    .container-right .bio-block {
-    }
-  }
+ 
 
   @media (min-width: 1000px) {
     .container-right .bio-block {
@@ -272,10 +272,23 @@ a.cta:hover {
 }
 
 .monster {
-  -webkit-animation-name: bounce;
-  -webkit-animation-duration: 5s;
-  -webkit-animation-timing-function: ease;
-  -webkit-animation-iteration-count: infinite; }
+  animation-name: bounce;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 .eye {
   position: absolute;

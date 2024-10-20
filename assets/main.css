@@ -274,9 +274,6 @@ Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/
 Add the correct vertical alignment in Chrome and Firefox.
 */
 
-progress {
-  vertical-align: baseline;
-}
 
 /*
 Correct the cursor style of increment and decrement buttons in Safari.

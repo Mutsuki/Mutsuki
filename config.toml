@@ -61,7 +61,7 @@ noUgly = true
 suffix = "xml"
 
 # misc
-disableHLJS = false                        # disable highlight.js
+disableHLJS = true                        # disable highlight.js
 #  disablePostNavigation = false
 #  monoDarkIcon = true 
  math = true

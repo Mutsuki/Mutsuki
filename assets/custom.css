@@ -1,22 +1,11 @@
-.element {
-    will-change: opacity, transform, scroll-position;
-  }
-  /* 动画完成后移除 will-change */
-  .element.animation-done {
-      will-change: auto;
-  }
-  
-  .sticky-element {
-    position: relative;
-    transition: transform 0.3s ease;
-  }
-  
-  .sticky-element.fixed {
-    position: fixed;
-    top: 0;
-    transform: translateY(0);
-  }
-  
+@font-face { 
+    font-family: 'MuseoCustom'; 
+    src: url('/font/MuseoSans_500-webfont.woff2') format('woff2'), url('/font/MuseoSans_500-webfont.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+
   /* Place custom css here. */
   :root {
       --false: "";
@@ -2233,3 +2222,5 @@ a.text-2xl:hover {color: #6a4c96; }
 :is(:where(.dark) a.text-2xl:visited )  {color: #ffffff; text-decoration-color: rgb(223, 223, 223); }
 
 .caption {font-size: 0.95rem}
+
+.opaco {font-family: MuseoCustom, Helvetica, sans-serif;font-size: 90%;}

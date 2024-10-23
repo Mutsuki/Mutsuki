@@ -448,7 +448,13 @@ video {
   display: none;
 }
 
-
+body {
+  min-height: 100vh;
+  background-color: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
 
 :is(:where(.dark) body) {
 /*  background-color: rgb(0 0 0 / 0.9);*/

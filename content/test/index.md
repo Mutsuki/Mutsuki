@@ -16,6 +16,10 @@ build:
   publishResources: true
   render: always
 ---
+<div class="boxRight">
+<p>This is the second box.</p>
+</div>
+
 # Markdown extensions
 
 StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.

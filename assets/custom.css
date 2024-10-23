@@ -1120,6 +1120,10 @@
       color: #96a1ad;
   }
   
+  progress {
+    vertical-align: baseline;
+  }
+
   #content_progress {
         /* Positioning */
         position: fixed;
@@ -1127,12 +1131,12 @@
         top: 0;
         z-index: 1000;
         width: 100%;
-        height: 3px;
+        height: 5px;
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
         border: none;
-        background-color: transparent;
+        background-color: #c5d2d9;
         color: rgb(33, 150, 243);
         transition: .3s --progress;
   }
@@ -2222,3 +2226,14 @@ a.text-2xl:hover {color: #6a4c96; }
 .caption {font-size: 0.95rem}
 
 .opaco {font-family: MuseoCustom, Helvetica, sans-serif;font-size: 90%;}
+
+.boxRight {
+
+    outline: 4px dashed #6e1478;
+    color: hsl(0, 13%, 23%);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #8f8;
+    text-decoration: underline wavy #8f8;
+    text-shadow: 2px 2px 3px black;
+  }

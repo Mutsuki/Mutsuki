@@ -114,7 +114,7 @@
   
   :is(:where(.dark) ul:not(.list-xl) li>a:hover, p a:hover ) {
       text-decoration-color: hsl(270, 70%, 65%);
-      color: hsl(270, 70%, 65%);
+      color: hsl(120, 100%, 34%);
   }
   
   :is(:where(.dark) a:visited ) {
@@ -345,7 +345,7 @@
         padding: .75em 1.5em;
         line-height: 1.65;
         color: #2a2f35;
-        font-weight: 500;
+        font-weight: 300;
         -moz-transition: all .2s ease-in-out;
         -webkit-transition: all .2s ease-in-out;
         transition: all .2s ease-in-out
@@ -568,7 +568,7 @@
   }
   
   :is(:where(.dark) ul:not(.list-xl) li>a,p a ) {
-      font-weight: 600;
+      font-weight: 300;
       text-decoration-color: rgb(255, 90, 255);
       text-decoration-skip-ink: auto !important;
       position: relative;
@@ -939,7 +939,7 @@
       border: none;
       color: #1b7fcc;
       padding: 0;
-      font-weight: 500;
+      font-weight: 300;
       font-size: 1.7rem;
       margin: var(--blockquote-huge-margin, 1.7em) -10%;
   }
@@ -1196,8 +1196,8 @@
   }
   
   :is(:where(.dark) .yellow a ) {
-      text-decoration-color: rgba(255, 255, 255, 0.3);
-      color: white;
+      text-decoration-color: rgba(9, 0, 131, 0.466);
+      color: hsl(204, 86%, 49%);
   }
   
   

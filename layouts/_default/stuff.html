@@ -1,4 +1,6 @@
 {{ define "main" }}
+<script src="{{.Site.BaseURL}}js/progressbar.js"></script>
+<progress id="content_progress"  value="0" max="100"></progress>
 <article>
   <header class="mb-16">
 
@@ -13,7 +15,6 @@
   {{ else if .Date }}Published:  <abbr class="published"><time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></abbr>
   {{ end }}
 </span>
-
 <div class="text-sm antialiased opacity-60">
 {{ if .Params.categories }}
   {{ range .Params.categories }} {{ $href := print (absURL "categories/") (urlize .) }}
@@ -21,14 +22,11 @@
   {{ end }}
 {{ end }}
 {{ end }}
-
   {{ if ( .Site.Params.toc | default true ) }}
           {{ partial "toc.html" . }}
   {{ end }}
   </header>
-  
   <section>{{ .Content }}</section>
-
   <!-- Post Tags -->
   {{ if .Params.tags }}
   <footer class="mt-12 flex flex-wrap">
@@ -41,9 +39,6 @@
     {{ end }}
   </footer>
   {{ end }}
-  
-
-  
 
   <!-- Post Nav -->
   {{ if not site.Params.disablePostNavigation }}<!---->
@@ -67,14 +62,6 @@
   </nav>
   {{ end }}<!---->
   {{ end }}
-
-
-
-
-
-
-
-
 
 {{/*  Load plyr.io  */}}
 

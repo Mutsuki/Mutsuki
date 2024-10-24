@@ -113,8 +113,10 @@
   }
   
   :is(:where(.dark) ul:not(.list-xl) li>a:hover, p a:hover ) {
+      --tw-border-opacity: 1;
       text-decoration-color: hsl(270, 70%, 65%);
       color: hsl(120, 100%, 34%);
+      border-bottom-color: rgb(3 105 161 / var(--tw-border-opacity));
   }
   
   :is(:where(.dark) a:visited ) {

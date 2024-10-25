@@ -10,7 +10,7 @@ I'm Jiafeng, Chinese pinyin:Gu Jiafeng
 
 - 💬 Ask me about anything [here](https://github.com/mutsuki/mutsuki/issues)
 
-[![Readme Card](https://github-readme-stats-three-khaki-19.vercel.app/api?username=mutsuki&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515&&&hide=contribs&count_private=true&theme=ambient_gradient)]
+[![Readme Card](https://github-readme-stats.vercel.app/api?username=mutsuki&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515&&&hide=contribs&count_private=true&theme=ambient_gradient)]
 
 #### :computer: Programming languages and tools:
 <p>

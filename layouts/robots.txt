@@ -1,7 +1,0 @@
-{{- if .Site.Params.blockSearchEngines }}
-User-agent: *
-Disallow: /
-{{- else }}
-User-agent: *
-Disallow: /private/
-{{- end }}

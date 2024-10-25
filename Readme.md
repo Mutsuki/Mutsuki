@@ -1,5 +1,14 @@
+<p align="center"><a href="https://mutsuki.github.io"><img width="80%" alt="Hello, I'm Jiafeng. I do open source!" src="./assets/images/Jia-feng.svg" /></a></p>
+
+
 # Hi there! 👋
-I'm Jiafeng Koo, Chinese pinyin:Gu Jiafeng
+I'm Jiafeng, Chinese pinyin:Gu Jiafeng
+
+**About me**
+
+- ❤️ I love writing rust
+
+- 💬 Ask me about anything [here](https://github.com/mutsuki/mutsuki/issues)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api?username=mutsuki&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)]
 
@@ -9,4 +18,4 @@ I'm Jiafeng Koo, Chinese pinyin:Gu Jiafeng
 <br />
 </p>
 
-
+I love writin

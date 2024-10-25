@@ -14,7 +14,7 @@ I'm Jiafeng, Chinese pinyin:Gu Jiafeng
 
 #### :computer: Programming languages and tools:
 <p>
-<code><img width="10%" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/rust/rust-line.svg"></code>
+<code><img width="10%" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/rust/rust-original.svg"></code>
 <br />
 </p>
 

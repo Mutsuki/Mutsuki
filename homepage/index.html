@@ -1121,34 +1121,31 @@
                 ...(Array.isArray(oR) ? oR : []).map(r => ({ ...r, _org: true }))
             ].filter(r => !r.fork); // 过滤掉 fork 的项目
 
-            $('st-stars').innerText = fmt(all.reduce((a, b) => a + (b.stargazers_count || 0), 0));
-            $('st-forks').innerText = fmt(all.reduce((a, b) => a + (b.forks_count || 0), 0));
-            if (u) {
-                $('st-followers').innerText = fmt(u.followers);
-                $('st-following').innerText = fmt(u.following);
-            }
-
             // 排序逻辑：按 star 排序
             const list = all.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 8);
 
-            $('project-grid').innerHTML = list.map(r => `
-                <a href="${ r.html_url }" target="_blank" class="r-card">
-                    <div>
-                        <div class="rc-head">
-                            <span class="rc-name">${ r.name }</span>
-                            <span class="rc-vis" style="${ r._org ? 'color:var(--theme-main); border-color:var(--theme-main)' : '' }">${ r._org ? 'ORG' : 'USR' }</span>
+            // 检查 project-grid 元素是否存在
+            const projectGrid = $('project-grid');
+            if (projectGrid) {
+                projectGrid.innerHTML = list.map(r => `
+                    <a href="${ r.html_url }" target="_blank" class="r-card">
+                        <div>
+                            <div class="rc-head">
+                                <span class="rc-name">${ r.name }</span>
+                                <span class="rc-vis" style="${ r._org ? 'color:var(--theme-main); border-color:var(--theme-main)' : '' }">${ r._org ? 'ORG' : 'USR' }</span>
+                            </div>
+                            <div class="rc-desc">${ r.description || '--' }</div>
                         </div>
-                        <div class="rc-desc">${ r.description || '--' }</div>
-                    </div>
-                    <div class="rc-foot">
-                        <span class="rc-i"><i class="ri-star-fill"></i> ${ fmt(r.stargazers_count) }</span>
-                        <span class="rc-i"><i class="ri-git-branch-line"></i> ${ fmt(r.forks_count) }</span>
-                        <span style="margin-left:auto; color:${ getLangColor(r.language) }">${ r.language || '' }</span>
-                    </div>
-                </a>
-            `).join('');
+                        <div class="rc-foot">
+                            <span class="rc-i"><i class="ri-star-fill"></i> ${ fmt(r.stargazers_count) }</span>
+                            <span class="rc-i"><i class="ri-git-branch-line"></i> ${ fmt(r.forks_count) }</span>
+                            <span style="margin-left:auto; color:${ getLangColor(r.language) }">${ r.language || '' }</span>
+                        </div>
+                    </a>
+                `).join('');
+            }
 
-            // 4. Langs
+            // 4. Langs - 更新 PROJECT TYPES
             const l = {};
             let lt = 0;
             all.forEach(r => {
@@ -1157,13 +1154,23 @@
                     lt++;
                 }
             });
-            $('lang-list').innerHTML = Object.entries(l).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([n, c]) => `
-                <div class="l-row">
-                    <span style="width:70px; color:#aaa;">${ n }</span>
-                    <div class="l-bar"><div class="l-fill" style="width:${ (c / lt) * 100 }%; background:${ getLangColor(n) }"></div></div>
-                    <span style="width:25px; text-align:right; color:#666;">${ Math.round((c / lt) * 100) }%</span>
-                </div>
-            `).join('');
+            
+            // 找到 PROJECT TYPES 部分并更新
+            const projectTypesContainer = document.querySelector('.m-card:nth-child(2) .mc-body');
+            if (projectTypesContainer) {
+                const languageData = Object.entries(l).sort((a, b) => b[1] - a[1]).slice(0, 4);
+                projectTypesContainer.innerHTML = `
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        ${languageData.map(([n, c]) => `
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <div style="width: 10px; height: 10px; background: ${ getLangColor(n) }; border-radius: 50%;"></div>
+                                <span style="font-size: 0.8rem;">${ n } Projects</span>
+                                <span style="margin-left: auto; font-size: 0.8rem; color: var(--text-sub);">${ Math.round((c / lt) * 100) }%</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
 
             // 5. Latest Updates
             if (Array.isArray(ev) && ev.length > 0) {

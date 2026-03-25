@@ -881,10 +881,18 @@
         const fmt = n => n > 999 ? (n / 1000).toFixed(1) + 'k' : n;
 
         setInterval(() => $('clock').innerText = new Date().toLocaleTimeString('en-GB'), 1000);
-        $('gh-chart').src = `https://ghchart.rshah.org/${ CFG.user }`;
 
-        $('skill-box').innerHTML = CFG.skills.map(s => `<span class="tag">${ s }</span>`).join('');
-        $('social-box').innerHTML = CFG.socials.map(s => `<a href="${ s.url }" target="_blank" class="soc-btn"><i class="${ s.icon }"></i></a>`).join('');
+        // 检查并设置 skill-box
+        const skillBox = $('skill-box');
+        if (skillBox) {
+            skillBox.innerHTML = CFG.skills.map(s => `<span class="tag">${ s }</span>`).join('');
+        }
+
+        // 检查并设置 social-box
+        const socialBox = $('social-box');
+        if (socialBox) {
+            socialBox.innerHTML = CFG.socials.map(s => `<a href="${ s.url }" target="_blank" class="soc-btn"><i class="${ s.icon }"></i></a>`).join('');
+        }
 
         async function boot() {
             try {

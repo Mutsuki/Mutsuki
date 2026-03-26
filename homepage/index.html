@@ -753,26 +753,26 @@
                 </div>
             </div>
 
-            <!-- Stats -->
+            <!-- GitHub Stats -->
             <div class="m-card">
-                <div class="mc-head">DEVELOPMENT STATS</div>
+                <div class="mc-head">GITHUB STATS</div>
                 <div class="mc-body">
                     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
                         <div style="background: #151515; border: 1px solid var(--border); padding: 15px; text-align: center;">
-                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;">5+</div>
-                            <div style="font-size: 0.8rem; color: var(--text-sub);">Years of Experience</div>
+                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;"><span id="stat-repos">8</span></div>
+                            <div style="font-size: 0.8rem; color: var(--text-sub);">Public Repositories</div>
                         </div>
                         <div style="background: #151515; border: 1px solid var(--border); padding: 15px; text-align: center;">
-                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;">20+</div>
-                            <div style="font-size: 0.8rem; color: var(--text-sub);">Projects Completed</div>
+                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;"><span id="stat-followers">10</span></div>
+                            <div style="font-size: 0.8rem; color: var(--text-sub);">Followers</div>
                         </div>
                         <div style="background: #151515; border: 1px solid var(--border); padding: 15px; text-align: center;">
-                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;">10+</div>
-                            <div style="font-size: 0.8rem; color: var(--text-sub);">Technologies</div>
+                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;"><span id="stat-following">12</span></div>
+                            <div style="font-size: 0.8rem; color: var(--text-sub);">Following</div>
                         </div>
                         <div style="background: #151515; border: 1px solid var(--border); padding: 15px; text-align: center;">
-                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;">100+</div>
-                            <div style="font-size: 0.8rem; color: var(--text-sub);">Commits</div>
+                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;"><span id="stat-gists">1</span></div>
+                            <div style="font-size: 0.8rem; color: var(--text-sub);">Public Gists</div>
                         </div>
                     </div>
                 </div>
@@ -1112,6 +1112,19 @@
                     $('u-blog').href = u.blog.startsWith('http') ? u.blog : 'https://' + u.blog;
                     $('u-blog').innerText = 'LINK';
                 } else $('u-blog').innerText = 'N/A';
+                
+                // Update GitHub Stats
+                const statRepos = $('stat-repos');
+                if (statRepos) statRepos.innerText = u.public_repos;
+                
+                const statFollowers = $('stat-followers');
+                if (statFollowers) statFollowers.innerText = u.followers;
+                
+                const statFollowing = $('stat-following');
+                if (statFollowing) statFollowing.innerText = u.following;
+                
+                const statGists = $('stat-gists');
+                if (statGists) statGists.innerText = u.public_gists;
             }
 
             // 2. Org

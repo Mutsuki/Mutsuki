@@ -903,16 +903,7 @@
 
         async function boot() {
             try {
-                // 尝试从本地 data.json 文件获取数据
-                const localRes = await fetch('data.json');
-                if (localRes.ok) {
-                    const data = await localRes.json();
-                    render(data);
-                    $('data-status').innerHTML = '<span style="color:green">SYNCED</span>';
-                    return;
-                }
-                
-                // 如果本地文件不存在，尝试从 GitHub API 获取数据
+                // 直接从 GitHub API 获取最新数据
                 const userRes = await fetch(`https://api.github.com/users/${CFG.user}`);
                 if (!userRes.ok) throw new Error("Failed to load user data");
 

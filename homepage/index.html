@@ -621,29 +621,28 @@
                 </div>
             </div>
 
-            <!-- 2. Org -->
+            <!-- 2. About -->
             <div class="m-card">
-                <div class="mc-head">AFFILIATION</div>
+                <div class="mc-head">ABOUT</div>
                 <div class="mc-body">
-                    <a href="https://github.com/mutsuki" target="_blank" class="org-wrap">
-                        <div class="org-header">
-                            <img id="o-avatar" class="org-img"
-                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            <div class="org-title">@mutsuki</div>
+                    <div style="display: flex; flex-direction: column; gap: 10px;">
+                        <div style="font-size: 0.8rem; line-height: 1.4; color: var(--text-sub);">
+                            I'm a software developer with expertise in Rust, Python, and FastAPI. I love building efficient and reliable applications.
                         </div>
-                        <div id="o-desc" class="org-desc">...</div>
-                        <div class="org-grid">
-                            <div class="og-item">REPOS <span id="o-repos">-</span></div>
-                            <div class="og-item">CREATED <span id="o-created">-</span></div>
+                        <div style="font-size: 0.8rem; line-height: 1.4; color: var(--text-sub);">
+                            Currently based in Shanghai, China, working on various open source projects and exploring new technologies.
                         </div>
-                    </a>
+                        <div style="font-size: 0.8rem; line-height: 1.4; color: var(--text-sub);">
+                            Feel free to connect with me on GitHub or reach out via email for collaboration opportunities.
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!-- 3. Expertise -->
             <div class="m-card skill-box">
                 <div class="mc-head">EXPERTISE</div>
-                <div class="mc-body">
+                <div class="mc-body" style="overflow-y: auto; max-height: 200px;">
                     <div style="display: flex; flex-direction: column; gap: 10px;">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                             <span style="font-size: 0.8rem;">Rust</span>
@@ -693,11 +692,11 @@
                             <i class="ri-github-fill"></i>
                             <span>GitHub</span>
                         </a>
-                        <a href="mailto:your.email@example.com" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-main); padding: 8px; background: #080808; border: 1px solid #222;">
+                        <a href="mailto:digitalocean.oink451@aleeas.com" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-main); padding: 8px; background: #080808; border: 1px solid #222;">
                             <i class="ri-mail-fill"></i>
                             <span>Email</span>
                         </a>
-                        <a href="https://twitter.com/yourusername" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-main); padding: 8px; background: #080808; border: 1px solid #222;">
+                        <a href="https://x.com/koojiafeng" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-main); padding: 8px; background: #080808; border: 1px solid #222;">
                             <i class="ri-twitter-x-fill"></i>
                             <span>Twitter</span>
                         </a>
@@ -1127,20 +1126,14 @@
                 if (statGists) statGists.innerText = u.public_gists;
             }
 
-            // 2. Org
-            if (o) {
-                $('o-avatar').src = o.avatar_url;
-                $('o-desc').innerText = o.description || "No public data.";
-                $('o-repos').innerText = o.public_repos;
-                $('o-created').innerText = (o.created_at || '').split('T')[0];
-            }
+            // 2. About - No longer using organization data
 
             // 3. Projects
             // 合并用户仓库和组织仓库，标记 _org 属性
             const all = [
                 ...(Array.isArray(uR) ? uR : []),
                 ...(Array.isArray(oR) ? oR : []).map(r => ({ ...r, _org: true }))
-            ].filter(r => !r.fork); // 过滤掉 fork 的项目
+            ]; // 不过滤 fork 的项目，显示所有项目
 
             // 排序逻辑：按 star 排序
             const list = all.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 8);

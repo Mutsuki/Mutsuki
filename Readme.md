@@ -28,11 +28,9 @@ I'm Jiafeng, Chinese pinyin:Gu Jiafeng
 - 💬 Ask me about anything [here](https://github.com/mutsuki/mutsuki/issues)
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true&theme=radical&count_private=true" alt="GitHub 统计" style="width: 48%;"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=你的用户名&layout=compact&theme=radical" alt="常用语言" style="width: 48%;"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=mutuski&show_icons=true&theme=radical&count_private=true" alt="GitHub 统计" style="width: 48%;"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mutsuki&layout=compact&theme=radical" alt="常用语言" style="width: 48%;"/>
 </div>
-
-[![Readme Card](https://github-readme-stats.vercel.app/api?username=mutsuki&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515&hide=contribs&count_private=true&theme=ambient_gradient)](https://github.com/mutsuki)
 
 #### :computer: Programming languages and tools:
 <p>

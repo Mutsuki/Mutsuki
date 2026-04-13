@@ -23,10 +23,10 @@ I'm Jiafeng, Chinese pinyin:Gu Jiafeng
 
 - 💬 Ask me about anything [here](https://github.com/mutsuki/mutsuki/issues)
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mutuski&show_icons=true&theme=radical&count_private=true" alt="GitHub 统计" style="width: 48%;"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mutsuki&layout=compact&theme=radical" alt="常用语言" style="width: 48%;"/>
-</div>
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
 #### :computer: Programming languages and tools:
 <p>

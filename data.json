@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/Mutsuki/Mutsuki/releases{/id}",
       "deployments_url": "https://api.github.com/repos/Mutsuki/Mutsuki/deployments",
       "created_at": "2022-12-03T14:24:10Z",
-      "updated_at": "2026-04-30T02:36:07Z",
-      "pushed_at": "2026-04-30T02:36:04Z",
+      "updated_at": "2026-05-01T02:41:57Z",
+      "pushed_at": "2026-05-01T02:41:53Z",
       "git_url": "git://github.com/Mutsuki/Mutsuki.git",
       "ssh_url": "git@github.com:Mutsuki/Mutsuki.git",
       "clone_url": "https://github.com/Mutsuki/Mutsuki.git",
       "svn_url": "https://github.com/Mutsuki/Mutsuki",
       "homepage": "https://mutsuki.github.io/",
-      "size": 487156,
+      "size": 487174,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "HTML",
@@ -396,7 +396,7 @@
     "has_repository_projects": true,
     "public_repos": 29,
     "public_gists": 0,
-    "followers": 239,
+    "followers": 240,
     "following": 0,
     "html_url": "https://github.com/fastapi-practices",
     "created_at": "2023-04-25T03:36:42Z",
@@ -473,7 +473,7 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-04-30T20:10:16Z",
+      "updated_at": "2026-05-01T16:50:38Z",
       "pushed_at": "2026-04-28T10:07:23Z",
       "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -481,8 +481,8 @@
       "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
       "homepage": "https://docs.fba.wu-clan.cc",
       "size": 13177,
-      "stargazers_count": 2205,
-      "watchers_count": 2205,
+      "stargazers_count": 2207,
+      "watchers_count": 2207,
       "language": "Python",
       "has_issues": true,
       "has_projects": false,
@@ -519,7 +519,7 @@
       "visibility": "public",
       "forks": 335,
       "open_issues": 12,
-      "watchers": 2205,
+      "watchers": 2207,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -3791,6 +3791,33 @@
       "custom_properties": {}
     }
   ],
-  "ev": [],
-  "updated_at": "2026-05-01T02:41:45.549Z"
+  "ev": [
+    {
+      "id": "10513020724",
+      "type": "PushEvent",
+      "actor": {
+        "id": 299070,
+        "login": "Mutsuki",
+        "display_login": "Mutsuki",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Mutsuki",
+        "avatar_url": "https://avatars.githubusercontent.com/u/299070?"
+      },
+      "repo": {
+        "id": 573816613,
+        "name": "Mutsuki/Mutsuki",
+        "url": "https://api.github.com/repos/Mutsuki/Mutsuki"
+      },
+      "payload": {
+        "repository_id": 573816613,
+        "push_id": 32805317878,
+        "ref": "refs/heads/main",
+        "head": "fb4984fc13235dcf2a416e9ed3b6b66a02ed9322",
+        "before": "36a0fb37887b0019480bc807fdb702d858559e15"
+      },
+      "public": true,
+      "created_at": "2026-04-13T10:36:02Z"
+    }
+  ],
+  "updated_at": "2026-05-02T02:25:07.799Z"
 }

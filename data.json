@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/Mutsuki/Mutsuki/releases{/id}",
       "deployments_url": "https://api.github.com/repos/Mutsuki/Mutsuki/deployments",
       "created_at": "2022-12-03T14:24:10Z",
-      "updated_at": "2026-05-02T02:25:12Z",
-      "pushed_at": "2026-05-02T02:25:09Z",
+      "updated_at": "2026-05-03T02:33:23Z",
+      "pushed_at": "2026-05-03T02:33:19Z",
       "git_url": "git://github.com/Mutsuki/Mutsuki.git",
       "ssh_url": "git@github.com:Mutsuki/Mutsuki.git",
       "clone_url": "https://github.com/Mutsuki/Mutsuki.git",
       "svn_url": "https://github.com/Mutsuki/Mutsuki",
       "homepage": "https://mutsuki.github.io/",
-      "size": 487174,
+      "size": 487192,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "HTML",
@@ -490,7 +490,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 335,
+      "forks_count": 336,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -517,7 +517,7 @@
         "sqlalchemy"
       ],
       "visibility": "public",
-      "forks": 335,
+      "forks": 336,
       "open_issues": 12,
       "watchers": 2208,
       "default_branch": "master",
@@ -853,7 +853,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 59,
+      "forks_count": 58,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -876,7 +876,7 @@
         "vben5"
       ],
       "visibility": "public",
-      "forks": 59,
+      "forks": 58,
       "open_issues": 1,
       "watchers": 82,
       "default_branch": "master",
@@ -3819,5 +3819,5 @@
       "created_at": "2026-04-13T10:36:02Z"
     }
   ],
-  "updated_at": "2026-05-03T02:33:18.459Z"
+  "updated_at": "2026-05-04T02:31:43.050Z"
 }

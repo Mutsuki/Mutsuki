@@ -32,7 +32,7 @@
     "followers": 12,
     "following": 12,
     "created_at": "2010-06-07T17:31:32Z",
-    "updated_at": "2026-05-07T07:27:07Z"
+    "updated_at": "2026-05-24T10:05:56Z"
   },
   "uR": [
     {
@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/Mutsuki/Mutsuki/releases{/id}",
       "deployments_url": "https://api.github.com/repos/Mutsuki/Mutsuki/deployments",
       "created_at": "2022-12-03T14:24:10Z",
-      "updated_at": "2026-05-23T02:39:13Z",
-      "pushed_at": "2026-05-23T02:39:09Z",
+      "updated_at": "2026-05-24T02:51:09Z",
+      "pushed_at": "2026-05-24T02:51:05Z",
       "git_url": "git://github.com/Mutsuki/Mutsuki.git",
       "ssh_url": "git@github.com:Mutsuki/Mutsuki.git",
       "clone_url": "https://github.com/Mutsuki/Mutsuki.git",
       "svn_url": "https://github.com/Mutsuki/Mutsuki",
       "homepage": "https://mutsuki.github.io/",
-      "size": 487374,
+      "size": 487376,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "HTML",
@@ -473,8 +473,8 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-05-23T17:30:30Z",
-      "pushed_at": "2026-05-19T22:21:57Z",
+      "updated_at": "2026-05-25T03:06:10Z",
+      "pushed_at": "2026-05-25T03:06:26Z",
       "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
       "clone_url": "https://github.com/fastapi-practices/fastapi-best-architecture.git",
@@ -494,7 +494,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 15,
+      "open_issues_count": 13,
       "license": {
         "key": "mit",
         "name": "MIT License",
@@ -518,7 +518,7 @@
       ],
       "visibility": "public",
       "forks": 339,
-      "open_issues": 15,
+      "open_issues": 13,
       "watchers": 2238,
       "default_branch": "master",
       "permissions": {
@@ -3792,5 +3792,5 @@
     }
   ],
   "ev": [],
-  "updated_at": "2026-05-24T02:51:03.865Z"
+  "updated_at": "2026-05-25T03:25:49.891Z"
 }

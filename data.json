@@ -32,7 +32,7 @@
     "followers": 15,
     "following": 12,
     "created_at": "2010-06-07T17:31:32Z",
-    "updated_at": "2026-06-27T04:06:42Z"
+    "updated_at": "2026-07-13T09:15:46Z"
   },
   "uR": [
     {
@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/Mutsuki/Mutsuki/releases{/id}",
       "deployments_url": "https://api.github.com/repos/Mutsuki/Mutsuki/deployments",
       "created_at": "2022-12-03T14:24:10Z",
-      "updated_at": "2026-07-12T02:22:11Z",
-      "pushed_at": "2026-07-12T02:22:08Z",
+      "updated_at": "2026-07-13T02:23:37Z",
+      "pushed_at": "2026-07-13T02:23:33Z",
       "git_url": "git://github.com/Mutsuki/Mutsuki.git",
       "ssh_url": "git@github.com:Mutsuki/Mutsuki.git",
       "clone_url": "https://github.com/Mutsuki/Mutsuki.git",
       "svn_url": "https://github.com/Mutsuki/Mutsuki",
       "homepage": "https://mutsuki.github.io/",
-      "size": 487389,
+      "size": 487406,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "HTML",
@@ -473,7 +473,7 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-07-13T02:03:48Z",
+      "updated_at": "2026-07-13T12:03:12Z",
       "pushed_at": "2026-07-10T10:01:57Z",
       "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -481,8 +481,8 @@
       "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
       "homepage": "https://docs.fba.wu-clan.cc",
       "size": 22470,
-      "stargazers_count": 2442,
-      "watchers_count": 2442,
+      "stargazers_count": 2447,
+      "watchers_count": 2447,
       "language": "Python",
       "has_issues": true,
       "has_projects": false,
@@ -518,7 +518,7 @@
       "visibility": "public",
       "forks": 365,
       "open_issues": 15,
-      "watchers": 2442,
+      "watchers": 2447,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -4123,6 +4123,29 @@
       "custom_properties": {}
     }
   ],
-  "ev": [],
-  "updated_at": "2026-07-13T02:23:31.187Z"
+  "ev": [
+    {
+      "id": "11702036337",
+      "type": "WatchEvent",
+      "actor": {
+        "id": 299070,
+        "login": "Mutsuki",
+        "display_login": "Mutsuki",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Mutsuki",
+        "avatar_url": "https://avatars.githubusercontent.com/u/299070?"
+      },
+      "repo": {
+        "id": 1283755481,
+        "name": "lxgw/BlackSugarPlumCandy",
+        "url": "https://api.github.com/repos/lxgw/BlackSugarPlumCandy"
+      },
+      "payload": {
+        "action": "started"
+      },
+      "public": true,
+      "created_at": "2026-07-13T09:17:44Z"
+    }
+  ],
+  "updated_at": "2026-07-14T02:03:14.889Z"
 }

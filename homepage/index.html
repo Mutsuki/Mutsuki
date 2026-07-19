@@ -707,93 +707,23 @@
 
         <!-- CENTER -->
         <main class="col-center">
-            <!-- Projects -->
+            <!-- Projects - minimal list -->
             <div class="m-card" style="flex:1;">
                 <div class="mc-head">
                     <span>FEATURED PROJECTS</span>
                 </div>
-                <div class="mc-body repo-container-body">
-                    <div id="project-grid" class="repo-area">
-                        <div style="grid-column:1/-1; text-align:center; padding:50px; color:#444;">INITIALIZING...</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Skills -->
-            <div class="m-card">
-                <div class="mc-head">SKILLS & TECHNOLOGIES</div>
-                <div class="mc-body">
-                    <div class="skill-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px;">
-                        <div class="skill-item" style="background: #151515; border: 1px solid var(--border); padding: 10px; text-align: center;">
-                            <div style="font-size: 2rem; margin-bottom: 5px;">🦀</div>
-                            <div style="font-size: 0.8rem;">Rust</div>
-                        </div>
-                        <div class="skill-item" style="background: #151515; border: 1px solid var(--border); padding: 10px; text-align: center;">
-                            <div style="font-size: 2rem; margin-bottom: 5px;">🐍</div>
-                            <div style="font-size: 0.8rem;">Python</div>
-                        </div>
-                        <div class="skill-item" style="background: #151515; border: 1px solid var(--border); padding: 10px; text-align: center;">
-                            <div style="font-size: 2rem; margin-bottom: 5px;">⚡</div>
-                            <div style="font-size: 0.8rem;">FastAPI</div>
-                        </div>
-                        <div class="skill-item" style="background: #151515; border: 1px solid var(--border); padding: 10px; text-align: center;">
-                            <div style="font-size: 2rem; margin-bottom: 5px;">🐧</div>
-                            <div style="font-size: 0.8rem;">Linux</div>
-                        </div>
-                        <div class="skill-item" style="background: #151515; border: 1px solid var(--border); padding: 10px; text-align: center;">
-                            <div style="font-size: 2rem; margin-bottom: 5px;">🔧</div>
-                            <div style="font-size: 0.8rem;">Git</div>
-                        </div>
-                        <div class="skill-item" style="background: #151515; border: 1px solid var(--border); padding: 10px; text-align: center;">
-                            <div style="font-size: 2rem; margin-bottom: 5px;">✏️</div>
-                            <div style="font-size: 0.8rem;">Vim</div>
-                        </div>
-                        <div class="skill-item" style="background: #151515; border: 1px solid var(--border); padding: 10px; text-align: center;">
-                            <div style="font-size: 2rem; margin-bottom: 5px;">🌐</div>
-                            <div style="font-size: 0.8rem;">HTML5</div>
-                        </div>
-                        <div class="skill-item" style="background: #151515; border: 1px solid var(--border); padding: 10px; text-align: center;">
-                            <div style="font-size: 2rem; margin-bottom: 5px;">🎨</div>
-                            <div style="font-size: 0.8rem;">CSS</div>
-                        </div>
-                        <div class="skill-item" style="background: #151515; border: 1px solid var(--border); padding: 10px; text-align: center;">
-                            <div style="font-size: 2rem; margin-bottom: 5px;">🔷</div>
-                            <div style="font-size: 0.8rem;">TypeScript</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- GitHub Stats -->
-            <div class="m-card">
-                <div class="mc-head">GITHUB STATS</div>
-                <div class="mc-body">
-                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
-                        <div style="background: #151515; border: 1px solid var(--border); padding: 15px; text-align: center;">
-                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;"><span id="stat-repos">8</span></div>
-                            <div style="font-size: 0.8rem; color: var(--text-sub);">Public Repositories</div>
-                        </div>
-                        <div style="background: #151515; border: 1px solid var(--border); padding: 15px; text-align: center;">
-                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;"><span id="stat-followers">10</span></div>
-                            <div style="font-size: 0.8rem; color: var(--text-sub);">Followers</div>
-                        </div>
-                        <div style="background: #151515; border: 1px solid var(--border); padding: 15px; text-align: center;">
-                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;"><span id="stat-following">12</span></div>
-                            <div style="font-size: 0.8rem; color: var(--text-sub);">Following</div>
-                        </div>
-                        <div style="background: #151515; border: 1px solid var(--border); padding: 15px; text-align: center;">
-                            <div style="font-size: 1.5rem; font-weight: 700; color: #fff;"><span id="stat-gists">1</span></div>
-                            <div style="font-size: 0.8rem; color: var(--text-sub);">Public Gists</div>
-                        </div>
+                <div class="mc-body" style="padding:0; overflow-y:auto;">
+                    <div id="project-list" style="display:flex; flex-direction:column;">
+                        <div style="text-align:center; padding:50px; color:#444; font-size:0.75rem;">INITIALIZING...</div>
                     </div>
                 </div>
             </div>
 
             <!-- GitHub Contribution Chart -->
-            <div class="m-card" style="max-width: 800px; margin: 0 auto;">
-                <div class="mc-head">GITHUB CONTRIBUTIONS</div>
-                <div class="mc-body" style="padding: 0; max-height: 200px; overflow: hidden;">
-                    <img id="gh-chart" src="https://ghchart.rshah.org/mutsuki" alt="GitHub Contribution Chart" style="width: 100%; height: auto; border: none; max-height: 200px;">
+            <div class="m-card">
+                <div class="mc-head">CONTRIBUTIONS</div>
+                <div class="mc-body" style="padding:0; max-height:160px; overflow:hidden;">
+                    <img id="gh-chart" src="https://ghchart.rshah.org/mutsuki" alt="GitHub Contribution Chart" style="width:100%; height:auto; border:none; max-height:160px;">
                 </div>
             </div>
         </main>
@@ -1114,50 +1044,27 @@
                     $('u-blog').href = u.blog.startsWith('http') ? u.blog : 'https://' + u.blog;
                     $('u-blog').innerText = 'LINK';
                 } else $('u-blog').innerText = 'N/A';
-                
-                // Update GitHub Stats
-                const statRepos = $('stat-repos');
-                if (statRepos) statRepos.innerText = u.public_repos;
-                
-                const statFollowers = $('stat-followers');
-                if (statFollowers) statFollowers.innerText = u.followers;
-                
-                const statFollowing = $('stat-following');
-                if (statFollowing) statFollowing.innerText = u.following;
-                
-                const statGists = $('stat-gists');
-                if (statGists) statGists.innerText = u.public_gists;
             }
 
             // 2. About - No longer using organization data
 
-            // 3. Projects
-            // 合并用户仓库和组织仓库，标记 _org 属性
+            // 3. Projects - minimal list
             const all = [
                 ...(Array.isArray(uR) ? uR : []),
                 ...(Array.isArray(oR) ? oR : []).map(r => ({ ...r, _org: true }))
-            ]; // 不过滤 fork 的项目，显示所有项目
+            ];
 
-            // 排序逻辑：按 star 排序
-            const list = all.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 8);
+            const list = all.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 10);
 
-            // 检查 project-grid 元素是否存在
-            const projectGrid = $('project-grid');
-            if (projectGrid) {
-                projectGrid.innerHTML = list.map(r => `
-                    <a href="${ r.html_url }" target="_blank" class="r-card">
-                        <div>
-                            <div class="rc-head">
-                                <span class="rc-name">${ r.name }</span>
-                                <span class="rc-vis" style="${ r._org ? 'color:var(--theme-main); border-color:var(--theme-main)' : '' }">${ r._org ? 'ORG' : 'USR' }</span>
-                            </div>
-                            <div class="rc-desc">${ r.description || '--' }</div>
-                        </div>
-                        <div class="rc-foot">
-                            <span class="rc-i"><i class="ri-star-fill"></i> ${ fmt(r.stargazers_count) }</span>
-                            <span class="rc-i"><i class="ri-git-branch-line"></i> ${ fmt(r.forks_count) }</span>
-                            <span style="margin-left:auto; color:${ getLangColor(r.language) }">${ r.language || '' }</span>
-                        </div>
+            const projectList = $('project-list');
+            if (projectList) {
+                projectList.innerHTML = list.map((r, i) => `
+                    <a href="${ r.html_url }" target="_blank" style="display:flex; align-items:center; gap:12px; padding:10px 14px; text-decoration:none; color:inherit; border-bottom:1px solid #1a1a1a; transition:background 0.15s;" onmouseover="this.style.background='#151515'" onmouseout="this.style.background='transparent'">
+                        <span style="color:#333; font-size:0.7rem; width:18px; text-align:right; flex-shrink:0;">${ String(i+1).padStart(2,'0') }</span>
+                        <span style="font-size:0.8rem; color:#fff; font-weight:500; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:200px;">${ r.name }</span>
+                        <span style="font-size:0.7rem; color:var(--text-sub); flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${ r.description || '' }</span>
+                        <span style="display:flex; align-items:center; gap:4px; font-size:0.7rem; color:#555; flex-shrink:0;"><i class="ri-star-fill" style="font-size:0.65rem;"></i>${ fmt(r.stargazers_count) }</span>
+                        <span style="width:8px; height:8px; border-radius:50%; background:${ getLangColor(r.language) }; flex-shrink:0;" title="${ r.language || '' }"></span>
                     </a>
                 `).join('');
             }

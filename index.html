@@ -16,11 +16,6 @@
             --border: #222222;
             --text-main: #dddddd;
             --text-sub: #666666;
-            --c-push: #2196f3;
-            --c-star: #ffc107;
-            --c-new: #4caf50;
-            --c-git: #ff9800;
-            --c-misc: #9c27b0;
             --font: 'JetBrains Mono', monospace;
         }
 
@@ -63,36 +58,12 @@
         }
 
         .grid-frame {
-            display: grid;
-            grid-template-columns: 340px minmax(0, 1fr) 340px;
-            grid-template-rows: 40px minmax(0, 1fr) 20px;
+            display: flex;
+            flex-direction: column;
             gap: 12px;
-            height: 100%;
-            max-width: 1600px;
+            max-width: 640px;
             margin: 0 auto;
-        }
-
-        @media (max-width: 1300px) {
-            body {
-                height: auto;
-                overflow-y: auto;
-            }
-
-            .grid-frame {
-                display: flex;
-                flex-direction: column;
-                height: auto;
-                grid-template-rows: auto;
-            }
-
-            .col-left, .col-center, .col-right {
-                height: auto !important;
-                overflow: visible !important;
-            }
-
-            .repo-area {
-                overflow: visible !important;
-            }
+            padding: 12px 0;
         }
 
         .m-card {
@@ -142,7 +113,6 @@
         }
 
         .header {
-            grid-column: 1 / -1;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -187,432 +157,61 @@
             color: var(--theme-main);
         }
 
-        .col-left, .col-center, .col-right {
-            grid-row: 2 / 3;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            overflow: hidden;
-            min-height: 0;
-        }
-
-        /* ---------- status banner ---------- */
-        .status-banner {
-            font-size: 0.7rem;
-            color: var(--text-sub);
-            border-top: 1px solid var(--border);
-            padding-top: 10px;
-            margin-top: 6px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px 18px;
-        }
-        .status-banner span {
-            color: var(--text-main);
-        }
-
-        .id-top {
-            display: flex;
-            gap: 14px;
-            margin-bottom: 12px;
-        }
-
-        .avatar {
-            width: 64px;
-            height: 64px;
-            border: 1px solid var(--border);
-        }
-
-        .names {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .login {
-            font-size: 1.3rem;
-            font-weight: 700;
-            color: #fff;
-            line-height: 1.1;
-        }
-
-        .bio {
-            font-size: 0.75rem;
-            color: var(--text-sub);
-            margin-top: 4px;
-            line-height: 1.4;
-        }
-
-        .data-table {
-            font-size: 0.75rem;
-            padding-top: 8px;
-            margin-top: auto;
-            min-height: 50px;
-            overflow-y: auto;
-        }
-
-        .dt-row {
-            display: flex;
-            justify-content: space-between;
-            padding: 5px 0;
-            border-bottom: 1px dashed #222;
-        }
-
-        .dt-row:last-child {
-            border-bottom: none;
-        }
-
-        .dt-k {
-            color: var(--text-sub);
-        }
-
-        .dt-v {
-            color: #ccc;
-            text-align: right;
-        }
-
-        .dt-v a {
-            color: #ccc;
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-        }
-
-        .dt-v a:hover {
-            border-color: var(--theme-main);
-            color: var(--theme-main);
-        }
-
-        .org-wrap {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            text-decoration: none;
-            color: inherit;
-            height: 100%;
-            overflow-y: auto;
-        }
-
-        .org-header {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-        }
-
-        .org-img {
-            width: 40px;
-            height: 40px;
-            border: 1px solid var(--border);
-        }
-
-        .org-title {
-            font-weight: 700;
-            color: #fff;
-            font-size: 0.95rem;
-        }
-
-        .org-desc {
-            font-size: 0.75rem;
-            color: var(--text-sub);
-            line-height: 1.4;
-            flex: 1;
-        }
-
-        .org-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 6px;
-            margin-top: auto;
-            padding-top: 8px;
-            border-top: 1px dashed #222;
-        }
-
-        .og-item {
-            font-size: 0.65rem;
-            color: #555;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .og-item span {
-            color: #aaa;
-            font-size: 0.75rem;
-        }
-
-        .skill-box {
-            flex: 1;
-            min-height: 100px;
-        }
-
-        .skill-cloud {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            align-content: flex-start;
-            overflow-y: auto;
-            height: 100%;
-        }
-
-        .tag {
-            font-size: 0.7rem;
-            background: #080808;
-            border: 1px solid #222;
-            color: #888;
-            padding: 3px 8px;
-        }
-
-        .tag-rust { background: #dea584; color:#111; border-color:#dea584; }
-        .tag-python { background: #3572A5; color:#fff; border-color:#3572A5; }
-        .tag-fastapi { background: #009688; color:#fff; border-color:#009688; }
-        .tag-linux { background: #fcc624; color:#111; border-color:#fcc624; }
-        .tag-git { background: #f05032; color:#fff; border-color:#f05032; }
-        .tag-vim { background: #019833; color:#fff; border-color:#019833; }
-        .tag-vscode { background: #0066b8; color:#fff; border-color:#0066b8; }
-        .tag-docker { background: #2496ed; color:#fff; border-color:#2496ed; }
-
-        .social-row {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 8px;
-            margin-top: auto;
-        }
-
-        .soc-btn {
-            background: #080808;
-            border: 1px solid #222;
-            color: var(--text-sub);
-            height: 36px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            transition: all 0.2s;
-        }
-
-        .soc-btn:hover {
-            border-color: var(--theme-main);
-            color: var(--theme-main);
-        }
-
-        .repo-container-body {
-            padding: 12px;
-            background: #0d0d0d;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .repo-area {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 14px;
-            overflow-y: auto;
-            flex: 1;
-        }
-
-        .r-card {
-            background: #151515;
-            border: 1px solid #222;
-            padding: 14px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            text-decoration: none;
-            transition: all 0.2s;
-            position: relative;
-            min-height: 110px;
-        }
-
-        .r-card:hover {
-            border-color: var(--theme-main);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-            background: #181818;
-            z-index: 1;
-        }
-
-        .rc-head {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 6px;
-        }
-
-        .rc-name {
-            font-weight: 700;
-            color: #fff;
-            font-size: 0.9rem;
-            word-break: break-all;
-        }
-
-        .rc-vis {
-            font-size: 0.6rem;
-            padding: 1px 5px;
-            border: 1px solid #333;
-            color: #666;
-            white-space: nowrap;
-        }
-
-        .rc-desc {
-            font-size: 0.75rem;
-            color: var(--text-sub);
-            line-height: 1.4;
-            overflow: hidden;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            margin-bottom: 8px;
-        }
-
-        .rc-foot {
-            display: flex;
-            gap: 12px;
-            font-size: 0.7rem;
-            color: #555;
-            margin-top: auto;
-            padding-top: 10px;
+        .footer {
             border-top: 1px solid #222;
-            align-items: center;
-        }
-
-        .rc-i {
+            padding: 0 10px;
             display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        .chart-box {
-            height: 150px;
-            filter: hue-rotate(-70deg) saturate(1.5) contrast(1.1);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 10px;
-            flex-shrink: 0;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 8px;
-            height: 100%;
-        }
-
-        .s-cell {
-            background: #151515;
-            border: 1px solid #222;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .s-val {
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: #fff;
-        }
-
-        .s-lbl {
+            justify-content: space-between;
             font-size: 0.65rem;
-            color: var(--text-sub);
-            margin-top: 2px;
-        }
-
-        .lang-list {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            height: 100%;
-            overflow-y: auto;
-        }
-
-        .l-row {
-            display: flex;
-            align-items: center;
-            font-size: 0.7rem;
-        }
-
-        .l-bar {
-            flex: 1;
-            height: 6px;
-            background: #222;
-            margin: 0 8px;
-        }
-
-        .l-fill {
-            height: 100%;
-        }
-
-        .log-box {
-            flex: 1;
-            background: #080808;
-            overflow-y: auto;
-            padding: 10px;
-            font-family: var(--font);
-            border: 1px solid #222;
-        }
-
-        .log-item {
-            margin-bottom: 8px;
-            border-bottom: 1px solid #1a1a1a;
-            padding-bottom: 6px;
-            font-size: 0.7rem;
-            line-height: 1.4;
-            color: #888;
-        }
-
-        .log-ts {
             color: #444;
-            margin-right: 6px;
-            font-size: 0.65rem;
+            background: var(--bg-panel);
+            align-items: center;
         }
-
-        .hl-link {
-            color: #bbb;
-            text-decoration: none;
-            border-bottom: 1px solid #333;
-            transition: 0.2s;
-        }
-
-        .hl-link:hover {
-            color: var(--theme-main);
-            border-color: var(--theme-main);
-        }
-
-        .tag-ev {
-            font-weight: 700;
-            font-size: 0.6rem;
-            padding: 1px 5px;
-            margin-right: 4px;
-            color: #000;
-            border-radius: 2px;
             display: inline-block;
-            min-width: 35px;
-            text-align: center;
+            font-size: 0.7rem;
+            background: #080808;
+            border: 1px solid #222;
+            color: #888;
+            padding: 4px 10px;
+            transition: all 0.15s;
         }
 
-        .ev-push {
-            background: var(--c-push);
+        .interest-tag:hover {
+            border-color: var(--theme-main);
+            color: var(--theme-main);
         }
 
-        .ev-star {
-            background: var(--c-star);
+        .link-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            background: #080808;
+            border: 1px solid #222;
+            text-decoration: none;
+            color: var(--text-main);
+            font-size: 0.78rem;
+            transition: all 0.15s;
         }
 
-        .ev-new {
-            background: var(--c-new);
+        .link-row:hover {
+            border-color: var(--theme-main);
+            color: var(--theme-main);
         }
 
-        .ev-git {
-            background: var(--c-git);
+        .now-line {
+            font-size: 0.78rem;
+            color: var(--text-sub);
+            line-height: 1.8;
+            padding: 4px 0;
         }
 
-        .ev-misc {
-            background: var(--c-misc);
-            color: #fff;
+        .now-line::before {
+            content: '→ ';
+            color: var(--theme-main);
         }
 
         .footer {
-            grid-column: 1/-1;
             border-top: 1px solid #222;
             padding: 0 10px;
             display: flex;
@@ -628,267 +227,92 @@
 
     <div class="grid-frame">
         <header class="header">
-            <div class="logo">MUTSUKI <span>//</span> NET</div>
+            <div class="logo">Mutsuki <span>·</span> 知行合一</div>
             <div class="sys-stat">
                 <span>DATA: <b id="data-status" style="color:var(--text-sub)">FETCHING...</b></span>
                 <span>TIME: <b id="clock" style="color:var(--theme-main)">00:00:00</b></span>
             </div>
         </header>
 
-        <!-- LEFT -->
-        <aside class="col-left">
-            <!-- 1. Identity -->
-            <div class="m-card">
-                <div class="mc-head">OPERATOR_ID</div>
-                <div class="mc-body">
-                    <div class="id-top">
-                        <img id="u-avatar" class="avatar"
-                             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                        <div class="names">
-                            <div id="u-login" class="login">LOADING</div>
-                            <div id="u-bio" class="bio">上海 · 38 · 运维十一年 · Rust · 跟腱术后康复中 · 雅思备考</div>
-                        </div>
+        <!-- Profile -->
+        <div class="m-card">
+            <div class="mc-head">PROFILE</div>
+            <div class="mc-body" style="padding:14px 16px;">
+                <div style="display:flex; align-items:center; gap:14px; margin-bottom:16px;">
+                    <img id="u-avatar" style="width:48px; height:48px; border:1px solid var(--border); flex-shrink:0;"
+                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                    <div style="flex:1; min-width:0;">
+                        <div id="u-login" style="font-size:1.1rem; font-weight:700; color:#fff;">LOADING</div>
+                        <div id="u-bio" style="font-size:0.7rem; color:var(--text-sub); line-height:1.3; margin-top:2px;">...</div>
                     </div>
-                    <div class="data-table">
-                        <div class="dt-row"><span class="dt-k">JOINED</span><span id="u-join" class="dt-v">-</span>
-                        </div>
-                        <div class="dt-row"><span class="dt-k">LOCATION</span><span id="u-loc" class="dt-v">-</span>
-                        </div>
-                        <div class="dt-row"><span class="dt-k">REPOS / GISTS</span><span class="dt-v"><span
-                                id="u-repo-n">-</span> / <span id="u-gist-n">-</span></span></div>
-                        <div class="dt-row"><span class="dt-k">EMAIL</span><span id="u-email" class="dt-v">-</span>
-                        </div>
-                        <div class="dt-row"><span class="dt-k">WEBSITE</span><span class="dt-v"><a id="u-blog" href="#"
-                                                                                                   target="_blank">-</a></span>
-                        </div>
-                    </div>
-
-                    <!-- status banner -->
-                    <div class="status-banner">
-                        <span>🦶 跟腱术后康复中</span>
-                        <span>📖 雅思备考</span>
-                        <span>📝 每周博客更新</span>
+                    <div style="display:flex; gap:12px; flex-shrink:0;">
+                        <div style="text-align:center;"><div style="font-size:0.85rem;font-weight:700;color:#fff;" id="u-repo-n">-</div><div style="font-size:0.55rem;color:var(--text-sub);">repos</div></div>
+                        <div style="text-align:center;"><div style="font-size:0.85rem;font-weight:700;color:#fff;" id="u-followers">-</div><div style="font-size:0.55rem;color:var(--text-sub);">follow</div></div>
+                        <div style="text-align:center;"><div style="font-size:0.85rem;font-weight:700;color:#fff;" id="u-following">-</div><div style="font-size:0.55rem;color:var(--text-sub);">fwing</div></div>
                     </div>
                 </div>
-            </div>
-
-            <!-- 2. Org -->
-            <div class="m-card">
-                <div class="mc-head">AFFILIATION</div>
-                <div class="mc-body">
-                    <a href="https://github.com/mutsuki" target="_blank" class="org-wrap">
-                        <div class="org-header">
-                            <img id="o-avatar" class="org-img"
-                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            <div class="org-title">@mutsuki</div>
-                        </div>
-                        <div id="o-desc" class="org-desc">...</div>
-                        <div class="org-grid">
-                            <div class="og-item">REPOS <span id="o-repos">-</span></div>
-                            <div class="og-item">CREATED <span id="o-created">-</span></div>
-                        </div>
-                    </a>
+                <div style="font-size:0.78rem; color:#888; line-height:1.8; text-align:center; border-top:1px solid var(--border); padding-top:16px;">
+                    读书、写字、打球、下厨、发呆<br>
+                    不逐喧嚣，不慕虚荣，唯守一方清净
                 </div>
             </div>
+        </div>
 
-            <!-- 3. Expertise -->
-            <div class="m-card skill-box">
-                <div class="mc-head">EXPERTISE</div>
-                <div class="mc-body">
-                    <div style="display: flex; flex-direction: column; gap: 10px;">
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <span style="font-size: 0.8rem;">Rust</span>
-                            <div style="width: 60%; height: 6px; background: #222;">
-                                <div style="width: 65%; height: 100%; background: var(--theme-main);"></div>
-                            </div>
-                            <span style="font-size: 0.8rem; color: var(--text-sub);">65%</span>
-                        </div>
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <span style="font-size: 0.8rem;">Python</span>
-                            <div style="width: 60%; height: 6px; background: #222;">
-                                <div style="width: 75%; height: 100%; background: var(--theme-main);"></div>
-                            </div>
-                            <span style="font-size: 0.8rem; color: var(--text-sub);">75%</span>
-                        </div>
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <span style="font-size: 0.8rem;">FastAPI</span>
-                            <div style="width: 60%; height: 6px; background: #222;">
-                                <div style="width: 70%; height: 100%; background: var(--theme-main);"></div>
-                            </div>
-                            <span style="font-size: 0.8rem; color: var(--text-sub);">70%</span>
-                        </div>
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <span style="font-size: 0.8rem;">Linux</span>
-                            <div style="width: 60%; height: 6px; background: #222;">
-                                <div style="width: 60%; height: 100%; background: var(--theme-main);"></div>
-                            </div>
-                            <span style="font-size: 0.8rem; color: var(--text-sub);">60%</span>
-                        </div>
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <span style="font-size: 0.8rem;">Git</span>
-                            <div style="width: 60%; height: 6px; background: #222;">
-                                <div style="width: 70%; height: 100%; background: var(--theme-main);"></div>
-                            </div>
-                            <span style="font-size: 0.8rem; color: var(--text-sub);">70%</span>
-                        </div>
-                    </div>
+        <!-- Now -->
+        <div class="m-card">
+            <div class="mc-head">NOW</div>
+            <div class="mc-body" style="padding:10px 14px;">
+                <div class="now-line">Maintaining infra & systems</div>
+                <div class="now-line">Writing Rust / Python</div>
+                <div class="now-line">Playing badminton</div>
+            </div>
+        </div>
+
+        <!-- Interests -->
+        <div class="m-card">
+            <div class="mc-head">INTERESTS</div>
+            <div class="mc-body" style="padding:10px 14px;">
+                <div style="display:flex; flex-wrap:wrap; gap:6px;">
+                    <span class="interest-tag">🏸 羽毛球</span>
+                    <span class="interest-tag">🦀 Rust</span>
+                    <span class="interest-tag">📖 读书</span>
+                    <span class="interest-tag">🍳 下厨</span>
+                    <span class="interest-tag">🐧 Linux</span>
                 </div>
             </div>
+        </div>
 
-            <!-- 4. Contact -->
-            <div class="m-card">
-                <div class="mc-head">CONTACT</div>
-                <div class="mc-body" style="flex:none;">
-                    <div style="display: flex; flex-direction: column; gap: 8px;">
-                        <a href="https://github.com/mutsuki" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-main); padding: 8px; background: #080808; border: 1px solid #222;">
-                            <i class="ri-github-fill"></i>
-                            <span>GitHub</span>
-                        </a>
-                        <a href="mailto:your.email@example.com" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-main); padding: 8px; background: #080808; border: 1px solid #222;">
-                            <i class="ri-mail-fill"></i>
-                            <span>Email</span>
-                        </a>
-                        <a href="https://mutsuki.net" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-main); padding: 8px; background: #080808; border: 1px solid #222;">
-                            <i class="ri-rss-fill"></i>
-                            <span>Blog</span>
-                        </a>
-                    </div>
+        <!-- Links -->
+        <div class="m-card">
+            <div class="mc-head">LINKS</div>
+            <div class="mc-body" style="padding:10px 14px;">
+                <div style="display:flex; flex-direction:column; gap:6px;">
+                    <a href="https://github.com/mutsuki" target="_blank" class="link-row"><i class="ri-github-fill"></i> GitHub</a>
+                    <a href="https://x.com/koojiafeng" target="_blank" class="link-row"><i class="ri-twitter-x-fill"></i> X / Twitter</a>
+                    <a href="mailto:digitalocean.oink451@aleeas.com" class="link-row"><i class="ri-mail-fill"></i> Email</a>
                 </div>
             </div>
-        </aside>
+        </div>
 
-        <!-- CENTER -->
-        <main class="col-center">
-            <!-- Personal Quote -->
-            <div class="m-card" style="flex:1;">
-                <div class="mc-head">LIVING</div>
-                <div class="mc-body" style="display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; padding:40px 20px;">
-                    <div style="font-size:1.2rem; color:#888; line-height:2; max-width:500px;">
-                        读书、写字、打球、下厨、发呆<br>
-                        <span style="font-size:0.9rem; color:#555; margin-top:20px; display:block;">不逐喧嚣，不慕虚荣<br>唯守一方清净</span>
-                    </div>
-                </div>
+        <!-- Insights -->
+        <div class="m-card">
+            <div class="mc-head">INSIGHTS</div>
+            <div class="mc-body" style="padding:10px 14px;">
+                <div id="lang-bar" style="display:flex; height:6px; border-radius:1px; overflow:hidden; background:#1a1a1a; margin-bottom:8px;"></div>
+                <div id="lang-legend" style="display:flex; flex-wrap:wrap; gap:4px 14px; font-size:0.65rem; color:var(--text-sub);"></div>
             </div>
+        </div>
 
-            <!-- Current Focus -->
-            <div class="m-card">
-                <div class="mc-head">NOW</div>
-                <div class="mc-body">
-                    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:15px; text-align:center;">
-                        <div style="padding:15px;">
-                            <div style="font-size:2rem; margin-bottom:8px;">🏸</div>
-                            <div style="font-size:0.8rem; color:#888;">羽毛球</div>
-                        </div>
-                        <div style="padding:15px;">
-                            <div style="font-size:2rem; margin-bottom:8px;">📖</div>
-                            <div style="font-size:0.8rem; color:#888;">雅思备考</div>
-                        </div>
-                        <div style="padding:15px;">
-                            <div style="font-size:2rem; margin-bottom:8px;">🦀</div>
-                            <div style="font-size:0.8rem; color:#888;">Rust 闲趣</div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Contributions -->
+        <div class="m-card">
+            <div class="mc-head">CONTRIBUTIONS</div>
+            <div class="mc-body" style="padding:0; max-height:130px; overflow:hidden;">
+                <img id="gh-chart" src="https://ghchart.rshah.org/mutsuki" alt="Contributions" style="width:100%; height:auto; border:none; max-height:130px;">
             </div>
-
-            <!-- Interests -->
-            <div class="m-card">
-                <div class="mc-head">INTERESTS</div>
-                <div class="mc-body">
-                    <div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
-                        <span style="font-size:0.8rem; color:#666; padding:6px 12px; border:1px solid #333;">学习之道</span>
-                        <span style="font-size:0.8rem; color:#666; padding:6px 12px; border:1px solid #333;">人类演化</span>
-                        <span style="font-size:0.8rem; color:#666; padding:6px 12px; border:1px solid #333;">系统思维</span>
-                        <span style="font-size:0.8rem; color:#666; padding:6px 12px; border:1px solid #333;">自动化</span>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <!-- RIGHT -->
-        <aside class="col-right">
-            <!-- Highlights -->
-            <div class="m-card">
-                <div class="mc-head">HIGHLIGHTS</div>
-                <div class="mc-body" style="padding:8px;">
-                    <div class="stats-grid">
-                        <div class="s-cell">
-                            <div class="s-val">🦀</div>
-                            <div class="s-lbl">Rust Expert</div>
-                        </div>
-                        <div class="s-cell">
-                            <div class="s-val">🐍</div>
-                            <div class="s-lbl">Python Pro</div>
-                        </div>
-                        <div class="s-cell">
-                            <div class="s-val">⚡</div>
-                            <div class="s-lbl">FastAPI Dev</div>
-                        </div>
-                        <div class="s-cell">
-                            <div class="s-val">🐧</div>
-                            <div class="s-lbl">Linux User</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Projects -->
-            <div class="m-card">
-                <div class="mc-head">PROJECT TYPES</div>
-                <div class="mc-body">
-                    <div style="display: flex; flex-direction: column; gap: 8px;">
-                        <div style="display: flex; align-items: center; gap: 10px;">
-                            <div style="width: 10px; height: 10px; background: #dea584; border-radius: 50%;"></div>
-                            <span style="font-size: 0.8rem;">Rust Projects</span>
-                            <span style="margin-left: auto; font-size: 0.8rem; color: var(--text-sub);">40%</span>
-                        </div>
-                        <div style="display: flex; align-items: center; gap: 10px;">
-                            <div style="width: 10px; height: 10px; background: #3572A5; border-radius: 50%;"></div>
-                            <span style="font-size: 0.8rem;">Python Projects</span>
-                            <span style="margin-left: auto; font-size: 0.8rem; color: var(--text-sub);">35%</span>
-                        </div>
-                        <div style="display: flex; align-items: center; gap: 10px;">
-                            <div style="width: 10px; height: 10px; background: #89e051; border-radius: 50%;"></div>
-                            <span style="font-size: 0.8rem;">Shell Scripts</span>
-                            <span style="margin-left: auto; font-size: 0.8rem; color: var(--text-sub);">15%</span>
-                        </div>
-                        <div style="display: flex; align-items: center; gap: 10px;">
-                            <div style="width: 10px; height: 10px; background: #2b7489; border-radius: 50%;"></div>
-                            <span style="font-size: 0.8rem;">TypeScript</span>
-                            <span style="margin-left: auto; font-size: 0.8rem; color: var(--text-sub);">10%</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Latest Updates -->
-            <div class="m-card" style="flex:1;">
-                <div class="mc-head">LATEST UPDATES</div>
-                <div class="mc-body" style="padding:0;">
-                    <div style="background: #080808; overflow-y: auto; padding: 10px; font-family: var(--font); border: 1px solid #222; height: 100%;">
-                        <div style="margin-bottom: 8px; border-bottom: 1px solid #1a1a1a; padding-bottom: 6px; font-size: 0.7rem; line-height: 1.4; color: #888;">
-                            <div><span style="color: #444; margin-right: 6px; font-size: 0.65rem;">24-03-2026</span> <span style="font-weight: 700; font-size: 0.6rem; padding: 1px 5px; margin-right: 4px; color: #000; background: #2196f3; border-radius: 2px; display: inline-block; min-width: 35px; text-align: center;">UPDATE</span></div>
-                            <div style="padding-left: 4px; margin-top: 2px;">Started working on a new Rust project</div>
-                        </div>
-                        <div style="margin-bottom: 8px; border-bottom: 1px solid #1a1a1a; padding-bottom: 6px; font-size: 0.7rem; line-height: 1.4; color: #888;">
-                            <div><span style="color: #444; margin-right: 6px; font-size: 0.65rem;">23-03-2026</span> <span style="font-weight: 700; font-size: 0.6rem; padding: 1px 5px; margin-right: 4px; color: #000; background: #4caf50; border-radius: 2px; display: inline-block; min-width: 35px; text-align: center;">NEW</span></div>
-                            <div style="padding-left: 4px; margin-top: 2px;">Created FastAPI project structure</div>
-                        </div>
-                        <div style="margin-bottom: 8px; border-bottom: 1px solid #1a1a1a; padding-bottom: 6px; font-size: 0.7rem; line-height: 1.4; color: #888;">
-                            <div><span style="color: #444; margin-right: 6px; font-size: 0.65rem;">22-03-2026</span> <span style="font-weight: 700; font-size: 0.6rem; padding: 1px 5px; margin-right: 4px; color: #000; background: #ffc107; border-radius: 2px; display: inline-block; min-width: 35px; text-align: center;">STAR</span></div>
-                            <div style="padding-left: 4px; margin-top: 2px;">Starred some interesting repositories</div>
-                        </div>
-                        <div style="font-size: 0.7rem; line-height: 1.4; color: #888;">
-                            <div><span style="color: #444; margin-right: 6px; font-size: 0.65rem;">21-03-2026</span> <span style="font-weight: 700; font-size: 0.6rem; padding: 1px 5px; margin-right: 4px; color: #000; background: #ff9800; border-radius: 2px; display: inline-block; min-width: 35px; text-align: center;">PR</span></div>
-                            <div style="padding-left: 4px; margin-top: 2px;">Submitted a pull request</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </aside>
+        </div>
 
         <footer class="footer">
-            <span>© 2026 mutsuki · 运维 · Rust · 羽毛球 · 一直在路上</span>
+            <span>© 2026 mutsuki</span>
             <span>STATUS: <span style="color: green">ONLINE</span></span>
         </footer>
     </div>
@@ -907,10 +331,6 @@
         const fmt = n => n > 999 ? (n / 1000).toFixed(1) + 'k' : n;
 
         setInterval(() => { const el = $('clock'); if (el) el.innerText = new Date().toLocaleTimeString('en-GB'); }, 1000);
-        const ghChart = $('gh-chart'); if (ghChart) ghChart.src = `https://ghchart.rshah.org/${ CFG.user }`;
-
-        const skillBox = $('skill-box'); if (skillBox) skillBox.innerHTML = CFG.skills.map(s => `<span class="tag tag-${ s.toLowerCase() }">${ s }</span>`).join('');
-        const socialBox = $('social-box'); if (socialBox) socialBox.innerHTML = CFG.socials.map(s => `<a href="${ s.url }" target="_blank" class="soc-btn"><i class="${ s.icon }"></i></a>`).join('');
 
         async function boot() {
             try {
@@ -1096,126 +516,37 @@
         }
 
         function render(d) {
-            // 后端脚本保证了数据结构的字段一致性
-            const { u, uR, o, oR, ev } = d;
+            const { u, uR, oR } = d;
 
-            // 1. Identity
+            // 1. Profile
             if (u) {
                 $('u-avatar').src = u.avatar_url;
                 $('u-login').innerText = u.login;
-                $('u-bio').innerText = u.bio || "上海 · 38 · 运维十一年 · Rust · 跟腱术后康复中 · 雅思备考";
-                $('u-join').innerText = (u.created_at || '').split('T')[0];
-                $('u-loc').innerText = u.location || 'N/A';
+                $('u-bio').innerText = u.bio || '';
                 $('u-repo-n').innerText = u.public_repos;
-                $('u-gist-n').innerText = u.public_gists;
-                $('u-email').innerText = u.email || 'Hidden';
-                if (u.blog) {
-                    $('u-blog').href = u.blog.startsWith('http') ? u.blog : 'https://' + u.blog;
-                    $('u-blog').innerText = 'LINK';
-                } else $('u-blog').innerText = 'N/A';
+                const fel = $('u-followers'); if (fel) fel.innerText = u.followers;
+                const fing = $('u-following'); if (fing) fing.innerText = u.following;
             }
 
-            // 2. Org
-            if (o) {
-                $('o-avatar').src = o.avatar_url;
-                $('o-desc').innerText = o.description || "No public data.";
-                $('o-repos').innerText = o.public_repos;
-                $('o-created').innerText = (o.created_at || '').split('T')[0];
-            }
-
-            // 3. Projects
-            // 合并用户仓库和组织仓库，标记 _org 属性
+            // 2. Language distribution (from repos)
             const all = [
                 ...(Array.isArray(uR) ? uR : []),
-                ...(Array.isArray(oR) ? oR : []).map(r => ({ ...r, _org: true }))
-            ].filter(r => !r.fork); // 过滤掉 fork 的项目
-
-            const stStars = $('st-stars'); if (stStars) stStars.innerText = fmt(all.reduce((a, b) => a + (b.stargazers_count || 0), 0));
-            const stForks = $('st-forks'); if (stForks) stForks.innerText = fmt(all.reduce((a, b) => a + (b.forks_count || 0), 0));
-            if (u) {
-                const stFollowers = $('st-followers'); if (stFollowers) stFollowers.innerText = fmt(u.followers);
-                const stFollowing = $('st-following'); if (stFollowing) stFollowing.innerText = fmt(u.following);
+                ...(Array.isArray(oR) ? oR : [])
+            ];
+            const lc = {}; let lt = 0;
+            all.forEach(r => { if (r.language) { lc[r.language] = (lc[r.language] || 0) + 1; lt++; } });
+            const langs = Object.entries(lc).sort((a, b) => b[1] - a[1]).slice(0, 5);
+            const langBar = $('lang-bar');
+            if (langBar) {
+                langBar.innerHTML = langs.map(([n, c]) =>
+                    `<span style="height:100%; width:${ (c/lt*100).toFixed(1) }%; background:${ getLangColor(n) };" title="${ n }"></span>`
+                ).join('');
             }
-
-            // 排序逻辑：按 star 排序
-            const list = all.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 8);
-
-            const projectGrid = $('project-grid');
-            if (projectGrid) projectGrid.innerHTML = list.map(r => {
-                const isFork = r.fork || r._fork || false;
-                return `
-                <a href="${ r.html_url }" target="_blank" class="r-card">
-                    <div>
-                        <div class="rc-head">
-                            <span class="rc-name">${ r.name }</span>
-                            <span class="rc-vis" style="${ isFork ? 'color:var(--text-sub); border-color:#444' : 'color:var(--theme-main); border-color:var(--theme-main)' }">${ isFork ? 'FORK' : 'MAIN' }</span>
-                        </div>
-                        <div class="rc-desc">${ r.description || '--' }</div>
-                    </div>
-                    <div class="rc-foot">
-                        <span class="rc-i"><i class="ri-star-fill"></i> ${ fmt(r.stargazers_count) }</span>
-                        <span class="rc-i"><i class="ri-git-branch-line"></i> ${ fmt(r.forks_count) }</span>
-                        <span style="margin-left:auto; color:${ getLangColor(r.language) }">${ r.language || '' }</span>
-                    </div>
-                </a>
-            `}).join('');
-
-            // 4. Langs
-            const l = {};
-            let lt = 0;
-            all.forEach(r => {
-                if (r.language) {
-                    l[r.language] = (l[r.language] || 0) + 1;
-                    lt++;
-                }
-            });
-            const langList = $('lang-list');
-            if (langList) langList.innerHTML = Object.entries(l).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([n, c]) => `
-                <div class="l-row">
-                    <span style="width:70px; color:#aaa;">${ n }</span>
-                    <div class="l-bar"><div class="l-fill" style="width:${ (c / lt) * 100 }%; background:${ getLangColor(n) }"></div></div>
-                    <span style="width:25px; text-align:right; color:#666;">${ Math.round((c / lt) * 100) }%</span>
-                </div>
-            `).join('');
-
-            // 5. Latest Updates
-            if (Array.isArray(ev) && ev.length > 0) {
-                const updatesContainer = document.querySelector('.m-card:nth-child(3) .mc-body > div');
-                if (updatesContainer) {
-                    updatesContainer.innerHTML = ev.slice(0, 4).map(e => {
-                        const t = e.created_at.replace('T', ' ').slice(0, 10).split('-').reverse().join('-');
-                        const rName = e.repo.name;
-                        const githubUrl = `https://github.com/${ rName }`
-                        const rLink = `<a href="${ githubUrl }" target="_blank" style="color: var(--theme-main); text-decoration: none; border-bottom: 1px solid var(--theme-main);">${ rName }</a>`;
-                        let tag = '', txt = '';
-
-                        if (e.type === 'PushEvent') {
-                            tag = `<span style="font-weight: 700; font-size: 0.6rem; padding: 1px 5px; margin-right: 4px; color: #000; background: #2196f3; border-radius: 2px; display: inline-block; min-width: 35px; text-align: center;">PUSH</span>`;
-                            const sha = e.payload.head ? e.payload.head.slice(0, 7) : '...';
-                            txt = `to ${ rLink } <span style="color:#666">#${ sha }</span>`;
-                        } else if (e.type === 'WatchEvent') {
-                            tag = `<span style="font-weight: 700; font-size: 0.6rem; padding: 1px 5px; margin-right: 4px; color: #000; background: #ffc107; border-radius: 2px; display: inline-block; min-width: 35px; text-align: center;">STAR</span>`;
-                            txt = `${ rLink }`;
-                        } else if (e.type === 'CreateEvent') {
-                            tag = `<span style="font-weight: 700; font-size: 0.6rem; padding: 1px 5px; margin-right: 4px; color: #000; background: #4caf50; border-radius: 2px; display: inline-block; min-width: 35px; text-align: center;">NEW</span>`;
-                            txt = `created ${ rLink }`;
-                        } else if (e.type === 'PullRequestEvent') {
-                            tag = `<span style="font-weight: 700; font-size: 0.6rem; padding: 1px 5px; margin-right: 4px; color: #000; background: #ff9800; border-radius: 2px; display: inline-block; min-width: 35px; text-align: center;">PR</span>`;
-                            txt = `${ e.payload.action } <a href="${ githubUrl + e.payload.pull_request.url.split(rName)[1].replace("/pulls/", "/pull/") }" target="_blank" style="color: var(--theme-main); text-decoration: none; border-bottom: 1px solid var(--theme-main);">#${ e.payload.number }</a>`;
-                        } else if (e.type === 'IssuesEvent') {
-                            tag = `<span style="font-weight: 700; font-size: 0.6rem; padding: 1px 5px; margin-right: 4px; color: #000; background: #ff9800; border-radius: 2px; display: inline-block; min-width: 35px; text-align: center;">ISSUE</span>`;
-                            txt = `${ e.payload.action } <a href="${ githubUrl + e.payload.issue.url.split(rName)[1] }" target="_blank" style="color: var(--theme-main); text-decoration: none; border-bottom: 1px solid var(--theme-main);">#${ e.payload.issue.number }</a>`;
-                        } else {
-                            tag = `<span style="font-weight: 700; font-size: 0.6rem; padding: 1px 5px; margin-right: 4px; color: #fff; background: #9c27b0; border-radius: 2px; display: inline-block; min-width: 35px; text-align: center;">ACT</span>`;
-                            txt = `in ${ rLink }`;
-                        }
-
-                        return `<div style="margin-bottom: 8px; border-bottom: 1px solid #1a1a1a; padding-bottom: 6px; font-size: 0.7rem; line-height: 1.4; color: #888;">
-                            <div><span style="color: #444; margin-right: 6px; font-size: 0.65rem;">${ t }</span> ${ tag }</div>
-                            <div style="padding-left: 4px; margin-top: 2px;">${ txt }</div>
-                        </div>`;
-                    }).join('');
-                }
+            const langLegend = $('lang-legend');
+            if (langLegend) {
+                langLegend.innerHTML = langs.map(([n, c]) =>
+                    `<span style="display:flex; align-items:center; gap:4px;"><span style="width:7px;height:7px;border-radius:50%;background:${ getLangColor(n) };"></span>${ n } <span style="color:#444;">${ Math.round(c/lt*100) }%</span></span>`
+                ).join('');
             }
         }
 

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mutsuki</title>
+    <title>mutsuki · 运维 · Rust · 羽毛球</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap"
@@ -101,6 +101,12 @@
             background: transparent;
             min-height: 0;
             border: 1px solid var(--border);
+            transition: border-color 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .m-card:hover {
+            border-color: var(--theme-main);
+            box-shadow: 0 0 30px rgba(156, 39, 176, 0.06);
         }
 
         .mc-head {
@@ -150,10 +156,24 @@
             font-weight: 800;
             color: #fff;
             letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
         }
 
         .logo span {
             color: var(--theme-main);
+        }
+
+        .logo::after {
+            content: '█';
+            color: var(--theme-main);
+            animation: blink 1s step-end infinite;
+            margin-left: 4px;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
         }
 
         .sys-stat {
@@ -174,6 +194,21 @@
             gap: 12px;
             overflow: hidden;
             min-height: 0;
+        }
+
+        /* ---------- status banner ---------- */
+        .status-banner {
+            font-size: 0.7rem;
+            color: var(--text-sub);
+            border-top: 1px solid var(--border);
+            padding-top: 10px;
+            margin-top: 6px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 18px;
+        }
+        .status-banner span {
+            color: var(--text-main);
         }
 
         .id-top {
@@ -203,10 +238,10 @@
         }
 
         .bio {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             color: var(--text-sub);
             margin-top: 4px;
-            line-height: 1.3;
+            line-height: 1.4;
         }
 
         .data-table {
@@ -325,6 +360,15 @@
             color: #888;
             padding: 3px 8px;
         }
+
+        .tag-rust { background: #dea584; color:#111; border-color:#dea584; }
+        .tag-python { background: #3572A5; color:#fff; border-color:#3572A5; }
+        .tag-fastapi { background: #009688; color:#fff; border-color:#009688; }
+        .tag-linux { background: #fcc624; color:#111; border-color:#fcc624; }
+        .tag-git { background: #f05032; color:#fff; border-color:#f05032; }
+        .tag-vim { background: #019833; color:#fff; border-color:#019833; }
+        .tag-vscode { background: #0066b8; color:#fff; border-color:#0066b8; }
+        .tag-docker { background: #2496ed; color:#fff; border-color:#2496ed; }
 
         .social-row {
             display: grid;
@@ -602,7 +646,7 @@
                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
                         <div class="names">
                             <div id="u-login" class="login">LOADING</div>
-                            <div id="u-bio" class="bio">...</div>
+                            <div id="u-bio" class="bio">上海 · 38 · 运维十一年 · Rust · 跟腱术后康复中 · 雅思备考</div>
                         </div>
                     </div>
                     <div class="data-table">
@@ -617,6 +661,13 @@
                         <div class="dt-row"><span class="dt-k">WEBSITE</span><span class="dt-v"><a id="u-blog" href="#"
                                                                                                    target="_blank">-</a></span>
                         </div>
+                    </div>
+
+                    <!-- status banner -->
+                    <div class="status-banner">
+                        <span>🦶 跟腱术后康复中</span>
+                        <span>📖 雅思备考</span>
+                        <span>📝 每周博客更新</span>
                     </div>
                 </div>
             </div>
@@ -693,13 +744,13 @@
                             <i class="ri-github-fill"></i>
                             <span>GitHub</span>
                         </a>
-                        <a href="mailto:digitalocean.oink451@aleeas.com" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-main); padding: 8px; background: #080808; border: 1px solid #222;">
+                        <a href="mailto:your.email@example.com" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-main); padding: 8px; background: #080808; border: 1px solid #222;">
                             <i class="ri-mail-fill"></i>
                             <span>Email</span>
                         </a>
-                        <a href="https://x.com/koojiafeng" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-main); padding: 8px; background: #080808; border: 1px solid #222;">
-                            <i class="ri-twitter-x-fill"></i>
-                            <span>Twitter</span>
+                        <a href="https://mutsuki.net" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-main); padding: 8px; background: #080808; border: 1px solid #222;">
+                            <i class="ri-rss-fill"></i>
+                            <span>Blog</span>
                         </a>
                     </div>
                 </div>
@@ -862,7 +913,7 @@
         </aside>
 
         <footer class="footer">
-            <span>© 2026 mutsuki. Designed with passion.</span>
+            <span>© 2026 mutsuki · 运维 · Rust · 羽毛球 · 一直在路上</span>
             <span>STATUS: <span style="color: green">ONLINE</span></span>
         </footer>
     </div>
@@ -883,7 +934,7 @@
         setInterval(() => $('clock').innerText = new Date().toLocaleTimeString('en-GB'), 1000);
         $('gh-chart').src = `https://ghchart.rshah.org/${ CFG.user }`;
 
-        $('skill-box').innerHTML = CFG.skills.map(s => `<span class="tag">${ s }</span>`).join('');
+        $('skill-box').innerHTML = CFG.skills.map(s => `<span class="tag tag-${ s.toLowerCase() }">${ s }</span>`).join('');
         $('social-box').innerHTML = CFG.socials.map(s => `<a href="${ s.url }" target="_blank" class="soc-btn"><i class="${ s.icon }"></i></a>`).join('');
 
         async function boot() {
@@ -893,7 +944,7 @@
                 if (!userRes.ok) throw new Error("Failed to load user data");
 
                 const userData = await userRes.json();
-                
+
                 // 尝试获取仓库数据
                 const reposRes = await fetch(`https://api.github.com/users/${CFG.user}/repos?per_page=100`);
                 const reposData = await reposRes.json();
@@ -1077,7 +1128,7 @@
             if (u) {
                 $('u-avatar').src = u.avatar_url;
                 $('u-login').innerText = u.login;
-                $('u-bio').innerText = u.bio || "No data.";
+                $('u-bio').innerText = u.bio || "上海 · 38 · 运维十一年 · Rust · 跟腱术后康复中 · 雅思备考";
                 $('u-join').innerText = (u.created_at || '').split('T')[0];
                 $('u-loc').innerText = u.location || 'N/A';
                 $('u-repo-n').innerText = u.public_repos;
@@ -1114,12 +1165,14 @@
             // 排序逻辑：按 star 排序
             const list = all.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 8);
 
-            $('project-grid').innerHTML = list.map(r => `
+            $('project-grid').innerHTML = list.map(r => {
+                const isFork = r.fork || r._fork || false;
+                return `
                 <a href="${ r.html_url }" target="_blank" class="r-card">
                     <div>
                         <div class="rc-head">
                             <span class="rc-name">${ r.name }</span>
-                            <span class="rc-vis" style="${ r._org ? 'color:var(--theme-main); border-color:var(--theme-main)' : '' }">${ r._org ? 'ORG' : 'USR' }</span>
+                            <span class="rc-vis" style="${ isFork ? 'color:var(--text-sub); border-color:#444' : 'color:var(--theme-main); border-color:var(--theme-main)' }">${ isFork ? 'FORK' : 'MAIN' }</span>
                         </div>
                         <div class="rc-desc">${ r.description || '--' }</div>
                     </div>
@@ -1129,7 +1182,7 @@
                         <span style="margin-left:auto; color:${ getLangColor(r.language) }">${ r.language || '' }</span>
                     </div>
                 </a>
-            `).join('');
+            `}).join('');
 
             // 4. Langs
             const l = {};

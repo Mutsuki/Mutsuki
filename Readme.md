@@ -1,34 +1,33 @@
-<p align="center"><a href="https://mutsuki.github.io"><img width="80%" alt="Hello, I'm Jiafeng. I do open source!" src="./assets/images/Jia-feng.svg" /></a></p>
+<p align="center">
+  <a href="https://mutsuki.github.io/Mutsuki/">
+    <img width="50%" alt="Jia.feng" src="./assets/images/Jia-feng.svg" />
+  </a>
+</p>
 
+<p align="center">
+  <sub>运维兜底人 · Rust 爱好者 · 羽毛球选手 · 一直在路上</sub>
+</p>
 
-# Hi there! 👋
-I'm Jiafeng, Chinese pinyin:Gu Jiafeng
+---
 
-<div align="center" style="letter-spacing: 2px; margin: 20px 0;">
-  <!-- 前端 -->
-  <img src="https://img.shields.io/badge/-Vue3-4FC08D?style=flat-square&logo=vue.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/-JavaScript-orange?style=flat-square&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Pinia-FFD43B?style=flat-square&logo=pinia&logoColor=black" />
-  <!-- 后端 -->
+**👋 Hey,**
 
-  <!-- 趣味标签 -->
-  <img src="https://img.shields.io/badge/-Steam-000000?style=flat-square&logo=steam&logoColor=white" />
-</div>
+我是顾嘉丰，坐标上海。日常工作偏系统运维方向，偶尔写写 Rust、搞搞自动化。
 
-**About me**
+不卷技术栈深度，只在意东西好不好用、能不能跑。
 
-- ❤️ I love writing rust
+<details>
+<summary>📌 一些关于我</summary>
+<br>
 
-- 💬 Ask me about anything [here](https://github.com/mutsuki/mutsuki/issues)
+- 🏸 羽毛球是生活的一部分
+- 🦀 Rust 是喜欢的语言，虽然还在路上
+- 🐧 运维十一年，系统部的兜底人
+- 📖 雅思备考中
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+</details>
 
-#### :computer: Programming languages and tools:
-<p>
-<code><img width="10%" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/rust/rust-original.svg"></code>
+<p align="center">
+  <a href="https://mutsuki.github.io/Mutsuki/">🌐 个人主页</a> ·
+  <a href="https://github.com/mutsuki/mutsuki/issues">💬 问我任何问题</a>
 </p>

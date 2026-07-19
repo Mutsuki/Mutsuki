@@ -931,11 +931,11 @@
         const $ = id => document.getElementById(id);
         const fmt = n => n > 999 ? (n / 1000).toFixed(1) + 'k' : n;
 
-        setInterval(() => $('clock').innerText = new Date().toLocaleTimeString('en-GB'), 1000);
-        $('gh-chart').src = `https://ghchart.rshah.org/${ CFG.user }`;
+        setInterval(() => { const el = $('clock'); if (el) el.innerText = new Date().toLocaleTimeString('en-GB'); }, 1000);
+        const ghChart = $('gh-chart'); if (ghChart) ghChart.src = `https://ghchart.rshah.org/${ CFG.user }`;
 
-        $('skill-box').innerHTML = CFG.skills.map(s => `<span class="tag tag-${ s.toLowerCase() }">${ s }</span>`).join('');
-        $('social-box').innerHTML = CFG.socials.map(s => `<a href="${ s.url }" target="_blank" class="soc-btn"><i class="${ s.icon }"></i></a>`).join('');
+        const skillBox = $('skill-box'); if (skillBox) skillBox.innerHTML = CFG.skills.map(s => `<span class="tag tag-${ s.toLowerCase() }">${ s }</span>`).join('');
+        const socialBox = $('social-box'); if (socialBox) socialBox.innerHTML = CFG.socials.map(s => `<a href="${ s.url }" target="_blank" class="soc-btn"><i class="${ s.icon }"></i></a>`).join('');
 
         async function boot() {
             try {
@@ -1155,11 +1155,11 @@
                 ...(Array.isArray(oR) ? oR : []).map(r => ({ ...r, _org: true }))
             ].filter(r => !r.fork); // 过滤掉 fork 的项目
 
-            $('st-stars').innerText = fmt(all.reduce((a, b) => a + (b.stargazers_count || 0), 0));
-            $('st-forks').innerText = fmt(all.reduce((a, b) => a + (b.forks_count || 0), 0));
+            const stStars = $('st-stars'); if (stStars) stStars.innerText = fmt(all.reduce((a, b) => a + (b.stargazers_count || 0), 0));
+            const stForks = $('st-forks'); if (stForks) stForks.innerText = fmt(all.reduce((a, b) => a + (b.forks_count || 0), 0));
             if (u) {
-                $('st-followers').innerText = fmt(u.followers);
-                $('st-following').innerText = fmt(u.following);
+                const stFollowers = $('st-followers'); if (stFollowers) stFollowers.innerText = fmt(u.followers);
+                const stFollowing = $('st-following'); if (stFollowing) stFollowing.innerText = fmt(u.following);
             }
 
             // 排序逻辑：按 star 排序
@@ -1193,7 +1193,8 @@
                     lt++;
                 }
             });
-            $('lang-list').innerHTML = Object.entries(l).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([n, c]) => `
+            const langList = $('lang-list');
+            if (langList) langList.innerHTML = Object.entries(l).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([n, c]) => `
                 <div class="l-row">
                     <span style="width:70px; color:#aaa;">${ n }</span>
                     <div class="l-bar"><div class="l-fill" style="width:${ (c / lt) * 100 }%; background:${ getLangColor(n) }"></div></div>

@@ -5,29 +5,36 @@
 </p>
 
 <p align="center">
-  <sub>运维兜底人 · Rust 爱好者 · 羽毛球选手 · 一直在路上</sub>
+  <sub>上海人 · 羽毛球 · 读书写字 · 偶尔写代码</sub>
 </p>
 
 ---
 
-**👋 Hey,**
+在下 Koo，上海人，沪上三代皆本籍。
 
-我是顾嘉丰，坐标上海。日常工作偏系统运维方向，偶尔写写 Rust、搞搞自动化。
+曾客居爱丁堡两年，异邦风土，别样人间。现在回到日常——读书、写字、打球、下厨、发呆。
 
-不卷技术栈深度，只在意东西好不好用、能不能跑。
+自学编程纯属兴趣，Rust 是喜欢的语言，虽然还在路上。不卷技术深度，只在意东西好不好用、能不能跑。
+
+心喜宁静，不逐喧嚣。若有意，[邮件](mailto:koo@koojiafeng.com)最宜，回复随缘。
 
 <details>
-<summary>📌 一些关于我</summary>
+<summary>📌 更多关于我</summary>
 <br>
 
-- 🏸 羽毛球是生活的一部分
-- 🦀 Rust 是喜欢的语言，虽然还在路上
-- 🐧 运维十一年，系统部的兜底人
+- 🏸 羽毛球是日常，也打过比赛
+- 🦀 Rust 爱好者，AI 辅助学习中
 - 📖 雅思备考中
+- 🎨 偶尔画画油画、吹吹萨克斯
+- 🐕 养了一只边牧，托于公门
+- 🏠 曾居爱丁堡（2019-2022）
+
+**所好之思：** 学习之道 · 人类演化 · 自动化与迭代 · 系统思维
 
 </details>
 
 <p align="center">
-  <a href="https://mutsuki.github.io/Mutsuki/">🌐 个人主页</a> ·
-  <a href="https://github.com/mutsuki/mutsuki/issues">💬 问我任何问题</a>
+  <a href="https://www.koojiafeng.com">🌐 博客</a> ·
+  <a href="https://www.koojiafeng.com/about/">📝 关于</a> ·
+  <a href="https://mutsuki.github.io/Mutsuki/">💻 主页</a>
 </p>

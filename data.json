@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/Mutsuki/Mutsuki/releases{/id}",
       "deployments_url": "https://api.github.com/repos/Mutsuki/Mutsuki/deployments",
       "created_at": "2022-12-03T14:24:10Z",
-      "updated_at": "2026-07-30T01:59:10Z",
-      "pushed_at": "2026-07-30T01:59:06Z",
+      "updated_at": "2026-07-31T02:24:28Z",
+      "pushed_at": "2026-07-31T02:24:24Z",
       "git_url": "git://github.com/Mutsuki/Mutsuki.git",
       "ssh_url": "git@github.com:Mutsuki/Mutsuki.git",
       "clone_url": "https://github.com/Mutsuki/Mutsuki.git",
       "svn_url": "https://github.com/Mutsuki/Mutsuki",
       "homepage": "https://mutsuki.github.io/",
-      "size": 487227,
+      "size": 487247,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "HTML",
@@ -280,7 +280,7 @@
     "has_repository_projects": true,
     "public_repos": 32,
     "public_gists": 0,
-    "followers": 260,
+    "followers": 261,
     "following": 0,
     "html_url": "https://github.com/fastapi-practices",
     "created_at": "2023-04-25T03:36:42Z",
@@ -357,7 +357,7 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-07-31T00:04:54Z",
+      "updated_at": "2026-07-31T18:15:45Z",
       "pushed_at": "2026-07-21T07:19:23Z",
       "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -365,8 +365,8 @@
       "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
       "homepage": "https://docs.fba.wu-clan.cc",
       "size": 22646,
-      "stargazers_count": 2489,
-      "watchers_count": 2489,
+      "stargazers_count": 2494,
+      "watchers_count": 2494,
       "language": "Python",
       "has_issues": true,
       "has_projects": false,
@@ -402,7 +402,7 @@
       "visibility": "public",
       "forks": 378,
       "open_issues": 16,
-      "watchers": 2489,
+      "watchers": 2494,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -4265,5 +4265,5 @@
       "created_at": "2026-07-13T09:17:44Z"
     }
   ],
-  "updated_at": "2026-07-31T02:24:22.727Z"
+  "updated_at": "2026-08-01T02:25:49.276Z"
 }

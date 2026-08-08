@@ -29,7 +29,7 @@
     "twitter_username": null,
     "public_repos": 2,
     "public_gists": 1,
-    "followers": 16,
+    "followers": 15,
     "following": 12,
     "created_at": "2010-06-07T17:31:32Z",
     "updated_at": "2026-07-28T18:07:22Z"
@@ -103,14 +103,14 @@
       "releases_url": "https://api.github.com/repos/Mutsuki/Mutsuki/releases{/id}",
       "deployments_url": "https://api.github.com/repos/Mutsuki/Mutsuki/deployments",
       "created_at": "2022-12-03T14:24:10Z",
-      "updated_at": "2026-08-06T02:08:00Z",
-      "pushed_at": "2026-08-06T02:07:48Z",
+      "updated_at": "2026-08-07T02:26:25Z",
+      "pushed_at": "2026-08-07T02:26:19Z",
       "git_url": "git://github.com/Mutsuki/Mutsuki.git",
       "ssh_url": "git@github.com:Mutsuki/Mutsuki.git",
       "clone_url": "https://github.com/Mutsuki/Mutsuki.git",
       "svn_url": "https://github.com/Mutsuki/Mutsuki",
       "homepage": "https://mutsuki.github.io/",
-      "size": 487307,
+      "size": 487308,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "HTML",
@@ -357,7 +357,7 @@
       "releases_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/releases{/id}",
       "deployments_url": "https://api.github.com/repos/fastapi-practices/fastapi-best-architecture/deployments",
       "created_at": "2023-04-07T05:21:11Z",
-      "updated_at": "2026-08-06T01:59:27Z",
+      "updated_at": "2026-08-07T13:11:26Z",
       "pushed_at": "2026-08-04T20:49:05Z",
       "git_url": "git://github.com/fastapi-practices/fastapi-best-architecture.git",
       "ssh_url": "git@github.com:fastapi-practices/fastapi-best-architecture.git",
@@ -365,8 +365,8 @@
       "svn_url": "https://github.com/fastapi-practices/fastapi-best-architecture",
       "homepage": "https://docs.fba.wu-clan.cc",
       "size": 22834,
-      "stargazers_count": 2500,
-      "watchers_count": 2500,
+      "stargazers_count": 2504,
+      "watchers_count": 2504,
       "language": "Python",
       "has_issues": true,
       "has_projects": false,
@@ -374,7 +374,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 377,
+      "forks_count": 376,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -400,9 +400,9 @@
         "sqlalchemy"
       ],
       "visibility": "public",
-      "forks": 377,
+      "forks": 376,
       "open_issues": 17,
-      "watchers": 2500,
+      "watchers": 2504,
       "default_branch": "master",
       "permissions": {
         "admin": false,
@@ -4309,5 +4309,5 @@
       "created_at": "2026-07-13T09:17:44Z"
     }
   ],
-  "updated_at": "2026-08-07T02:26:18.273Z"
+  "updated_at": "2026-08-08T01:14:26.293Z"
 }
